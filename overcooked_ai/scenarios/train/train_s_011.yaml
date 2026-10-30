@@ -1,0 +1,12 @@
+scenario_id: train_s_011
+seed: 17
+counters: shared
+layout:
+  grid: [XDXOXXPXX, X2      S, X       X, X 1     D, X       X, XPSXPXXXX]
+description: 9x6 kitchen, 2 cooks, 4 distractor stations, 2 orders, deadlines = ceil(1.08 x certificate)
+orders:
+- recipe: {onion: 3}
+  deadline: 58
+- recipe: {onion: 3}
+  deadline: 107
+sim: {cook_time: 15}

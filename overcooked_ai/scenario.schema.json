@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Overcooked-AI v1 scenario (user-facing problem specification)",
+  "type": "object",
+  "required": ["scenario_id", "layout", "orders"],
+  "additionalProperties": false,
+  "properties": {
+    "scenario_id": {"type": "string", "pattern": "^[a-z][a-z0-9_\\-]*$"},
+    "description": {"type": "string"},
+    "layout": {
+      "type": "object", "additionalProperties": false,
+      "oneOf": [{"required": ["name"]}, {"required": ["grid"]}],
+      "properties": {
+        "name": {"type": "string", "description": "layout file shipped with overcooked_ai 1.1.0"},
+        "grid": {"type": "array", "items": {"type": "string"}, "minItems": 3}
+      }
+    },
+    "cooks": {"type": "integer", "minimum": 1, "maximum": 9,
+              "description": "default: number of players in the layout"},
+    "pots": {
+      "description": "all | keep the first k pots (row-major) | explicit [x, y] cells; dropped pots become counters",
+      "oneOf": [{"const": "all"}, {"type": "integer", "minimum": 0},
+                {"type": "array", "items": {"type": "array", "items": {"type": "integer"}, "minItems": 2, "maxItems": 2}}]
+    },
+    "counters": {"enum": ["none", "shared", "all"]},
+    "sim": {
+      "type": "object",
+      "description": "Overcooked recipe parameters passed to OvercookedGridworld (cook_time, recipe_times, onion_time/tomato_time, ...)",
+      "properties": {"cook_time": {"type": "integer", "minimum": 2}}
+    },
+    "orders": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "required": ["recipe"], "additionalProperties": false,
+        "properties": {
+          "recipe": {
+            "type": "object", "additionalProperties": false, "minProperties": 1,
+            "properties": {"onion": {"type": "integer", "minimum": 0}, "tomato": {"type": "integer", "minimum": 0}}
+          },
+          "deadline": {"type": ["integer", "null"], "minimum": 1},
+          "count": {"type": "integer", "minimum": 1}
+        }
+      }
+    },
+    "seed": {"type": "integer"}
+  }
+}

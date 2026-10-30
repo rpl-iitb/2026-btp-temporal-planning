@@ -1,0 +1,12 @@
+scenario_id: train_large_t4_split_000
+seed: 0
+counters: shared
+layout:
+  grid: [XXSOXXPXXXXXXXXXX, D       X       X, X3   2  X       O, X    1  P       X, X 4     X       P, X       X       X, X       X       P, XXXPXSDSXXPXDXXPX]
+description: 17x8 split kitchen, 4 cooks, 11 distractor stations, 2 orders, deadlines = ceil(1.06 x certificate)
+orders:
+- recipe: {onion: 3}
+  deadline: 63
+- recipe: {onion: 3}
+  deadline: 124
+sim: {cook_time: 22}

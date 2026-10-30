@@ -1,0 +1,64 @@
+{
+ "instance_id": "train_large_t2_large_002",
+ "benchmark": "overcooked_ai",
+ "created_utc": "2026-10-30T09:28:45+00:00",
+ "inputs": {
+  "scenario": "overcooked_ai/scenarios/train_large/train_large_t2_large_002.yaml",
+  "scenario_sha256": "0e8c858c4c7172e7827585c0d870ad583c2a58c0dd1fb339c5d9b28363ea7300",
+  "domain_spec": [
+   "overcooked_ai/domain.yaml"
+  ],
+  "domain_spec_sha256": "b73c9d450fe5fe5f1061c91e190f1fd396cadad0fc95ceab31d50c9439947ff2",
+  "simulator": {
+   "package": "overcooked_ai",
+   "version": "1.1.0",
+   "commit": "a60e31a6280718b8cdde08d394c8a6697b1d4829",
+   "repository": "https://github.com/HumanCompatibleAI/overcooked_ai"
+  },
+  "benchmark_code_sha256": "7fe1c3dacc41a03302707da66ad36aa86d17aeffe43561d72eb800014f1e1879",
+  "generator_code_sha256": "1464a598be2d4f327f4bc40ee5053c433892ff266cb89d637468864fc1775404"
+ },
+ "outputs": {
+  "domain_pddl": "overcooked_ai/generated_pddl/domain.pddl",
+  "domain_pddl_sha256": "e42f7df6b4e4195f37c57dd9b46ced9d3c8b6a891d46ee50a70c548eb1b9122a",
+  "problem_pddl": "overcooked_ai/generated_pddl/train_large/train_large_t2_large_002/problem.pddl",
+  "problem_pddl_sha256": "bb00086f912d789a3e9c4f6667a169d3cb590288ac0718ac11220b786f1562bf",
+  "hl_problem": "overcooked_ai/generated_pddl/train_large/train_large_t2_large_002/hl_problem.json",
+  "hl_problem_sha256": "d28ef03d210ffc02d9d95ce227dad8357f988aa0ae0d27af6b1581195bde043c"
+ },
+ "checks": {
+  "hl_typing": "ok",
+  "hl_json_schema": "ok",
+  "problem_roundtrip": "ok",
+  "val_parser": {
+   "ok": true,
+   "errors": 0,
+   "warnings": 0
+  }
+ },
+ "checks_passed": true,
+ "size": {
+  "objects": 90,
+  "objects_by_type": {
+   "cook": 3,
+   "count": 4,
+   "dispenser": 9,
+   "order": 3,
+   "pose": 30,
+   "pot": 6,
+   "recipe": 2,
+   "serving": 4,
+   "tile": 29
+  },
+  "init_facts": 921,
+  "init_facts_static": 868,
+  "numeric_fluents": 785,
+  "goals": 3,
+  "goals_with_deadline": 3,
+  "timed_literals": 3
+ },
+ "timing_s": {
+  "build_hl": 0.0387,
+  "write_pddl": 0.0042
+ }
+}

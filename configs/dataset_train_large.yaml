@@ -1,0 +1,66 @@
+# Training data for V6 (2026-10-25): the stress-test generator with a different seed, so kitchens have test size but none is a test kitchen.
+# python -m overcooked_ai.make_dataset configs/dataset_stress.yaml [--count 30] [--probe 60]
+# Hard instances: a small certified core + many distractors that blow up the full problem.
+# Sizes grow tier by tier; the simulator's own layouts stop at 14x9 / 2 pots / 4 players,
+# the earlier kitchen test split at 16x8 / 14 distractors / 2 cooks / 3 orders.
+dataset: train_large
+seed: 1007
+
+# defaults for every tier (a tier can override any key)
+kind: kitchen
+count: 8
+recipes: [{onion: 3}, {onion: 3}, {onion: 2, tomato: 1}]
+cook_time: [20, 40]
+counters: shared
+core_cooks: 2                      # cooks used by the certificate; the others are extra capacity
+deadline: {mode: plan, rho: [1.0, 1.15]}
+certificate: popf_then_serial   # popf (POPF on the core) | serial (constructive) | popf_then_serial
+certificate_timeout: 15          # seconds for the POPF attempt
+max_tries_factor: 10
+
+tiers:
+  - name: t1_medium                # just above the earlier test split
+    kitchen: {width: [11, 14], height: [6, 8], walls: [0, 1], core_pots: 1,
+              distractor_pot: [2, 4], distractor_onion: [1, 2], distractor_tomato: [0, 1],
+              distractor_dish: [1, 2], distractor_serve: [1, 2]}
+    cooks: [2, 3]
+    orders: [2, 3]
+
+  - name: t2_large
+    kitchen: {width: [15, 19], height: [7, 9], walls: [1, 2], core_pots: [1, 2],
+              distractor_pot: [4, 6], distractor_onion: [2, 3], distractor_tomato: [0, 2],
+              distractor_dish: [2, 3], distractor_serve: [2, 3]}
+    cooks: [2, 4]
+    orders: [3, 4]
+
+  - name: t3_xl
+    kitchen: {width: [20, 25], height: [9, 11], walls: [2, 3], core_pots: 2,
+              distractor_pot: [6, 9], distractor_onion: [3, 5], distractor_tomato: [1, 3],
+              distractor_dish: [2, 4], distractor_serve: [2, 4]}
+    cooks: [3, 6]
+    orders: [4, 6]
+    certificate: serial            # POPF cannot solve 4-6-order cores in time
+
+  - name: t4_split                 # two rooms: far side only via shared counters
+    kitchen: {width: [13, 19], height: [7, 9], walls: [0, 1], split_prob: 1.0, core_pots: 1,
+              distractor_pot: [3, 6], distractor_onion: [1, 3], distractor_dish: [1, 2],
+              distractor_serve: [1, 2]}
+    cooks: [2, 4]
+    orders: [2, 4]
+
+  - name: t5_counters              # every counter is an object (huge init / grounding)
+    kitchen: {width: [12, 16], height: [6, 8], walls: [1, 2], core_pots: 1,
+              distractor_pot: [2, 4], distractor_onion: [1, 2], distractor_dish: [1, 2],
+              distractor_serve: [1, 2]}
+    cooks: [2, 3]
+    orders: [2, 4]
+    counters: all
+
+  - name: t6_many_orders           # long horizon: many soups through few pots
+    kitchen: {width: [12, 16], height: [7, 9], walls: [1, 2], core_pots: 2,
+              distractor_pot: [3, 5], distractor_onion: [1, 3], distractor_dish: [1, 3],
+              distractor_serve: [1, 2]}
+    cooks: [2, 4]
+    orders: [6, 8]
+    cook_time: 20
+    certificate: serial

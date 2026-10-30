@@ -1,0 +1,2263 @@
+{
+ "schema_version": "1.0",
+ "instance_id": "train_s_015",
+ "benchmark": "overcooked_ai",
+ "domain": "overcooked-v1",
+ "objects": [
+  {
+   "name": "soup_o2_t1",
+   "type": "recipe",
+   "attrs": {
+    "onion": 2,
+    "tomato": 1,
+    "time": 17,
+    "value": 20
+   }
+  },
+  {
+   "name": "n0",
+   "type": "count",
+   "attrs": {
+    "value": 0
+   }
+  },
+  {
+   "name": "n1",
+   "type": "count",
+   "attrs": {
+    "value": 1
+   }
+  },
+  {
+   "name": "n2",
+   "type": "count",
+   "attrs": {
+    "value": 2
+   }
+  },
+  {
+   "name": "n3",
+   "type": "count",
+   "attrs": {
+    "value": 3
+   }
+  },
+  {
+   "name": "pot1",
+   "type": "pot",
+   "attrs": {
+    "kind": "pot",
+    "cell": [
+     1,
+     0
+    ]
+   }
+  },
+  {
+   "name": "odisp1",
+   "type": "dispenser",
+   "attrs": {
+    "kind": "onion_dispenser",
+    "cell": [
+     4,
+     0
+    ]
+   }
+  },
+  {
+   "name": "pot2",
+   "type": "pot",
+   "attrs": {
+    "kind": "pot",
+    "cell": [
+     8,
+     0
+    ]
+   }
+  },
+  {
+   "name": "ddisp1",
+   "type": "dispenser",
+   "attrs": {
+    "kind": "dish_dispenser",
+    "cell": [
+     4,
+     3
+    ]
+   }
+  },
+  {
+   "name": "serve1",
+   "type": "serving",
+   "attrs": {
+    "kind": "serving",
+    "cell": [
+     1,
+     4
+    ]
+   }
+  },
+  {
+   "name": "tdisp1",
+   "type": "dispenser",
+   "attrs": {
+    "kind": "tomato_dispenser",
+    "cell": [
+     2,
+     4
+    ]
+   }
+  },
+  {
+   "name": "ddisp2",
+   "type": "dispenser",
+   "attrs": {
+    "kind": "dish_dispenser",
+    "cell": [
+     5,
+     4
+    ]
+   }
+  },
+  {
+   "name": "serve2",
+   "type": "serving",
+   "attrs": {
+    "kind": "serving",
+    "cell": [
+     7,
+     4
+    ]
+   }
+  },
+  {
+   "name": "pot3",
+   "type": "pot",
+   "attrs": {
+    "kind": "pot",
+    "cell": [
+     8,
+     4
+    ]
+   }
+  },
+  {
+   "name": "c1",
+   "type": "cook",
+   "attrs": {
+    "player_index": 0,
+    "start_pose": "p1_2n"
+   }
+  },
+  {
+   "name": "c2",
+   "type": "cook",
+   "attrs": {
+    "player_index": 1,
+    "start_pose": "p3_1n"
+   }
+  },
+  {
+   "name": "t1_1",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "name": "t1_2",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     1,
+     2
+    ]
+   }
+  },
+  {
+   "name": "t1_3",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     1,
+     3
+    ]
+   }
+  },
+  {
+   "name": "t2_3",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     2,
+     3
+    ]
+   }
+  },
+  {
+   "name": "t3_1",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     3,
+     1
+    ]
+   }
+  },
+  {
+   "name": "t3_3",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     3,
+     3
+    ]
+   }
+  },
+  {
+   "name": "t4_1",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     4,
+     1
+    ]
+   }
+  },
+  {
+   "name": "t5_3",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     5,
+     3
+    ]
+   }
+  },
+  {
+   "name": "t7_3",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     7,
+     3
+    ]
+   }
+  },
+  {
+   "name": "t8_1",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     8,
+     1
+    ]
+   }
+  },
+  {
+   "name": "t8_3",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     8,
+     3
+    ]
+   }
+  },
+  {
+   "name": "p1_1n",
+   "type": "pose",
+   "attrs": {
+    "tile": "t1_1",
+    "cell": [
+     1,
+     1
+    ],
+    "facing": "n"
+   }
+  },
+  {
+   "name": "p1_2n",
+   "type": "pose",
+   "attrs": {
+    "tile": "t1_2",
+    "cell": [
+     1,
+     2
+    ],
+    "facing": "n"
+   }
+  },
+  {
+   "name": "p1_3s",
+   "type": "pose",
+   "attrs": {
+    "tile": "t1_3",
+    "cell": [
+     1,
+     3
+    ],
+    "facing": "s"
+   }
+  },
+  {
+   "name": "p2_3s",
+   "type": "pose",
+   "attrs": {
+    "tile": "t2_3",
+    "cell": [
+     2,
+     3
+    ],
+    "facing": "s"
+   }
+  },
+  {
+   "name": "p3_1n",
+   "type": "pose",
+   "attrs": {
+    "tile": "t3_1",
+    "cell": [
+     3,
+     1
+    ],
+    "facing": "n"
+   }
+  },
+  {
+   "name": "p3_3e",
+   "type": "pose",
+   "attrs": {
+    "tile": "t3_3",
+    "cell": [
+     3,
+     3
+    ],
+    "facing": "e"
+   }
+  },
+  {
+   "name": "p4_1n",
+   "type": "pose",
+   "attrs": {
+    "tile": "t4_1",
+    "cell": [
+     4,
+     1
+    ],
+    "facing": "n"
+   }
+  },
+  {
+   "name": "p5_3s",
+   "type": "pose",
+   "attrs": {
+    "tile": "t5_3",
+    "cell": [
+     5,
+     3
+    ],
+    "facing": "s"
+   }
+  },
+  {
+   "name": "p5_3w",
+   "type": "pose",
+   "attrs": {
+    "tile": "t5_3",
+    "cell": [
+     5,
+     3
+    ],
+    "facing": "w"
+   }
+  },
+  {
+   "name": "p7_3s",
+   "type": "pose",
+   "attrs": {
+    "tile": "t7_3",
+    "cell": [
+     7,
+     3
+    ],
+    "facing": "s"
+   }
+  },
+  {
+   "name": "p8_1n",
+   "type": "pose",
+   "attrs": {
+    "tile": "t8_1",
+    "cell": [
+     8,
+     1
+    ],
+    "facing": "n"
+   }
+  },
+  {
+   "name": "p8_3s",
+   "type": "pose",
+   "attrs": {
+    "tile": "t8_3",
+    "cell": [
+     8,
+     3
+    ],
+    "facing": "s"
+   }
+  },
+  {
+   "name": "o1",
+   "type": "order",
+   "attrs": {
+    "recipe": "soup_o2_t1",
+    "deadline": 53
+   }
+  }
+ ],
+ "init": {
+  "facts": [
+   [
+    "at",
+    "c1",
+    "p1_2n"
+   ],
+   [
+    "at",
+    "c2",
+    "p3_1n"
+   ],
+   [
+    "connected",
+    "p1_1n",
+    "p1_3s"
+   ],
+   [
+    "connected",
+    "p1_1n",
+    "p2_3s"
+   ],
+   [
+    "connected",
+    "p1_1n",
+    "p3_3e"
+   ],
+   [
+    "connected",
+    "p1_1n",
+    "p4_1n"
+   ],
+   [
+    "connected",
+    "p1_1n",
+    "p5_3s"
+   ],
+   [
+    "connected",
+    "p1_1n",
+    "p5_3w"
+   ],
+   [
+    "connected",
+    "p1_1n",
+    "p7_3s"
+   ],
+   [
+    "connected",
+    "p1_1n",
+    "p8_1n"
+   ],
+   [
+    "connected",
+    "p1_1n",
+    "p8_3s"
+   ],
+   [
+    "connected",
+    "p1_2n",
+    "p1_1n"
+   ],
+   [
+    "connected",
+    "p1_2n",
+    "p1_3s"
+   ],
+   [
+    "connected",
+    "p1_2n",
+    "p2_3s"
+   ],
+   [
+    "connected",
+    "p1_2n",
+    "p3_3e"
+   ],
+   [
+    "connected",
+    "p1_2n",
+    "p4_1n"
+   ],
+   [
+    "connected",
+    "p1_2n",
+    "p5_3s"
+   ],
+   [
+    "connected",
+    "p1_2n",
+    "p5_3w"
+   ],
+   [
+    "connected",
+    "p1_2n",
+    "p7_3s"
+   ],
+   [
+    "connected",
+    "p1_2n",
+    "p8_1n"
+   ],
+   [
+    "connected",
+    "p1_2n",
+    "p8_3s"
+   ],
+   [
+    "connected",
+    "p1_3s",
+    "p1_1n"
+   ],
+   [
+    "connected",
+    "p1_3s",
+    "p2_3s"
+   ],
+   [
+    "connected",
+    "p1_3s",
+    "p3_3e"
+   ],
+   [
+    "connected",
+    "p1_3s",
+    "p4_1n"
+   ],
+   [
+    "connected",
+    "p1_3s",
+    "p5_3s"
+   ],
+   [
+    "connected",
+    "p1_3s",
+    "p5_3w"
+   ],
+   [
+    "connected",
+    "p1_3s",
+    "p7_3s"
+   ],
+   [
+    "connected",
+    "p1_3s",
+    "p8_1n"
+   ],
+   [
+    "connected",
+    "p1_3s",
+    "p8_3s"
+   ],
+   [
+    "connected",
+    "p2_3s",
+    "p1_1n"
+   ],
+   [
+    "connected",
+    "p2_3s",
+    "p1_3s"
+   ],
+   [
+    "connected",
+    "p2_3s",
+    "p3_3e"
+   ],
+   [
+    "connected",
+    "p2_3s",
+    "p4_1n"
+   ],
+   [
+    "connected",
+    "p2_3s",
+    "p5_3s"
+   ],
+   [
+    "connected",
+    "p2_3s",
+    "p5_3w"
+   ],
+   [
+    "connected",
+    "p2_3s",
+    "p7_3s"
+   ],
+   [
+    "connected",
+    "p2_3s",
+    "p8_1n"
+   ],
+   [
+    "connected",
+    "p2_3s",
+    "p8_3s"
+   ],
+   [
+    "connected",
+    "p3_1n",
+    "p1_1n"
+   ],
+   [
+    "connected",
+    "p3_1n",
+    "p1_3s"
+   ],
+   [
+    "connected",
+    "p3_1n",
+    "p2_3s"
+   ],
+   [
+    "connected",
+    "p3_1n",
+    "p3_3e"
+   ],
+   [
+    "connected",
+    "p3_1n",
+    "p4_1n"
+   ],
+   [
+    "connected",
+    "p3_1n",
+    "p5_3s"
+   ],
+   [
+    "connected",
+    "p3_1n",
+    "p5_3w"
+   ],
+   [
+    "connected",
+    "p3_1n",
+    "p7_3s"
+   ],
+   [
+    "connected",
+    "p3_1n",
+    "p8_1n"
+   ],
+   [
+    "connected",
+    "p3_1n",
+    "p8_3s"
+   ],
+   [
+    "connected",
+    "p3_3e",
+    "p1_1n"
+   ],
+   [
+    "connected",
+    "p3_3e",
+    "p1_3s"
+   ],
+   [
+    "connected",
+    "p3_3e",
+    "p2_3s"
+   ],
+   [
+    "connected",
+    "p3_3e",
+    "p4_1n"
+   ],
+   [
+    "connected",
+    "p3_3e",
+    "p5_3s"
+   ],
+   [
+    "connected",
+    "p3_3e",
+    "p5_3w"
+   ],
+   [
+    "connected",
+    "p3_3e",
+    "p7_3s"
+   ],
+   [
+    "connected",
+    "p3_3e",
+    "p8_1n"
+   ],
+   [
+    "connected",
+    "p3_3e",
+    "p8_3s"
+   ],
+   [
+    "connected",
+    "p4_1n",
+    "p1_1n"
+   ],
+   [
+    "connected",
+    "p4_1n",
+    "p1_3s"
+   ],
+   [
+    "connected",
+    "p4_1n",
+    "p2_3s"
+   ],
+   [
+    "connected",
+    "p4_1n",
+    "p3_3e"
+   ],
+   [
+    "connected",
+    "p4_1n",
+    "p5_3s"
+   ],
+   [
+    "connected",
+    "p4_1n",
+    "p5_3w"
+   ],
+   [
+    "connected",
+    "p4_1n",
+    "p7_3s"
+   ],
+   [
+    "connected",
+    "p4_1n",
+    "p8_1n"
+   ],
+   [
+    "connected",
+    "p4_1n",
+    "p8_3s"
+   ],
+   [
+    "connected",
+    "p5_3s",
+    "p1_1n"
+   ],
+   [
+    "connected",
+    "p5_3s",
+    "p1_3s"
+   ],
+   [
+    "connected",
+    "p5_3s",
+    "p2_3s"
+   ],
+   [
+    "connected",
+    "p5_3s",
+    "p3_3e"
+   ],
+   [
+    "connected",
+    "p5_3s",
+    "p4_1n"
+   ],
+   [
+    "connected",
+    "p5_3s",
+    "p7_3s"
+   ],
+   [
+    "connected",
+    "p5_3s",
+    "p8_1n"
+   ],
+   [
+    "connected",
+    "p5_3s",
+    "p8_3s"
+   ],
+   [
+    "connected",
+    "p5_3w",
+    "p1_1n"
+   ],
+   [
+    "connected",
+    "p5_3w",
+    "p1_3s"
+   ],
+   [
+    "connected",
+    "p5_3w",
+    "p2_3s"
+   ],
+   [
+    "connected",
+    "p5_3w",
+    "p3_3e"
+   ],
+   [
+    "connected",
+    "p5_3w",
+    "p4_1n"
+   ],
+   [
+    "connected",
+    "p5_3w",
+    "p7_3s"
+   ],
+   [
+    "connected",
+    "p5_3w",
+    "p8_1n"
+   ],
+   [
+    "connected",
+    "p5_3w",
+    "p8_3s"
+   ],
+   [
+    "connected",
+    "p7_3s",
+    "p1_1n"
+   ],
+   [
+    "connected",
+    "p7_3s",
+    "p1_3s"
+   ],
+   [
+    "connected",
+    "p7_3s",
+    "p2_3s"
+   ],
+   [
+    "connected",
+    "p7_3s",
+    "p3_3e"
+   ],
+   [
+    "connected",
+    "p7_3s",
+    "p4_1n"
+   ],
+   [
+    "connected",
+    "p7_3s",
+    "p5_3s"
+   ],
+   [
+    "connected",
+    "p7_3s",
+    "p5_3w"
+   ],
+   [
+    "connected",
+    "p7_3s",
+    "p8_1n"
+   ],
+   [
+    "connected",
+    "p7_3s",
+    "p8_3s"
+   ],
+   [
+    "connected",
+    "p8_1n",
+    "p1_1n"
+   ],
+   [
+    "connected",
+    "p8_1n",
+    "p1_3s"
+   ],
+   [
+    "connected",
+    "p8_1n",
+    "p2_3s"
+   ],
+   [
+    "connected",
+    "p8_1n",
+    "p3_3e"
+   ],
+   [
+    "connected",
+    "p8_1n",
+    "p4_1n"
+   ],
+   [
+    "connected",
+    "p8_1n",
+    "p5_3s"
+   ],
+   [
+    "connected",
+    "p8_1n",
+    "p5_3w"
+   ],
+   [
+    "connected",
+    "p8_1n",
+    "p7_3s"
+   ],
+   [
+    "connected",
+    "p8_1n",
+    "p8_3s"
+   ],
+   [
+    "connected",
+    "p8_3s",
+    "p1_1n"
+   ],
+   [
+    "connected",
+    "p8_3s",
+    "p1_3s"
+   ],
+   [
+    "connected",
+    "p8_3s",
+    "p2_3s"
+   ],
+   [
+    "connected",
+    "p8_3s",
+    "p3_3e"
+   ],
+   [
+    "connected",
+    "p8_3s",
+    "p4_1n"
+   ],
+   [
+    "connected",
+    "p8_3s",
+    "p5_3s"
+   ],
+   [
+    "connected",
+    "p8_3s",
+    "p5_3w"
+   ],
+   [
+    "connected",
+    "p8_3s",
+    "p7_3s"
+   ],
+   [
+    "connected",
+    "p8_3s",
+    "p8_1n"
+   ],
+   [
+    "faces",
+    "p1_1n",
+    "pot1"
+   ],
+   [
+    "faces",
+    "p1_3s",
+    "serve1"
+   ],
+   [
+    "faces",
+    "p2_3s",
+    "tdisp1"
+   ],
+   [
+    "faces",
+    "p3_3e",
+    "ddisp1"
+   ],
+   [
+    "faces",
+    "p4_1n",
+    "odisp1"
+   ],
+   [
+    "faces",
+    "p5_3s",
+    "ddisp2"
+   ],
+   [
+    "faces",
+    "p5_3w",
+    "ddisp1"
+   ],
+   [
+    "faces",
+    "p7_3s",
+    "serve2"
+   ],
+   [
+    "faces",
+    "p8_1n",
+    "pot2"
+   ],
+   [
+    "faces",
+    "p8_3s",
+    "pot3"
+   ],
+   [
+    "fits",
+    "n0",
+    "n0"
+   ],
+   [
+    "fits",
+    "n0",
+    "n1"
+   ],
+   [
+    "fits",
+    "n0",
+    "n2"
+   ],
+   [
+    "fits",
+    "n0",
+    "n3"
+   ],
+   [
+    "fits",
+    "n1",
+    "n0"
+   ],
+   [
+    "fits",
+    "n1",
+    "n1"
+   ],
+   [
+    "fits",
+    "n1",
+    "n2"
+   ],
+   [
+    "fits",
+    "n2",
+    "n0"
+   ],
+   [
+    "fits",
+    "n2",
+    "n1"
+   ],
+   [
+    "fits",
+    "n3",
+    "n0"
+   ],
+   [
+    "free",
+    "t1_1"
+   ],
+   [
+    "free",
+    "t1_3"
+   ],
+   [
+    "free",
+    "t2_3"
+   ],
+   [
+    "free",
+    "t3_3"
+   ],
+   [
+    "free",
+    "t4_1"
+   ],
+   [
+    "free",
+    "t5_3"
+   ],
+   [
+    "free",
+    "t7_3"
+   ],
+   [
+    "free",
+    "t8_1"
+   ],
+   [
+    "free",
+    "t8_3"
+   ],
+   [
+    "hand-empty",
+    "c1"
+   ],
+   [
+    "hand-empty",
+    "c2"
+   ],
+   [
+    "idle",
+    "c1"
+   ],
+   [
+    "idle",
+    "c2"
+   ],
+   [
+    "is-zero",
+    "n0"
+   ],
+   [
+    "next",
+    "n0",
+    "n1"
+   ],
+   [
+    "next",
+    "n1",
+    "n2"
+   ],
+   [
+    "next",
+    "n2",
+    "n3"
+   ],
+   [
+    "open",
+    "o1"
+   ],
+   [
+    "order-recipe",
+    "o1",
+    "soup_o2_t1"
+   ],
+   [
+    "pending",
+    "o1"
+   ],
+   [
+    "pose-tile",
+    "p1_1n",
+    "t1_1"
+   ],
+   [
+    "pose-tile",
+    "p1_2n",
+    "t1_2"
+   ],
+   [
+    "pose-tile",
+    "p1_3s",
+    "t1_3"
+   ],
+   [
+    "pose-tile",
+    "p2_3s",
+    "t2_3"
+   ],
+   [
+    "pose-tile",
+    "p3_1n",
+    "t3_1"
+   ],
+   [
+    "pose-tile",
+    "p3_3e",
+    "t3_3"
+   ],
+   [
+    "pose-tile",
+    "p4_1n",
+    "t4_1"
+   ],
+   [
+    "pose-tile",
+    "p5_3s",
+    "t5_3"
+   ],
+   [
+    "pose-tile",
+    "p5_3w",
+    "t5_3"
+   ],
+   [
+    "pose-tile",
+    "p7_3s",
+    "t7_3"
+   ],
+   [
+    "pose-tile",
+    "p8_1n",
+    "t8_1"
+   ],
+   [
+    "pose-tile",
+    "p8_3s",
+    "t8_3"
+   ],
+   [
+    "pot-has",
+    "pot1",
+    "n0",
+    "n0"
+   ],
+   [
+    "pot-has",
+    "pot2",
+    "n0",
+    "n0"
+   ],
+   [
+    "pot-has",
+    "pot3",
+    "n0",
+    "n0"
+   ],
+   [
+    "pot-idle",
+    "pot1"
+   ],
+   [
+    "pot-idle",
+    "pot2"
+   ],
+   [
+    "pot-idle",
+    "pot3"
+   ],
+   [
+    "provides",
+    "ddisp1",
+    "dish"
+   ],
+   [
+    "provides",
+    "ddisp2",
+    "dish"
+   ],
+   [
+    "provides",
+    "odisp1",
+    "onion"
+   ],
+   [
+    "provides",
+    "tdisp1",
+    "tomato"
+   ],
+   [
+    "recipe-of",
+    "soup_o2_t1",
+    "n2",
+    "n1"
+   ],
+   [
+    "same-tile",
+    "p5_3s",
+    "p5_3w"
+   ],
+   [
+    "same-tile",
+    "p5_3w",
+    "p5_3s"
+   ]
+  ],
+  "fluents": [
+   {
+    "function": "cook-steps",
+    "args": [
+     "soup_o2_t1"
+    ],
+    "value": 16
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_1n",
+     "p1_3s"
+    ],
+    "value": 2
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_1n",
+     "p2_3s"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_1n",
+     "p3_3e"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_1n",
+     "p4_1n"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_1n",
+     "p5_3s"
+    ],
+    "value": 6
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_1n",
+     "p5_3w"
+    ],
+    "value": 7
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_1n",
+     "p7_3s"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_1n",
+     "p8_1n"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_1n",
+     "p8_3s"
+    ],
+    "value": 9
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_2n",
+     "p1_1n"
+    ],
+    "value": 1
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_2n",
+     "p1_3s"
+    ],
+    "value": 1
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_2n",
+     "p2_3s"
+    ],
+    "value": 2
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_2n",
+     "p3_3e"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_2n",
+     "p4_1n"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_2n",
+     "p5_3s"
+    ],
+    "value": 7
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_2n",
+     "p5_3w"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_2n",
+     "p7_3s"
+    ],
+    "value": 9
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_2n",
+     "p8_1n"
+    ],
+    "value": 9
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_2n",
+     "p8_3s"
+    ],
+    "value": 10
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_3s",
+     "p1_1n"
+    ],
+    "value": 2
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_3s",
+     "p2_3s"
+    ],
+    "value": 2
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_3s",
+     "p3_3e"
+    ],
+    "value": 2
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_3s",
+     "p4_1n"
+    ],
+    "value": 6
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_3s",
+     "p5_3s"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_3s",
+     "p5_3w"
+    ],
+    "value": 9
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_3s",
+     "p7_3s"
+    ],
+    "value": 10
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_3s",
+     "p8_1n"
+    ],
+    "value": 10
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_3s",
+     "p8_3s"
+    ],
+    "value": 11
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p2_3s",
+     "p1_1n"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p2_3s",
+     "p1_3s"
+    ],
+    "value": 2
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p2_3s",
+     "p3_3e"
+    ],
+    "value": 1
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p2_3s",
+     "p4_1n"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p2_3s",
+     "p5_3s"
+    ],
+    "value": 7
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p2_3s",
+     "p5_3w"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p2_3s",
+     "p7_3s"
+    ],
+    "value": 9
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p2_3s",
+     "p8_1n"
+    ],
+    "value": 9
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p2_3s",
+     "p8_3s"
+    ],
+    "value": 10
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_1n",
+     "p1_1n"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_1n",
+     "p1_3s"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_1n",
+     "p2_3s"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_1n",
+     "p3_3e"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_1n",
+     "p4_1n"
+    ],
+    "value": 2
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_1n",
+     "p5_3s"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_1n",
+     "p5_3w"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_1n",
+     "p7_3s"
+    ],
+    "value": 6
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_1n",
+     "p8_1n"
+    ],
+    "value": 6
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_1n",
+     "p8_3s"
+    ],
+    "value": 7
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_3e",
+     "p1_1n"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_3e",
+     "p1_3s"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_3e",
+     "p2_3s"
+    ],
+    "value": 2
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_3e",
+     "p4_1n"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_3e",
+     "p5_3s"
+    ],
+    "value": 6
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_3e",
+     "p5_3w"
+    ],
+    "value": 7
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_3e",
+     "p7_3s"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_3e",
+     "p8_1n"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_3e",
+     "p8_3s"
+    ],
+    "value": 9
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p4_1n",
+     "p1_1n"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p4_1n",
+     "p1_3s"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p4_1n",
+     "p2_3s"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p4_1n",
+     "p3_3e"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p4_1n",
+     "p5_3s"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p4_1n",
+     "p5_3w"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p4_1n",
+     "p7_3s"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p4_1n",
+     "p8_1n"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p4_1n",
+     "p8_3s"
+    ],
+    "value": 6
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3s",
+     "p1_1n"
+    ],
+    "value": 7
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3s",
+     "p1_3s"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3s",
+     "p2_3s"
+    ],
+    "value": 7
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3s",
+     "p3_3e"
+    ],
+    "value": 7
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3s",
+     "p4_1n"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3s",
+     "p5_3w"
+    ],
+    "value": 1
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3s",
+     "p7_3s"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3s",
+     "p8_1n"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3s",
+     "p8_3s"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3w",
+     "p1_1n"
+    ],
+    "value": 7
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3w",
+     "p1_3s"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3w",
+     "p2_3s"
+    ],
+    "value": 7
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3w",
+     "p3_3e"
+    ],
+    "value": 7
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3w",
+     "p4_1n"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3w",
+     "p5_3s"
+    ],
+    "value": 1
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3w",
+     "p7_3s"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3w",
+     "p8_1n"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_3w",
+     "p8_3s"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p7_3s",
+     "p1_1n"
+    ],
+    "value": 9
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p7_3s",
+     "p1_3s"
+    ],
+    "value": 10
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p7_3s",
+     "p2_3s"
+    ],
+    "value": 9
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p7_3s",
+     "p3_3e"
+    ],
+    "value": 9
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p7_3s",
+     "p4_1n"
+    ],
+    "value": 6
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p7_3s",
+     "p5_3s"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p7_3s",
+     "p5_3w"
+    ],
+    "value": 2
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p7_3s",
+     "p8_1n"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p7_3s",
+     "p8_3s"
+    ],
+    "value": 2
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_1n",
+     "p1_1n"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_1n",
+     "p1_3s"
+    ],
+    "value": 9
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_1n",
+     "p2_3s"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_1n",
+     "p3_3e"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_1n",
+     "p4_1n"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_1n",
+     "p5_3s"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_1n",
+     "p5_3w"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_1n",
+     "p7_3s"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_1n",
+     "p8_3s"
+    ],
+    "value": 2
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_3s",
+     "p1_1n"
+    ],
+    "value": 10
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_3s",
+     "p1_3s"
+    ],
+    "value": 11
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_3s",
+     "p2_3s"
+    ],
+    "value": 10
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_3s",
+     "p3_3e"
+    ],
+    "value": 10
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_3s",
+     "p4_1n"
+    ],
+    "value": 7
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_3s",
+     "p5_3s"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_3s",
+     "p5_3w"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_3s",
+     "p7_3s"
+    ],
+    "value": 2
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p8_3s",
+     "p8_1n"
+    ],
+    "value": 2
+   }
+  ]
+ },
+ "timed_literals": [],
+ "goals": [
+  {
+   "fact": [
+    "served",
+    "o1"
+   ],
+   "deadline": 53
+  }
+ ],
+ "metric": "makespan",
+ "annotations": {
+  "grid": [
+   "XPXXOXXXPX",
+   "X  2     X",
+   "X1  X    X",
+   "X   D    X",
+   "XSTXXDXSPX"
+  ],
+  "sim_params": {
+   "cook_time": 17,
+   "start_all_orders": [
+    {
+     "ingredients": [
+      "onion",
+      "onion",
+      "tomato"
+     ]
+    }
+   ],
+   "start_bonus_orders": []
+  },
+  "t_now": 0,
+  "max_ingredients": 3,
+  "counter_policy": "shared",
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "recipes": {
+   "soup_o2_t1": {
+    "onion": 2,
+    "tomato": 1,
+    "time": 17,
+    "value": 20
+   }
+  }
+ },
+ "provenance": {
+  "scenario_file": "overcooked_ai/scenarios/train/train_s_015.yaml",
+  "scenario_sha256": "7212caa7e296b82a5e694b17fe73e911a3e09e92717638857a8086e696c81fa4",
+  "scenario": {
+   "scenario_id": "train_s_015",
+   "seed": 22,
+   "counters": "shared",
+   "layout": {
+    "grid": [
+     "XPXXOXXXPX",
+     "X  2     X",
+     "X1  X    X",
+     "X   D    X",
+     "XSTXXDXSPX"
+    ]
+   },
+   "description": "10x5 kitchen, 2 cooks, 4 distractor stations, 1 orders, deadlines = ceil(1.12 x certificate)",
+   "orders": [
+    {
+     "recipe": {
+      "onion": 2,
+      "tomato": 1
+     },
+     "deadline": 53
+    }
+   ],
+   "sim": {
+    "cook_time": 17
+   }
+  },
+  "simulator": {
+   "package": "overcooked_ai",
+   "version": "1.1.0",
+   "commit": "a60e31a6280718b8cdde08d394c8a6697b1d4829",
+   "repository": "https://github.com/HumanCompatibleAI/overcooked_ai"
+  },
+  "adapter_code_sha256": "7fe1c3dacc41a03302707da66ad36aa86d17aeffe43561d72eb800014f1e1879",
+  "created_utc": "2026-10-30T09:28:43+00:00"
+ }
+}

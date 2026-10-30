@@ -1,0 +1,1164 @@
+[
+ {
+  "instance": "stress_t1_medium_000",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 25,
+    "s": 0.8,
+    "makespan": 144.033
+   },
+   {
+    "rank": 1,
+    "kind": "guided",
+    "n": 33,
+    "s": 1.33,
+    "makespan": 123.029
+   },
+   {
+    "rank": 2,
+    "kind": "earliest",
+    "n": 25,
+    "s": 0.78,
+    "makespan": 145.033
+   },
+   {
+    "rank": 3,
+    "kind": "earliest",
+    "n": 25,
+    "s": 0.84,
+    "makespan": 146.033
+   }
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_001",
+  "solved": true,
+  "kinds": [
+   "guided",
+   "guided",
+   "earliest",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 2,
+    "kind": "earliest",
+    "n": 27,
+    "s": 2.83,
+    "makespan": 185.05
+   },
+   {
+    "rank": 3,
+    "kind": "earliest",
+    "n": 27,
+    "s": 2.57,
+    "makespan": 185.05
+   }
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_002",
+  "solved": true,
+  "kinds": [
+   "guided",
+   "earliest",
+   "earliest",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "guided",
+    "n": 32,
+    "s": 8.33,
+    "makespan": 164.035
+   },
+   {
+    "rank": 1,
+    "kind": "earliest",
+    "n": 26,
+    "s": 0.28,
+    "makespan": 177.04
+   },
+   {
+    "rank": 2,
+    "kind": "earliest",
+    "n": 26,
+    "s": 0.27,
+    "makespan": 178.04
+   },
+   {
+    "rank": 3,
+    "kind": "earliest",
+    "n": 26,
+    "s": 0.27,
+    "makespan": 179.04
+   }
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_003",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest",
+   "guided"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 30,
+    "s": 13.82,
+    "makespan": 162.041
+   },
+   {
+    "rank": 1,
+    "kind": "guided",
+    "n": 27,
+    "s": 2.84,
+    "makespan": 271.05
+   },
+   {
+    "rank": 2,
+    "kind": "earliest",
+    "n": 30,
+    "s": 13.13,
+    "makespan": 163.041
+   },
+   {
+    "rank": 3,
+    "kind": "guided",
+    "n": 27,
+    "s": 2.56,
+    "makespan": 272.05
+   }
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_004",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 21,
+    "s": 0.43,
+    "makespan": 149.053
+   },
+   {
+    "rank": 1,
+    "kind": "guided",
+    "n": 31,
+    "s": 14.15,
+    "makespan": 144.051
+   }
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_005",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 1,
+    "kind": "guided",
+    "n": 26,
+    "s": 2.72,
+    "makespan": 174.043
+   }
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_006",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest",
+   "guided"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 26,
+    "s": 0.86,
+    "makespan": 127.033
+   },
+   {
+    "rank": 3,
+    "kind": "guided",
+    "n": 38,
+    "s": 4.1,
+    "makespan": 132.018
+   }
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_007",
+  "solved": true,
+  "kinds": [
+   "guided",
+   "guided",
+   "earliest",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 1,
+    "kind": "guided",
+    "n": 28,
+    "s": 5.27,
+    "makespan": 138.03
+   }
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_008",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "guided"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t1_medium_009",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "earliest",
+   "guided"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t2_large_000",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 28,
+    "s": 9.44,
+    "makespan": 307.067
+   }
+  ]
+ },
+ {
+  "instance": "stress_t2_large_001",
+  "solved": false,
+  "kinds": [
+   "guided",
+   "guided",
+   "earliest",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t2_large_002",
+  "solved": false,
+  "kinds": [
+   "guided",
+   "earliest",
+   "earliest",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t2_large_003",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t2_large_004",
+  "solved": false,
+  "kinds": [
+   "guided",
+   "earliest",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t2_large_005",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "earliest",
+   "earliest",
+   "guided"
+  ],
+  "winners": [
+   {
+    "rank": 1,
+    "kind": "earliest",
+    "n": 26,
+    "s": 4.4,
+    "makespan": 254.05
+   }
+  ]
+ },
+ {
+  "instance": "stress_t2_large_006",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest",
+   "guided"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t2_large_007",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 1,
+    "kind": "guided",
+    "n": 27,
+    "s": 5.25,
+    "makespan": 320.058
+   }
+  ]
+ },
+ {
+  "instance": "stress_t2_large_008",
+  "solved": false,
+  "kinds": [
+   "guided",
+   "guided",
+   "earliest",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t2_large_009",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "guided"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t3_xl_000",
+  "solved": false,
+  "kinds": [
+   "guided",
+   "guided",
+   "earliest",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t3_xl_001",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 28,
+    "s": 11.57,
+    "makespan": 314.067
+   },
+   {
+    "rank": 2,
+    "kind": "guided",
+    "n": 28,
+    "s": 12.01,
+    "makespan": 311.067
+   },
+   {
+    "rank": 3,
+    "kind": "earliest",
+    "n": 28,
+    "s": 11.73,
+    "makespan": 311.067
+   }
+  ]
+ },
+ {
+  "instance": "stress_t3_xl_002",
+  "solved": false,
+  "kinds": [
+   "guided",
+   "guided",
+   "guided",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t3_xl_003",
+  "solved": false,
+  "kinds": [
+   "guided",
+   "guided",
+   "guided",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t3_xl_004",
+  "solved": false,
+  "kinds": [
+   "guided",
+   "earliest",
+   "earliest",
+   "guided"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t3_xl_005",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest",
+   "guided"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 23,
+    "s": 5.84,
+    "makespan": 272.067
+   },
+   {
+    "rank": 2,
+    "kind": "earliest",
+    "n": 23,
+    "s": 6.16,
+    "makespan": 277.067
+   },
+   {
+    "rank": 3,
+    "kind": "guided",
+    "n": 23,
+    "s": 5.97,
+    "makespan": 274.067
+   }
+  ]
+ },
+ {
+  "instance": "stress_t3_xl_006",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "guided"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t3_xl_007",
+  "solved": false,
+  "kinds": [
+   "guided",
+   "guided",
+   "guided",
+   "guided"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t3_xl_008",
+  "solved": false,
+  "kinds": [
+   "guided",
+   "earliest",
+   "guided",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t3_xl_009",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "guided"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t4_split_000",
+  "solved": true,
+  "kinds": [
+   "guided",
+   "earliest",
+   "earliest",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "guided",
+    "n": 29,
+    "s": 13.43,
+    "makespan": 170.042
+   },
+   {
+    "rank": 1,
+    "kind": "earliest",
+    "n": 23,
+    "s": 2.1,
+    "makespan": 199.05
+   },
+   {
+    "rank": 2,
+    "kind": "earliest",
+    "n": 23,
+    "s": 2.38,
+    "makespan": 200.05
+   },
+   {
+    "rank": 3,
+    "kind": "earliest",
+    "n": 23,
+    "s": 2.4,
+    "makespan": 203.05
+   }
+  ]
+ },
+ {
+  "instance": "stress_t4_split_001",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "earliest",
+   "guided",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 27,
+    "s": 3.06,
+    "makespan": 204.05
+   },
+   {
+    "rank": 1,
+    "kind": "earliest",
+    "n": 27,
+    "s": 3.19,
+    "makespan": 204.05
+   },
+   {
+    "rank": 3,
+    "kind": "earliest",
+    "n": 27,
+    "s": 3.12,
+    "makespan": 205.05
+   }
+  ]
+ },
+ {
+  "instance": "stress_t4_split_002",
+  "solved": true,
+  "kinds": [
+   "guided",
+   "earliest",
+   "guided",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "guided",
+    "n": 27,
+    "s": 8.49,
+    "makespan": 148.035
+   },
+   {
+    "rank": 1,
+    "kind": "earliest",
+    "n": 24,
+    "s": 4.18,
+    "makespan": 161.05
+   },
+   {
+    "rank": 3,
+    "kind": "earliest",
+    "n": 25,
+    "s": 4.08,
+    "makespan": 178.05
+   }
+  ]
+ },
+ {
+  "instance": "stress_t4_split_003",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest",
+   "guided"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 22,
+    "s": 0.51,
+    "makespan": 154.033
+   },
+   {
+    "rank": 1,
+    "kind": "guided",
+    "n": 28,
+    "s": 2.31,
+    "makespan": 131.031
+   },
+   {
+    "rank": 2,
+    "kind": "earliest",
+    "n": 22,
+    "s": 0.16,
+    "makespan": 175.037
+   },
+   {
+    "rank": 3,
+    "kind": "guided",
+    "n": 22,
+    "s": 0.55,
+    "makespan": 156.033
+   }
+  ]
+ },
+ {
+  "instance": "stress_t4_split_004",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 21,
+    "s": 0.5,
+    "makespan": 94.033
+   },
+   {
+    "rank": 1,
+    "kind": "guided",
+    "n": 24,
+    "s": 0.79,
+    "makespan": 96.035
+   },
+   {
+    "rank": 2,
+    "kind": "earliest",
+    "n": 21,
+    "s": 0.57,
+    "makespan": 95.033
+   }
+  ]
+ },
+ {
+  "instance": "stress_t4_split_005",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t4_split_006",
+  "solved": true,
+  "kinds": [
+   "guided",
+   "earliest",
+   "earliest",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 1,
+    "kind": "earliest",
+    "n": 27,
+    "s": 4.93,
+    "makespan": 165.05
+   },
+   {
+    "rank": 2,
+    "kind": "earliest",
+    "n": 27,
+    "s": 4.97,
+    "makespan": 166.05
+   },
+   {
+    "rank": 3,
+    "kind": "earliest",
+    "n": 27,
+    "s": 5.0,
+    "makespan": 166.05
+   }
+  ]
+ },
+ {
+  "instance": "stress_t4_split_007",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest",
+   "guided"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 23,
+    "s": 0.5,
+    "makespan": 185.051
+   },
+   {
+    "rank": 1,
+    "kind": "guided",
+    "n": 29,
+    "s": 14.4,
+    "makespan": 167.046
+   },
+   {
+    "rank": 2,
+    "kind": "earliest",
+    "n": 23,
+    "s": 0.49,
+    "makespan": 187.051
+   },
+   {
+    "rank": 3,
+    "kind": "guided",
+    "n": 23,
+    "s": 0.5,
+    "makespan": 188.051
+   }
+  ]
+ },
+ {
+  "instance": "stress_t4_split_008",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 27,
+    "s": 4.3,
+    "makespan": 196.05
+   },
+   {
+    "rank": 1,
+    "kind": "earliest",
+    "n": 27,
+    "s": 4.02,
+    "makespan": 197.05
+   }
+  ]
+ },
+ {
+  "instance": "stress_t4_split_009",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 24,
+    "s": 10.24,
+    "makespan": 193.067
+   },
+   {
+    "rank": 2,
+    "kind": "earliest",
+    "n": 24,
+    "s": 6.84,
+    "makespan": 288.067
+   }
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_000",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 1,
+    "kind": "guided",
+    "n": 31,
+    "s": 0.43,
+    "makespan": 130.031
+   }
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_001",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "guided"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 23,
+    "s": 2.55,
+    "makespan": 273.05
+   }
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_002",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 27,
+    "s": 5.41,
+    "makespan": 224.05
+   },
+   {
+    "rank": 3,
+    "kind": "earliest",
+    "n": 27,
+    "s": 3.8,
+    "makespan": 219.05
+   }
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_003",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 28,
+    "s": 9.33,
+    "makespan": 351.067
+   },
+   {
+    "rank": 1,
+    "kind": "earliest",
+    "n": 28,
+    "s": 9.67,
+    "makespan": 352.067
+   }
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_004",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "earliest",
+   "guided",
+   "guided"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 26,
+    "s": 0.81,
+    "makespan": 145.033
+   },
+   {
+    "rank": 1,
+    "kind": "earliest",
+    "n": 26,
+    "s": 1.13,
+    "makespan": 145.033
+   },
+   {
+    "rank": 2,
+    "kind": "guided",
+    "n": 31,
+    "s": 5.7,
+    "makespan": 153.033
+   }
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_005",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "earliest"
+  ],
+  "winners": [
+   {
+    "rank": 3,
+    "kind": "earliest",
+    "n": 27,
+    "s": 3.58,
+    "makespan": 195.05
+   }
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_006",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t5_counters_007",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "guided"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 28,
+    "s": 14.87,
+    "makespan": 289.075
+   }
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_008",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t5_counters_009",
+  "solved": true,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "guided"
+  ],
+  "winners": [
+   {
+    "rank": 0,
+    "kind": "earliest",
+    "n": 26,
+    "s": 0.93,
+    "makespan": 119.033
+   },
+   {
+    "rank": 1,
+    "kind": "guided",
+    "n": 32,
+    "s": 6.22,
+    "makespan": 112.031
+   }
+  ]
+ },
+ {
+  "instance": "stress_t6_many_orders_000",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t6_many_orders_001",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t6_many_orders_002",
+  "solved": false,
+  "kinds": [
+   "guided",
+   "guided",
+   "earliest",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t6_many_orders_003",
+  "solved": false,
+  "kinds": [
+   "guided",
+   "guided",
+   "guided",
+   "guided"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t6_many_orders_004",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "guided",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t6_many_orders_005",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "guided",
+   "guided",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t6_many_orders_006",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t6_many_orders_007",
+  "solved": false,
+  "kinds": [
+   "earliest",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t6_many_orders_008",
+  "solved": false,
+  "kinds": [
+   "guided",
+   "guided",
+   "earliest",
+   "earliest"
+  ],
+  "winners": []
+ },
+ {
+  "instance": "stress_t6_many_orders_009",
+  "solved": false,
+  "kinds": [
+   "guided",
+   "earliest",
+   "earliest"
+  ],
+  "winners": []
+ }
+]

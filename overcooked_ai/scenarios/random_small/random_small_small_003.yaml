@@ -1,0 +1,14 @@
+scenario_id: random_small_small_003
+seed: 3
+counters: shared
+layout:
+  grid: [XDXXXXXXXX, X        X, O   X    X, X   X    X, X  1S    X, XPXPXXXXXX]
+description: 10x6 kitchen, 1 cooks, 0 distractor stations, 3 orders, deadlines = ceil(1.01 x certificate)
+orders:
+- recipe: {onion: 3}
+  deadline: 47
+- recipe: {onion: 3}
+  deadline: 84
+- recipe: {onion: 3}
+  deadline: 121
+sim: {cook_time: 11}

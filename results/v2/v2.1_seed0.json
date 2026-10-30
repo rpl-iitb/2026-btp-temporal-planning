@@ -1,0 +1,142 @@
+{
+ "model": {
+  "n_node": 41,
+  "n_edge": 86,
+  "n_global": 4,
+  "heads": 3,
+  "hidden": 16,
+  "steps": 3,
+  "aggregate": "sum"
+ },
+ "vocab": {
+  "types": [
+   "cook",
+   "count",
+   "counter",
+   "dispenser",
+   "ingredient",
+   "item",
+   "object",
+   "order",
+   "pose",
+   "pot",
+   "recipe",
+   "serving",
+   "station",
+   "tile"
+  ],
+  "unary": [
+   "counter-empty",
+   "free",
+   "hand-empty",
+   "idle",
+   "is-zero",
+   "open",
+   "pending",
+   "pot-idle",
+   "served"
+  ],
+  "unary_fn": [
+   "cook-steps"
+  ],
+  "n_edge": 86,
+  "temporal": true
+ },
+ "temperature": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "combine": "gated",
+ "weights": [
+  1.0,
+  1.0
+ ],
+ "history": [
+  {
+   "epoch": 0,
+   "solved": 28,
+   "total": 40,
+   "loss": 1.6885613713945662,
+   "osr": 0.7208747793191793,
+   "seconds": 295.3,
+   "mean_parallelism": 1.475656129513251,
+   "mean_makespan": 79.27982142857142
+  },
+  {
+   "epoch": 1,
+   "solved": 27,
+   "total": 40,
+   "loss": 1.5707691289760448,
+   "osr": 0.701268901862223,
+   "seconds": 258.3,
+   "mean_parallelism": 1.4394181723102528,
+   "mean_makespan": 80.43729629629631
+  },
+  {
+   "epoch": 2,
+   "solved": 21,
+   "total": 40,
+   "loss": 1.178154931181953,
+   "osr": 0.6935338102857784,
+   "seconds": 209.3,
+   "mean_parallelism": 1.3847160417189748,
+   "mean_makespan": 79.45728571428573
+  },
+  {
+   "epoch": 3,
+   "solved": 22,
+   "total": 40,
+   "loss": 0.8234940049323168,
+   "osr": 0.7186399188767963,
+   "seconds": 261.3,
+   "mean_parallelism": 1.4563458054230545,
+   "mean_makespan": 74.98240909090909
+  },
+  {
+   "epoch": 4,
+   "solved": 23,
+   "total": 40,
+   "loss": 0.6467874866464863,
+   "osr": 0.709948074540025,
+   "seconds": 252.7,
+   "mean_parallelism": 1.4479257080802292,
+   "mean_makespan": 74.28839130434783
+  },
+  {
+   "epoch": 5,
+   "solved": 24,
+   "total": 40,
+   "loss": 0.561949759721756,
+   "osr": 0.6795755169206347,
+   "seconds": 226.5,
+   "mean_parallelism": 1.4052267851294202,
+   "mean_makespan": 78.987375
+  }
+ ],
+ "saved": "2026-10-10 14:59:13",
+ "method": "TIFLAX21",
+ "args": {
+  "method": "TIFLAX21",
+  "lam_k": 1.0,
+  "lam_a": 0.1,
+  "train": "train",
+  "val": "val",
+  "epochs": 6,
+  "budget": 15.0,
+  "parallel": 3,
+  "lr": 0.001,
+  "hidden": 16,
+  "steps": 3,
+  "lam_t": 1.0,
+  "pos_weight": 1.0,
+  "cf_k": 4,
+  "cf_cap": 8.0,
+  "seed": 0,
+  "max_tasks": 0,
+  "out": null
+ },
+ "train_split": "train",
+ "val_split": "val",
+ "train_seconds": 1543.3
+}

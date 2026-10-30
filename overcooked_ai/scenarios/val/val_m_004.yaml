@@ -1,0 +1,14 @@
+scenario_id: val_m_004
+seed: 5
+counters: shared
+layout:
+  grid: [XDXOXPXDSXX, S         O, X    X    X, X  3 X    X, X1   X    X, P 2  X    X, XXXXXXXXOPX]
+description: 11x7 kitchen, 3 cooks, 6 distractor stations, 3 orders, deadlines = ceil(1.12 x certificate)
+orders:
+- recipe: {onion: 3}
+  deadline: 66
+- recipe: {onion: 3}
+  deadline: 130
+- recipe: {onion: 3}
+  deadline: 194
+sim: {cook_time: 10}

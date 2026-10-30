@@ -1,0 +1,64 @@
+{
+ "instance_id": "stress_t1_medium_000",
+ "benchmark": "overcooked_ai",
+ "created_utc": "2026-10-30T09:28:26+00:00",
+ "inputs": {
+  "scenario": "overcooked_ai/scenarios/stress/stress_t1_medium_000.yaml",
+  "scenario_sha256": "7330c50ac841ad8c31e875423a93b69be8fbe2229238c672ac22cd5a5df71902",
+  "domain_spec": [
+   "overcooked_ai/domain.yaml"
+  ],
+  "domain_spec_sha256": "b73c9d450fe5fe5f1061c91e190f1fd396cadad0fc95ceab31d50c9439947ff2",
+  "simulator": {
+   "package": "overcooked_ai",
+   "version": "1.1.0",
+   "commit": "a60e31a6280718b8cdde08d394c8a6697b1d4829",
+   "repository": "https://github.com/HumanCompatibleAI/overcooked_ai"
+  },
+  "benchmark_code_sha256": "7fe1c3dacc41a03302707da66ad36aa86d17aeffe43561d72eb800014f1e1879",
+  "generator_code_sha256": "1464a598be2d4f327f4bc40ee5053c433892ff266cb89d637468864fc1775404"
+ },
+ "outputs": {
+  "domain_pddl": "overcooked_ai/generated_pddl/domain.pddl",
+  "domain_pddl_sha256": "e42f7df6b4e4195f37c57dd9b46ced9d3c8b6a891d46ee50a70c548eb1b9122a",
+  "problem_pddl": "overcooked_ai/generated_pddl/stress/stress_t1_medium_000/problem.pddl",
+  "problem_pddl_sha256": "78466ec3083e0626fa413cfadd52dd48c04b8e2c9fd654ff59141539dccf7797",
+  "hl_problem": "overcooked_ai/generated_pddl/stress/stress_t1_medium_000/hl_problem.json",
+  "hl_problem_sha256": "c4924a8a3f0ba6b30d8f15e4cc036534185c3c4b07e9f71f5a3c2744f6c15826"
+ },
+ "checks": {
+  "hl_typing": "ok",
+  "hl_json_schema": "ok",
+  "problem_roundtrip": "ok",
+  "val_parser": {
+   "ok": true,
+   "errors": 0,
+   "warnings": 0
+  }
+ },
+ "checks_passed": true,
+ "size": {
+  "objects": 57,
+  "objects_by_type": {
+   "cook": 3,
+   "count": 4,
+   "dispenser": 7,
+   "order": 2,
+   "pose": 17,
+   "pot": 4,
+   "recipe": 2,
+   "serving": 3,
+   "tile": 15
+  },
+  "init_facts": 313,
+  "init_facts_static": 280,
+  "numeric_fluents": 226,
+  "goals": 2,
+  "goals_with_deadline": 2,
+  "timed_literals": 2
+ },
+ "timing_s": {
+  "build_hl": 0.0228,
+  "write_pddl": 0.0017
+ }
+}

@@ -1,0 +1,10 @@
+train sets 233, val sets 65; val majority-class solve accuracy 0.754
+epoch   5  val loss 1.114  solve acc 0.785  time MAE 2.267 LB
+epoch  10  val loss 0.709  solve acc 0.846  time MAE 1.072 LB
+epoch  15  val loss 0.616  solve acc 0.831  time MAE 0.972 LB
+epoch  20  val loss 0.546  solve acc 0.800  time MAE 0.751 LB
+epoch  25  val loss 0.556  solve acc 0.862  time MAE 0.819 LB
+epoch  30  val loss 0.555  solve acc 0.877  time MAE 0.834 LB
+epoch  35  val loss 0.481  solve acc 0.908  time MAE 0.775 LB
+epoch  40  val loss 0.526  solve acc 0.892  time MAE 0.937 LB
+saved /home/harshi/Desktop/BTP/temporal_planning/results/models/TIFLAX5_seed0 in 308 s

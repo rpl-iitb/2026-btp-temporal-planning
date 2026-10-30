@@ -1,0 +1,14 @@
+scenario_id: train_large_t2_large_005
+seed: 6
+counters: shared
+layout:
+  grid: [XSXPPXSXXXXXXXPXXXX, O 1         P     X, X     X     X     X, X     X     P     O, X     X     X     X, O     S     X     D, X 2   X           X, XDXXXDXXOXDXXPXXPXX]
+description: 19x8 kitchen, 2 cooks, 13 distractor stations, 3 orders, deadlines = ceil(1.08 x certificate)
+orders:
+- recipe: {onion: 3}
+  deadline: 86
+- recipe: {onion: 3}
+  deadline: 176
+- recipe: {onion: 3}
+  deadline: 265
+sim: {cook_time: 32}

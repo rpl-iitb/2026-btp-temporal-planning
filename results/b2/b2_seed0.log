@@ -1,0 +1,152 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Training search guidance FlaxGuidance in domain train...
+Collecting training data problem 0
+Collecting training data problem 1
+Collecting training data problem 2
+Collecting training data problem 3
+Collecting training data problem 4
+Collecting training data problem 5
+Collecting training data problem 6
+Collecting training data problem 7
+Collecting training data problem 8
+Collecting training data problem 9
+Collecting training data problem 10
+Collecting training data problem 11
+Collecting training data problem 12
+Collecting training data problem 13
+Collecting training data problem 14
+Collecting training data problem 15
+Collecting training data problem 16
+Collecting training data problem 17
+Collecting training data problem 18
+Collecting training data problem 19
+Collecting training data problem 20
+Collecting training data problem 21
+Collecting training data problem 22
+Collecting training data problem 23
+Collecting training data problem 24
+Collecting training data problem 25
+Collecting training data problem 26
+Collecting training data problem 27
+Collecting training data problem 28
+Collecting training data problem 29
+Collecting training data problem 30
+Collecting training data problem 31
+Collecting training data problem 32
+Collecting training data problem 33
+Collecting training data problem 34
+Collecting training data problem 35
+Collecting training data problem 36
+Collecting training data problem 37
+Collecting training data problem 38
+Collecting training data problem 39
+Epoch 0/300
+----------
+running_loss: {'train': 11.905135869979858, 'val': 2.9508888721466064}
+Saved model checkpoint /tmp/model0.pt
+Found new best model with validation loss 2.9508888721466064 at epoch 0
+Epoch 10/300
+----------
+running_loss: {'train': 4.289517402648926, 'val': 1.4918842315673828}
+Epoch 20/300
+----------
+running_loss: {'train': 3.6782467365264893, 'val': 1.3799716234207153}
+Epoch 30/300
+----------
+running_loss: {'train': 3.576889157295227, 'val': 1.373300552368164}
+Epoch 40/300
+----------
+running_loss: {'train': 3.536280333995819, 'val': 1.3721277713775635}
+Epoch 50/300
+----------
+running_loss: {'train': 3.475892186164856, 'val': 1.3527746200561523}
+Saved model checkpoint /tmp/model50.pt
+Found new best model with validation loss 1.3527746200561523 at epoch 50
+Epoch 60/300
+----------
+running_loss: {'train': 3.371447205543518, 'val': 1.3235024213790894}
+Epoch 70/300
+----------
+running_loss: {'train': 3.301700174808502, 'val': 1.306215763092041}
+Epoch 80/300
+----------
+running_loss: {'train': 3.2548091411590576, 'val': 1.2949602603912354}
+Epoch 90/300
+----------
+running_loss: {'train': 3.2127645015716553, 'val': 1.2836902141571045}
+Epoch 100/300
+----------
+running_loss: {'train': 3.1662489771842957, 'val': 1.2724803686141968}
+Saved model checkpoint /tmp/model100.pt
+Found new best model with validation loss 1.2724803686141968 at epoch 100
+Epoch 110/300
+----------
+running_loss: {'train': 3.148758113384247, 'val': 1.267457365989685}
+Epoch 120/300
+----------
+running_loss: {'train': 3.0898762941360474, 'val': 1.2688812017440796}
+Epoch 130/300
+----------
+running_loss: {'train': 3.075066089630127, 'val': 1.2638200521469116}
+Epoch 140/300
+----------
+running_loss: {'train': 3.0541511178016663, 'val': 1.2661190032958984}
+Epoch 150/300
+----------
+running_loss: {'train': 3.0326754450798035, 'val': 1.26439368724823}
+Saved model checkpoint /tmp/model150.pt
+Found new best model with validation loss 1.26439368724823 at epoch 150
+Epoch 160/300
+----------
+running_loss: {'train': 3.0227593779563904, 'val': 1.2621742486953735}
+Epoch 170/300
+----------
+running_loss: {'train': 3.020557165145874, 'val': 1.2664964199066162}
+Epoch 180/300
+----------
+running_loss: {'train': 3.02254980802536, 'val': 1.2575544118881226}
+Epoch 190/300
+----------
+running_loss: {'train': 3.008364737033844, 'val': 1.2572966814041138}
+Epoch 200/300
+----------
+running_loss: {'train': 2.9882158637046814, 'val': 1.2577836513519287}
+Saved model checkpoint /tmp/model200.pt
+Found new best model with validation loss 1.2577836513519287 at epoch 200
+Epoch 210/300
+----------
+running_loss: {'train': 3.0081993341445923, 'val': 1.2547930479049683}
+Epoch 220/300
+----------
+running_loss: {'train': 3.00398188829422, 'val': 1.2458717823028564}
+Epoch 230/300
+----------
+running_loss: {'train': 2.9664801359176636, 'val': 1.245363712310791}
+Epoch 240/300
+----------
+running_loss: {'train': 2.9622796177864075, 'val': 1.2704623937606812}
+Epoch 250/300
+----------
+running_loss: {'train': 2.9484782814979553, 'val': 1.2347313165664673}
+Saved model checkpoint /tmp/model250.pt
+Found new best model with validation loss 1.2347313165664673 at epoch 250
+Epoch 260/300
+----------
+running_loss: {'train': 2.963894546031952, 'val': 1.264653205871582}
+Epoch 270/300
+----------
+running_loss: {'train': 2.973185420036316, 'val': 1.2325533628463745}
+Epoch 280/300
+----------
+running_loss: {'train': 2.96167528629303, 'val': 1.2299461364746094}
+Epoch 290/300
+----------
+running_loss: {'train': 2.9441900849342346, 'val': 1.2739570140838623}
+Epoch 300/300
+----------
+running_loss: {'train': 2.9842151403427124, 'val': 1.2424010038375854}
+Saved model checkpoint /tmp/model300.pt
+Training complete in 5m 46s
+Saved model to /home/harshi/Desktop/BTP/temporal_planning/results/models/baselines/B2_seed0_train.pt.
+done in 1204s

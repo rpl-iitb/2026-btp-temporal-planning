@@ -1,0 +1,14 @@
+kitchens with both outcomes: train 35 (429 sets), val 9 (109 sets)
+epoch   5  val loss 2.731  top-1 solved: GNN 0.83 vs bound 0.50 (val, 6 kitchens); train GNN 0.61 vs bound 0.57
+epoch  10  val loss 2.736  top-1 solved: GNN 0.83 vs bound 0.50 (val, 6 kitchens); train GNN 0.64 vs bound 0.57
+epoch  15  val loss 2.671  top-1 solved: GNN 0.83 vs bound 0.50 (val, 6 kitchens); train GNN 0.61 vs bound 0.57
+epoch  20  val loss 2.800  top-1 solved: GNN 0.83 vs bound 0.50 (val, 6 kitchens); train GNN 0.61 vs bound 0.57
+epoch  25  val loss 2.673  top-1 solved: GNN 0.83 vs bound 0.50 (val, 6 kitchens); train GNN 0.57 vs bound 0.57
+epoch  30  val loss 2.699  top-1 solved: GNN 0.83 vs bound 0.50 (val, 6 kitchens); train GNN 0.61 vs bound 0.57
+epoch  35  val loss 2.648  top-1 solved: GNN 0.83 vs bound 0.50 (val, 6 kitchens); train GNN 0.54 vs bound 0.57
+epoch  40  val loss 2.816  top-1 solved: GNN 0.67 vs bound 0.50 (val, 6 kitchens); train GNN 0.61 vs bound 0.57
+epoch  45  val loss 2.755  top-1 solved: GNN 0.67 vs bound 0.50 (val, 6 kitchens); train GNN 0.57 vs bound 0.57
+epoch  50  val loss 2.752  top-1 solved: GNN 0.67 vs bound 0.50 (val, 6 kitchens); train GNN 0.64 vs bound 0.57
+epoch  55  val loss 2.736  top-1 solved: GNN 0.67 vs bound 0.50 (val, 6 kitchens); train GNN 0.64 vs bound 0.57
+epoch  60  val loss 2.739  top-1 solved: GNN 0.83 vs bound 0.50 (val, 6 kitchens); train GNN 0.64 vs bound 0.57
+saved /home/harshi/Desktop/BTP/temporal_planning/results/models/TIFLAX7_seed0

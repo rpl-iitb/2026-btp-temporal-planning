@@ -1,0 +1,11 @@
+[TIFLAX21] 40 train / 12 val tasks, graphs built in 2.6s
+  epoch  0: solved 28/40  loss 1.6886  kept 0.72  (295s)  ms 79.3
+  epoch  1: solved 27/40  loss 1.5708  kept 0.70  (258s)  ms 80.4
+  epoch  2: solved 21/40  loss 1.1782  kept 0.69  (209s)  ms 79.5
+  epoch  3: solved 22/40  loss 0.8235  kept 0.72  (261s)  ms 75.0
+  epoch  4: solved 23/40  loss 0.6468  kept 0.71  (253s)  ms 74.3
+  epoch  5: solved 24/40  loss 0.5619  kept 0.68  (226s)  ms 79.0
+validation labels: 10/12
+validation keep-label accuracy (reward >= 0.5): 0.963
+mean gate alpha by object type (1 = object score, 0 = temporal score): {'cook': 0.243, 'count': 0.132, 'dispenser': 0.315, 'order': 0.086, 'pose': 0.318, 'pot': 0.387, 'recipe': 0.089, 'serving': 0.291, 'tile': 0.325}
+saved /home/harshi/Desktop/BTP/temporal_planning/results/models/TIFLAX21_seed0 in 1543s

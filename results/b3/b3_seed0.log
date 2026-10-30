@@ -1,0 +1,11 @@
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+Training search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+Epoch 0/5: solved 17/40 tasks, avg loss 2.7989, 458.3s
+Epoch 1/5: solved 14/40 tasks, avg loss 1.6046, 465.0s
+Epoch 2/5: solved 15/40 tasks, avg loss 1.2629, 469.8s
+Epoch 3/5: solved 15/40 tasks, avg loss 1.1051, 457.7s
+Epoch 4/5: solved 14/40 tasks, avg loss 1.0672, 465.8s
+Epoch 5/5: solved 15/40 tasks, avg loss 1.0088, 458.9s
+Saved model to /home/harshi/Desktop/BTP/temporal_planning/results/models/baselines/B3_seed0_train.pt.
+done in 2779s

@@ -1,0 +1,982 @@
+[
+ {
+  "instance": "stress_t1_medium_000",
+  "n_total": 57,
+  "info": "cp ms 146 (OPTIMAL, 0.09s)",
+  "n": 34,
+  "outcome": "valid",
+  "s": 1.66,
+  "makespan": 126.032,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "pots": [
+   "pot2"
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_001",
+  "n_total": 53,
+  "info": "cp ms 197 (OPTIMAL, 0.11s)",
+  "n": 35,
+  "outcome": "timeout",
+  "s": 15.02,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot1"
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_002",
+  "n_total": 59,
+  "info": "cp ms 151 (OPTIMAL, 0.09s)",
+  "n": 47,
+  "outcome": "valid",
+  "s": 13.15,
+  "makespan": 137.031,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "pots": [
+   "pot1",
+   "pot2"
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_003",
+  "n_total": 59,
+  "info": "cp ms 206 (OPTIMAL, 0.12s)",
+  "n": 39,
+  "outcome": "timeout",
+  "s": 15.02,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot1",
+   "pot2"
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_004",
+  "n_total": 44,
+  "info": "cp ms 145 (OPTIMAL, 0.07s)",
+  "n": 25,
+  "outcome": "timeout",
+  "s": 15.03,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot2"
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_005",
+  "n_total": 54,
+  "info": "cp ms 135 (OPTIMAL, 0.08s)",
+  "n": 35,
+  "outcome": "valid",
+  "s": 14.2,
+  "makespan": 129.042,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot2",
+   "pot3"
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_006",
+  "n_total": 65,
+  "info": "cp ms 118 (OPTIMAL, 0.12s)",
+  "n": 35,
+  "outcome": "valid",
+  "s": 6.6,
+  "makespan": 112.031,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot1"
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_007",
+  "n_total": 55,
+  "info": "cp ms 132 (OPTIMAL, 0.10s)",
+  "n": 34,
+  "outcome": "valid",
+  "s": 6.22,
+  "makespan": 100.03,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot3",
+   "pot4"
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_008",
+  "n_total": 63,
+  "info": "cp ms 195 (OPTIMAL, 0.21s)",
+  "n": 29,
+  "outcome": "valid",
+  "s": 0.82,
+  "makespan": 204.051,
+  "cooks": [
+   "c1"
+  ],
+  "pots": [
+   "pot3"
+  ]
+ },
+ {
+  "instance": "stress_t1_medium_009",
+  "n_total": 51,
+  "info": "cp ms 145 (OPTIMAL, 0.05s)",
+  "n": 33,
+  "outcome": "valid",
+  "s": 12.97,
+  "makespan": 138.033,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot1"
+  ]
+ },
+ {
+  "instance": "stress_t2_large_000",
+  "n_total": 78,
+  "info": "cp ms 294 (OPTIMAL, 0.19s)",
+  "n": 36,
+  "outcome": "timeout",
+  "s": 15.04,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot1"
+  ]
+ },
+ {
+  "instance": "stress_t2_large_001",
+  "n_total": 80,
+  "info": "cp ms 282 (OPTIMAL, 0.32s)",
+  "n": 37,
+  "outcome": "timeout",
+  "s": 15.01,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "pots": [
+   "pot6"
+  ]
+ },
+ {
+  "instance": "stress_t2_large_002",
+  "n_total": 72,
+  "info": "cp ms 238 (OPTIMAL, 0.32s)",
+  "n": 34,
+  "outcome": "timeout",
+  "s": 15.02,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot1",
+   "pot3"
+  ]
+ },
+ {
+  "instance": "stress_t2_large_003",
+  "n_total": 88,
+  "info": "cp ms 250 (OPTIMAL, 0.34s)",
+  "n": 40,
+  "outcome": "timeout",
+  "s": 15.03,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "pots": [
+   "pot5"
+  ]
+ },
+ {
+  "instance": "stress_t2_large_004",
+  "n_total": 73,
+  "info": "cp ms 183 (OPTIMAL, 0.41s)",
+  "n": 36,
+  "outcome": "timeout",
+  "s": 15.01,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot3"
+  ]
+ },
+ {
+  "instance": "stress_t2_large_005",
+  "n_total": 89,
+  "info": "cp ms 175 (OPTIMAL, 0.42s)",
+  "n": 43,
+  "outcome": "timeout",
+  "s": 15.0,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot5"
+  ]
+ },
+ {
+  "instance": "stress_t2_large_006",
+  "n_total": 76,
+  "info": "cp ms 236 (OPTIMAL, 0.44s)",
+  "n": 39,
+  "outcome": "timeout",
+  "s": 15.02,
+  "makespan": null,
+  "cooks": [
+   "c1"
+  ],
+  "pots": [
+   "pot2",
+   "pot5"
+  ]
+ },
+ {
+  "instance": "stress_t2_large_007",
+  "n_total": 74,
+  "info": "cp ms 258 (OPTIMAL, 0.19s)",
+  "n": 33,
+  "outcome": "timeout",
+  "s": 15.03,
+  "makespan": null,
+  "cooks": [
+   "c1"
+  ],
+  "pots": [
+   "pot5"
+  ]
+ },
+ {
+  "instance": "stress_t2_large_008",
+  "n_total": 73,
+  "info": "cp ms 191 (OPTIMAL, 0.26s)",
+  "n": 41,
+  "outcome": "timeout",
+  "s": 15.02,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "pots": [
+   "pot1",
+   "pot2"
+  ]
+ },
+ {
+  "instance": "stress_t2_large_009",
+  "n_total": 85,
+  "info": "cp ms 177 (OPTIMAL, 0.20s)",
+  "n": 39,
+  "outcome": "timeout",
+  "s": 14.96,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3",
+   "c4"
+  ],
+  "pots": [
+   "pot1",
+   "pot6"
+  ]
+ },
+ {
+  "instance": "stress_t3_xl_000",
+  "n_total": 120,
+  "info": "cp ms 414 (FEASIBLE, 5.02s)",
+  "n": 58,
+  "outcome": "timeout",
+  "s": 15.01,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3",
+   "c5"
+  ],
+  "pots": [
+   "pot6",
+   "pot7"
+  ]
+ },
+ {
+  "instance": "stress_t3_xl_001",
+  "n_total": 120,
+  "info": "cp ms 215 (OPTIMAL, 1.44s)",
+  "n": 40,
+  "outcome": "timeout",
+  "s": 15.01,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot10",
+   "pot4"
+  ]
+ },
+ {
+  "instance": "stress_t3_xl_002",
+  "n_total": 105,
+  "info": "cp ms 215 (OPTIMAL, 1.32s)",
+  "n": 49,
+  "outcome": "timeout",
+  "s": 15.02,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "pots": [
+   "pot1",
+   "pot5"
+  ]
+ },
+ {
+  "instance": "stress_t3_xl_003",
+  "n_total": 104,
+  "info": "cp ms 312 (OPTIMAL, 2.24s)",
+  "n": 42,
+  "outcome": "timeout",
+  "s": 15.03,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3",
+   "c5"
+  ],
+  "pots": [
+   "pot1"
+  ]
+ },
+ {
+  "instance": "stress_t3_xl_004",
+  "n_total": 96,
+  "info": "cp ms 279 (OPTIMAL, 4.77s)",
+  "n": 52,
+  "outcome": "timeout",
+  "s": 15.02,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "pots": [
+   "pot1",
+   "pot2"
+  ]
+ },
+ {
+  "instance": "stress_t3_xl_005",
+  "n_total": 96,
+  "info": "cp ms 212 (OPTIMAL, 0.56s)",
+  "n": 37,
+  "outcome": "timeout",
+  "s": 15.04,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "pots": [
+   "pot5",
+   "pot9"
+  ]
+ },
+ {
+  "instance": "stress_t3_xl_006",
+  "n_total": 116,
+  "info": "cp ms 264 (OPTIMAL, 4.19s)",
+  "n": 34,
+  "outcome": "timeout",
+  "s": 14.98,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c4"
+  ],
+  "pots": [
+   "pot5"
+  ]
+ },
+ {
+  "instance": "stress_t3_xl_007",
+  "n_total": 119,
+  "info": "cp ms 332 (OPTIMAL, 1.36s)",
+  "n": 52,
+  "outcome": "timeout",
+  "s": 15.02,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3",
+   "c4"
+  ],
+  "pots": [
+   "pot1",
+   "pot5"
+  ]
+ },
+ {
+  "instance": "stress_t3_xl_008",
+  "n_total": 112,
+  "info": "cp ms 227 (OPTIMAL, 0.87s)",
+  "n": 48,
+  "outcome": "timeout",
+  "s": 15.0,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c4"
+  ],
+  "pots": [
+   "pot7",
+   "pot8"
+  ]
+ },
+ {
+  "instance": "stress_t3_xl_009",
+  "n_total": 102,
+  "info": "cp ms 291 (OPTIMAL, 4.01s)",
+  "n": 37,
+  "outcome": "timeout",
+  "s": 15.04,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c3"
+  ],
+  "pots": [
+   "pot1"
+  ]
+ },
+ {
+  "instance": "stress_t4_split_000",
+  "n_total": 83,
+  "info": "cp ms 184 (OPTIMAL, 0.24s)",
+  "n": 37,
+  "outcome": "timeout",
+  "s": 15.04,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "pots": [
+   "pot4",
+   "pot5"
+  ]
+ },
+ {
+  "instance": "stress_t4_split_001",
+  "n_total": 85,
+  "info": "cp INFEASIBLE",
+  "outcome": "no_selection"
+ },
+ {
+  "instance": "stress_t4_split_002",
+  "n_total": 89,
+  "info": "cp ms 157 (OPTIMAL, 0.08s)",
+  "n": 33,
+  "outcome": "timeout",
+  "s": 15.05,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot2"
+  ]
+ },
+ {
+  "instance": "stress_t4_split_003",
+  "n_total": 70,
+  "info": "cp ms 126 (OPTIMAL, 0.08s)",
+  "n": 32,
+  "outcome": "valid",
+  "s": 6.05,
+  "makespan": 117.032,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot2",
+   "pot4"
+  ]
+ },
+ {
+  "instance": "stress_t4_split_004",
+  "n_total": 76,
+  "info": "cp ms 94 (OPTIMAL, 0.02s)",
+  "n": 24,
+  "outcome": "valid",
+  "s": 1.18,
+  "makespan": 96.035,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot5"
+  ]
+ },
+ {
+  "instance": "stress_t4_split_005",
+  "n_total": 81,
+  "info": "cp ms 256 (OPTIMAL, 0.07s)",
+  "n": 37,
+  "outcome": "timeout",
+  "s": 15.03,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c3"
+  ],
+  "pots": [
+   "pot1",
+   "pot3"
+  ]
+ },
+ {
+  "instance": "stress_t4_split_006",
+  "n_total": 82,
+  "info": "cp ms 149 (OPTIMAL, 0.36s)",
+  "n": 44,
+  "outcome": "timeout",
+  "s": 15.03,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c4"
+  ],
+  "pots": [
+   "pot3",
+   "pot5"
+  ]
+ },
+ {
+  "instance": "stress_t4_split_007",
+  "n_total": 98,
+  "info": "cp ms 178 (OPTIMAL, 0.03s)",
+  "n": 29,
+  "outcome": "timeout",
+  "s": 15.01,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot1"
+  ]
+ },
+ {
+  "instance": "stress_t4_split_008",
+  "n_total": 89,
+  "info": "cp ms 183 (OPTIMAL, 0.11s)",
+  "n": 36,
+  "outcome": "timeout",
+  "s": 15.02,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot1",
+   "pot2"
+  ]
+ },
+ {
+  "instance": "stress_t4_split_009",
+  "n_total": 73,
+  "info": "cp ms 186 (OPTIMAL, 0.08s)",
+  "n": 30,
+  "outcome": "valid",
+  "s": 1.78,
+  "makespan": 203.071,
+  "cooks": [
+   "c1"
+  ],
+  "pots": [
+   "pot4",
+   "pot5"
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_000",
+  "n_total": 135,
+  "info": "cp ms 131 (OPTIMAL, 0.05s)",
+  "n": 35,
+  "outcome": "valid",
+  "s": 0.57,
+  "makespan": 125.031,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot1"
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_001",
+  "n_total": 175,
+  "info": "cp ms 177 (OPTIMAL, 0.20s)",
+  "n": 40,
+  "outcome": "timeout",
+  "s": 15.02,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "pots": [
+   "pot1"
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_002",
+  "n_total": 150,
+  "info": "cp ms 188 (OPTIMAL, 0.09s)",
+  "n": 42,
+  "outcome": "timeout",
+  "s": 15.02,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot2"
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_003",
+  "n_total": 131,
+  "info": "cp ms 284 (OPTIMAL, 0.15s)",
+  "n": 42,
+  "outcome": "timeout",
+  "s": 14.99,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot1",
+   "pot2"
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_004",
+  "n_total": 117,
+  "info": "cp ms 130 (OPTIMAL, 0.07s)",
+  "n": 31,
+  "outcome": "valid",
+  "s": 1.84,
+  "makespan": 138.033,
+  "cooks": [
+   "c1"
+  ],
+  "pots": [
+   "pot1"
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_005",
+  "n_total": 138,
+  "info": "cp INFEASIBLE",
+  "outcome": "no_selection"
+ },
+ {
+  "instance": "stress_t5_counters_006",
+  "n_total": 135,
+  "info": "cp ms 277 (OPTIMAL, 0.17s)",
+  "n": 42,
+  "outcome": "timeout",
+  "s": 15.02,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "pots": [
+   "pot1"
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_007",
+  "n_total": 140,
+  "info": "cp ms 217 (OPTIMAL, 0.23s)",
+  "n": 44,
+  "outcome": "timeout",
+  "s": 14.98,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot1",
+   "pot5"
+  ]
+ },
+ {
+  "instance": "stress_t5_counters_008",
+  "n_total": 124,
+  "info": "cp INFEASIBLE",
+  "outcome": "no_selection"
+ },
+ {
+  "instance": "stress_t5_counters_009",
+  "n_total": 151,
+  "info": "cp ms 121 (OPTIMAL, 0.07s)",
+  "n": 31,
+  "outcome": "valid",
+  "s": 5.17,
+  "makespan": 112.031,
+  "cooks": [
+   "c1",
+   "c3"
+  ],
+  "pots": [
+   "pot2"
+  ]
+ },
+ {
+  "instance": "stress_t6_many_orders_000",
+  "n_total": 70,
+  "info": "cp ms 250 (OPTIMAL, 0.53s)",
+  "n": 38,
+  "outcome": "timeout",
+  "s": 15.0,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot2"
+  ]
+ },
+ {
+  "instance": "stress_t6_many_orders_001",
+  "n_total": 72,
+  "info": "cp ms 455 (OPTIMAL, 3.68s)",
+  "n": 43,
+  "outcome": "timeout",
+  "s": 15.01,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c3",
+   "c4"
+  ],
+  "pots": [
+   "pot3",
+   "pot4"
+  ]
+ },
+ {
+  "instance": "stress_t6_many_orders_002",
+  "n_total": 71,
+  "info": "cp ms 361 (OPTIMAL, 0.73s)",
+  "n": 37,
+  "outcome": "timeout",
+  "s": 15.03,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot4"
+  ]
+ },
+ {
+  "instance": "stress_t6_many_orders_003",
+  "n_total": 71,
+  "info": "cp ms 294 (OPTIMAL, 1.24s)",
+  "n": 37,
+  "outcome": "timeout",
+  "s": 15.01,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c4"
+  ],
+  "pots": [
+   "pot2"
+  ]
+ },
+ {
+  "instance": "stress_t6_many_orders_004",
+  "n_total": 76,
+  "info": "cp ms 339 (OPTIMAL, 2.15s)",
+  "n": 43,
+  "outcome": "timeout",
+  "s": 15.05,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot4"
+  ]
+ },
+ {
+  "instance": "stress_t6_many_orders_005",
+  "n_total": 68,
+  "info": "cp ms 320 (OPTIMAL, 1.90s)",
+  "n": 43,
+  "outcome": "timeout",
+  "s": 14.96,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3"
+  ],
+  "pots": [
+   "pot1"
+  ]
+ },
+ {
+  "instance": "stress_t6_many_orders_006",
+  "n_total": 70,
+  "info": "cp ms 355 (OPTIMAL, 1.69s)",
+  "n": 42,
+  "outcome": "timeout",
+  "s": 15.01,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot3",
+   "pot4"
+  ]
+ },
+ {
+  "instance": "stress_t6_many_orders_007",
+  "n_total": 66,
+  "info": "cp ms 285 (OPTIMAL, 0.99s)",
+  "n": 42,
+  "outcome": "timeout",
+  "s": 15.02,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot1",
+   "pot5"
+  ]
+ },
+ {
+  "instance": "stress_t6_many_orders_008",
+  "n_total": 82,
+  "info": "cp ms 272 (OPTIMAL, 1.08s)",
+  "n": 51,
+  "outcome": "timeout",
+  "s": 15.01,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2",
+   "c3",
+   "c4"
+  ],
+  "pots": [
+   "pot1",
+   "pot5",
+   "pot6"
+  ]
+ },
+ {
+  "instance": "stress_t6_many_orders_009",
+  "n_total": 72,
+  "info": "cp ms 383 (OPTIMAL, 0.39s)",
+  "n": 41,
+  "outcome": "timeout",
+  "s": 15.03,
+  "makespan": null,
+  "cooks": [
+   "c1",
+   "c2"
+  ],
+  "pots": [
+   "pot1",
+   "pot6"
+  ]
+ }
+]

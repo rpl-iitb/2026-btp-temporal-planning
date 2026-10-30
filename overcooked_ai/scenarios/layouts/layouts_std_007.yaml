@@ -1,0 +1,11 @@
+scenario_id: layouts_std_007
+seed: 8
+counters: shared
+layout: {name: asymmetric_advantages}
+cooks: 1
+pots: 2
+description: asymmetric_advantages, 1 cooks, 1 orders, deadlines = ceil(1.15 x certificate)
+orders:
+- recipe: {onion: 3}
+  deadline: 50
+sim: {cook_time: 20}

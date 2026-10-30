@@ -1,0 +1,65 @@
+stress_t1_medium_000 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 0.44, 'makespan': 156.039, 'n': 28} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 0.73, 'makespan': 144.033, 'n': 25}
+stress_t1_medium_004 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 0.44, 'makespan': 149.053, 'n': 21} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 0.43, 'makespan': 149.053, 'n': 21}
+stress_t1_medium_002 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 4.4, 'makespan': 155.032, 'n': 29} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 0.29, 'makespan': 177.04, 'n': 26}
+stress_t1_medium_001 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 2.63, 'makespan': 185.05, 'n': 27} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 2.35, 'makespan': 185.05, 'n': 27}
+stress_t1_medium_003 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 3.04, 'makespan': 239.05, 'n': 27} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 2.93, 'makespan': 239.05, 'n': 27}
+stress_t1_medium_007 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 0.25, 'makespan': 136.033, 'n': 22} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 0.23, 'makespan': 136.033, 'n': 22}
+stress_t1_medium_006 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 0.31, 'makespan': 154.03, 'n': 29} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 0.39, 'makespan': 174.034, 'n': 26}
+stress_t1_medium_008 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 0.71, 'makespan': 204.051, 'n': 26} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 0.7, 'makespan': 204.051, 'n': 26}
+stress_t1_medium_009 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 2.96, 'makespan': 138.033, 'n': 28} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 2.81, 'makespan': 138.033, 'n': 28}
+stress_t2_large_002 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 0.8, 'makespan': 334.071, 'n': 24} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 0.73, 'makespan': 334.071, 'n': 24}
+stress_t2_large_003 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 6.53, 'makespan': 248.067, 'n': 28} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 6.43, 'makespan': 248.067, 'n': 28}
+stress_t2_large_004 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 3.32, 'makespan': 189.05, 'n': 27} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 3.17, 'makespan': 189.05, 'n': 27}
+stress_t1_medium_005 GNN {'solved': True, 'rank': 2, 'tried': 3, 't': 18.89, 'makespan': 174.043, 'n': 26} | LB {'solved': True, 'rank': 2, 'tried': 3, 't': 18.96, 'makespan': 174.043, 'n': 26}
+stress_t2_large_001 GNN {'solved': True, 'rank': 1, 'tried': 2, 't': 16.71, 'makespan': 308.067, 'n': 28} | LB {'solved': True, 'rank': 1, 'tried': 2, 't': 16.65, 'makespan': 308.067, 'n': 28}
+stress_t2_large_000 GNN {'solved': True, 'rank': 1, 'tried': 2, 't': 16.83, 'makespan': 307.067, 'n': 28} | LB {'solved': True, 'rank': 1, 'tried': 2, 't': 17.28, 'makespan': 307.067, 'n': 28}
+stress_t2_large_005 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 0.52, 'makespan': 244.057, 'n': 26} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 0.51, 'makespan': 244.057, 'n': 26}
+stress_t2_large_006 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 8.03, 'makespan': 297.067, 'n': 28} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 8.53, 'makespan': 297.067, 'n': 28}
+stress_t2_large_007 GNN {'solved': True, 'rank': 2, 'tried': 3, 't': 20.01, 'makespan': 316.058, 'n': 27} | LB {'solved': True, 'rank': 2, 'tried': 3, 't': 19.91, 'makespan': 316.058, 'n': 27}
+stress_t2_large_008 GNN {'solved': True, 'rank': 2, 'tried': 3, 't': 20.77, 'makespan': 236.05, 'n': 26} | LB {'solved': True, 'rank': 2, 'tried': 3, 't': 20.2, 'makespan': 236.05, 'n': 26}
+stress_t2_large_009 GNN {'solved': True, 'rank': 2, 'tried': 3, 't': 19.48, 'makespan': 173.05, 'n': 26} | LB {'solved': True, 'rank': 2, 'tried': 3, 't': 20.3, 'makespan': 173.05, 'n': 26}
+stress_t3_xl_000 GNN {'solved': True, 'rank': 1, 'tried': 2, 't': 13.64, 'makespan': 491.108, 'n': 30} | LB {'solved': True, 'rank': 1, 'tried': 2, 't': 14.12, 'makespan': 491.108, 'n': 30}
+stress_t3_xl_001 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 8.38, 'makespan': 290.067, 'n': 28} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 8.46, 'makespan': 290.067, 'n': 28}
+stress_t3_xl_005 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 0.79, 'makespan': 259.071, 'n': 23} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 0.82, 'makespan': 259.071, 'n': 23}
+stress_t3_xl_006 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 4.48, 'makespan': 335.108, 'n': 28} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 4.64, 'makespan': 335.108, 'n': 28}
+stress_t3_xl_002 GNN {'solved': False, 'tried': 5, 't': 28.05} | LB {'solved': False, 'tried': 5, 't': 30.03}
+stress_t3_xl_003 GNN {'solved': False, 'tried': 5, 't': 27.97} | LB {'solved': False, 'tried': 5, 't': 30.09}
+stress_t3_xl_004 GNN {'solved': False, 'tried': 5, 't': 29.78} | LB {'solved': False, 'tried': 5, 't': 30.21}
+stress_t4_split_000 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 1.71, 'makespan': 199.05, 'n': 23} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 1.88, 'makespan': 199.05, 'n': 23}
+stress_t4_split_001 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 2.37, 'makespan': 204.05, 'n': 27} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 2.48, 'makespan': 204.05, 'n': 27}
+stress_t4_split_002 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 3.73, 'makespan': 156.05, 'n': 24} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 3.56, 'makespan': 156.05, 'n': 24}
+stress_t4_split_003 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 0.9, 'makespan': 135.029, 'n': 25} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 0.27, 'makespan': 175.037, 'n': 22}
+stress_t4_split_004 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 0.53, 'makespan': 94.033, 'n': 21} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 0.56, 'makespan': 94.033, 'n': 21}
+stress_t3_xl_007 GNN {'solved': False, 'tried': 9, 't': 29.26} | LB {'solved': False, 'tried': 10, 't': 30.02}
+stress_t4_split_006 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 4.9, 'makespan': 150.046, 'n': 30} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 4.06, 'makespan': 150.046, 'n': 30}
+stress_t4_split_007 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 0.46, 'makespan': 183.051, 'n': 23} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 0.45, 'makespan': 183.051, 'n': 23}
+stress_t4_split_008 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 4.1, 'makespan': 196.05, 'n': 27} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 3.38, 'makespan': 196.05, 'n': 27}
+stress_t3_xl_009 GNN {'solved': False, 'tried': 5, 't': 29.24} | LB {'solved': False, 'tried': 5, 't': 30.02}
+stress_t3_xl_008 GNN {'solved': False, 'tried': 5, 't': 29.31} | LB {'solved': False, 'tried': 5, 't': 30.1}
+stress_t4_split_009 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 8.51, 'makespan': 193.067, 'n': 24} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 9.34, 'makespan': 193.067, 'n': 24}
+stress_t4_split_005 GNN {'solved': False, 'tried': 5, 't': 29.82} | LB {'solved': False, 'tried': 5, 't': 30.59}
+stress_t5_counters_001 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 0.93, 'makespan': 176.05, 'n': 23} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 0.91, 'makespan': 176.05, 'n': 23}
+stress_t5_counters_002 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 11.25, 'makespan': 204.05, 'n': 27} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 9.08, 'makespan': 204.05, 'n': 27}
+stress_t5_counters_004 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 6.63, 'makespan': 126.033, 'n': 26} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 0.89, 'makespan': 126.033, 'n': 26}
+stress_t5_counters_000 GNN {'solved': True, 'rank': 2, 'tried': 3, 't': 21.77, 'makespan': 125.031, 'n': 29} | LB {'solved': True, 'rank': 2, 'tried': 3, 't': 19.76, 'makespan': 125.031, 'n': 29}
+stress_t5_counters_003 GNN {'solved': False, 'tried': 4, 't': 24.08} | LB {'solved': False, 'tried': 5, 't': 30.04}
+stress_t5_counters_005 GNN {'solved': True, 'rank': 1, 'tried': 2, 't': 20.12, 'makespan': 195.05, 'n': 27} | LB {'solved': True, 'rank': 1, 'tried': 2, 't': 13.27, 'makespan': 195.05, 'n': 27}
+stress_t5_counters_009 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 0.79, 'makespan': 119.033, 'n': 26} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 0.86, 'makespan': 119.033, 'n': 26}
+stress_t6_many_orders_000 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 3.49, 'makespan': 263.102, 'n': 30} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 2.41, 'makespan': 263.102, 'n': 30}
+stress_t5_counters_008 GNN {'solved': True, 'rank': 2, 'tried': 3, 't': 18.16, 'makespan': 109.025, 'n': 25} | LB {'solved': True, 'rank': 2, 'tried': 3, 't': 18.49, 'makespan': 109.025, 'n': 25}
+stress_t5_counters_006 GNN {'solved': False, 'tried': 4, 't': 26.36} | LB {'solved': False, 'tried': 5, 't': 30.03}
+stress_t6_many_orders_001 GNN {'solved': True, 'rank': 0, 'tried': 1, 't': 8.38, 'makespan': 433.136, 'n': 32} | LB {'solved': True, 'rank': 0, 'tried': 1, 't': 8.95, 'makespan': 433.136, 'n': 32}
+stress_t5_counters_007 GNN {'solved': False, 'tried': 5, 't': 29.68} | LB {'solved': False, 'tried': 5, 't': 30.01}
+stress_t6_many_orders_002 GNN {'solved': False, 'tried': 5, 't': 29.59} | LB {'solved': False, 'tried': 5, 't': 30.02}
+stress_t6_many_orders_003 GNN {'solved': False, 'tried': 10, 't': 27.67} | LB {'solved': False, 'tried': 10, 't': 28.23}
+stress_t6_many_orders_004 GNN {'solved': False, 'tried': 5, 't': 29.85} | LB {'solved': False, 'tried': 5, 't': 30.02}
+stress_t6_many_orders_005 GNN {'solved': False, 'tried': 5, 't': 29.51} | LB {'solved': False, 'tried': 5, 't': 30.04}
+stress_t6_many_orders_006 GNN {'solved': False, 'tried': 5, 't': 28.98} | LB {'solved': False, 'tried': 5, 't': 30.03}
+stress_t6_many_orders_007 GNN {'solved': False, 'tried': 5, 't': 29.79} | LB {'solved': False, 'tried': 5, 't': 30.03}
+stress_t6_many_orders_008 GNN {'solved': False, 'tried': 5, 't': 29.72} | LB {'solved': False, 'tried': 5, 't': 30.02}
+stress_t6_many_orders_009 GNN {'solved': False, 'tried': 5, 't': 29.84} | LB {'solved': False, 'tried': 5, 't': 30.01}
+GNN order, one POPF at a time, 30 s: solved 42 / 60; mean POPF calls 2.58; mean time to plan 7.0 s
+LB  order, one POPF at a time, 30 s: solved 42 / 60; mean POPF calls 2.63; mean time to plan 6.5 s
+only GNN: []
+only LB:  []
+261 s -> /home/harshi/Desktop/BTP/temporal_planning/results/diagnostics/v5_sequential_stress.jsonl

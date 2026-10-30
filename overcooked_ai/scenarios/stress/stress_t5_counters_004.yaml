@@ -1,0 +1,12 @@
+scenario_id: stress_t5_counters_004
+seed: 9
+counters: all
+layout:
+  grid: [XXXOTXXXXXXX, P 3        P, X 1   P    S, S  2  D    X, X     P    X, X     X    X, XDXXXDXXPXOX]
+description: 12x7 kitchen, 3 cooks, 8 distractor stations, 2 orders, deadlines = ceil(1.15 x certificate)
+orders:
+- recipe: {onion: 2, tomato: 1}
+  deadline: 77
+- recipe: {onion: 3}
+  deadline: 153
+sim: {cook_time: 36}

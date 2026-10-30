@@ -1,0 +1,10 @@
+{
+  "rule0": {
+    "pre_compute": {},
+    "precond": {"pose-tile": [0, 1]},
+    "delete_objects": [],
+    "add_objects": [],
+    "delete_effects": {},
+    "add_effects": {"free": [1]}
+  }
+}

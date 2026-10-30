@@ -1,0 +1,1875 @@
+[
+ {
+  "instance": "stress_t1_medium_000",
+  "n": 57,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    25,
+    25,
+    25,
+    28,
+    28
+   ],
+   "first_s": 0.453710795999541,
+   "makespan": 144.033
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    25,
+    25,
+    25,
+    52,
+    28,
+    28
+   ],
+   "first_s": 0.453710795999541,
+   "makespan": 131.023
+  }
+ },
+ {
+  "instance": "stress_t1_medium_001",
+  "n": 53,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    27,
+    27,
+    27,
+    27,
+    30,
+    30
+   ],
+   "first_s": 2.952250073999494,
+   "makespan": 183.05
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    27,
+    27,
+    27,
+    33,
+    30,
+    30
+   ],
+   "first_s": 2.952250073999494,
+   "makespan": 185.05
+  }
+ },
+ {
+  "instance": "stress_t1_medium_002",
+  "n": 59,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    26,
+    26,
+    26,
+    26,
+    29,
+    29
+   ],
+   "first_s": 0.2370684050001728,
+   "makespan": 155.032
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    26,
+    26,
+    26,
+    56,
+    29,
+    29
+   ],
+   "first_s": 0.24911145499936538,
+   "makespan": 155.032
+  }
+ },
+ {
+  "instance": "stress_t1_medium_003",
+  "n": 59,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    27,
+    27,
+    30,
+    30,
+    30
+   ],
+   "first_s": 3.403194235999763,
+   "makespan": 162.041
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    27,
+    27,
+    33,
+    30,
+    30,
+    30
+   ],
+   "first_s": 3.403194235999763,
+   "makespan": 162.041
+  }
+ },
+ {
+  "instance": "stress_t1_medium_004",
+  "n": 44,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    21,
+    21,
+    22,
+    23,
+    30
+   ],
+   "first_s": 0.3893183560003308,
+   "makespan": 140.049
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    21,
+    21,
+    22,
+    31,
+    23,
+    30
+   ],
+   "first_s": 0.3893183560003308,
+   "makespan": 140.049
+  }
+ },
+ {
+  "instance": "stress_t1_medium_005",
+  "n": 54,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 3,
+   "sizes": [
+    23,
+    23,
+    26
+   ],
+   "first_s": 1.8340024630006155,
+   "makespan": 174.043
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 4,
+   "sizes": [
+    23,
+    23,
+    29,
+    26
+   ],
+   "first_s": 1.8340024630006155,
+   "makespan": 174.043
+  }
+ },
+ {
+  "instance": "stress_t1_medium_006",
+  "n": 65,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    26,
+    26,
+    26,
+    26,
+    29,
+    29
+   ],
+   "first_s": 0.23519761600073252,
+   "makespan": 117.032
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    26,
+    26,
+    26,
+    62,
+    29,
+    29
+   ],
+   "first_s": 0.23519761600073252,
+   "makespan": 99.018
+  }
+ },
+ {
+  "instance": "stress_t1_medium_007",
+  "n": 55,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    22,
+    22,
+    22,
+    22,
+    25,
+    25
+   ],
+   "first_s": 0.20688656699985586,
+   "makespan": 134.03
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    22,
+    22,
+    22,
+    47,
+    25,
+    25
+   ],
+   "first_s": 0.20688656699985586,
+   "makespan": 134.03
+  }
+ },
+ {
+  "instance": "stress_t1_medium_008",
+  "n": 63,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    26,
+    25,
+    27,
+    26,
+    27,
+    29
+   ],
+   "first_s": 0.5594652669997231,
+   "makespan": 204.051
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    26,
+    25,
+    27,
+    54,
+    27,
+    29
+   ],
+   "first_s": 0.5594652669997231,
+   "makespan": 204.051
+  }
+ },
+ {
+  "instance": "stress_t1_medium_009",
+  "n": 51,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    25,
+    26,
+    25,
+    26,
+    28
+   ],
+   "first_s": 0.8924660330003462,
+   "makespan": 136.033
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    25,
+    26,
+    30,
+    28,
+    25,
+    26
+   ],
+   "first_s": 0.8924660330003462,
+   "makespan": 136.033
+  }
+ },
+ {
+  "instance": "stress_t2_large_000",
+  "n": 78,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    28,
+    28,
+    28,
+    28,
+    31
+   ],
+   "first_s": 9.502515721000236,
+   "makespan": 307.067
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    33,
+    31,
+    28,
+    28
+   ],
+   "first_s": 9.502515721000236,
+   "makespan": 307.067
+  }
+ },
+ {
+  "instance": "stress_t2_large_001",
+  "n": 80,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    28,
+    33,
+    31
+   ],
+   "first_s": 9.822382045999802,
+   "makespan": 293.067
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    37,
+    33,
+    31
+   ],
+   "first_s": 9.822382045999802,
+   "makespan": 293.067
+  }
+ },
+ {
+  "instance": "stress_t2_large_002",
+  "n": 72,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    24,
+    22,
+    24,
+    24,
+    25,
+    27
+   ],
+   "first_s": 0.8514240710001104,
+   "makespan": 271.058
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    24,
+    22,
+    24,
+    33,
+    25,
+    27
+   ],
+   "first_s": 0.8514240710001104,
+   "makespan": 271.058
+  }
+ },
+ {
+  "instance": "stress_t2_large_003",
+  "n": 88,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    28,
+    31,
+    31
+   ],
+   "first_s": 9.304351791000045,
+   "makespan": 248.067
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    43,
+    31,
+    31
+   ],
+   "first_s": 9.304351791000045,
+   "makespan": 248.067
+  }
+ },
+ {
+  "instance": "stress_t2_large_004",
+  "n": 73,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    27,
+    27,
+    27,
+    27,
+    30
+   ],
+   "first_s": 0.6130192250002438,
+   "makespan": 174.05
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    32,
+    27,
+    27,
+    27,
+    27,
+    30
+   ],
+   "first_s": 0.6130192250002438,
+   "makespan": 174.05
+  }
+ },
+ {
+  "instance": "stress_t2_large_005",
+  "n": 89,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    26,
+    27,
+    27,
+    26,
+    29,
+    29
+   ],
+   "first_s": 0.6317528139998103,
+   "makespan": 244.057
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    26,
+    27,
+    27,
+    40,
+    29,
+    30
+   ],
+   "first_s": 0.6317528139998103,
+   "makespan": 244.057
+  }
+ },
+ {
+  "instance": "stress_t2_large_006",
+  "n": 76,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    28,
+    28,
+    30,
+    30,
+    31
+   ],
+   "first_s": 6.56235838900011,
+   "makespan": 258.059
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    33,
+    31,
+    30,
+    30
+   ],
+   "first_s": 6.56235838900011,
+   "makespan": 258.059
+  }
+ },
+ {
+  "instance": "stress_t2_large_007",
+  "n": 74,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    24,
+    24,
+    24,
+    24,
+    27
+   ],
+   "first_s": 4.300790154000424,
+   "makespan": 316.058
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    24,
+    24,
+    46,
+    27,
+    24,
+    24
+   ],
+   "first_s": 4.300790154000424,
+   "makespan": 316.058
+  }
+ },
+ {
+  "instance": "stress_t2_large_008",
+  "n": 73,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    26,
+    27,
+    27,
+    27,
+    30,
+    35
+   ],
+   "first_s": 4.031486617000155,
+   "makespan": 236.05
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    26,
+    27,
+    27,
+    33,
+    30,
+    35
+   ],
+   "first_s": 4.031486617000155,
+   "makespan": 236.05
+  }
+ },
+ {
+  "instance": "stress_t2_large_009",
+  "n": 85,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    25,
+    26,
+    26,
+    26,
+    28,
+    35
+   ],
+   "first_s": 3.2100245879992144,
+   "makespan": 173.05
+  },
+  "V5": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    25,
+    26,
+    26,
+    57,
+    28,
+    35
+   ],
+   "first_s": null,
+   "makespan": null
+  }
+ },
+ {
+  "instance": "stress_t3_xl_000",
+  "n": 120,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    30,
+    30,
+    30,
+    37,
+    35,
+    33
+   ],
+   "first_s": 5.770659630000409,
+   "makespan": 491.108
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    30,
+    30,
+    30,
+    49,
+    35,
+    33
+   ],
+   "first_s": 5.770659630000409,
+   "makespan": 491.108
+  }
+ },
+ {
+  "instance": "stress_t3_xl_001",
+  "n": 120,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    28,
+    31,
+    31
+   ],
+   "first_s": 12.492418186000577,
+   "makespan": 287.067
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    95,
+    31,
+    31
+   ],
+   "first_s": 12.612368711999807,
+   "makespan": 287.067
+  }
+ },
+ {
+  "instance": "stress_t3_xl_002",
+  "n": 105,
+  "V4.2": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    28,
+    31,
+    33
+   ],
+   "first_s": null,
+   "makespan": null
+  },
+  "V5": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    37,
+    31,
+    33
+   ],
+   "first_s": null,
+   "makespan": null
+  }
+ },
+ {
+  "instance": "stress_t3_xl_003",
+  "n": 104,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    29,
+    27,
+    28,
+    29,
+    33
+   ],
+   "first_s": 2.460913010000695,
+   "makespan": 348.084
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    29,
+    27,
+    89,
+    29,
+    33
+   ],
+   "first_s": 2.460913010000695,
+   "makespan": 348.084
+  }
+ },
+ {
+  "instance": "stress_t3_xl_004",
+  "n": 96,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    30,
+    33,
+    31
+   ],
+   "first_s": 10.14518544999919,
+   "makespan": 302.067
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    36,
+    33,
+    31
+   ],
+   "first_s": 10.14518544999919,
+   "makespan": 302.067
+  }
+ },
+ {
+  "instance": "stress_t3_xl_005",
+  "n": 96,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    23,
+    23,
+    23,
+    23,
+    26,
+    26
+   ],
+   "first_s": 0.8508722270007638,
+   "makespan": 201.054
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    23,
+    23,
+    23,
+    31,
+    26,
+    26
+   ],
+   "first_s": 0.8508722270007638,
+   "makespan": 201.054
+  }
+ },
+ {
+  "instance": "stress_t3_xl_006",
+  "n": 116,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    29,
+    28,
+    28,
+    31,
+    31
+   ],
+   "first_s": 5.194634433000829,
+   "makespan": 335.108
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    29,
+    28,
+    41,
+    31,
+    31
+   ],
+   "first_s": 5.194634433000829,
+   "makespan": 335.108
+  }
+ },
+ {
+  "instance": "stress_t3_xl_007",
+  "n": 119,
+  "V4.2": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    30,
+    30,
+    29,
+    30,
+    33,
+    32
+   ],
+   "first_s": null,
+   "makespan": null
+  },
+  "V5": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    30,
+    30,
+    29,
+    101,
+    33,
+    32
+   ],
+   "first_s": null,
+   "makespan": null
+  }
+ },
+ {
+  "instance": "stress_t3_xl_008",
+  "n": 112,
+  "V4.2": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    28,
+    33,
+    33
+   ],
+   "first_s": null,
+   "makespan": null
+  },
+  "V5": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    40,
+    33,
+    33
+   ],
+   "first_s": null,
+   "makespan": null
+  }
+ },
+ {
+  "instance": "stress_t3_xl_009",
+  "n": 102,
+  "V4.2": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    28,
+    31,
+    33
+   ],
+   "first_s": null,
+   "makespan": null
+  },
+  "V5": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    37,
+    31,
+    33
+   ],
+   "first_s": null,
+   "makespan": null
+  }
+ },
+ {
+  "instance": "stress_t4_split_000",
+  "n": 83,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    23,
+    23,
+    23,
+    26,
+    26
+   ],
+   "first_s": 2.803973751999365,
+   "makespan": 175.044
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    23,
+    23,
+    23,
+    41,
+    26,
+    26
+   ],
+   "first_s": 2.803973751999365,
+   "makespan": 175.044
+  }
+ },
+ {
+  "instance": "stress_t4_split_001",
+  "n": 85,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    27,
+    27,
+    27,
+    27,
+    30,
+    30
+   ],
+   "first_s": 3.3454188820005584,
+   "makespan": 204.05
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    27,
+    27,
+    27,
+    60,
+    30,
+    30
+   ],
+   "first_s": 3.4647710910003298,
+   "makespan": 204.05
+  }
+ },
+ {
+  "instance": "stress_t4_split_002",
+  "n": 89,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    24,
+    25,
+    24,
+    25,
+    27
+   ],
+   "first_s": 4.639303061000646,
+   "makespan": 140.044
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    24,
+    25,
+    47,
+    27,
+    24,
+    25
+   ],
+   "first_s": 4.639303061000646,
+   "makespan": 140.044
+  }
+ },
+ {
+  "instance": "stress_t4_split_003",
+  "n": 70,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 3,
+   "sizes": [
+    22,
+    22,
+    25
+   ],
+   "first_s": 0.1864260419997663,
+   "makespan": 135.029
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 4,
+   "sizes": [
+    22,
+    22,
+    31,
+    25
+   ],
+   "first_s": 0.1864260419997663,
+   "makespan": 135.029
+  }
+ },
+ {
+  "instance": "stress_t4_split_004",
+  "n": 76,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 3,
+   "sizes": [
+    21,
+    21,
+    24
+   ],
+   "first_s": 0.6345889990006981,
+   "makespan": 94.033
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 4,
+   "sizes": [
+    21,
+    21,
+    51,
+    24
+   ],
+   "first_s": 0.6345889990006981,
+   "makespan": 94.033
+  }
+ },
+ {
+  "instance": "stress_t4_split_005",
+  "n": 81,
+  "V4.2": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    28,
+    31,
+    31
+   ],
+   "first_s": null,
+   "makespan": null
+  },
+  "V5": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    57,
+    31,
+    31
+   ],
+   "first_s": null,
+   "makespan": null
+  }
+ },
+ {
+  "instance": "stress_t4_split_006",
+  "n": 82,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    27,
+    27,
+    27,
+    27,
+    30,
+    30
+   ],
+   "first_s": 5.062027508999563,
+   "makespan": 148.046
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    36,
+    27,
+    27,
+    27,
+    27,
+    30
+   ],
+   "first_s": 5.062027508999563,
+   "makespan": 150.046
+  }
+ },
+ {
+  "instance": "stress_t4_split_007",
+  "n": 98,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    23,
+    23,
+    23,
+    23,
+    26,
+    26
+   ],
+   "first_s": 0.4292957390007359,
+   "makespan": 160.043
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    23,
+    23,
+    23,
+    69,
+    26,
+    26
+   ],
+   "first_s": 0.43634887200005323,
+   "makespan": 160.043
+  }
+ },
+ {
+  "instance": "stress_t4_split_008",
+  "n": 89,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 3,
+   "sizes": [
+    27,
+    27,
+    30
+   ],
+   "first_s": 3.5112829390000115,
+   "makespan": 196.05
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 4,
+   "sizes": [
+    27,
+    27,
+    54,
+    30
+   ],
+   "first_s": 3.5112829390000115,
+   "makespan": 196.05
+  }
+ },
+ {
+  "instance": "stress_t4_split_009",
+  "n": 73,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 4,
+   "sizes": [
+    24,
+    24,
+    24,
+    29
+   ],
+   "first_s": 5.7870297529998425,
+   "makespan": 193.067
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    24,
+    24,
+    50,
+    29,
+    24
+   ],
+   "first_s": 5.7870297529998425,
+   "makespan": 193.067
+  }
+ },
+ {
+  "instance": "stress_t5_counters_000",
+  "n": 135,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    26,
+    26,
+    26,
+    26,
+    29
+   ],
+   "first_s": 0.4983948440003587,
+   "makespan": 125.031
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    26,
+    26,
+    132,
+    29,
+    26,
+    26
+   ],
+   "first_s": 0.4983948440003587,
+   "makespan": 125.031
+  }
+ },
+ {
+  "instance": "stress_t5_counters_001",
+  "n": 175,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    23,
+    23,
+    23,
+    23,
+    26,
+    28
+   ],
+   "first_s": 0.3944857820006291,
+   "makespan": 171.045
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    23,
+    23,
+    23,
+    168,
+    26,
+    28
+   ],
+   "first_s": 0.3944857820006291,
+   "makespan": 171.045
+  }
+ },
+ {
+  "instance": "stress_t5_counters_002",
+  "n": 150,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    27,
+    27,
+    27,
+    27,
+    32
+   ],
+   "first_s": 1.8145424590002222,
+   "makespan": 199.047
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    27,
+    27,
+    124,
+    32,
+    27,
+    27
+   ],
+   "first_s": 1.8145424590002222,
+   "makespan": 199.047
+  }
+ },
+ {
+  "instance": "stress_t5_counters_003",
+  "n": 131,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    28,
+    28,
+    28,
+    28,
+    31
+   ],
+   "first_s": 10.485291218000384,
+   "makespan": 317.067
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    112,
+    31,
+    28,
+    28
+   ],
+   "first_s": 10.485291218000384,
+   "makespan": 317.067
+  }
+ },
+ {
+  "instance": "stress_t5_counters_004",
+  "n": 117,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    26,
+    26,
+    26,
+    26,
+    29,
+    29
+   ],
+   "first_s": 0.3788780129998486,
+   "makespan": 116.03
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    26,
+    26,
+    26,
+    115,
+    29,
+    29
+   ],
+   "first_s": 0.3788780129998486,
+   "makespan": 116.03
+  }
+ },
+ {
+  "instance": "stress_t5_counters_005",
+  "n": 138,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 3,
+   "sizes": [
+    27,
+    27,
+    32
+   ],
+   "first_s": 3.490037741999913,
+   "makespan": 195.05
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 4,
+   "sizes": [
+    27,
+    27,
+    111,
+    32
+   ],
+   "first_s": 3.490037741999913,
+   "makespan": 195.05
+  }
+ },
+ {
+  "instance": "stress_t5_counters_006",
+  "n": 135,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    27,
+    26,
+    26,
+    28,
+    30,
+    31
+   ],
+   "first_s": 13.868825571999878,
+   "makespan": 325.067
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    27,
+    26,
+    26,
+    125,
+    30,
+    31
+   ],
+   "first_s": 13.868825571999878,
+   "makespan": 325.067
+  }
+ },
+ {
+  "instance": "stress_t5_counters_007",
+  "n": 140,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    28,
+    31,
+    33
+   ],
+   "first_s": 10.863237585000206,
+   "makespan": 284.075
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    28,
+    28,
+    127,
+    31,
+    33
+   ],
+   "first_s": 10.863237585000206,
+   "makespan": 284.075
+  }
+ },
+ {
+  "instance": "stress_t5_counters_008",
+  "n": 124,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    22,
+    22,
+    22,
+    22,
+    25
+   ],
+   "first_s": 1.2205941069996697,
+   "makespan": 109.025
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    22,
+    22,
+    118,
+    25,
+    22,
+    22
+   ],
+   "first_s": 1.2205941069996697,
+   "makespan": 109.025
+  }
+ },
+ {
+  "instance": "stress_t5_counters_009",
+  "n": 151,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    26,
+    26,
+    26,
+    26,
+    29,
+    30
+   ],
+   "first_s": 0.5278082489994631,
+   "makespan": 113.026
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    26,
+    26,
+    26,
+    147,
+    29,
+    30
+   ],
+   "first_s": 0.5278082489994631,
+   "makespan": 113.026
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_000",
+  "n": 70,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 5,
+   "sizes": [
+    30,
+    30,
+    30,
+    33,
+    36
+   ],
+   "first_s": 3.255150851000508,
+   "makespan": 263.102
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    30,
+    30,
+    37,
+    36,
+    30,
+    33
+   ],
+   "first_s": 3.255150851000508,
+   "makespan": 263.102
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_001",
+  "n": 72,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    32,
+    31,
+    32,
+    32,
+    35,
+    35
+   ],
+   "first_s": 8.535998852000375,
+   "makespan": 433.136
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    32,
+    31,
+    32,
+    41,
+    35,
+    35
+   ],
+   "first_s": 8.535998852000375,
+   "makespan": 433.136
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_002",
+  "n": 71,
+  "V4.2": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    31,
+    30,
+    31,
+    31,
+    34,
+    35
+   ],
+   "first_s": 5.498628948999794,
+   "makespan": 387.119
+  },
+  "V5": {
+   "solved": true,
+   "n_seeds": 6,
+   "sizes": [
+    31,
+    30,
+    31,
+    43,
+    34,
+    35
+   ],
+   "first_s": 5.498628948999794,
+   "makespan": 387.119
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_003",
+  "n": 71,
+  "V4.2": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    30,
+    30,
+    31,
+    31,
+    31
+   ],
+   "first_s": null,
+   "makespan": null
+  },
+  "V5": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    28,
+    30,
+    30,
+    40,
+    31,
+    31
+   ],
+   "first_s": null,
+   "makespan": null
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_004",
+  "n": 76,
+  "V4.2": {
+   "solved": false,
+   "n_seeds": 5,
+   "sizes": [
+    32,
+    32,
+    32,
+    32,
+    35
+   ],
+   "first_s": null,
+   "makespan": null
+  },
+  "V5": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    32,
+    32,
+    37,
+    35,
+    32,
+    32
+   ],
+   "first_s": null,
+   "makespan": null
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_005",
+  "n": 68,
+  "V4.2": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    31,
+    31,
+    30,
+    31,
+    36,
+    45
+   ],
+   "first_s": null,
+   "makespan": null
+  },
+  "V5": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    31,
+    31,
+    30,
+    44,
+    36,
+    45
+   ],
+   "first_s": null,
+   "makespan": null
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_006",
+  "n": 70,
+  "V4.2": {
+   "solved": false,
+   "n_seeds": 5,
+   "sizes": [
+    30,
+    30,
+    30,
+    30,
+    33
+   ],
+   "first_s": null,
+   "makespan": null
+  },
+  "V5": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    30,
+    30,
+    33,
+    33,
+    30,
+    30
+   ],
+   "first_s": null,
+   "makespan": null
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_007",
+  "n": 66,
+  "V4.2": {
+   "solved": false,
+   "n_seeds": 5,
+   "sizes": [
+    30,
+    30,
+    30,
+    30,
+    33
+   ],
+   "first_s": null,
+   "makespan": null
+  },
+  "V5": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    30,
+    30,
+    33,
+    33,
+    30,
+    30
+   ],
+   "first_s": null,
+   "makespan": null
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_008",
+  "n": 82,
+  "V4.2": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    30,
+    30,
+    30,
+    30,
+    33,
+    33
+   ],
+   "first_s": null,
+   "makespan": null
+  },
+  "V5": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    30,
+    30,
+    30,
+    47,
+    33,
+    33
+   ],
+   "first_s": null,
+   "makespan": null
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_009",
+  "n": 72,
+  "V4.2": {
+   "solved": false,
+   "n_seeds": 5,
+   "sizes": [
+    29,
+    29,
+    29,
+    29,
+    32
+   ],
+   "first_s": null,
+   "makespan": null
+  },
+  "V5": {
+   "solved": false,
+   "n_seeds": 6,
+   "sizes": [
+    29,
+    29,
+    35,
+    32,
+    29,
+    29
+   ],
+   "first_s": null,
+   "makespan": null
+  }
+ }
+]

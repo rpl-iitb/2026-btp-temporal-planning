@@ -1,0 +1,129 @@
+{
+ "model": {
+  "n_node": 41,
+  "n_edge": 86,
+  "n_global": 4,
+  "heads": 4,
+  "hidden": 16,
+  "steps": 3,
+  "aggregate": "sum"
+ },
+ "vocab": {
+  "types": [
+   "cook",
+   "count",
+   "counter",
+   "dispenser",
+   "ingredient",
+   "item",
+   "object",
+   "order",
+   "pose",
+   "pot",
+   "recipe",
+   "serving",
+   "station",
+   "tile"
+  ],
+  "unary": [
+   "counter-empty",
+   "free",
+   "hand-empty",
+   "idle",
+   "is-zero",
+   "open",
+   "pending",
+   "pot-idle",
+   "served"
+  ],
+  "unary_fn": [
+   "cook-steps"
+  ],
+  "n_edge": 86,
+  "temporal": true
+ },
+ "temperature": [
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "combine": "v5",
+ "weights": [
+  1.0,
+  1.0
+ ],
+ "history": [
+  {
+   "epoch": 5,
+   "val": {
+    "loss": 1.1138465005617875,
+    "solve_acc": 0.7846153846153846,
+    "time_mae": 2.2673475502007356
+   }
+  },
+  {
+   "epoch": 10,
+   "val": {
+    "loss": 0.709073930978775,
+    "solve_acc": 0.8461538461538461,
+    "time_mae": 1.0716648705828733
+   }
+  },
+  {
+   "epoch": 15,
+   "val": {
+    "loss": 0.6155804166427026,
+    "solve_acc": 0.8307692307692308,
+    "time_mae": 0.9715503080948243
+   }
+  },
+  {
+   "epoch": 20,
+   "val": {
+    "loss": 0.5461045884169065,
+    "solve_acc": 0.8,
+    "time_mae": 0.7512312760638085
+   }
+  },
+  {
+   "epoch": 25,
+   "val": {
+    "loss": 0.5562862316003212,
+    "solve_acc": 0.8615384615384616,
+    "time_mae": 0.8187512823984519
+   }
+  },
+  {
+   "epoch": 30,
+   "val": {
+    "loss": 0.5554242003422517,
+    "solve_acc": 0.8769230769230769,
+    "time_mae": 0.8341623688254581
+   }
+  },
+  {
+   "epoch": 35,
+   "val": {
+    "loss": 0.48080929277034906,
+    "solve_acc": 0.9076923076923077,
+    "time_mae": 0.7746576076102618
+   }
+  },
+  {
+   "epoch": 40,
+   "val": {
+    "loss": 0.5257685271593241,
+    "solve_acc": 0.8923076923076924,
+    "time_mae": 0.9373241100430382
+   }
+  }
+ ],
+ "saved": "2026-10-24 15:28:03",
+ "method": "TIFLAX5",
+ "kind": "set scorer",
+ "train_seconds": 308.2,
+ "n_train_sets": 233,
+ "n_val_sets": 65,
+ "best_val_loss": 0.48080929277034906
+}

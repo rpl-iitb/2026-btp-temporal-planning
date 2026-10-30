@@ -1,0 +1,6 @@
+V4.2  seeds solved 48 / 60
+V5    seeds solved 47 / 60
+both solve 47; mean best seed makespan V4.2 220.1 vs V5 219.5; V5 shorter on 2, longer on 2
+only V4.2: ['stress_t2_large_009']
+only V5:   []
+1137 s -> /home/harshi/Desktop/BTP/temporal_planning/results/diagnostics/v5_seedtest_stress.json

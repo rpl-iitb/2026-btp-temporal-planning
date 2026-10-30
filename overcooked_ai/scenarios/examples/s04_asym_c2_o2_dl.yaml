@@ -1,0 +1,12 @@
+scenario_id: s04_asym_c2_o2_dl
+description: >
+  asymmetric_advantages: two regions, two pots reachable from both sides
+  (several interaction poses per pot), each region has its own onion
+  dispenser and serving window. Two orders with deadlines.
+layout: {name: asymmetric_advantages}
+cooks: 2
+orders:
+  - recipe: {onion: 3}
+    deadline: 70
+  - recipe: {onion: 3}
+    deadline: 70

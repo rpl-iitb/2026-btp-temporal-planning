@@ -1,0 +1,2 @@
+val_large: 12 kitchens (10 with a valid plan), 148 sets, 39 solved, 183 s -> /home/harshi/Desktop/BTP/temporal_planning/results/models/v6_labels_val_large.json
+train_large: 48 kitchens (37 with a valid plan), 622 sets, 153 solved, 774 s -> /home/harshi/Desktop/BTP/temporal_planning/results/models/v6_labels_train_large.json

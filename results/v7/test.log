@@ -1,0 +1,63 @@
+stress_t1_medium_002 {'solved': True, 'rank': 0, 'tried': 1, 't': 0.27, 'makespan': 178.04, 'n': 26}
+stress_t1_medium_000 {'solved': True, 'rank': 0, 'tried': 1, 't': 0.67, 'makespan': 146.033, 'n': 25}
+stress_t1_medium_004 {'solved': True, 'rank': 0, 'tried': 1, 't': 0.49, 'makespan': 149.053, 'n': 21}
+stress_t1_medium_001 {'solved': True, 'rank': 0, 'tried': 1, 't': 2.57, 'makespan': 185.05, 'n': 27}
+stress_t1_medium_003 {'solved': True, 'rank': 0, 'tried': 1, 't': 2.78, 'makespan': 239.05, 'n': 27}
+stress_t1_medium_006 {'solved': True, 'rank': 0, 'tried': 1, 't': 0.28, 'makespan': 175.034, 'n': 26}
+stress_t1_medium_007 {'solved': True, 'rank': 0, 'tried': 1, 't': 0.69, 'makespan': 136.033, 'n': 22}
+stress_t1_medium_008 {'solved': True, 'rank': 0, 'tried': 1, 't': 0.73, 'makespan': 204.051, 'n': 26}
+stress_t2_large_001 {'solved': True, 'rank': 0, 'tried': 1, 't': 7.54, 'makespan': 308.067, 'n': 28}
+stress_t2_large_002 {'solved': True, 'rank': 0, 'tried': 1, 't': 0.8, 'makespan': 315.069, 'n': 22}
+stress_t1_medium_005 {'solved': True, 'rank': 2, 'tried': 3, 't': 19.31, 'makespan': 174.043, 'n': 26}
+stress_t1_medium_009 {'solved': True, 'rank': 2, 'tried': 3, 't': 17.95, 'makespan': 136.033, 'n': 25}
+stress_t2_large_004 {'solved': True, 'rank': 0, 'tried': 1, 't': 3.52, 'makespan': 189.05, 'n': 27}
+stress_t2_large_003 {'solved': True, 'rank': 0, 'tried': 1, 't': 7.32, 'makespan': 248.067, 'n': 28}
+stress_t2_large_000 {'solved': False, 'tried': 5, 't': 28.8}
+stress_t2_large_006 {'solved': True, 'rank': 0, 'tried': 1, 't': 11.04, 'makespan': 297.067, 'n': 28}
+stress_t2_large_009 {'solved': True, 'rank': 1, 'tried': 2, 't': 12.39, 'makespan': 173.05, 'n': 26}
+stress_t2_large_005 {'solved': False, 'tried': 5, 't': 28.89}
+stress_t2_large_007 {'solved': True, 'rank': 4, 'tried': 5, 't': 34.14, 'makespan': 316.058, 'n': 27}
+stress_t2_large_008 {'solved': True, 'rank': 3, 'tried': 4, 't': 25.34, 'makespan': 251.05, 'n': 27}
+stress_t3_xl_000 {'solved': True, 'rank': 0, 'tried': 1, 't': 4.77, 'makespan': 491.108, 'n': 30}
+stress_t3_xl_001 {'solved': True, 'rank': 0, 'tried': 1, 't': 9.12, 'makespan': 290.067, 'n': 28}
+stress_t3_xl_005 {'solved': True, 'rank': 0, 'tried': 1, 't': 0.87, 'makespan': 259.071, 'n': 23}
+stress_t3_xl_004 {'solved': True, 'rank': 0, 'tried': 1, 't': 9.83, 'makespan': 412.067, 'n': 28}
+stress_t3_xl_006 {'solved': True, 'rank': 0, 'tried': 1, 't': 5.78, 'makespan': 335.108, 'n': 31}
+stress_t3_xl_002 {'solved': False, 'tried': 5, 't': 28.6}
+stress_t3_xl_003 {'solved': False, 'tried': 4, 't': 25.43}
+stress_t4_split_000 {'solved': True, 'rank': 0, 'tried': 1, 't': 1.84, 'makespan': 199.05, 'n': 23}
+stress_t4_split_001 {'solved': True, 'rank': 0, 'tried': 1, 't': 2.52, 'makespan': 204.05, 'n': 27}
+stress_t4_split_002 {'solved': True, 'rank': 0, 'tried': 1, 't': 4.14, 'makespan': 156.05, 'n': 24}
+stress_t4_split_003 {'solved': True, 'rank': 0, 'tried': 1, 't': 0.28, 'makespan': 175.037, 'n': 22}
+stress_t4_split_004 {'solved': True, 'rank': 0, 'tried': 1, 't': 0.56, 'makespan': 94.033, 'n': 21}
+stress_t3_xl_007 {'solved': False, 'tried': 12, 't': 27.07}
+stress_t4_split_006 {'solved': True, 'rank': 0, 'tried': 1, 't': 3.99, 'makespan': 166.05, 'n': 27}
+stress_t4_split_007 {'solved': True, 'rank': 0, 'tried': 1, 't': 0.45, 'makespan': 183.051, 'n': 23}
+stress_t3_xl_009 {'solved': False, 'tried': 4, 't': 25.61}
+stress_t4_split_008 {'solved': True, 'rank': 0, 'tried': 1, 't': 3.6, 'makespan': 197.05, 'n': 27}
+stress_t3_xl_008 {'solved': False, 'tried': 5, 't': 27.62}
+stress_t4_split_009 {'solved': True, 'rank': 0, 'tried': 1, 't': 10.35, 'makespan': 193.067, 'n': 24}
+stress_t4_split_005 {'solved': False, 'tried': 5, 't': 29.67}
+stress_t5_counters_002 {'solved': True, 'rank': 0, 'tried': 1, 't': 6.89, 'makespan': 204.05, 'n': 27}
+stress_t5_counters_000 {'solved': False, 'tried': 2, 't': 11.62}
+stress_t5_counters_003 {'solved': False, 'tried': 3, 't': 22.61}
+stress_t5_counters_001 {'solved': True, 'rank': 0, 'tried': 1, 't': 11.88, 'makespan': 176.05, 'n': 23}
+stress_t5_counters_004 {'solved': True, 'rank': 0, 'tried': 1, 't': 2.14, 'makespan': 126.033, 'n': 26}
+stress_t5_counters_005 {'solved': True, 'rank': 1, 'tried': 2, 't': 17.57, 'makespan': 195.05, 'n': 27}
+stress_t5_counters_009 {'solved': True, 'rank': 0, 'tried': 1, 't': 0.96, 'makespan': 119.033, 'n': 26}
+stress_t5_counters_006 {'solved': False, 'tried': 3, 't': 18.03}
+stress_t6_many_orders_000 {'solved': True, 'rank': 0, 'tried': 1, 't': 3.61, 'makespan': 263.102, 'n': 30}
+stress_t5_counters_007 {'solved': False, 'tried': 4, 't': 24.42}
+stress_t5_counters_008 {'solved': False, 'tried': 4, 't': 26.21}
+stress_t6_many_orders_001 {'solved': True, 'rank': 0, 'tried': 1, 't': 7.67, 'makespan': 433.136, 'n': 35}
+stress_t6_many_orders_002 {'solved': False, 'tried': 5, 't': 29.0}
+stress_t6_many_orders_003 {'solved': False, 'tried': 10, 't': 27.67}
+stress_t6_many_orders_004 {'solved': False, 'tried': 5, 't': 28.92}
+stress_t6_many_orders_005 {'solved': False, 'tried': 5, 't': 29.24}
+stress_t6_many_orders_006 {'solved': False, 'tried': 5, 't': 29.63}
+stress_t6_many_orders_007 {'solved': False, 'tried': 5, 't': 29.63}
+stress_t6_many_orders_008 {'solved': False, 'tried': 5, 't': 27.97}
+stress_t6_many_orders_009 {'solved': False, 'tried': 5, 't': 29.43}
+V7 GNN order: solved 39 / 60, first-try 33, mean time to plan 6.6 s | TRPG-bound order (same protocol, v6 test A): solved 44
+only V7: ['stress_t3_xl_004']
+only bound: ['stress_t2_large_005', 'stress_t5_counters_000', 'stress_t5_counters_003', 'stress_t5_counters_007', 'stress_t5_counters_008', 'stress_t6_many_orders_002']

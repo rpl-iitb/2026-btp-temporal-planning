@@ -1,0 +1,47 @@
+[
+ {
+  "instance_id": "s01_cramped_c1_o1",
+  "checks_passed": true,
+  "objects": 23,
+  "init_facts": 66,
+  "numeric_fluents": 26,
+  "goals": 1,
+  "goals_with_deadline": 0
+ },
+ {
+  "instance_id": "s02_cramped_c2_o2_dl",
+  "checks_passed": true,
+  "objects": 26,
+  "init_facts": 77,
+  "numeric_fluents": 31,
+  "goals": 2,
+  "goals_with_deadline": 2
+ },
+ {
+  "instance_id": "s03_forced_coord_c2_o1",
+  "checks_passed": true,
+  "objects": 36,
+  "init_facts": 129,
+  "numeric_fluents": 67,
+  "goals": 1,
+  "goals_with_deadline": 1
+ },
+ {
+  "instance_id": "s04_asym_c2_o2_dl",
+  "checks_passed": true,
+  "objects": 37,
+  "init_facts": 113,
+  "numeric_fluents": 51,
+  "goals": 2,
+  "goals_with_deadline": 2
+ },
+ {
+  "instance_id": "s05_tomato_mixed_c2_o2",
+  "checks_passed": true,
+  "objects": 30,
+  "init_facts": 94,
+  "numeric_fluents": 44,
+  "goals": 2,
+  "goals_with_deadline": 1
+ }
+]

@@ -1,0 +1,416 @@
+{
+ "config": {
+  "dataset": "layouts",
+  "seed": 1,
+  "tiers": [
+   {
+    "name": "std",
+    "kind": "layouts",
+    "count": 10,
+    "layouts": [
+     "cramped_room",
+     "asymmetric_advantages",
+     "coordination_ring",
+     "forced_coordination",
+     "counter_circuit_o_1order",
+     "corridor",
+     "large_room",
+     "multiplayer_schelling"
+    ],
+    "cooks": [
+     1,
+     3
+    ],
+    "pots": [
+     1,
+     2
+    ],
+    "orders": [
+     1,
+     3
+    ],
+    "recipes": [
+     {
+      "onion": 3
+     }
+    ],
+    "cook_time": 20,
+    "counters": "shared",
+    "deadline": {
+     "mode": "plan",
+     "rho": [
+      1.0,
+      1.2
+     ]
+    },
+    "certificate_timeout": 30
+   }
+  ]
+ },
+ "config_file": "configs/dataset_layouts.yaml",
+ "instances": [
+  {
+   "tier": "std",
+   "sample_index": 0,
+   "core_cooks": 3,
+   "rho": 1.1699415823504047,
+   "full_objects": 29,
+   "core_objects": 29,
+   "full_init_facts": 93,
+   "core_init_facts": 93,
+   "certificate_kind": "popf_core",
+   "certificate_makespan": 68.016,
+   "certificate_popf_s": 0.298,
+   "instance_id": "layouts_std_000",
+   "description": "counter_circuit_o_1order, 3 cooks, 1 orders, deadlines = ceil(1.17 x certificate)",
+   "size": {
+    "objects": 29,
+    "objects_by_type": {
+     "cook": 3,
+     "count": 4,
+     "dispenser": 3,
+     "order": 1,
+     "pose": 8,
+     "pot": 2,
+     "recipe": 1,
+     "serving": 1,
+     "tile": 6
+    },
+    "init_facts": 93,
+    "init_facts_static": 75,
+    "numeric_fluents": 43,
+    "goals": 1,
+    "goals_with_deadline": 1,
+    "timed_literals": 1
+   },
+   "certificate_valid_on_full": true
+  },
+  {
+   "tier": "std",
+   "sample_index": 1,
+   "core_cooks": 3,
+   "rho": 1.1577078932820233,
+   "full_objects": 38,
+   "core_objects": 38,
+   "full_init_facts": 118,
+   "core_init_facts": 118,
+   "certificate_kind": "popf_core",
+   "certificate_makespan": 36.016,
+   "certificate_popf_s": 0.063,
+   "instance_id": "layouts_std_001",
+   "description": "asymmetric_advantages, 3 cooks, 1 orders, deadlines = ceil(1.16 x certificate)",
+   "size": {
+    "objects": 38,
+    "objects_by_type": {
+     "cook": 3,
+     "count": 4,
+     "dispenser": 4,
+     "order": 1,
+     "pose": 13,
+     "pot": 2,
+     "recipe": 1,
+     "serving": 2,
+     "tile": 8
+    },
+    "init_facts": 118,
+    "init_facts_static": 98,
+    "numeric_fluents": 56,
+    "goals": 1,
+    "goals_with_deadline": 1,
+    "timed_literals": 1
+   },
+   "certificate_valid_on_full": true
+  },
+  {
+   "tier": "std",
+   "sample_index": 2,
+   "core_cooks": 2,
+   "rho": 1.0187339380769125,
+   "full_objects": 29,
+   "core_objects": 29,
+   "full_init_facts": 96,
+   "core_init_facts": 96,
+   "certificate_kind": "popf_core",
+   "certificate_makespan": 148.047,
+   "certificate_popf_s": 12.542,
+   "instance_id": "layouts_std_002",
+   "description": "coordination_ring, 2 cooks, 3 orders, deadlines = ceil(1.02 x certificate)",
+   "size": {
+    "objects": 29,
+    "objects_by_type": {
+     "cook": 2,
+     "count": 4,
+     "dispenser": 3,
+     "order": 3,
+     "pose": 8,
+     "pot": 2,
+     "recipe": 1,
+     "serving": 1,
+     "tile": 5
+    },
+    "init_facts": 96,
+    "init_facts_static": 77,
+    "numeric_fluents": 43,
+    "goals": 3,
+    "goals_with_deadline": 3,
+    "timed_literals": 3
+   },
+   "certificate_valid_on_full": true
+  },
+  {
+   "tier": "std",
+   "sample_index": 3,
+   "core_cooks": 1,
+   "rho": 1.0120562806411992,
+   "full_objects": 23,
+   "core_objects": 23,
+   "full_init_facts": 66,
+   "core_init_facts": 66,
+   "certificate_kind": "popf_core",
+   "certificate_makespan": 73.019,
+   "certificate_popf_s": 0.066,
+   "instance_id": "layouts_std_003",
+   "description": "large_room, 1 cooks, 1 orders, deadlines = ceil(1.01 x certificate)",
+   "size": {
+    "objects": 23,
+    "objects_by_type": {
+     "cook": 1,
+     "count": 4,
+     "dispenser": 3,
+     "order": 1,
+     "pose": 6,
+     "pot": 1,
+     "recipe": 1,
+     "serving": 1,
+     "tile": 5
+    },
+    "init_facts": 66,
+    "init_facts_static": 55,
+    "numeric_fluents": 26,
+    "goals": 1,
+    "goals_with_deadline": 1,
+    "timed_literals": 1
+   },
+   "certificate_valid_on_full": true
+  },
+  {
+   "tier": "std",
+   "sample_index": 4,
+   "core_cooks": 1,
+   "rho": 1.0764461996349466,
+   "full_objects": 23,
+   "core_objects": 23,
+   "full_init_facts": 66,
+   "core_init_facts": 66,
+   "certificate_kind": "popf_core",
+   "certificate_makespan": 62.02,
+   "certificate_popf_s": 0.063,
+   "instance_id": "layouts_std_004",
+   "description": "coordination_ring, 1 cooks, 1 orders, deadlines = ceil(1.08 x certificate)",
+   "size": {
+    "objects": 23,
+    "objects_by_type": {
+     "cook": 1,
+     "count": 4,
+     "dispenser": 3,
+     "order": 1,
+     "pose": 6,
+     "pot": 1,
+     "recipe": 1,
+     "serving": 1,
+     "tile": 5
+    },
+    "init_facts": 66,
+    "init_facts_static": 55,
+    "numeric_fluents": 26,
+    "goals": 1,
+    "goals_with_deadline": 1,
+    "timed_literals": 1
+   },
+   "certificate_valid_on_full": true
+  },
+  {
+   "tier": "std",
+   "sample_index": 5,
+   "core_cooks": 1,
+   "rho": 1.056900707166125,
+   "full_objects": 31,
+   "core_objects": 31,
+   "full_init_facts": 108,
+   "core_init_facts": 108,
+   "certificate_kind": "popf_core",
+   "certificate_makespan": 57.019,
+   "certificate_popf_s": 0.063,
+   "instance_id": "layouts_std_005",
+   "description": "multiplayer_schelling, 1 cooks, 1 orders, deadlines = ceil(1.06 x certificate)",
+   "size": {
+    "objects": 31,
+    "objects_by_type": {
+     "cook": 1,
+     "count": 4,
+     "dispenser": 4,
+     "order": 1,
+     "pose": 8,
+     "pot": 2,
+     "recipe": 1,
+     "serving": 2,
+     "tile": 8
+    },
+    "init_facts": 108,
+    "init_facts_static": 92,
+    "numeric_fluents": 57,
+    "goals": 1,
+    "goals_with_deadline": 1,
+    "timed_literals": 1
+   },
+   "certificate_valid_on_full": true
+  },
+  {
+   "tier": "std",
+   "sample_index": 7,
+   "core_cooks": 1,
+   "rho": 1.1735036545728073,
+   "full_objects": 28,
+   "core_objects": 28,
+   "full_init_facts": 89,
+   "core_init_facts": 89,
+   "certificate_kind": "popf_core",
+   "certificate_makespan": 57.019,
+   "certificate_popf_s": 0.063,
+   "instance_id": "layouts_std_006",
+   "description": "multiplayer_schelling, 1 cooks, 1 orders, deadlines = ceil(1.17 x certificate)",
+   "size": {
+    "objects": 28,
+    "objects_by_type": {
+     "cook": 1,
+     "count": 4,
+     "dispenser": 4,
+     "order": 1,
+     "pose": 7,
+     "pot": 1,
+     "recipe": 1,
+     "serving": 2,
+     "tile": 7
+    },
+    "init_facts": 89,
+    "init_facts_static": 76,
+    "numeric_fluents": 43,
+    "goals": 1,
+    "goals_with_deadline": 1,
+    "timed_literals": 1
+   },
+   "certificate_valid_on_full": true
+  },
+  {
+   "tier": "std",
+   "sample_index": 8,
+   "core_cooks": 1,
+   "rho": 1.145071323951408,
+   "full_objects": 33,
+   "core_objects": 33,
+   "full_init_facts": 101,
+   "core_init_facts": 101,
+   "certificate_kind": "popf_core",
+   "certificate_makespan": 43.019,
+   "certificate_popf_s": 0.063,
+   "instance_id": "layouts_std_007",
+   "description": "asymmetric_advantages, 1 cooks, 1 orders, deadlines = ceil(1.15 x certificate)",
+   "size": {
+    "objects": 33,
+    "objects_by_type": {
+     "cook": 1,
+     "count": 4,
+     "dispenser": 4,
+     "order": 1,
+     "pose": 11,
+     "pot": 2,
+     "recipe": 1,
+     "serving": 2,
+     "tile": 7
+    },
+    "init_facts": 101,
+    "init_facts_static": 86,
+    "numeric_fluents": 46,
+    "goals": 1,
+    "goals_with_deadline": 1,
+    "timed_literals": 1
+   },
+   "certificate_valid_on_full": true
+  },
+  {
+   "tier": "std",
+   "sample_index": 9,
+   "core_cooks": 3,
+   "rho": 1.0761391699313474,
+   "full_objects": 39,
+   "core_objects": 39,
+   "full_init_facts": 121,
+   "core_init_facts": 121,
+   "certificate_kind": "popf_core",
+   "certificate_makespan": 52.029,
+   "certificate_popf_s": 2.499,
+   "instance_id": "layouts_std_008",
+   "description": "asymmetric_advantages, 3 cooks, 2 orders, deadlines = ceil(1.08 x certificate)",
+   "size": {
+    "objects": 39,
+    "objects_by_type": {
+     "cook": 3,
+     "count": 4,
+     "dispenser": 4,
+     "order": 2,
+     "pose": 13,
+     "pot": 2,
+     "recipe": 1,
+     "serving": 2,
+     "tile": 8
+    },
+    "init_facts": 121,
+    "init_facts_static": 99,
+    "numeric_fluents": 56,
+    "goals": 2,
+    "goals_with_deadline": 2,
+    "timed_literals": 2
+   },
+   "certificate_valid_on_full": true
+  },
+  {
+   "tier": "std",
+   "sample_index": 10,
+   "core_cooks": 3,
+   "rho": 1.045493720774872,
+   "full_objects": 31,
+   "core_objects": 31,
+   "full_init_facts": 89,
+   "core_init_facts": 89,
+   "certificate_kind": "serial",
+   "certificate_makespan": 335.037,
+   "certificate_popf_s": 30.111,
+   "instance_id": "layouts_std_009",
+   "description": "corridor, 3 cooks, 2 orders, deadlines = ceil(1.05 x certificate)",
+   "size": {
+    "objects": 31,
+    "objects_by_type": {
+     "cook": 3,
+     "count": 4,
+     "dispenser": 2,
+     "order": 2,
+     "pose": 8,
+     "pot": 2,
+     "recipe": 1,
+     "serving": 1,
+     "tile": 8
+    },
+    "init_facts": 89,
+    "init_facts_static": 67,
+    "numeric_fluents": 36,
+    "goals": 2,
+    "goals_with_deadline": 2,
+    "timed_literals": 2
+   },
+   "certificate_valid_on_full": true
+  }
+ ],
+ "rejected": {
+  "no certificate (popf_then_serial)": 1
+ }
+}

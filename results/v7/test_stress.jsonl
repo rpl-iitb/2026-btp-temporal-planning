@@ -1,0 +1,60 @@
+{"instance": "stress_t1_medium_002", "prep_s": 1.13, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 0.27, "makespan": 178.04, "n": 26}}
+{"instance": "stress_t1_medium_000", "prep_s": 1.27, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 0.67, "makespan": 146.033, "n": 25}}
+{"instance": "stress_t1_medium_004", "prep_s": 0.67, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 0.49, "makespan": 149.053, "n": 21}}
+{"instance": "stress_t1_medium_001", "prep_s": 1.07, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 2.57, "makespan": 185.05, "n": 27}}
+{"instance": "stress_t1_medium_003", "prep_s": 1.07, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 2.78, "makespan": 239.05, "n": 27}}
+{"instance": "stress_t1_medium_006", "prep_s": 1.53, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 0.28, "makespan": 175.034, "n": 26}}
+{"instance": "stress_t1_medium_007", "prep_s": 0.88, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 0.69, "makespan": 136.033, "n": 22}}
+{"instance": "stress_t1_medium_008", "prep_s": 0.54, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 0.73, "makespan": 204.051, "n": 26}}
+{"instance": "stress_t2_large_001", "prep_s": 1.05, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 7.54, "makespan": 308.067, "n": 28}}
+{"instance": "stress_t2_large_002", "prep_s": 0.64, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 0.8, "makespan": 315.069, "n": 22}}
+{"instance": "stress_t1_medium_005", "prep_s": 0.25, "GNN": {"solved": true, "rank": 2, "tried": 3, "t": 19.31, "makespan": 174.043, "n": 26}}
+{"instance": "stress_t1_medium_009", "prep_s": 0.32, "GNN": {"solved": true, "rank": 2, "tried": 3, "t": 17.95, "makespan": 136.033, "n": 25}}
+{"instance": "stress_t2_large_004", "prep_s": 0.36, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 3.52, "makespan": 189.05, "n": 27}}
+{"instance": "stress_t2_large_003", "prep_s": 1.04, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 7.32, "makespan": 248.067, "n": 28}}
+{"instance": "stress_t2_large_000", "prep_s": 1.21, "GNN": {"solved": false, "tried": 5, "t": 28.8}}
+{"instance": "stress_t2_large_006", "prep_s": 0.55, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 11.04, "makespan": 297.067, "n": 28}}
+{"instance": "stress_t2_large_009", "prep_s": 1.14, "GNN": {"solved": true, "rank": 1, "tried": 2, "t": 12.39, "makespan": 173.05, "n": 26}}
+{"instance": "stress_t2_large_005", "prep_s": 1.2, "GNN": {"solved": false, "tried": 5, "t": 28.89}}
+{"instance": "stress_t2_large_007", "prep_s": 0.44, "GNN": {"solved": true, "rank": 4, "tried": 5, "t": 34.14, "makespan": 316.058, "n": 27}}
+{"instance": "stress_t2_large_008", "prep_s": 2.64, "GNN": {"solved": true, "rank": 3, "tried": 4, "t": 25.34, "makespan": 251.05, "n": 27}}
+{"instance": "stress_t3_xl_000", "prep_s": 7.94, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 4.77, "makespan": 491.108, "n": 30}}
+{"instance": "stress_t3_xl_001", "prep_s": 4.27, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 9.12, "makespan": 290.067, "n": 28}}
+{"instance": "stress_t3_xl_005", "prep_s": 1.33, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 0.87, "makespan": 259.071, "n": 23}}
+{"instance": "stress_t3_xl_004", "prep_s": 1.37, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 9.83, "makespan": 412.067, "n": 28}}
+{"instance": "stress_t3_xl_006", "prep_s": 6.76, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 5.78, "makespan": 335.108, "n": 31}}
+{"instance": "stress_t3_xl_002", "prep_s": 1.52, "GNN": {"solved": false, "tried": 5, "t": 28.6}}
+{"instance": "stress_t3_xl_003", "prep_s": 4.98, "GNN": {"solved": false, "tried": 4, "t": 25.43}}
+{"instance": "stress_t4_split_000", "prep_s": 2.0, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 1.84, "makespan": 199.05, "n": 23}}
+{"instance": "stress_t4_split_001", "prep_s": 0.54, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 2.52, "makespan": 204.05, "n": 27}}
+{"instance": "stress_t4_split_002", "prep_s": 0.59, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 4.14, "makespan": 156.05, "n": 24}}
+{"instance": "stress_t4_split_003", "prep_s": 0.18, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 0.28, "makespan": 175.037, "n": 22}}
+{"instance": "stress_t4_split_004", "prep_s": 0.21, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 0.56, "makespan": 94.033, "n": 21}}
+{"instance": "stress_t3_xl_007", "prep_s": 2.96, "GNN": {"solved": false, "tried": 12, "t": 27.07}}
+{"instance": "stress_t4_split_006", "prep_s": 0.69, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 3.99, "makespan": 166.05, "n": 27}}
+{"instance": "stress_t4_split_007", "prep_s": 0.69, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 0.45, "makespan": 183.051, "n": 23}}
+{"instance": "stress_t3_xl_009", "prep_s": 4.4, "GNN": {"solved": false, "tried": 4, "t": 25.61}}
+{"instance": "stress_t4_split_008", "prep_s": 0.34, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 3.6, "makespan": 197.05, "n": 27}}
+{"instance": "stress_t3_xl_008", "prep_s": 2.47, "GNN": {"solved": false, "tried": 5, "t": 27.62}}
+{"instance": "stress_t4_split_009", "prep_s": 0.26, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 10.35, "makespan": 193.067, "n": 24}}
+{"instance": "stress_t4_split_005", "prep_s": 0.53, "GNN": {"solved": false, "tried": 5, "t": 29.67}}
+{"instance": "stress_t5_counters_002", "prep_s": 6.46, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 6.89, "makespan": 204.05, "n": 27}}
+{"instance": "stress_t5_counters_000", "prep_s": 18.45, "GNN": {"solved": false, "tried": 2, "t": 11.62}}
+{"instance": "stress_t5_counters_003", "prep_s": 7.49, "GNN": {"solved": false, "tried": 3, "t": 22.61}}
+{"instance": "stress_t5_counters_001", "prep_s": 10.64, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 11.88, "makespan": 176.05, "n": 23}}
+{"instance": "stress_t5_counters_004", "prep_s": 10.74, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 2.14, "makespan": 126.033, "n": 26}}
+{"instance": "stress_t5_counters_005", "prep_s": 4.91, "GNN": {"solved": true, "rank": 1, "tried": 2, "t": 17.57, "makespan": 195.05, "n": 27}}
+{"instance": "stress_t5_counters_009", "prep_s": 3.32, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 0.96, "makespan": 119.033, "n": 26}}
+{"instance": "stress_t5_counters_006", "prep_s": 11.98, "GNN": {"solved": false, "tried": 3, "t": 18.03}}
+{"instance": "stress_t6_many_orders_000", "prep_s": 0.69, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 3.61, "makespan": 263.102, "n": 30}}
+{"instance": "stress_t5_counters_007", "prep_s": 5.6, "GNN": {"solved": false, "tried": 4, "t": 24.42}}
+{"instance": "stress_t5_counters_008", "prep_s": 3.53, "GNN": {"solved": false, "tried": 4, "t": 26.21}}
+{"instance": "stress_t6_many_orders_001", "prep_s": 2.03, "GNN": {"solved": true, "rank": 0, "tried": 1, "t": 7.67, "makespan": 433.136, "n": 35}}
+{"instance": "stress_t6_many_orders_002", "prep_s": 1.02, "GNN": {"solved": false, "tried": 5, "t": 29.0}}
+{"instance": "stress_t6_many_orders_003", "prep_s": 1.98, "GNN": {"solved": false, "tried": 10, "t": 27.67}}
+{"instance": "stress_t6_many_orders_004", "prep_s": 1.11, "GNN": {"solved": false, "tried": 5, "t": 28.92}}
+{"instance": "stress_t6_many_orders_005", "prep_s": 0.79, "GNN": {"solved": false, "tried": 5, "t": 29.24}}
+{"instance": "stress_t6_many_orders_006", "prep_s": 0.4, "GNN": {"solved": false, "tried": 5, "t": 29.63}}
+{"instance": "stress_t6_many_orders_007", "prep_s": 0.39, "GNN": {"solved": false, "tried": 5, "t": 29.63}}
+{"instance": "stress_t6_many_orders_008", "prep_s": 2.04, "GNN": {"solved": false, "tried": 5, "t": 27.97}}
+{"instance": "stress_t6_many_orders_009", "prep_s": 0.58, "GNN": {"solved": false, "tried": 5, "t": 29.43}}

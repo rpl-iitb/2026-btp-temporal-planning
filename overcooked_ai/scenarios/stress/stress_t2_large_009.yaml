@@ -1,0 +1,14 @@
+scenario_id: stress_t2_large_009
+seed: 12
+counters: shared
+layout:
+  grid: [XPXXOXXXSPXXXPDX, X    2    X    O, X    D    X    X, S    T    X    X, X    X    D    P, T 134S         P, XPXXXXXOXTXXXXPX]
+description: 16x7 kitchen, 4 cooks, 13 distractor stations, 3 orders, deadlines = ceil(1.01 x certificate)
+orders:
+- recipe: {onion: 3}
+  deadline: 60
+- recipe: {onion: 2, tomato: 1}
+  deadline: 120
+- recipe: {onion: 3}
+  deadline: 179
+sim: {cook_time: 22}

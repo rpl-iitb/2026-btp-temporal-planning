@@ -1,0 +1,16 @@
+scenario_id: stress_t4_split_005
+seed: 5
+counters: shared
+layout:
+  grid: [XXXXSXXPXXXXXXXXXX, X  2    P        D, X  31   X        O, X       X        X, O       X        S, X       X        X, X       S        X, XXDXTPXXXXXXXOPXXX]
+description: 18x8 split kitchen, 3 cooks, 8 distractor stations, 4 orders, deadlines = ceil(1.10 x certificate)
+orders:
+- recipe: {onion: 2, tomato: 1}
+  deadline: 68
+- recipe: {onion: 2, tomato: 1}
+  deadline: 136
+- recipe: {onion: 3}
+  deadline: 214
+- recipe: {onion: 3}
+  deadline: 291
+sim: {cook_time: 20}

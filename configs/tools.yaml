@@ -1,0 +1,12 @@
+# External tools (provenance in tools/README.md, checksums in tools/bin/SHA256SUMS).
+binaries:
+  popf: tools/bin/popf              # POPF Release 2, static i386 build (KCL ROSPlan)
+  validate: tools/bin/Validate      # VAL 4, KCL-Planning/VAL @ 3c7a1f3
+  parser: tools/bin/Parser          # VAL's PDDL parser / type checker
+  optic-clp: tools/bin/optic-clp    # OPTIC (CLP build), static i386; from Dongbox/optic-clp-release
+
+val:
+  tolerance: 0.001                  # epsilon separation; matches POPF's 0.001
+
+defaults:
+  planner_timeout_s: 60

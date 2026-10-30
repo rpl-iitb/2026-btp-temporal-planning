@@ -1,0 +1,56 @@
+{
+ "model": {
+  "n_node": 41,
+  "n_edge": 86,
+  "n_global": 4,
+  "heads": 1,
+  "hidden": 16,
+  "steps": 3,
+  "aggregate": "sum"
+ },
+ "vocab": {
+  "types": [
+   "cook",
+   "count",
+   "counter",
+   "dispenser",
+   "ingredient",
+   "item",
+   "object",
+   "order",
+   "pose",
+   "pot",
+   "recipe",
+   "serving",
+   "station",
+   "tile"
+  ],
+  "unary": [
+   "counter-empty",
+   "free",
+   "hand-empty",
+   "idle",
+   "is-zero",
+   "open",
+   "pending",
+   "pot-idle",
+   "served"
+  ],
+  "unary_fn": [
+   "cook-steps"
+  ],
+  "n_edge": 86,
+  "temporal": true
+ },
+ "temperature": [
+  1.0
+ ],
+ "combine": "sum",
+ "weights": [
+  1.0
+ ],
+ "history": [],
+ "saved": "2026-10-22 09:49:39",
+ "labels": "certificate membership",
+ "pos_weight": 0.5998043052837574
+}

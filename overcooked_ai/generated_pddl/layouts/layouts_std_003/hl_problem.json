@@ -1,0 +1,859 @@
+{
+ "schema_version": "1.0",
+ "instance_id": "layouts_std_003",
+ "benchmark": "overcooked_ai",
+ "domain": "overcooked-v1",
+ "objects": [
+  {
+   "name": "soup_o3_t0",
+   "type": "recipe",
+   "attrs": {
+    "onion": 3,
+    "tomato": 0,
+    "time": 20,
+    "value": 20
+   }
+  },
+  {
+   "name": "n0",
+   "type": "count",
+   "attrs": {
+    "value": 0
+   }
+  },
+  {
+   "name": "n1",
+   "type": "count",
+   "attrs": {
+    "value": 1
+   }
+  },
+  {
+   "name": "n2",
+   "type": "count",
+   "attrs": {
+    "value": 2
+   }
+  },
+  {
+   "name": "n3",
+   "type": "count",
+   "attrs": {
+    "value": 3
+   }
+  },
+  {
+   "name": "pot1",
+   "type": "pot",
+   "attrs": {
+    "kind": "pot",
+    "cell": [
+     3,
+     0
+    ]
+   }
+  },
+  {
+   "name": "odisp1",
+   "type": "dispenser",
+   "attrs": {
+    "kind": "onion_dispenser",
+    "cell": [
+     0,
+     1
+    ]
+   }
+  },
+  {
+   "name": "odisp2",
+   "type": "dispenser",
+   "attrs": {
+    "kind": "onion_dispenser",
+    "cell": [
+     6,
+     1
+    ]
+   }
+  },
+  {
+   "name": "ddisp1",
+   "type": "dispenser",
+   "attrs": {
+    "kind": "dish_dispenser",
+    "cell": [
+     1,
+     6
+    ]
+   }
+  },
+  {
+   "name": "serve1",
+   "type": "serving",
+   "attrs": {
+    "kind": "serving",
+    "cell": [
+     5,
+     6
+    ]
+   }
+  },
+  {
+   "name": "c1",
+   "type": "cook",
+   "attrs": {
+    "player_index": 0,
+    "start_pose": "p1_5n"
+   }
+  },
+  {
+   "name": "t1_1",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     1,
+     1
+    ]
+   }
+  },
+  {
+   "name": "t1_5",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     1,
+     5
+    ]
+   }
+  },
+  {
+   "name": "t3_1",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     3,
+     1
+    ]
+   }
+  },
+  {
+   "name": "t5_1",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     5,
+     1
+    ]
+   }
+  },
+  {
+   "name": "t5_5",
+   "type": "tile",
+   "attrs": {
+    "cell": [
+     5,
+     5
+    ]
+   }
+  },
+  {
+   "name": "p1_1w",
+   "type": "pose",
+   "attrs": {
+    "tile": "t1_1",
+    "cell": [
+     1,
+     1
+    ],
+    "facing": "w"
+   }
+  },
+  {
+   "name": "p1_5n",
+   "type": "pose",
+   "attrs": {
+    "tile": "t1_5",
+    "cell": [
+     1,
+     5
+    ],
+    "facing": "n"
+   }
+  },
+  {
+   "name": "p1_5s",
+   "type": "pose",
+   "attrs": {
+    "tile": "t1_5",
+    "cell": [
+     1,
+     5
+    ],
+    "facing": "s"
+   }
+  },
+  {
+   "name": "p3_1n",
+   "type": "pose",
+   "attrs": {
+    "tile": "t3_1",
+    "cell": [
+     3,
+     1
+    ],
+    "facing": "n"
+   }
+  },
+  {
+   "name": "p5_1e",
+   "type": "pose",
+   "attrs": {
+    "tile": "t5_1",
+    "cell": [
+     5,
+     1
+    ],
+    "facing": "e"
+   }
+  },
+  {
+   "name": "p5_5s",
+   "type": "pose",
+   "attrs": {
+    "tile": "t5_5",
+    "cell": [
+     5,
+     5
+    ],
+    "facing": "s"
+   }
+  },
+  {
+   "name": "o1",
+   "type": "order",
+   "attrs": {
+    "recipe": "soup_o3_t0",
+    "deadline": 74
+   }
+  }
+ ],
+ "init": {
+  "facts": [
+   [
+    "at",
+    "c1",
+    "p1_5n"
+   ],
+   [
+    "connected",
+    "p1_1w",
+    "p1_5s"
+   ],
+   [
+    "connected",
+    "p1_1w",
+    "p3_1n"
+   ],
+   [
+    "connected",
+    "p1_1w",
+    "p5_1e"
+   ],
+   [
+    "connected",
+    "p1_1w",
+    "p5_5s"
+   ],
+   [
+    "connected",
+    "p1_5n",
+    "p1_1w"
+   ],
+   [
+    "connected",
+    "p1_5n",
+    "p3_1n"
+   ],
+   [
+    "connected",
+    "p1_5n",
+    "p5_1e"
+   ],
+   [
+    "connected",
+    "p1_5n",
+    "p5_5s"
+   ],
+   [
+    "connected",
+    "p1_5s",
+    "p1_1w"
+   ],
+   [
+    "connected",
+    "p1_5s",
+    "p3_1n"
+   ],
+   [
+    "connected",
+    "p1_5s",
+    "p5_1e"
+   ],
+   [
+    "connected",
+    "p1_5s",
+    "p5_5s"
+   ],
+   [
+    "connected",
+    "p3_1n",
+    "p1_1w"
+   ],
+   [
+    "connected",
+    "p3_1n",
+    "p1_5s"
+   ],
+   [
+    "connected",
+    "p3_1n",
+    "p5_1e"
+   ],
+   [
+    "connected",
+    "p3_1n",
+    "p5_5s"
+   ],
+   [
+    "connected",
+    "p5_1e",
+    "p1_1w"
+   ],
+   [
+    "connected",
+    "p5_1e",
+    "p1_5s"
+   ],
+   [
+    "connected",
+    "p5_1e",
+    "p3_1n"
+   ],
+   [
+    "connected",
+    "p5_1e",
+    "p5_5s"
+   ],
+   [
+    "connected",
+    "p5_5s",
+    "p1_1w"
+   ],
+   [
+    "connected",
+    "p5_5s",
+    "p1_5s"
+   ],
+   [
+    "connected",
+    "p5_5s",
+    "p3_1n"
+   ],
+   [
+    "connected",
+    "p5_5s",
+    "p5_1e"
+   ],
+   [
+    "faces",
+    "p1_1w",
+    "odisp1"
+   ],
+   [
+    "faces",
+    "p1_5s",
+    "ddisp1"
+   ],
+   [
+    "faces",
+    "p3_1n",
+    "pot1"
+   ],
+   [
+    "faces",
+    "p5_1e",
+    "odisp2"
+   ],
+   [
+    "faces",
+    "p5_5s",
+    "serve1"
+   ],
+   [
+    "fits",
+    "n0",
+    "n0"
+   ],
+   [
+    "fits",
+    "n0",
+    "n1"
+   ],
+   [
+    "fits",
+    "n0",
+    "n2"
+   ],
+   [
+    "fits",
+    "n0",
+    "n3"
+   ],
+   [
+    "fits",
+    "n1",
+    "n0"
+   ],
+   [
+    "fits",
+    "n1",
+    "n1"
+   ],
+   [
+    "fits",
+    "n1",
+    "n2"
+   ],
+   [
+    "fits",
+    "n2",
+    "n0"
+   ],
+   [
+    "fits",
+    "n2",
+    "n1"
+   ],
+   [
+    "fits",
+    "n3",
+    "n0"
+   ],
+   [
+    "free",
+    "t1_1"
+   ],
+   [
+    "free",
+    "t3_1"
+   ],
+   [
+    "free",
+    "t5_1"
+   ],
+   [
+    "free",
+    "t5_5"
+   ],
+   [
+    "hand-empty",
+    "c1"
+   ],
+   [
+    "idle",
+    "c1"
+   ],
+   [
+    "is-zero",
+    "n0"
+   ],
+   [
+    "next",
+    "n0",
+    "n1"
+   ],
+   [
+    "next",
+    "n1",
+    "n2"
+   ],
+   [
+    "next",
+    "n2",
+    "n3"
+   ],
+   [
+    "open",
+    "o1"
+   ],
+   [
+    "order-recipe",
+    "o1",
+    "soup_o3_t0"
+   ],
+   [
+    "pending",
+    "o1"
+   ],
+   [
+    "pose-tile",
+    "p1_1w",
+    "t1_1"
+   ],
+   [
+    "pose-tile",
+    "p1_5n",
+    "t1_5"
+   ],
+   [
+    "pose-tile",
+    "p1_5s",
+    "t1_5"
+   ],
+   [
+    "pose-tile",
+    "p3_1n",
+    "t3_1"
+   ],
+   [
+    "pose-tile",
+    "p5_1e",
+    "t5_1"
+   ],
+   [
+    "pose-tile",
+    "p5_5s",
+    "t5_5"
+   ],
+   [
+    "pot-has",
+    "pot1",
+    "n0",
+    "n0"
+   ],
+   [
+    "pot-idle",
+    "pot1"
+   ],
+   [
+    "provides",
+    "ddisp1",
+    "dish"
+   ],
+   [
+    "provides",
+    "odisp1",
+    "onion"
+   ],
+   [
+    "provides",
+    "odisp2",
+    "onion"
+   ],
+   [
+    "recipe-of",
+    "soup_o3_t0",
+    "n3",
+    "n0"
+   ],
+   [
+    "same-tile",
+    "p1_5n",
+    "p1_5s"
+   ]
+  ],
+  "fluents": [
+   {
+    "function": "cook-steps",
+    "args": [
+     "soup_o3_t0"
+    ],
+    "value": 19
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_1w",
+     "p1_5s"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_1w",
+     "p3_1n"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_1w",
+     "p5_1e"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_1w",
+     "p5_5s"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_5n",
+     "p1_1w"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_5n",
+     "p1_5s"
+    ],
+    "value": 1
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_5n",
+     "p3_1n"
+    ],
+    "value": 6
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_5n",
+     "p5_1e"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_5n",
+     "p5_5s"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_5s",
+     "p1_1w"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_5s",
+     "p3_1n"
+    ],
+    "value": 6
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_5s",
+     "p5_1e"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p1_5s",
+     "p5_5s"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_1n",
+     "p1_1w"
+    ],
+    "value": 2
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_1n",
+     "p1_5s"
+    ],
+    "value": 6
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_1n",
+     "p5_1e"
+    ],
+    "value": 2
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p3_1n",
+     "p5_5s"
+    ],
+    "value": 6
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_1e",
+     "p1_1w"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_1e",
+     "p1_5s"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_1e",
+     "p3_1n"
+    ],
+    "value": 3
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_1e",
+     "p5_5s"
+    ],
+    "value": 4
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_5s",
+     "p1_1w"
+    ],
+    "value": 8
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_5s",
+     "p1_5s"
+    ],
+    "value": 5
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_5s",
+     "p3_1n"
+    ],
+    "value": 6
+   },
+   {
+    "function": "travel",
+    "args": [
+     "p5_5s",
+     "p5_1e"
+    ],
+    "value": 5
+   }
+  ]
+ },
+ "timed_literals": [],
+ "goals": [
+  {
+   "fact": [
+    "served",
+    "o1"
+   ],
+   "deadline": 74
+  }
+ ],
+ "metric": "makespan",
+ "annotations": {
+  "grid": [
+   "XXXPXXX",
+   "O     O",
+   "X     X",
+   "X     X",
+   "X     X",
+   "X1    X",
+   "XDXXXSX"
+  ],
+  "sim_params": {
+   "start_bonus_orders": [],
+   "start_all_orders": [
+    {
+     "ingredients": [
+      "onion",
+      "onion",
+      "onion"
+     ]
+    }
+   ],
+   "rew_shaping_params": null,
+   "layout_name": "large_room",
+   "cook_time": 20
+  },
+  "t_now": 0,
+  "max_ingredients": 3,
+  "counter_policy": "shared",
+  "cooks": [
+   "c1"
+  ],
+  "recipes": {
+   "soup_o3_t0": {
+    "onion": 3,
+    "tomato": 0,
+    "time": 20,
+    "value": 20
+   }
+  }
+ },
+ "provenance": {
+  "scenario_file": "overcooked_ai/scenarios/layouts/layouts_std_003.yaml",
+  "scenario_sha256": "f71c821b56142d7bcb2cad240e7e6782af76e4c6b6fd50942496dc2484855aa4",
+  "scenario": {
+   "scenario_id": "layouts_std_003",
+   "seed": 3,
+   "counters": "shared",
+   "layout": {
+    "name": "large_room"
+   },
+   "cooks": 1,
+   "pots": 1,
+   "description": "large_room, 1 cooks, 1 orders, deadlines = ceil(1.01 x certificate)",
+   "orders": [
+    {
+     "recipe": {
+      "onion": 3
+     },
+     "deadline": 74
+    }
+   ],
+   "sim": {
+    "cook_time": 20
+   }
+  },
+  "simulator": {
+   "package": "overcooked_ai",
+   "version": "1.1.0",
+   "commit": "a60e31a6280718b8cdde08d394c8a6697b1d4829",
+   "repository": "https://github.com/HumanCompatibleAI/overcooked_ai"
+  },
+  "adapter_code_sha256": "7fe1c3dacc41a03302707da66ad36aa86d17aeffe43561d72eb800014f1e1879",
+  "created_utc": "2026-10-30T09:28:24+00:00"
+ }
+}

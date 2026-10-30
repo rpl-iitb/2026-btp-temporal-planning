@@ -1,0 +1,1935 @@
+[
+ {
+  "instance": "stress_t1_medium_000",
+  "n_total": 57,
+  "q0.5": {
+   "n": 33,
+   "outcome": "valid",
+   "s": 1.5,
+   "makespan": 123.029,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  },
+  "q0.3": {
+   "n": 34,
+   "outcome": "valid",
+   "s": 1.52,
+   "makespan": 126.032,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t1_medium_001",
+  "n_total": 53,
+  "q0.5": {
+   "n": 33,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  },
+  "q0.3": {
+   "n": 40,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t1_medium_002",
+  "n_total": 59,
+  "q0.5": {
+   "n": 35,
+   "outcome": "valid",
+   "s": 3.04,
+   "makespan": 139.033,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  },
+  "q0.3": {
+   "n": 41,
+   "outcome": "valid",
+   "s": 3.99,
+   "makespan": 141.036,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t1_medium_003",
+  "n_total": 59,
+  "q0.5": {
+   "n": 35,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1",
+    "pot2"
+   ]
+  },
+  "q0.3": {
+   "n": 37,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1",
+    "pot2"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t1_medium_004",
+  "n_total": 44,
+  "q0.5": {
+   "n": 29,
+   "outcome": "timeout",
+   "s": 15.05,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  },
+  "q0.3": {
+   "n": 29,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t1_medium_005",
+  "n_total": 54,
+  "q0.5": {
+   "n": 28,
+   "outcome": "valid",
+   "s": 3.52,
+   "makespan": 174.043,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot3"
+   ]
+  },
+  "q0.3": {
+   "n": 30,
+   "outcome": "valid",
+   "s": 3.89,
+   "makespan": 174.043,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot3"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t1_medium_006",
+  "n_total": 65,
+  "q0.5": {
+   "n": 38,
+   "outcome": "valid",
+   "s": 4.5,
+   "makespan": 132.018,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1",
+    "pot4"
+   ]
+  },
+  "q0.3": {
+   "n": 45,
+   "outcome": "valid",
+   "s": 10.8,
+   "makespan": 105.017,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1",
+    "pot4"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t1_medium_007",
+  "n_total": 55,
+  "q0.5": {
+   "n": 32,
+   "outcome": "valid",
+   "s": 12.97,
+   "makespan": 136.03,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot4"
+   ]
+  },
+  "q0.3": {
+   "n": 34,
+   "outcome": "timeout",
+   "s": 15.04,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot4"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t1_medium_008",
+  "n_total": 63,
+  "q0.5": {
+   "n": 32,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot3"
+   ]
+  },
+  "q0.3": {
+   "n": 34,
+   "outcome": "timeout",
+   "s": 15.01,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot3"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t1_medium_009",
+  "n_total": 51,
+  "q0.5": {
+   "n": 30,
+   "outcome": "valid",
+   "s": 8.31,
+   "makespan": 143.032,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  },
+  "q0.3": {
+   "n": 32,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t2_large_000",
+  "n_total": 78,
+  "q0.5": {
+   "n": 43,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1",
+    "pot2",
+    "pot4"
+   ]
+  },
+  "q0.3": {
+   "n": 43,
+   "outcome": "timeout",
+   "s": 14.95,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1",
+    "pot2",
+    "pot4"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t2_large_001",
+  "n_total": 80,
+  "q0.5": {
+   "n": 44,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot6"
+   ]
+  },
+  "q0.3": {
+   "n": 46,
+   "outcome": "timeout",
+   "s": 15.0,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot6"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t2_large_002",
+  "n_total": 72,
+  "q0.5": {
+   "n": 32,
+   "outcome": "timeout",
+   "s": 15.04,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot3"
+   ]
+  },
+  "q0.3": {
+   "n": 32,
+   "outcome": "timeout",
+   "s": 14.96,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot3"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t2_large_003",
+  "n_total": 88,
+  "q0.5": {
+   "n": 46,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "pots": [
+    "pot5"
+   ]
+  },
+  "q0.3": {
+   "n": 46,
+   "outcome": "timeout",
+   "s": 15.0,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "pots": [
+    "pot5"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t2_large_004",
+  "n_total": 73,
+  "q0.5": {
+   "n": 37,
+   "outcome": "timeout",
+   "s": 15.01,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot3"
+   ]
+  },
+  "q0.3": {
+   "n": 37,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot3"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t2_large_005",
+  "n_total": 89,
+  "q0.5": {
+   "n": 51,
+   "outcome": "timeout",
+   "s": 15.01,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "pots": [
+    "pot5",
+    "pot6"
+   ]
+  },
+  "q0.3": {
+   "n": 53,
+   "outcome": "timeout",
+   "s": 15.01,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "pots": [
+    "pot5",
+    "pot6"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t2_large_006",
+  "n_total": 76,
+  "q0.5": {
+   "n": 44,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot2",
+    "pot4"
+   ]
+  },
+  "q0.3": {
+   "n": 44,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot2",
+    "pot4"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t2_large_007",
+  "n_total": 74,
+  "q0.5": {
+   "n": 27,
+   "outcome": "valid",
+   "s": 3.29,
+   "makespan": 320.058,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot5"
+   ]
+  },
+  "q0.3": {
+   "n": 29,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot5"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t2_large_008",
+  "n_total": 73,
+  "q0.5": {
+   "n": 41,
+   "outcome": "timeout",
+   "s": 15.04,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1",
+    "pot3"
+   ]
+  },
+  "q0.3": {
+   "n": 43,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t2_large_009",
+  "n_total": 85,
+  "q0.5": {
+   "n": 43,
+   "outcome": "timeout",
+   "s": 15.04,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "pots": [
+    "pot1",
+    "pot6"
+   ]
+  },
+  "q0.3": {
+   "n": 44,
+   "outcome": "timeout",
+   "s": 15.01,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "pots": [
+    "pot1",
+    "pot6"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t3_xl_000",
+  "n_total": 120,
+  "q0.5": {
+   "n": 41,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c4",
+    "c5"
+   ],
+   "pots": [
+    "pot7"
+   ]
+  },
+  "q0.3": {
+   "n": 41,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c4",
+    "c5"
+   ],
+   "pots": [
+    "pot7"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t3_xl_001",
+  "n_total": 120,
+  "q0.5": {
+   "n": 46,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot4",
+    "pot7"
+   ]
+  },
+  "q0.3": {
+   "n": 46,
+   "outcome": "timeout",
+   "s": 15.01,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot4",
+    "pot7"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t3_xl_002",
+  "n_total": 105,
+  "q0.5": {
+   "n": 35,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  },
+  "q0.3": {
+   "n": 35,
+   "outcome": "timeout",
+   "s": 15.01,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t3_xl_003",
+  "n_total": 104,
+  "q0.5": {
+   "n": 39,
+   "outcome": "timeout",
+   "s": 15.01,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c4",
+    "c5"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  },
+  "q0.3": {
+   "n": 48,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4",
+    "c5"
+   ],
+   "pots": [
+    "pot1",
+    "pot8"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t3_xl_004",
+  "n_total": 96,
+  "q0.5": {
+   "n": 33,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c3"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  },
+  "q0.3": {
+   "n": 33,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c3"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t3_xl_005",
+  "n_total": 96,
+  "q0.5": {
+   "n": 35,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot9"
+   ]
+  },
+  "q0.3": {
+   "n": 37,
+   "outcome": "timeout",
+   "s": 15.01,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot9"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t3_xl_006",
+  "n_total": 116,
+  "q0.5": {
+   "n": 34,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c4"
+   ],
+   "pots": [
+    "pot5"
+   ]
+  },
+  "q0.3": {
+   "n": 34,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c4"
+   ],
+   "pots": [
+    "pot5"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t3_xl_007",
+  "n_total": 119,
+  "q0.5": {
+   "n": 59,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4",
+    "c5"
+   ],
+   "pots": [
+    "pot1",
+    "pot2",
+    "pot5"
+   ]
+  },
+  "q0.3": {
+   "n": 59,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4",
+    "c5"
+   ],
+   "pots": [
+    "pot1",
+    "pot2",
+    "pot5"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t3_xl_008",
+  "n_total": 112,
+  "q0.5": {
+   "n": 31,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c4"
+   ],
+   "pots": [
+    "pot7"
+   ]
+  },
+  "q0.3": {
+   "n": 31,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c4"
+   ],
+   "pots": [
+    "pot7"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t3_xl_009",
+  "n_total": 102,
+  "q0.5": {
+   "n": 33,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  },
+  "q0.3": {
+   "n": 33,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t4_split_000",
+  "n_total": 83,
+  "q0.5": {
+   "n": 29,
+   "outcome": "valid",
+   "s": 10.43,
+   "makespan": 170.042,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot5"
+   ]
+  },
+  "q0.3": {
+   "n": 29,
+   "outcome": "valid",
+   "s": 9.8,
+   "makespan": 170.042,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot5"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t4_split_001",
+  "n_total": 85,
+  "q0.5": {
+   "n": 36,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  },
+  "q0.3": {
+   "n": 36,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t4_split_002",
+  "n_total": 89,
+  "q0.5": {
+   "n": 31,
+   "outcome": "valid",
+   "s": 9.31,
+   "makespan": 132.043,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  },
+  "q0.3": {
+   "n": 31,
+   "outcome": "valid",
+   "s": 9.04,
+   "makespan": 132.043,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t4_split_003",
+  "n_total": 70,
+  "q0.5": {
+   "n": 28,
+   "outcome": "valid",
+   "s": 2.79,
+   "makespan": 131.031,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot2",
+    "pot3"
+   ]
+  },
+  "q0.3": {
+   "n": 29,
+   "outcome": "valid",
+   "s": 2.59,
+   "makespan": 131.031,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot2",
+    "pot3"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t4_split_004",
+  "n_total": 76,
+  "q0.5": {
+   "n": 26,
+   "outcome": "valid",
+   "s": 0.85,
+   "makespan": 96.035,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot5"
+   ]
+  },
+  "q0.3": {
+   "n": 26,
+   "outcome": "valid",
+   "s": 0.77,
+   "makespan": 96.035,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot5"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t4_split_005",
+  "n_total": 81,
+  "q0.5": {
+   "n": 39,
+   "outcome": "timeout",
+   "s": 15.04,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1",
+    "pot2",
+    "pot3"
+   ]
+  },
+  "q0.3": {
+   "n": 39,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1",
+    "pot2",
+    "pot3"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t4_split_006",
+  "n_total": 82,
+  "q0.5": {
+   "n": 41,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "pots": [
+    "pot1",
+    "pot5"
+   ]
+  },
+  "q0.3": {
+   "n": 41,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "pots": [
+    "pot1",
+    "pot5"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t4_split_007",
+  "n_total": 98,
+  "q0.5": {
+   "n": 33,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  },
+  "q0.3": {
+   "n": 37,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t4_split_008",
+  "n_total": 89,
+  "q0.5": {
+   "n": 30,
+   "outcome": "timeout",
+   "s": 15.01,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  },
+  "q0.3": {
+   "n": 30,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t4_split_009",
+  "n_total": 73,
+  "q0.5": {
+   "n": 26,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1"
+   ],
+   "pots": [
+    "pot4"
+   ]
+  },
+  "q0.3": {
+   "n": 27,
+   "outcome": "timeout",
+   "s": 14.99,
+   "makespan": null,
+   "cooks": [
+    "c1"
+   ],
+   "pots": [
+    "pot4"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t5_counters_000",
+  "n_total": 135,
+  "q0.5": {
+   "n": 32,
+   "outcome": "valid",
+   "s": 0.67,
+   "makespan": 130.031,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  },
+  "q0.3": {
+   "n": 33,
+   "outcome": "valid",
+   "s": 0.61,
+   "makespan": 130.031,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t5_counters_001",
+  "n_total": 175,
+  "q0.5": {
+   "n": 46,
+   "outcome": "timeout",
+   "s": 15.01,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1",
+    "pot4"
+   ]
+  },
+  "q0.3": {
+   "n": 46,
+   "outcome": "timeout",
+   "s": 14.93,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1",
+    "pot4"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t5_counters_002",
+  "n_total": 150,
+  "q0.5": {
+   "n": 41,
+   "outcome": "timeout",
+   "s": 14.92,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot2",
+    "pot4"
+   ]
+  },
+  "q0.3": {
+   "n": 43,
+   "outcome": "timeout",
+   "s": 14.93,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot2",
+    "pot4"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t5_counters_003",
+  "n_total": 131,
+  "q0.5": {
+   "n": 40,
+   "outcome": "timeout",
+   "s": 15.04,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  },
+  "q0.3": {
+   "n": 40,
+   "outcome": "timeout",
+   "s": 14.97,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t5_counters_004",
+  "n_total": 117,
+  "q0.5": {
+   "n": 34,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  },
+  "q0.3": {
+   "n": 39,
+   "outcome": "timeout",
+   "s": 14.95,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t5_counters_005",
+  "n_total": 138,
+  "q0.5": {
+   "n": 46,
+   "outcome": "timeout",
+   "s": 15.0,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1",
+    "pot4"
+   ]
+  },
+  "q0.3": {
+   "n": 48,
+   "outcome": "timeout",
+   "s": 14.91,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1",
+    "pot4"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t5_counters_006",
+  "n_total": 135,
+  "q0.5": {
+   "n": 41,
+   "outcome": "timeout",
+   "s": 15.0,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1",
+    "pot4"
+   ]
+  },
+  "q0.3": {
+   "n": 40,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1",
+    "pot4"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t5_counters_007",
+  "n_total": 140,
+  "q0.5": {
+   "n": 38,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  },
+  "q0.3": {
+   "n": 31,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c3"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t5_counters_008",
+  "n_total": 124,
+  "q0.5": {
+   "n": 26,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  },
+  "q0.3": {
+   "n": 27,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t5_counters_009",
+  "n_total": 151,
+  "q0.5": {
+   "n": 51,
+   "outcome": "timeout",
+   "s": 15.01,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  },
+  "q0.3": {
+   "n": 49,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_000",
+  "n_total": 70,
+  "q0.5": {
+   "n": 37,
+   "outcome": "timeout",
+   "s": 15.1,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  },
+  "q0.3": {
+   "n": 37,
+   "outcome": "timeout",
+   "s": 14.99,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_001",
+  "n_total": 72,
+  "q0.5": {
+   "n": 44,
+   "outcome": "timeout",
+   "s": 15.01,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "pots": [
+    "pot3"
+   ]
+  },
+  "q0.3": {
+   "n": 44,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "pots": [
+    "pot3"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_002",
+  "n_total": 71,
+  "q0.5": {
+   "n": 41,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot4",
+    "pot5"
+   ]
+  },
+  "q0.3": {
+   "n": 41,
+   "outcome": "timeout",
+   "s": 15.04,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot4",
+    "pot5"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_003",
+  "n_total": 71,
+  "q0.5": {
+   "n": 35,
+   "outcome": "timeout",
+   "s": 15.04,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c4"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  },
+  "q0.3": {
+   "n": 38,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "pots": [
+    "pot2"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_004",
+  "n_total": 76,
+  "q0.5": {
+   "n": 35,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot4"
+   ]
+  },
+  "q0.3": {
+   "n": 35,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot4"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_005",
+  "n_total": 68,
+  "q0.5": {
+   "n": 48,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1",
+    "pot4"
+   ]
+  },
+  "q0.3": {
+   "n": 48,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3"
+   ],
+   "pots": [
+    "pot1",
+    "pot4"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_006",
+  "n_total": 70,
+  "q0.5": {
+   "n": 35,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot3"
+   ]
+  },
+  "q0.3": {
+   "n": 35,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot3"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_007",
+  "n_total": 66,
+  "q0.5": {
+   "n": 37,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1",
+    "pot4"
+   ]
+  },
+  "q0.3": {
+   "n": 37,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot1",
+    "pot4"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_008",
+  "n_total": 82,
+  "q0.5": {
+   "n": 51,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "pots": [
+    "pot1",
+    "pot5"
+   ]
+  },
+  "q0.3": {
+   "n": 54,
+   "outcome": "timeout",
+   "s": 15.03,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2",
+    "c3",
+    "c4"
+   ],
+   "pots": [
+    "pot1",
+    "pot5",
+    "pot6"
+   ]
+  }
+ },
+ {
+  "instance": "stress_t6_many_orders_009",
+  "n_total": 72,
+  "q0.5": {
+   "n": 34,
+   "outcome": "timeout",
+   "s": 15.02,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot6"
+   ]
+  },
+  "q0.3": {
+   "n": 34,
+   "outcome": "timeout",
+   "s": 15.04,
+   "makespan": null,
+   "cooks": [
+    "c1",
+    "c2"
+   ],
+   "pots": [
+    "pot6"
+   ]
+  }
+ }
+]

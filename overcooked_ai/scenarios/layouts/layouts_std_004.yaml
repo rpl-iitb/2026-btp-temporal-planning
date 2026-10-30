@@ -1,0 +1,11 @@
+scenario_id: layouts_std_004
+seed: 4
+counters: shared
+layout: {name: coordination_ring}
+cooks: 1
+pots: 1
+description: coordination_ring, 1 cooks, 1 orders, deadlines = ceil(1.08 x certificate)
+orders:
+- recipe: {onion: 3}
+  deadline: 67
+sim: {cook_time: 20}

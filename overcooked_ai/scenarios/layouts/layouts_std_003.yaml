@@ -1,0 +1,11 @@
+scenario_id: layouts_std_003
+seed: 3
+counters: shared
+layout: {name: large_room}
+cooks: 1
+pots: 1
+description: large_room, 1 cooks, 1 orders, deadlines = ceil(1.01 x certificate)
+orders:
+- recipe: {onion: 3}
+  deadline: 74
+sim: {cook_time: 20}

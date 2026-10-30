@@ -1,0 +1,110 @@
+[
+ {
+  "instance_id": "val_large_t1_medium_000",
+  "checks_passed": true,
+  "objects": 52,
+  "init_facts": 252,
+  "numeric_fluents": 171,
+  "goals": 3,
+  "goals_with_deadline": 3
+ },
+ {
+  "instance_id": "val_large_t1_medium_001",
+  "checks_passed": true,
+  "objects": 51,
+  "init_facts": 250,
+  "numeric_fluents": 169,
+  "goals": 2,
+  "goals_with_deadline": 2
+ },
+ {
+  "instance_id": "val_large_t2_large_000",
+  "checks_passed": true,
+  "objects": 73,
+  "init_facts": 580,
+  "numeric_fluents": 464,
+  "goals": 4,
+  "goals_with_deadline": 4
+ },
+ {
+  "instance_id": "val_large_t2_large_001",
+  "checks_passed": true,
+  "objects": 77,
+  "init_facts": 581,
+  "numeric_fluents": 462,
+  "goals": 4,
+  "goals_with_deadline": 4
+ },
+ {
+  "instance_id": "val_large_t3_xl_000",
+  "checks_passed": true,
+  "objects": 101,
+  "init_facts": 1087,
+  "numeric_fluents": 929,
+  "goals": 5,
+  "goals_with_deadline": 5
+ },
+ {
+  "instance_id": "val_large_t3_xl_001",
+  "checks_passed": true,
+  "objects": 121,
+  "init_facts": 1627,
+  "numeric_fluents": 1442,
+  "goals": 4,
+  "goals_with_deadline": 4
+ },
+ {
+  "instance_id": "val_large_t4_split_000",
+  "checks_passed": true,
+  "objects": 78,
+  "init_facts": 409,
+  "numeric_fluents": 289,
+  "goals": 2,
+  "goals_with_deadline": 2
+ },
+ {
+  "instance_id": "val_large_t4_split_001",
+  "checks_passed": true,
+  "objects": 86,
+  "init_facts": 528,
+  "numeric_fluents": 398,
+  "goals": 2,
+  "goals_with_deadline": 2
+ },
+ {
+  "instance_id": "val_large_t5_counters_000",
+  "checks_passed": true,
+  "objects": 173,
+  "init_facts": 3914,
+  "numeric_fluents": 3662,
+  "goals": 4,
+  "goals_with_deadline": 4
+ },
+ {
+  "instance_id": "val_large_t5_counters_001",
+  "checks_passed": true,
+  "objects": 144,
+  "init_facts": 2716,
+  "numeric_fluents": 2502,
+  "goals": 4,
+  "goals_with_deadline": 4
+ },
+ {
+  "instance_id": "val_large_t6_many_orders_000",
+  "checks_passed": true,
+  "objects": 82,
+  "init_facts": 663,
+  "numeric_fluents": 530,
+  "goals": 7,
+  "goals_with_deadline": 7
+ },
+ {
+  "instance_id": "val_large_t6_many_orders_001",
+  "checks_passed": true,
+  "objects": 84,
+  "init_facts": 691,
+  "numeric_fluents": 552,
+  "goals": 8,
+  "goals_with_deadline": 8
+ }
+]

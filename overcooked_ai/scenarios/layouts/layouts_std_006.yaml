@@ -1,0 +1,11 @@
+scenario_id: layouts_std_006
+seed: 7
+counters: shared
+layout: {name: multiplayer_schelling}
+cooks: 1
+pots: 1
+description: multiplayer_schelling, 1 cooks, 1 orders, deadlines = ceil(1.17 x certificate)
+orders:
+- recipe: {onion: 3}
+  deadline: 67
+sim: {cook_time: 20}

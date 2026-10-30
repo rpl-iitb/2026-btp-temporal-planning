@@ -1,0 +1,17 @@
+train kitchens 37, val kitchens 10; val MAE of a constant t_min predictor 2.284 LB
+epoch  10  val loss 6.769  imp acc 0.705  t_min MAE 2.483  t_max MAE 2.803  censored above D 0.27
+epoch  20  val loss 4.710  imp acc 0.781  t_min MAE 1.554  t_max MAE 2.004  censored above D 0.28
+epoch  30  val loss 3.741  imp acc 0.886  t_min MAE 1.363  t_max MAE 1.780  censored above D 0.35
+epoch  40  val loss 3.802  imp acc 0.882  t_min MAE 1.814  t_max MAE 1.750  censored above D 0.42
+epoch  50  val loss 2.959  imp acc 0.895  t_min MAE 1.686  t_max MAE 1.418  censored above D 0.50
+epoch  60  val loss 3.689  imp acc 0.900  t_min MAE 1.983  t_max MAE 1.783  censored above D 0.56
+epoch  70  val loss 4.449  imp acc 0.894  t_min MAE 2.502  t_max MAE 2.214  censored above D 0.83
+epoch  80  val loss 3.578  imp acc 0.903  t_min MAE 1.969  t_max MAE 1.736  censored above D 0.56
+epoch  90  val loss 3.898  imp acc 0.911  t_min MAE 2.139  t_max MAE 1.864  censored above D 0.50
+epoch 100  val loss 3.782  imp acc 0.899  t_min MAE 2.118  t_max MAE 1.815  censored above D 0.53
+epoch 110  val loss 3.300  imp acc 0.912  t_min MAE 1.862  t_max MAE 1.605  censored above D 0.54
+epoch 120  val loss 2.890  imp acc 0.903  t_min MAE 1.584  t_max MAE 1.409  censored above D 0.43
+epoch 130  val loss 3.271  imp acc 0.899  t_min MAE 1.885  t_max MAE 1.605  censored above D 0.58
+epoch 140  val loss 3.768  imp acc 0.902  t_min MAE 2.176  t_max MAE 1.829  censored above D 0.60
+epoch 150  val loss 3.283  imp acc 0.893  t_min MAE 1.839  t_max MAE 1.576  censored above D 0.47
+saved /home/harshi/Desktop/BTP/temporal_planning/results/models/TIFLAX6_seed0 in 170 s
