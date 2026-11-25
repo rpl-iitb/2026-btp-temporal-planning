@@ -1,0 +1,58 @@
+[
+ {
+  "runs": 80,
+  "success": 1.0,
+  "served": 1.0,
+  "ms_cert": 1.0018221534604492,
+  "tag": "dispatcher"
+ },
+ {
+  "runs": 80,
+  "success": 1.0,
+  "served": 1.0,
+  "ms_cert": 1.0006434879167156,
+  "tag": "dagger 0"
+ },
+ {
+  "runs": 80,
+  "success": 1.0,
+  "served": 1.0,
+  "ms_cert": 0.999972251452545,
+  "tag": "dagger 1"
+ },
+ {
+  "runs": 80,
+  "success": 1.0,
+  "served": 1.0,
+  "ms_cert": 0.9962565293119621,
+  "tag": "dagger 2"
+ },
+ {
+  "runs": 80,
+  "success": 1.0,
+  "served": 1.0,
+  "ms_cert": 0.9960383526070146,
+  "tag": "rl 4"
+ },
+ {
+  "runs": 80,
+  "success": 1.0,
+  "served": 1.0,
+  "ms_cert": 0.9937277091785273,
+  "tag": "rl 9"
+ },
+ {
+  "runs": 80,
+  "success": 1.0,
+  "served": 1.0,
+  "ms_cert": 0.9961855241050843,
+  "tag": "rl 14"
+ },
+ {
+  "runs": 80,
+  "success": 1.0,
+  "served": 1.0,
+  "ms_cert": 0.9958715909500786,
+  "tag": "rl 19"
+ }
+]

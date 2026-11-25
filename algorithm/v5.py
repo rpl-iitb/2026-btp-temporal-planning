@@ -1,4 +1,9 @@
-"""T-iFLAX V5 (set scorer on POPF outcomes) and V5a (3-head importance / time GNN). See algorithm/README.md.
+"""T-iFLAX V5 (set scorer on POPF outcomes) and V5a (3-head importance / time GNN).
+
+What it does: a GNN on Pi|S predicts P(POPF solves S) and the makespan, trained on POPF trials of candidate sets; it
+ranks V4.2's candidates and POPF runs on one at a time. V5a: a 3-head GNN (importance, T_min, T_max) with temporal
+filtration and a GNN seed inside V4.2.
+Earlier result (pre-final Overcooked-AI benchmark, seeds-only protocol): V5 39 / 60 (relaxed-bound order 42).
 
     python -m algorithm.v5 labels|train|seedtest|v5a-labels|v5a-train|v5a-seedtest [--split ...]
 """
@@ -15,7 +20,7 @@ import torch.nn as nn
 
 from dataclasses import dataclass
 
-from pddl_generator import TemporalPlan
+from .pddlkit import TemporalPlan
 from . import PDDL, results_dir, split_dirs
 from .gnn import Scorer, temporal_lb, to_tensors
 from .grounding import GroundTask, Task, comp_t

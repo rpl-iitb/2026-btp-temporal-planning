@@ -1,2 +1,0 @@
-val: 12 kitchens, 65 candidate sets, 49 solved by POPF (75 %), 87 s -> /home/harshi/Desktop/BTP/temporal_planning/results/models/v5_sets_val.json
-train: 40 kitchens, 233 candidate sets, 146 solved by POPF (63 %), 350 s -> /home/harshi/Desktop/BTP/temporal_planning/results/models/v5_sets_train.json

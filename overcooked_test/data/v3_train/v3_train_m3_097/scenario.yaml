@@ -1,0 +1,48 @@
+scenario_id: v3_train_m3_097
+description: 'v3 tier m3: 12x8, 3 cooks, 7 orders, 14 stations'
+grid:
+- XBDXXXXXBPSX
+- C          X
+- B  1       X
+- B          X
+- P          X
+- P          X
+- R3        2X
+- XXXXXOPWXXXX
+counters:
+- - 3
+  - 0
+- - 8
+  - 7
+- - 1
+  - 7
+- - 4
+  - 0
+- - 11
+  - 1
+plates:
+  clean: 2
+  dirty: 0
+dirty_pots: 0
+sim:
+  burn: 26
+orders:
+- dish: carrot_onion_stew
+  recipe: &id001
+    carrot: 2
+    onion: 1
+- dish: carrot_soup
+  recipe:
+    carrot: 2
+- dish: onion_soup
+  recipe: &id002
+    onion: 2
+- dish: carrot_onion_stew
+  recipe: *id001
+- dish: carrot_onion_stew
+  recipe: *id001
+- dish: carrot_onion_stew
+  recipe: *id001
+- dish: onion_soup
+  recipe: *id002
+seed: 97

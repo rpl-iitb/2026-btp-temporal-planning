@@ -1,0 +1,26 @@
+{
+ "V12_factory noise x1.0": {
+  "all": {
+   "runs": 200,
+   "success": 1.0,
+   "served": 1.0,
+   "ms_cert": 1.0130392070063277
+  }
+ },
+ "V12_factory noise x2.0": {
+  "all": {
+   "runs": 200,
+   "success": 1.0,
+   "served": 1.0,
+   "ms_cert": 1.036760780774604
+  }
+ },
+ "V12_factory noise x3.0": {
+  "all": {
+   "runs": 200,
+   "success": 1.0,
+   "served": 1.0,
+   "ms_cert": 1.0416718889619778
+  }
+ }
+}

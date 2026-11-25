@@ -1,0 +1,20 @@
+scenario_id: k03_service_cleanup
+description: >
+  One cook, two stoves, three dishes but only one clean plate (the second
+  plate is dirty from the last service) and one pot still dirty. The cook must
+  interleave prep, cooking, serving, scrubbing pots and washing plates.
+grid:
+  - "XOTCXPXPX"
+  - "B       S"
+  - "X   1   X"
+  - "B       R"
+  - "XXDXXXWXX"
+plates: {clean: 1, dirty: 1}
+dirty_pots: 1
+orders:
+  - dish: tomato_soup
+    recipe: {tomato: 2}
+  - dish: onion_soup
+    recipe: {onion: 2}
+  - dish: carrot_tomato_stew
+    recipe: {carrot: 1, tomato: 1}

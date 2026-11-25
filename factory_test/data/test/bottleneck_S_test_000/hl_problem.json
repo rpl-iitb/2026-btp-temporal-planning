@@ -1,0 +1,4005 @@
+{
+ "schema_version": "1.0",
+ "instance_id": "bottleneck_s_test_000",
+ "benchmark": "factorysim",
+ "domain": "factorysim",
+ "objects": [
+  {
+   "name": "r1",
+   "type": "robot",
+   "attrs": {}
+  },
+  {
+   "name": "r2",
+   "type": "robot",
+   "attrs": {}
+  },
+  {
+   "name": "n_asm1",
+   "type": "node",
+   "attrs": {}
+  },
+  {
+   "name": "n_asm2",
+   "type": "node",
+   "attrs": {}
+  },
+  {
+   "name": "n_inspect",
+   "type": "node",
+   "attrs": {}
+  },
+  {
+   "name": "n_k2",
+   "type": "node",
+   "attrs": {}
+  },
+  {
+   "name": "n_k5",
+   "type": "node",
+   "attrs": {}
+  },
+  {
+   "name": "n_kitting",
+   "type": "node",
+   "attrs": {}
+  },
+  {
+   "name": "n_mc1",
+   "type": "node",
+   "attrs": {}
+  },
+  {
+   "name": "n_mc2",
+   "type": "node",
+   "attrs": {}
+  },
+  {
+   "name": "n_mc3",
+   "type": "node",
+   "attrs": {}
+  },
+  {
+   "name": "n_mc4",
+   "type": "node",
+   "attrs": {}
+  },
+  {
+   "name": "n_mc5",
+   "type": "node",
+   "attrs": {}
+  },
+  {
+   "name": "n_mc9_out",
+   "type": "node",
+   "attrs": {}
+  },
+  {
+   "name": "n_overflow",
+   "type": "node",
+   "attrs": {}
+  },
+  {
+   "name": "n_store",
+   "type": "node",
+   "attrs": {}
+  },
+  {
+   "name": "asm1",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "asm2",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "inspect",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "kitting",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "mc1",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "mc2",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "mc3",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "mc4",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "mc5",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "mc6",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "mc7",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "mc8",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "mc9",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "mc9_out",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "overflow",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "store",
+   "type": "station",
+   "attrs": {}
+  },
+  {
+   "name": "j0",
+   "type": "job",
+   "attrs": {}
+  },
+  {
+   "name": "j1",
+   "type": "job",
+   "attrs": {}
+  },
+  {
+   "name": "j2",
+   "type": "job",
+   "attrs": {}
+  },
+  {
+   "name": "j3",
+   "type": "job",
+   "attrs": {}
+  },
+  {
+   "name": "j0_r0_k0",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j0_r0_k1",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j0_r0_k10",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j0_r0_k2",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j0_r0_k3",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j0_r0_k4",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j0_r0_k5",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j0_r0_k6",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j0_r0_k7",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j0_r0_k8",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j0_r0_k9",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j1_r0_k0",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j1_r0_k1",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j1_r0_k10",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j1_r0_k2",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j1_r0_k3",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j1_r0_k4",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j1_r0_k5",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j1_r0_k6",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j1_r0_k7",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j1_r0_k8",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j1_r0_k9",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j2_r0_k0",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j2_r0_k1",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j2_r0_k10",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j2_r0_k2",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j2_r0_k3",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j2_r0_k4",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j2_r0_k5",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j2_r0_k6",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j2_r0_k7",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j2_r0_k8",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j2_r0_k9",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j3_r0_k0",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j3_r0_k1",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j3_r0_k10",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j3_r0_k2",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j3_r0_k3",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j3_r0_k4",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j3_r0_k5",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j3_r0_k6",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j3_r0_k7",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j3_r0_k8",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "j3_r0_k9",
+   "type": "step",
+   "attrs": {}
+  },
+  {
+   "name": "asm1_in0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "asm1_in1",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "asm1_out0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "asm2_in0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "asm2_in1",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "asm2_out0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "inspect_in0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "inspect_out0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "kitting_in0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "kitting_in1",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "kitting_in2",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "kitting_in3",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "kitting_out0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "kitting_out1",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc1_in0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc1_out0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc2_in0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc2_out0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc3_in0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc3_out0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc4_in0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc4_out0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc5_in0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc5_in1",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc6_in0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc7_in0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc8_in0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc9_in0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc9_out_in0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc9_out_out0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc9_out_out1",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "mc9_out_out2",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "overflow_in0",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "overflow_in1",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "overflow_in2",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "overflow_in3",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "overflow_in4",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "overflow_in5",
+   "type": "slot",
+   "attrs": {}
+  },
+  {
+   "name": "op_self_asm1",
+   "type": "operator",
+   "attrs": {}
+  },
+  {
+   "name": "op_self_asm2",
+   "type": "operator",
+   "attrs": {}
+  },
+  {
+   "name": "op_self_inspect",
+   "type": "operator",
+   "attrs": {}
+  },
+  {
+   "name": "op_self_kitting",
+   "type": "operator",
+   "attrs": {}
+  },
+  {
+   "name": "op_self_mc1",
+   "type": "operator",
+   "attrs": {}
+  },
+  {
+   "name": "op_self_mc2",
+   "type": "operator",
+   "attrs": {}
+  },
+  {
+   "name": "op_self_mc3",
+   "type": "operator",
+   "attrs": {}
+  },
+  {
+   "name": "op_self_mc4",
+   "type": "operator",
+   "attrs": {}
+  },
+  {
+   "name": "op_self_mc5",
+   "type": "operator",
+   "attrs": {}
+  },
+  {
+   "name": "op_self_mc6",
+   "type": "operator",
+   "attrs": {}
+  },
+  {
+   "name": "op_self_mc7",
+   "type": "operator",
+   "attrs": {}
+  },
+  {
+   "name": "op_self_mc8",
+   "type": "operator",
+   "attrs": {}
+  },
+  {
+   "name": "op_self_mc9",
+   "type": "operator",
+   "attrs": {}
+  },
+  {
+   "name": "op_self_mc9_out",
+   "type": "operator",
+   "attrs": {}
+  }
+ ],
+ "init": {
+  "facts": [
+   [
+    "arrived",
+    "j0"
+   ],
+   [
+    "arrived",
+    "j1"
+   ],
+   [
+    "arrived",
+    "j2"
+   ],
+   [
+    "arrived",
+    "j3"
+   ],
+   [
+    "conveyor",
+    "mc5",
+    "mc6"
+   ],
+   [
+    "conveyor",
+    "mc5",
+    "mc7"
+   ],
+   [
+    "conveyor",
+    "mc6",
+    "mc8"
+   ],
+   [
+    "conveyor",
+    "mc6",
+    "mc9"
+   ],
+   [
+    "conveyor",
+    "mc7",
+    "mc8"
+   ],
+   [
+    "conveyor",
+    "mc7",
+    "mc9"
+   ],
+   [
+    "conveyor",
+    "mc8",
+    "mc9_out"
+   ],
+   [
+    "conveyor",
+    "mc9",
+    "mc9_out"
+   ],
+   [
+    "dock",
+    "asm1",
+    "n_asm1"
+   ],
+   [
+    "dock",
+    "asm2",
+    "n_asm2"
+   ],
+   [
+    "dock",
+    "inspect",
+    "n_inspect"
+   ],
+   [
+    "dock",
+    "kitting",
+    "n_kitting"
+   ],
+   [
+    "dock",
+    "mc1",
+    "n_mc1"
+   ],
+   [
+    "dock",
+    "mc2",
+    "n_mc2"
+   ],
+   [
+    "dock",
+    "mc3",
+    "n_mc3"
+   ],
+   [
+    "dock",
+    "mc4",
+    "n_mc4"
+   ],
+   [
+    "dock",
+    "mc5",
+    "n_mc5"
+   ],
+   [
+    "dock",
+    "mc9_out",
+    "n_mc9_out"
+   ],
+   [
+    "dock",
+    "overflow",
+    "n_overflow"
+   ],
+   [
+    "dock",
+    "store",
+    "n_store"
+   ],
+   [
+    "dock-free",
+    "asm1"
+   ],
+   [
+    "dock-free",
+    "asm2"
+   ],
+   [
+    "dock-free",
+    "inspect"
+   ],
+   [
+    "dock-free",
+    "kitting"
+   ],
+   [
+    "dock-free",
+    "mc1"
+   ],
+   [
+    "dock-free",
+    "mc2"
+   ],
+   [
+    "dock-free",
+    "mc3"
+   ],
+   [
+    "dock-free",
+    "mc4"
+   ],
+   [
+    "dock-free",
+    "mc5"
+   ],
+   [
+    "dock-free",
+    "mc9_out"
+   ],
+   [
+    "dock-free",
+    "overflow"
+   ],
+   [
+    "dock-free",
+    "store"
+   ],
+   [
+    "empty",
+    "r1"
+   ],
+   [
+    "empty",
+    "r2"
+   ],
+   [
+    "final",
+    "j0",
+    "j0_r0_k10"
+   ],
+   [
+    "final",
+    "j1",
+    "j1_r0_k10"
+   ],
+   [
+    "final",
+    "j2",
+    "j2_r0_k10"
+   ],
+   [
+    "final",
+    "j3",
+    "j3_r0_k10"
+   ],
+   [
+    "first",
+    "j0",
+    "j0_r0_k0"
+   ],
+   [
+    "first",
+    "j1",
+    "j1_r0_k0"
+   ],
+   [
+    "first",
+    "j2",
+    "j2_r0_k0"
+   ],
+   [
+    "first",
+    "j3",
+    "j3_r0_k0"
+   ],
+   [
+    "in-slot",
+    "asm1_in0",
+    "asm1"
+   ],
+   [
+    "in-slot",
+    "asm1_in1",
+    "asm1"
+   ],
+   [
+    "in-slot",
+    "asm2_in0",
+    "asm2"
+   ],
+   [
+    "in-slot",
+    "asm2_in1",
+    "asm2"
+   ],
+   [
+    "in-slot",
+    "inspect_in0",
+    "inspect"
+   ],
+   [
+    "in-slot",
+    "kitting_in0",
+    "kitting"
+   ],
+   [
+    "in-slot",
+    "kitting_in1",
+    "kitting"
+   ],
+   [
+    "in-slot",
+    "kitting_in2",
+    "kitting"
+   ],
+   [
+    "in-slot",
+    "kitting_in3",
+    "kitting"
+   ],
+   [
+    "in-slot",
+    "mc1_in0",
+    "mc1"
+   ],
+   [
+    "in-slot",
+    "mc2_in0",
+    "mc2"
+   ],
+   [
+    "in-slot",
+    "mc3_in0",
+    "mc3"
+   ],
+   [
+    "in-slot",
+    "mc4_in0",
+    "mc4"
+   ],
+   [
+    "in-slot",
+    "mc5_in0",
+    "mc5"
+   ],
+   [
+    "in-slot",
+    "mc5_in1",
+    "mc5"
+   ],
+   [
+    "in-slot",
+    "mc6_in0",
+    "mc6"
+   ],
+   [
+    "in-slot",
+    "mc7_in0",
+    "mc7"
+   ],
+   [
+    "in-slot",
+    "mc8_in0",
+    "mc8"
+   ],
+   [
+    "in-slot",
+    "mc9_in0",
+    "mc9"
+   ],
+   [
+    "in-slot",
+    "mc9_out_in0",
+    "mc9_out"
+   ],
+   [
+    "in-slot",
+    "overflow_in0",
+    "overflow"
+   ],
+   [
+    "in-slot",
+    "overflow_in1",
+    "overflow"
+   ],
+   [
+    "in-slot",
+    "overflow_in2",
+    "overflow"
+   ],
+   [
+    "in-slot",
+    "overflow_in3",
+    "overflow"
+   ],
+   [
+    "in-slot",
+    "overflow_in4",
+    "overflow"
+   ],
+   [
+    "in-slot",
+    "overflow_in5",
+    "overflow"
+   ],
+   [
+    "is-buffer",
+    "overflow"
+   ],
+   [
+    "is-sink",
+    "store"
+   ],
+   [
+    "machine-free",
+    "asm1"
+   ],
+   [
+    "machine-free",
+    "asm2"
+   ],
+   [
+    "machine-free",
+    "inspect"
+   ],
+   [
+    "machine-free",
+    "kitting"
+   ],
+   [
+    "machine-free",
+    "mc1"
+   ],
+   [
+    "machine-free",
+    "mc2"
+   ],
+   [
+    "machine-free",
+    "mc3"
+   ],
+   [
+    "machine-free",
+    "mc4"
+   ],
+   [
+    "machine-free",
+    "mc5"
+   ],
+   [
+    "machine-free",
+    "mc6"
+   ],
+   [
+    "machine-free",
+    "mc7"
+   ],
+   [
+    "machine-free",
+    "mc8"
+   ],
+   [
+    "machine-free",
+    "mc9"
+   ],
+   [
+    "machine-free",
+    "mc9_out"
+   ],
+   [
+    "next",
+    "j0_r0_k0",
+    "j0_r0_k1"
+   ],
+   [
+    "next",
+    "j0_r0_k1",
+    "j0_r0_k2"
+   ],
+   [
+    "next",
+    "j0_r0_k2",
+    "j0_r0_k3"
+   ],
+   [
+    "next",
+    "j0_r0_k3",
+    "j0_r0_k4"
+   ],
+   [
+    "next",
+    "j0_r0_k4",
+    "j0_r0_k5"
+   ],
+   [
+    "next",
+    "j0_r0_k5",
+    "j0_r0_k6"
+   ],
+   [
+    "next",
+    "j0_r0_k6",
+    "j0_r0_k7"
+   ],
+   [
+    "next",
+    "j0_r0_k7",
+    "j0_r0_k8"
+   ],
+   [
+    "next",
+    "j0_r0_k8",
+    "j0_r0_k9"
+   ],
+   [
+    "next",
+    "j0_r0_k9",
+    "j0_r0_k10"
+   ],
+   [
+    "next",
+    "j1_r0_k0",
+    "j1_r0_k1"
+   ],
+   [
+    "next",
+    "j1_r0_k1",
+    "j1_r0_k2"
+   ],
+   [
+    "next",
+    "j1_r0_k2",
+    "j1_r0_k3"
+   ],
+   [
+    "next",
+    "j1_r0_k3",
+    "j1_r0_k4"
+   ],
+   [
+    "next",
+    "j1_r0_k4",
+    "j1_r0_k5"
+   ],
+   [
+    "next",
+    "j1_r0_k5",
+    "j1_r0_k6"
+   ],
+   [
+    "next",
+    "j1_r0_k6",
+    "j1_r0_k7"
+   ],
+   [
+    "next",
+    "j1_r0_k7",
+    "j1_r0_k8"
+   ],
+   [
+    "next",
+    "j1_r0_k8",
+    "j1_r0_k9"
+   ],
+   [
+    "next",
+    "j1_r0_k9",
+    "j1_r0_k10"
+   ],
+   [
+    "next",
+    "j2_r0_k0",
+    "j2_r0_k1"
+   ],
+   [
+    "next",
+    "j2_r0_k1",
+    "j2_r0_k2"
+   ],
+   [
+    "next",
+    "j2_r0_k2",
+    "j2_r0_k3"
+   ],
+   [
+    "next",
+    "j2_r0_k3",
+    "j2_r0_k4"
+   ],
+   [
+    "next",
+    "j2_r0_k4",
+    "j2_r0_k5"
+   ],
+   [
+    "next",
+    "j2_r0_k5",
+    "j2_r0_k6"
+   ],
+   [
+    "next",
+    "j2_r0_k6",
+    "j2_r0_k7"
+   ],
+   [
+    "next",
+    "j2_r0_k7",
+    "j2_r0_k8"
+   ],
+   [
+    "next",
+    "j2_r0_k8",
+    "j2_r0_k9"
+   ],
+   [
+    "next",
+    "j2_r0_k9",
+    "j2_r0_k10"
+   ],
+   [
+    "next",
+    "j3_r0_k0",
+    "j3_r0_k1"
+   ],
+   [
+    "next",
+    "j3_r0_k1",
+    "j3_r0_k2"
+   ],
+   [
+    "next",
+    "j3_r0_k2",
+    "j3_r0_k3"
+   ],
+   [
+    "next",
+    "j3_r0_k3",
+    "j3_r0_k4"
+   ],
+   [
+    "next",
+    "j3_r0_k4",
+    "j3_r0_k5"
+   ],
+   [
+    "next",
+    "j3_r0_k5",
+    "j3_r0_k6"
+   ],
+   [
+    "next",
+    "j3_r0_k6",
+    "j3_r0_k7"
+   ],
+   [
+    "next",
+    "j3_r0_k7",
+    "j3_r0_k8"
+   ],
+   [
+    "next",
+    "j3_r0_k8",
+    "j3_r0_k9"
+   ],
+   [
+    "next",
+    "j3_r0_k9",
+    "j3_r0_k10"
+   ],
+   [
+    "op-for",
+    "op_self_asm1",
+    "asm1"
+   ],
+   [
+    "op-for",
+    "op_self_asm2",
+    "asm2"
+   ],
+   [
+    "op-for",
+    "op_self_inspect",
+    "inspect"
+   ],
+   [
+    "op-for",
+    "op_self_kitting",
+    "kitting"
+   ],
+   [
+    "op-for",
+    "op_self_mc1",
+    "mc1"
+   ],
+   [
+    "op-for",
+    "op_self_mc2",
+    "mc2"
+   ],
+   [
+    "op-for",
+    "op_self_mc3",
+    "mc3"
+   ],
+   [
+    "op-for",
+    "op_self_mc4",
+    "mc4"
+   ],
+   [
+    "op-for",
+    "op_self_mc5",
+    "mc5"
+   ],
+   [
+    "op-for",
+    "op_self_mc6",
+    "mc6"
+   ],
+   [
+    "op-for",
+    "op_self_mc7",
+    "mc7"
+   ],
+   [
+    "op-for",
+    "op_self_mc8",
+    "mc8"
+   ],
+   [
+    "op-for",
+    "op_self_mc9",
+    "mc9"
+   ],
+   [
+    "op-for",
+    "op_self_mc9_out",
+    "mc9_out"
+   ],
+   [
+    "op-free",
+    "op_self_asm1"
+   ],
+   [
+    "op-free",
+    "op_self_asm2"
+   ],
+   [
+    "op-free",
+    "op_self_inspect"
+   ],
+   [
+    "op-free",
+    "op_self_kitting"
+   ],
+   [
+    "op-free",
+    "op_self_mc1"
+   ],
+   [
+    "op-free",
+    "op_self_mc2"
+   ],
+   [
+    "op-free",
+    "op_self_mc3"
+   ],
+   [
+    "op-free",
+    "op_self_mc4"
+   ],
+   [
+    "op-free",
+    "op_self_mc5"
+   ],
+   [
+    "op-free",
+    "op_self_mc6"
+   ],
+   [
+    "op-free",
+    "op_self_mc7"
+   ],
+   [
+    "op-free",
+    "op_self_mc8"
+   ],
+   [
+    "op-free",
+    "op_self_mc9"
+   ],
+   [
+    "op-free",
+    "op_self_mc9_out"
+   ],
+   [
+    "open",
+    "j0"
+   ],
+   [
+    "open",
+    "j1"
+   ],
+   [
+    "open",
+    "j2"
+   ],
+   [
+    "open",
+    "j3"
+   ],
+   [
+    "option",
+    "j0",
+    "j0_r0_k0",
+    "kitting"
+   ],
+   [
+    "option",
+    "j0",
+    "j0_r0_k1",
+    "mc1"
+   ],
+   [
+    "option",
+    "j0",
+    "j0_r0_k2",
+    "mc2"
+   ],
+   [
+    "option",
+    "j0",
+    "j0_r0_k3",
+    "asm1"
+   ],
+   [
+    "option",
+    "j0",
+    "j0_r0_k4",
+    "mc5"
+   ],
+   [
+    "option",
+    "j0",
+    "j0_r0_k5",
+    "mc7"
+   ],
+   [
+    "option",
+    "j0",
+    "j0_r0_k6",
+    "mc8"
+   ],
+   [
+    "option",
+    "j0",
+    "j0_r0_k7",
+    "mc9_out"
+   ],
+   [
+    "option",
+    "j0",
+    "j0_r0_k8",
+    "asm2"
+   ],
+   [
+    "option",
+    "j0",
+    "j0_r0_k9",
+    "inspect"
+   ],
+   [
+    "option",
+    "j1",
+    "j1_r0_k0",
+    "kitting"
+   ],
+   [
+    "option",
+    "j1",
+    "j1_r0_k1",
+    "mc1"
+   ],
+   [
+    "option",
+    "j1",
+    "j1_r0_k2",
+    "mc2"
+   ],
+   [
+    "option",
+    "j1",
+    "j1_r0_k3",
+    "asm1"
+   ],
+   [
+    "option",
+    "j1",
+    "j1_r0_k4",
+    "mc5"
+   ],
+   [
+    "option",
+    "j1",
+    "j1_r0_k5",
+    "mc6"
+   ],
+   [
+    "option",
+    "j1",
+    "j1_r0_k6",
+    "mc8"
+   ],
+   [
+    "option",
+    "j1",
+    "j1_r0_k7",
+    "mc9_out"
+   ],
+   [
+    "option",
+    "j1",
+    "j1_r0_k8",
+    "asm2"
+   ],
+   [
+    "option",
+    "j1",
+    "j1_r0_k9",
+    "inspect"
+   ],
+   [
+    "option",
+    "j2",
+    "j2_r0_k0",
+    "kitting"
+   ],
+   [
+    "option",
+    "j2",
+    "j2_r0_k1",
+    "mc1"
+   ],
+   [
+    "option",
+    "j2",
+    "j2_r0_k2",
+    "mc2"
+   ],
+   [
+    "option",
+    "j2",
+    "j2_r0_k3",
+    "asm1"
+   ],
+   [
+    "option",
+    "j2",
+    "j2_r0_k4",
+    "mc5"
+   ],
+   [
+    "option",
+    "j2",
+    "j2_r0_k5",
+    "mc6"
+   ],
+   [
+    "option",
+    "j2",
+    "j2_r0_k6",
+    "mc8"
+   ],
+   [
+    "option",
+    "j2",
+    "j2_r0_k7",
+    "mc9_out"
+   ],
+   [
+    "option",
+    "j2",
+    "j2_r0_k8",
+    "asm2"
+   ],
+   [
+    "option",
+    "j2",
+    "j2_r0_k9",
+    "inspect"
+   ],
+   [
+    "option",
+    "j3",
+    "j3_r0_k0",
+    "kitting"
+   ],
+   [
+    "option",
+    "j3",
+    "j3_r0_k1",
+    "mc1"
+   ],
+   [
+    "option",
+    "j3",
+    "j3_r0_k2",
+    "mc2"
+   ],
+   [
+    "option",
+    "j3",
+    "j3_r0_k3",
+    "asm1"
+   ],
+   [
+    "option",
+    "j3",
+    "j3_r0_k4",
+    "mc5"
+   ],
+   [
+    "option",
+    "j3",
+    "j3_r0_k5",
+    "mc6"
+   ],
+   [
+    "option",
+    "j3",
+    "j3_r0_k6",
+    "mc8"
+   ],
+   [
+    "option",
+    "j3",
+    "j3_r0_k7",
+    "mc9_out"
+   ],
+   [
+    "option",
+    "j3",
+    "j3_r0_k8",
+    "asm2"
+   ],
+   [
+    "option",
+    "j3",
+    "j3_r0_k9",
+    "inspect"
+   ],
+   [
+    "out-slot",
+    "asm1_out0",
+    "asm1"
+   ],
+   [
+    "out-slot",
+    "asm2_out0",
+    "asm2"
+   ],
+   [
+    "out-slot",
+    "inspect_out0",
+    "inspect"
+   ],
+   [
+    "out-slot",
+    "kitting_out0",
+    "kitting"
+   ],
+   [
+    "out-slot",
+    "kitting_out1",
+    "kitting"
+   ],
+   [
+    "out-slot",
+    "mc1_out0",
+    "mc1"
+   ],
+   [
+    "out-slot",
+    "mc2_out0",
+    "mc2"
+   ],
+   [
+    "out-slot",
+    "mc3_out0",
+    "mc3"
+   ],
+   [
+    "out-slot",
+    "mc4_out0",
+    "mc4"
+   ],
+   [
+    "out-slot",
+    "mc9_out_out0",
+    "mc9_out"
+   ],
+   [
+    "out-slot",
+    "mc9_out_out1",
+    "mc9_out"
+   ],
+   [
+    "out-slot",
+    "mc9_out_out2",
+    "mc9_out"
+   ],
+   [
+    "robot-at",
+    "r1",
+    "n_k2"
+   ],
+   [
+    "robot-at",
+    "r2",
+    "n_k5"
+   ],
+   [
+    "robot-free",
+    "r1"
+   ],
+   [
+    "robot-free",
+    "r2"
+   ],
+   [
+    "robot-next",
+    "j0",
+    "j0_r0_k1",
+    "kitting"
+   ],
+   [
+    "robot-next",
+    "j0",
+    "j0_r0_k10",
+    "inspect"
+   ],
+   [
+    "robot-next",
+    "j0",
+    "j0_r0_k2",
+    "mc1"
+   ],
+   [
+    "robot-next",
+    "j0",
+    "j0_r0_k3",
+    "mc2"
+   ],
+   [
+    "robot-next",
+    "j0",
+    "j0_r0_k4",
+    "asm1"
+   ],
+   [
+    "robot-next",
+    "j0",
+    "j0_r0_k8",
+    "mc9_out"
+   ],
+   [
+    "robot-next",
+    "j0",
+    "j0_r0_k9",
+    "asm2"
+   ],
+   [
+    "robot-next",
+    "j1",
+    "j1_r0_k1",
+    "kitting"
+   ],
+   [
+    "robot-next",
+    "j1",
+    "j1_r0_k10",
+    "inspect"
+   ],
+   [
+    "robot-next",
+    "j1",
+    "j1_r0_k2",
+    "mc1"
+   ],
+   [
+    "robot-next",
+    "j1",
+    "j1_r0_k3",
+    "mc2"
+   ],
+   [
+    "robot-next",
+    "j1",
+    "j1_r0_k4",
+    "asm1"
+   ],
+   [
+    "robot-next",
+    "j1",
+    "j1_r0_k8",
+    "mc9_out"
+   ],
+   [
+    "robot-next",
+    "j1",
+    "j1_r0_k9",
+    "asm2"
+   ],
+   [
+    "robot-next",
+    "j2",
+    "j2_r0_k1",
+    "kitting"
+   ],
+   [
+    "robot-next",
+    "j2",
+    "j2_r0_k10",
+    "inspect"
+   ],
+   [
+    "robot-next",
+    "j2",
+    "j2_r0_k2",
+    "mc1"
+   ],
+   [
+    "robot-next",
+    "j2",
+    "j2_r0_k3",
+    "mc2"
+   ],
+   [
+    "robot-next",
+    "j2",
+    "j2_r0_k4",
+    "asm1"
+   ],
+   [
+    "robot-next",
+    "j2",
+    "j2_r0_k8",
+    "mc9_out"
+   ],
+   [
+    "robot-next",
+    "j2",
+    "j2_r0_k9",
+    "asm2"
+   ],
+   [
+    "robot-next",
+    "j3",
+    "j3_r0_k1",
+    "kitting"
+   ],
+   [
+    "robot-next",
+    "j3",
+    "j3_r0_k10",
+    "inspect"
+   ],
+   [
+    "robot-next",
+    "j3",
+    "j3_r0_k2",
+    "mc1"
+   ],
+   [
+    "robot-next",
+    "j3",
+    "j3_r0_k3",
+    "mc2"
+   ],
+   [
+    "robot-next",
+    "j3",
+    "j3_r0_k4",
+    "asm1"
+   ],
+   [
+    "robot-next",
+    "j3",
+    "j3_r0_k8",
+    "mc9_out"
+   ],
+   [
+    "robot-next",
+    "j3",
+    "j3_r0_k9",
+    "asm2"
+   ],
+   [
+    "slot-free",
+    "asm1_in0"
+   ],
+   [
+    "slot-free",
+    "asm1_in1"
+   ],
+   [
+    "slot-free",
+    "asm1_out0"
+   ],
+   [
+    "slot-free",
+    "asm2_in0"
+   ],
+   [
+    "slot-free",
+    "asm2_in1"
+   ],
+   [
+    "slot-free",
+    "asm2_out0"
+   ],
+   [
+    "slot-free",
+    "inspect_in0"
+   ],
+   [
+    "slot-free",
+    "inspect_out0"
+   ],
+   [
+    "slot-free",
+    "kitting_in0"
+   ],
+   [
+    "slot-free",
+    "kitting_in1"
+   ],
+   [
+    "slot-free",
+    "kitting_in2"
+   ],
+   [
+    "slot-free",
+    "kitting_in3"
+   ],
+   [
+    "slot-free",
+    "kitting_out0"
+   ],
+   [
+    "slot-free",
+    "kitting_out1"
+   ],
+   [
+    "slot-free",
+    "mc1_in0"
+   ],
+   [
+    "slot-free",
+    "mc1_out0"
+   ],
+   [
+    "slot-free",
+    "mc2_in0"
+   ],
+   [
+    "slot-free",
+    "mc2_out0"
+   ],
+   [
+    "slot-free",
+    "mc3_in0"
+   ],
+   [
+    "slot-free",
+    "mc3_out0"
+   ],
+   [
+    "slot-free",
+    "mc4_in0"
+   ],
+   [
+    "slot-free",
+    "mc4_out0"
+   ],
+   [
+    "slot-free",
+    "mc5_in0"
+   ],
+   [
+    "slot-free",
+    "mc5_in1"
+   ],
+   [
+    "slot-free",
+    "mc6_in0"
+   ],
+   [
+    "slot-free",
+    "mc7_in0"
+   ],
+   [
+    "slot-free",
+    "mc8_in0"
+   ],
+   [
+    "slot-free",
+    "mc9_in0"
+   ],
+   [
+    "slot-free",
+    "mc9_out_in0"
+   ],
+   [
+    "slot-free",
+    "mc9_out_out0"
+   ],
+   [
+    "slot-free",
+    "mc9_out_out1"
+   ],
+   [
+    "slot-free",
+    "mc9_out_out2"
+   ],
+   [
+    "slot-free",
+    "overflow_in0"
+   ],
+   [
+    "slot-free",
+    "overflow_in1"
+   ],
+   [
+    "slot-free",
+    "overflow_in2"
+   ],
+   [
+    "slot-free",
+    "overflow_in3"
+   ],
+   [
+    "slot-free",
+    "overflow_in4"
+   ],
+   [
+    "slot-free",
+    "overflow_in5"
+   ],
+   [
+    "unreleased",
+    "j0"
+   ],
+   [
+    "unreleased",
+    "j1"
+   ],
+   [
+    "unreleased",
+    "j2"
+   ],
+   [
+    "unreleased",
+    "j3"
+   ]
+  ],
+  "fluents": [
+   {
+    "function": "ctime",
+    "args": [
+     "mc5",
+     "mc6"
+    ],
+    "value": 15.0
+   },
+   {
+    "function": "ctime",
+    "args": [
+     "mc5",
+     "mc7"
+    ],
+    "value": 15.0
+   },
+   {
+    "function": "ctime",
+    "args": [
+     "mc6",
+     "mc8"
+    ],
+    "value": 15.0
+   },
+   {
+    "function": "ctime",
+    "args": [
+     "mc6",
+     "mc9"
+    ],
+    "value": 15.0
+   },
+   {
+    "function": "ctime",
+    "args": [
+     "mc7",
+     "mc8"
+    ],
+    "value": 15.0
+   },
+   {
+    "function": "ctime",
+    "args": [
+     "mc7",
+     "mc9"
+    ],
+    "value": 15.0
+   },
+   {
+    "function": "ctime",
+    "args": [
+     "mc8",
+     "mc9_out"
+    ],
+    "value": 10.0
+   },
+   {
+    "function": "ctime",
+    "args": [
+     "mc9",
+     "mc9_out"
+    ],
+    "value": 10.0
+   },
+   {
+    "function": "load-time",
+    "args": [],
+    "value": 15.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j0",
+     "j0_r0_k0",
+     "kitting"
+    ],
+    "value": 120.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j0",
+     "j0_r0_k1",
+     "mc1"
+    ],
+    "value": 300.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j0",
+     "j0_r0_k2",
+     "mc2"
+    ],
+    "value": 240.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j0",
+     "j0_r0_k3",
+     "asm1"
+    ],
+    "value": 180.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j0",
+     "j0_r0_k4",
+     "mc5"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j0",
+     "j0_r0_k5",
+     "mc7"
+    ],
+    "value": 90.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j0",
+     "j0_r0_k6",
+     "mc8"
+    ],
+    "value": 75.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j0",
+     "j0_r0_k7",
+     "mc9_out"
+    ],
+    "value": 0.01
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j0",
+     "j0_r0_k8",
+     "asm2"
+    ],
+    "value": 150.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j0",
+     "j0_r0_k9",
+     "inspect"
+    ],
+    "value": 20.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j1",
+     "j1_r0_k0",
+     "kitting"
+    ],
+    "value": 120.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j1",
+     "j1_r0_k1",
+     "mc1"
+    ],
+    "value": 300.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j1",
+     "j1_r0_k2",
+     "mc2"
+    ],
+    "value": 240.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j1",
+     "j1_r0_k3",
+     "asm1"
+    ],
+    "value": 180.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j1",
+     "j1_r0_k4",
+     "mc5"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j1",
+     "j1_r0_k5",
+     "mc6"
+    ],
+    "value": 90.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j1",
+     "j1_r0_k6",
+     "mc8"
+    ],
+    "value": 75.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j1",
+     "j1_r0_k7",
+     "mc9_out"
+    ],
+    "value": 0.01
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j1",
+     "j1_r0_k8",
+     "asm2"
+    ],
+    "value": 150.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j1",
+     "j1_r0_k9",
+     "inspect"
+    ],
+    "value": 20.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j2",
+     "j2_r0_k0",
+     "kitting"
+    ],
+    "value": 120.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j2",
+     "j2_r0_k1",
+     "mc1"
+    ],
+    "value": 300.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j2",
+     "j2_r0_k2",
+     "mc2"
+    ],
+    "value": 240.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j2",
+     "j2_r0_k3",
+     "asm1"
+    ],
+    "value": 180.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j2",
+     "j2_r0_k4",
+     "mc5"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j2",
+     "j2_r0_k5",
+     "mc6"
+    ],
+    "value": 90.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j2",
+     "j2_r0_k6",
+     "mc8"
+    ],
+    "value": 75.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j2",
+     "j2_r0_k7",
+     "mc9_out"
+    ],
+    "value": 0.01
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j2",
+     "j2_r0_k8",
+     "asm2"
+    ],
+    "value": 150.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j2",
+     "j2_r0_k9",
+     "inspect"
+    ],
+    "value": 20.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j3",
+     "j3_r0_k0",
+     "kitting"
+    ],
+    "value": 120.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j3",
+     "j3_r0_k1",
+     "mc1"
+    ],
+    "value": 300.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j3",
+     "j3_r0_k2",
+     "mc2"
+    ],
+    "value": 240.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j3",
+     "j3_r0_k3",
+     "asm1"
+    ],
+    "value": 180.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j3",
+     "j3_r0_k4",
+     "mc5"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j3",
+     "j3_r0_k5",
+     "mc6"
+    ],
+    "value": 90.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j3",
+     "j3_r0_k6",
+     "mc8"
+    ],
+    "value": 75.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j3",
+     "j3_r0_k7",
+     "mc9_out"
+    ],
+    "value": 0.01
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j3",
+     "j3_r0_k8",
+     "asm2"
+    ],
+    "value": 150.0
+   },
+   {
+    "function": "ptime",
+    "args": [
+     "j3",
+     "j3_r0_k9",
+     "inspect"
+    ],
+    "value": 20.0
+   },
+   {
+    "function": "release-time",
+    "args": [],
+    "value": 1.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm1",
+     "n_asm2"
+    ],
+    "value": 80.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm1",
+     "n_inspect"
+    ],
+    "value": 93.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm1",
+     "n_k2"
+    ],
+    "value": 86.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm1",
+     "n_k5"
+    ],
+    "value": 40.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm1",
+     "n_kitting"
+    ],
+    "value": 114.154
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm1",
+     "n_mc1"
+    ],
+    "value": 100.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm1",
+     "n_mc2"
+    ],
+    "value": 80.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm1",
+     "n_mc3"
+    ],
+    "value": 100.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm1",
+     "n_mc4"
+    ],
+    "value": 80.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm1",
+     "n_mc5"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm1",
+     "n_mc9_out"
+    ],
+    "value": 93.541
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm1",
+     "n_overflow"
+    ],
+    "value": 53.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm1",
+     "n_store"
+    ],
+    "value": 126.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm2",
+     "n_asm1"
+    ],
+    "value": 80.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm2",
+     "n_inspect"
+    ],
+    "value": 66.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm2",
+     "n_k2"
+    ],
+    "value": 113.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm2",
+     "n_k5"
+    ],
+    "value": 66.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm2",
+     "n_kitting"
+    ],
+    "value": 140.821
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm2",
+     "n_mc1"
+    ],
+    "value": 126.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm2",
+     "n_mc2"
+    ],
+    "value": 106.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm2",
+     "n_mc3"
+    ],
+    "value": 126.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm2",
+     "n_mc4"
+    ],
+    "value": 106.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm2",
+     "n_mc5"
+    ],
+    "value": 73.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm2",
+     "n_mc9_out"
+    ],
+    "value": 66.874
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm2",
+     "n_overflow"
+    ],
+    "value": 80.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_asm2",
+     "n_store"
+    ],
+    "value": 153.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_inspect",
+     "n_asm1"
+    ],
+    "value": 93.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_inspect",
+     "n_asm2"
+    ],
+    "value": 66.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_inspect",
+     "n_k2"
+    ],
+    "value": 126.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_inspect",
+     "n_k5"
+    ],
+    "value": 80.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_inspect",
+     "n_kitting"
+    ],
+    "value": 154.154
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_inspect",
+     "n_mc1"
+    ],
+    "value": 140.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_inspect",
+     "n_mc2"
+    ],
+    "value": 120.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_inspect",
+     "n_mc3"
+    ],
+    "value": 140.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_inspect",
+     "n_mc4"
+    ],
+    "value": 120.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_inspect",
+     "n_mc5"
+    ],
+    "value": 86.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_inspect",
+     "n_mc9_out"
+    ],
+    "value": 53.541
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_inspect",
+     "n_overflow"
+    ],
+    "value": 93.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_inspect",
+     "n_store"
+    ],
+    "value": 166.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k2",
+     "n_asm1"
+    ],
+    "value": 86.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k2",
+     "n_asm2"
+    ],
+    "value": 113.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k2",
+     "n_inspect"
+    ],
+    "value": 126.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k2",
+     "n_k5"
+    ],
+    "value": 46.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k2",
+     "n_kitting"
+    ],
+    "value": 27.487
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k2",
+     "n_mc1"
+    ],
+    "value": 40.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k2",
+     "n_mc2"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k2",
+     "n_mc3"
+    ],
+    "value": 40.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k2",
+     "n_mc4"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k2",
+     "n_mc5"
+    ],
+    "value": 93.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k2",
+     "n_mc9_out"
+    ],
+    "value": 126.874
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k2",
+     "n_overflow"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k2",
+     "n_store"
+    ],
+    "value": 40.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k5",
+     "n_asm1"
+    ],
+    "value": 40.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k5",
+     "n_asm2"
+    ],
+    "value": 66.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k5",
+     "n_inspect"
+    ],
+    "value": 80.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k5",
+     "n_k2"
+    ],
+    "value": 46.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k5",
+     "n_kitting"
+    ],
+    "value": 74.154
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k5",
+     "n_mc1"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k5",
+     "n_mc2"
+    ],
+    "value": 40.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k5",
+     "n_mc3"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k5",
+     "n_mc4"
+    ],
+    "value": 40.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k5",
+     "n_mc5"
+    ],
+    "value": 46.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k5",
+     "n_mc9_out"
+    ],
+    "value": 80.208
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k5",
+     "n_overflow"
+    ],
+    "value": 13.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_k5",
+     "n_store"
+    ],
+    "value": 86.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_kitting",
+     "n_asm1"
+    ],
+    "value": 114.154
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_kitting",
+     "n_asm2"
+    ],
+    "value": 140.821
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_kitting",
+     "n_inspect"
+    ],
+    "value": 154.154
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_kitting",
+     "n_k2"
+    ],
+    "value": 27.487
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_kitting",
+     "n_k5"
+    ],
+    "value": 74.154
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_kitting",
+     "n_mc1"
+    ],
+    "value": 67.487
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_kitting",
+     "n_mc2"
+    ],
+    "value": 87.487
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_kitting",
+     "n_mc3"
+    ],
+    "value": 67.487
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_kitting",
+     "n_mc4"
+    ],
+    "value": 87.487
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_kitting",
+     "n_mc5"
+    ],
+    "value": 120.821
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_kitting",
+     "n_mc9_out"
+    ],
+    "value": 154.362
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_kitting",
+     "n_overflow"
+    ],
+    "value": 87.487
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_kitting",
+     "n_store"
+    ],
+    "value": 67.487
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc1",
+     "n_asm1"
+    ],
+    "value": 100.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc1",
+     "n_asm2"
+    ],
+    "value": 126.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc1",
+     "n_inspect"
+    ],
+    "value": 140.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc1",
+     "n_k2"
+    ],
+    "value": 40.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc1",
+     "n_k5"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc1",
+     "n_kitting"
+    ],
+    "value": 67.487
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc1",
+     "n_mc2"
+    ],
+    "value": 73.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc1",
+     "n_mc3"
+    ],
+    "value": 53.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc1",
+     "n_mc4"
+    ],
+    "value": 73.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc1",
+     "n_mc5"
+    ],
+    "value": 106.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc1",
+     "n_mc9_out"
+    ],
+    "value": 140.208
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc1",
+     "n_overflow"
+    ],
+    "value": 73.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc1",
+     "n_store"
+    ],
+    "value": 80.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc2",
+     "n_asm1"
+    ],
+    "value": 80.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc2",
+     "n_asm2"
+    ],
+    "value": 106.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc2",
+     "n_inspect"
+    ],
+    "value": 120.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc2",
+     "n_k2"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc2",
+     "n_k5"
+    ],
+    "value": 40.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc2",
+     "n_kitting"
+    ],
+    "value": 87.487
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc2",
+     "n_mc1"
+    ],
+    "value": 73.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc2",
+     "n_mc3"
+    ],
+    "value": 73.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc2",
+     "n_mc4"
+    ],
+    "value": 53.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc2",
+     "n_mc5"
+    ],
+    "value": 86.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc2",
+     "n_mc9_out"
+    ],
+    "value": 120.208
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc2",
+     "n_overflow"
+    ],
+    "value": 53.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc2",
+     "n_store"
+    ],
+    "value": 100.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc3",
+     "n_asm1"
+    ],
+    "value": 100.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc3",
+     "n_asm2"
+    ],
+    "value": 126.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc3",
+     "n_inspect"
+    ],
+    "value": 140.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc3",
+     "n_k2"
+    ],
+    "value": 40.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc3",
+     "n_k5"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc3",
+     "n_kitting"
+    ],
+    "value": 67.487
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc3",
+     "n_mc1"
+    ],
+    "value": 53.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc3",
+     "n_mc2"
+    ],
+    "value": 73.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc3",
+     "n_mc4"
+    ],
+    "value": 73.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc3",
+     "n_mc5"
+    ],
+    "value": 106.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc3",
+     "n_mc9_out"
+    ],
+    "value": 140.208
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc3",
+     "n_overflow"
+    ],
+    "value": 73.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc3",
+     "n_store"
+    ],
+    "value": 80.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc4",
+     "n_asm1"
+    ],
+    "value": 80.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc4",
+     "n_asm2"
+    ],
+    "value": 106.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc4",
+     "n_inspect"
+    ],
+    "value": 120.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc4",
+     "n_k2"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc4",
+     "n_k5"
+    ],
+    "value": 40.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc4",
+     "n_kitting"
+    ],
+    "value": 87.487
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc4",
+     "n_mc1"
+    ],
+    "value": 73.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc4",
+     "n_mc2"
+    ],
+    "value": 53.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc4",
+     "n_mc3"
+    ],
+    "value": 73.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc4",
+     "n_mc5"
+    ],
+    "value": 86.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc4",
+     "n_mc9_out"
+    ],
+    "value": 120.208
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc4",
+     "n_overflow"
+    ],
+    "value": 53.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc4",
+     "n_store"
+    ],
+    "value": 100.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc5",
+     "n_asm1"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc5",
+     "n_asm2"
+    ],
+    "value": 73.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc5",
+     "n_inspect"
+    ],
+    "value": 86.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc5",
+     "n_k2"
+    ],
+    "value": 93.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc5",
+     "n_k5"
+    ],
+    "value": 46.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc5",
+     "n_kitting"
+    ],
+    "value": 120.821
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc5",
+     "n_mc1"
+    ],
+    "value": 106.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc5",
+     "n_mc2"
+    ],
+    "value": 86.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc5",
+     "n_mc3"
+    ],
+    "value": 106.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc5",
+     "n_mc4"
+    ],
+    "value": 86.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc5",
+     "n_mc9_out"
+    ],
+    "value": 86.874
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc5",
+     "n_overflow"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc5",
+     "n_store"
+    ],
+    "value": 133.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc9_out",
+     "n_asm1"
+    ],
+    "value": 93.541
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc9_out",
+     "n_asm2"
+    ],
+    "value": 66.874
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc9_out",
+     "n_inspect"
+    ],
+    "value": 53.541
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc9_out",
+     "n_k2"
+    ],
+    "value": 126.874
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc9_out",
+     "n_k5"
+    ],
+    "value": 80.208
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc9_out",
+     "n_kitting"
+    ],
+    "value": 154.362
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc9_out",
+     "n_mc1"
+    ],
+    "value": 140.208
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc9_out",
+     "n_mc2"
+    ],
+    "value": 120.208
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc9_out",
+     "n_mc3"
+    ],
+    "value": 140.208
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc9_out",
+     "n_mc4"
+    ],
+    "value": 120.208
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc9_out",
+     "n_mc5"
+    ],
+    "value": 86.874
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc9_out",
+     "n_overflow"
+    ],
+    "value": 93.541
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_mc9_out",
+     "n_store"
+    ],
+    "value": 166.874
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_overflow",
+     "n_asm1"
+    ],
+    "value": 53.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_overflow",
+     "n_asm2"
+    ],
+    "value": 80.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_overflow",
+     "n_inspect"
+    ],
+    "value": 93.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_overflow",
+     "n_k2"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_overflow",
+     "n_k5"
+    ],
+    "value": 13.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_overflow",
+     "n_kitting"
+    ],
+    "value": 87.487
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_overflow",
+     "n_mc1"
+    ],
+    "value": 73.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_overflow",
+     "n_mc2"
+    ],
+    "value": 53.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_overflow",
+     "n_mc3"
+    ],
+    "value": 73.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_overflow",
+     "n_mc4"
+    ],
+    "value": 53.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_overflow",
+     "n_mc5"
+    ],
+    "value": 60.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_overflow",
+     "n_mc9_out"
+    ],
+    "value": 93.541
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_overflow",
+     "n_store"
+    ],
+    "value": 100.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_store",
+     "n_asm1"
+    ],
+    "value": 126.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_store",
+     "n_asm2"
+    ],
+    "value": 153.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_store",
+     "n_inspect"
+    ],
+    "value": 166.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_store",
+     "n_k2"
+    ],
+    "value": 40.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_store",
+     "n_k5"
+    ],
+    "value": 86.667
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_store",
+     "n_kitting"
+    ],
+    "value": 67.487
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_store",
+     "n_mc1"
+    ],
+    "value": 80.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_store",
+     "n_mc2"
+    ],
+    "value": 100.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_store",
+     "n_mc3"
+    ],
+    "value": 80.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_store",
+     "n_mc4"
+    ],
+    "value": 100.0
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_store",
+     "n_mc5"
+    ],
+    "value": 133.333
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_store",
+     "n_mc9_out"
+    ],
+    "value": 166.874
+   },
+   {
+    "function": "travel",
+    "args": [
+     "n_store",
+     "n_overflow"
+    ],
+    "value": 100.0
+   },
+   {
+    "function": "unload-time",
+    "args": [],
+    "value": 12.0
+   }
+  ]
+ },
+ "timed_literals": [],
+ "goals": [
+  {
+   "fact": [
+    "delivered",
+    "j0"
+   ],
+   "deadline": null
+  },
+  {
+   "fact": [
+    "delivered",
+    "j1"
+   ],
+   "deadline": null
+  },
+  {
+   "fact": [
+    "delivered",
+    "j2"
+   ],
+   "deadline": null
+  },
+  {
+   "fact": [
+    "delivered",
+    "j3"
+   ],
+   "deadline": null
+  }
+ ],
+ "metric": "makespan",
+ "annotations": {},
+ "provenance": {}
+}

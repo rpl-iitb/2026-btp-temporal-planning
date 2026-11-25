@@ -1,0 +1,26 @@
+2026-11-21 14:33:13 factory hard driver pid 315118 stages: data_hard v13_train v14_train v12_train closed_eval plan_eval abl_V14_hard_il_train abl_V14_hard_reinforce_train abl_V14_hard_nomaxplus_train abl_V14_hard_nofeats_train abl_V13_hard_il_train abl_eval seed_V14_hard_s1 seed_V14_hard_s2 seed_V14_hard_nofeats_s1 seed_V14_hard_nofeats_s2 seed_V13_hard_s1 seed_V13_hard_s2 seeds_eval
+2026-11-21 14:33:13 factory hard driver finished
+2026-11-21 15:38:04 factory hard driver pid 320862 stages: closed_eval abl_eval seeds_eval
+2026-11-21 15:38:04 factory hard driver finished
+2026-11-21 18:50:08 factory hard driver pid 327889 stages: data_hard v13_train v14_train v12_train closed_eval plan_eval abl_V14_hard_il_train abl_V14_hard_reinforce_train abl_V14_hard_nomaxplus_train abl_V14_hard_nofeats_train abl_V13_hard_il_train abl_eval seed_V14_hard_s1 seed_V14_hard_s2 seed_V14_hard_nofeats_s1 seed_V14_hard_nofeats_s2 seed_V13_hard_s1 seed_V13_hard_s2 seeds_eval
+2026-11-21 18:50:08 start data_hard: .venv/bin/python -m factory_test.make_data --suite hard --procs 8
+2026-11-21 20:37:15 done  data_hard (6427 s)
+2026-11-21 20:37:15 start v13_train: .venv/bin/python -m algorithm.v13 --domain factory_test.factory_v13 train --name V13_hard --procs 8
+2026-11-21 21:17:15 done  v13_train (2400 s)
+2026-11-21 21:17:15 start v14_train: .venv/bin/python -m algorithm.v14 --domain factory_test.factory_v13 train --name V14_hard --procs 8 --threads 8
+2026-11-22 09:21:32 done  v14_train (43457 s)
+2026-11-22 09:21:32 start v12_train: .venv/bin/python -m algorithm.v12 --domain factory_test.factory_v13 train --name V12_hard --procs 8
+2026-11-22 12:31:09 done  v12_train (11377 s)
+2026-11-22 12:31:09 start closed_eval: .venv/bin/python -m factory_test.closed_eval --split test --noise 1 2 3 --seeds 3 --procs 8 --methods dispatcher open-loop replan-2 V13_hard V14_hard V12_hard --max_size V12_hard:XL
+2026-11-22 23:24:56 FAIL  closed_eval (exit 0, 39227 s), see factory_test/results_hard/logs/closed_eval.log
+2026-11-22 23:24:56 start plan_eval: .venv/bin/python -m factory_test.evaluate --split test --budgets 60 --jobs 2 --seed 0 --methods B1,V4.2,V8S,V10
+2026-11-23 02:04:25 factory hard driver pid 682842 stages: closed_eval
+2026-11-23 02:04:25 start closed_eval: .venv/bin/python -m factory_test.closed_eval --split test --noise 1 2 3 --seeds 3 --procs 6 --methods dispatcher open-loop replan-2 V13_hard V14_hard V12_hard --max_size V12_hard:XL
+2026-11-23 05:18:08 factory hard driver pid 692096 stages: plan_eval abl_V14_hard_il_train abl_V14_hard_reinforce_train abl_V14_hard_nomaxplus_train abl_V14_hard_nofeats_train abl_V13_hard_il_train abl_eval seed_V14_hard_s1 seed_V14_hard_s2 seed_V14_hard_nofeats_s1 seed_V14_hard_nofeats_s2 seed_V13_hard_s1 seed_V13_hard_s2 seeds_eval
+2026-11-23 05:18:08 start plan_eval: .venv/bin/python -m factory_test.evaluate --split test --budgets 60 --jobs 2 --seed 0 --methods B1,V4.2,V8S,V10
+2026-11-23 05:18:08 factory hard driver pid 692106 stages: v15_s1_train v15_s2_train v15_eval seed_V14_hard_s1 seed_V14_hard_s2 seed_V14_hard_nofeats_s1 seed_V14_hard_nofeats_s2 seed_V13_hard_s1 seed_V13_hard_s2 seeds_eval
+2026-11-23 05:18:08 driver 692106 waits for closed_eval
+2026-11-23 12:00:21 done  plan_eval (24133 s)
+2026-11-23 12:00:21 start abl_V14_hard_il_train: .venv/bin/python -m algorithm.v14 --domain factory_test.factory_v13 train --name V14_hard_il --rl_epochs 0 --procs 8 --threads 8
+2026-11-23 13:52:08 factory hard driver pid 713275 stages: v15_s1_train v15_s2_train v15_eval seed_V14_hard_s1 seed_V14_hard_s2 seed_V14_hard_nofeats_s1 seed_V14_hard_nofeats_s2 seed_V13_hard_s1 seed_V13_hard_s2 seeds_eval
+2026-11-23 13:52:08 start v15_s1_train: .venv/bin/python -m algorithm.v15 --domain factory_test.factory_v15 train --name V15_hard_s1 --init V14_hard --train_seed 1 --dagger 2 --bc_epochs 2 --seeds 1 --rl_epochs 6 --rl_kitchens 24 --rollouts 8 --val_seeds 1 --val_every 2 --procs 6 --threads 6

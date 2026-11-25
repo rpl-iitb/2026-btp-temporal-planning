@@ -1,4 +1,10 @@
-"""T-iFLAX V4 / V4.1 / V4.2: seeds from work-optimal relaxed plans (+ two-agent seeds), uniform scores."""
+"""T-iFLAX V4 / V4.1 / V4.2: seeds from work-optimal relaxed plans (+ two-agent seeds), uniform scores.
+
+What it does: seeds from work-optimal relaxed plans (durations as costs): 3 work-optimal + 1 earliest-time seed, no
+learned scores. V4.1: + a second seed round (remaining + two-agent seeds), cap 0.3 T. V4.2: V4's seeds + 2 two-agent
+seeds, all 6 POPF calls in parallel, cap 0.6 T (the final version of the BTP report).
+Earlier result (pre-final Overcooked-AI benchmark, 60 stress kitchens, 30 s): V4 42, V4.1 41, V4.2 48 / 60.
+"""
 from dataclasses import dataclass
 
 from .gnn import UniformScorer

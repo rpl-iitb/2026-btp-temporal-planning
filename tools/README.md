@@ -1,6 +1,6 @@
 # tools
 
-Static Linux binaries in `bin/`, paths configured in `configs/tools.yaml`, checksums in `bin/SHA256SUMS`
+Static Linux binaries in `bin/`, found by `algorithm/pddlkit/planners.py` (and the baselines' copy) via `TIFLAX_<NAME>`, the `PATH`, then `TIFLAX_TOOLS` (default: this folder). Checksums in `bin/SHA256SUMS`
 (`sha256sum -c bin/SHA256SUMS` from this folder).
 
 | Binary | Source | Used for |
@@ -11,3 +11,5 @@ Static Linux binaries in `bin/`, paths configured in `configs/tools.yaml`, check
 | `Parser` | VAL's PDDL parser / type checker | checks of the generated PDDL |
 
 Check the licences before redistributing the binaries publicly.
+
+`memguard.py`: memory guard for unattended runs (`overcooked_test/run_kitchen_all.sh` starts one per driver). When available memory falls below a threshold it kills the whole process tree of that driver's largest stage (POPF included), so the stage fails cleanly and the driver moves on; nothing outside the driver's tree is touched.

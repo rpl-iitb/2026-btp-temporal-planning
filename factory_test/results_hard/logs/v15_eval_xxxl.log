@@ -1,0 +1,58 @@
+63 runs to do (0 already done)
+  20/63 runs (1579s)
+  40/63 runs (2871s)
+  60/63 runs (4132s)
+
+noise x1.0 (by size)
+| Method | Size | Runs | Success | Orders served | Makespan / cert | s / run | Replans |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V15_hard | all | 21 | 52.4% | 74.0% | 1.056 | 348.4 | - |
+| V15_hard | XXXL | 21 | 52.4% | 74.0% | 1.056 | 348.4 | - |
+
+noise x2.0 (by size)
+| Method | Size | Runs | Success | Orders served | Makespan / cert | s / run | Replans |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V15_hard | all | 21 | 33.3% | 63.2% | 0.882 | 315.0 | - |
+| V15_hard | XXXL | 21 | 33.3% | 63.2% | 0.882 | 315.0 | - |
+
+noise x3.0 (by size)
+| Method | Size | Runs | Success | Orders served | Makespan / cert | s / run | Replans |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V15_hard | all | 21 | 33.3% | 66.8% | 1.135 | 329.5 | - |
+| V15_hard | XXXL | 21 | 33.3% | 66.8% | 1.135 | 329.5 | - |
+
+noise x1.0 (by family)
+| Method | Family | Runs | Success | Orders served | Makespan / cert | s / run | Replans |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V15_hard | all | 21 | 52.4% | 74.0% | 1.056 | 348.4 | - |
+| V15_hard | hard_base | 3 | 66.7% | 92.3% | 0.909 | 345.8 | - |
+| V15_hard | hard_blocking | 3 | 100.0% | 100.0% | 0.971 | 252.0 | - |
+| V15_hard | hard_bottleneck | 3 | 100.0% | 100.0% | 1.008 | 465.6 | - |
+| V15_hard | hard_flexible | 3 | 66.7% | 86.9% | 1.026 | 522.9 | - |
+| V15_hard | hard_full | 3 | 0.0% | 32.1% | - | 291.6 | - |
+| V15_hard | hard_online | 3 | 0.0% | 38.7% | - | 224.6 | - |
+| V15_hard | hard_rush | 3 | 33.3% | 67.9% | 1.807 | 336.1 | - |
+
+noise x2.0 (by family)
+| Method | Family | Runs | Success | Orders served | Makespan / cert | s / run | Replans |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V15_hard | all | 21 | 33.3% | 63.2% | 0.882 | 315.0 | - |
+| V15_hard | hard_base | 3 | 33.3% | 72.0% | 1.568 | 336.3 | - |
+| V15_hard | hard_blocking | 3 | 66.7% | 85.1% | 0.900 | 218.3 | - |
+| V15_hard | hard_bottleneck | 3 | 100.0% | 100.0% | 0.685 | 320.5 | - |
+| V15_hard | hard_flexible | 3 | 33.3% | 59.5% | 0.748 | 429.4 | - |
+| V15_hard | hard_full | 3 | 0.0% | 43.5% | - | 375.5 | - |
+| V15_hard | hard_online | 3 | 0.0% | 39.9% | - | 247.4 | - |
+| V15_hard | hard_rush | 3 | 0.0% | 42.3% | - | 277.8 | - |
+
+noise x3.0 (by family)
+| Method | Family | Runs | Success | Orders served | Makespan / cert | s / run | Replans |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V15_hard | all | 21 | 33.3% | 66.8% | 1.135 | 329.5 | - |
+| V15_hard | hard_base | 3 | 0.0% | 62.5% | - | 323.9 | - |
+| V15_hard | hard_blocking | 3 | 66.7% | 82.7% | 0.825 | 234.6 | - |
+| V15_hard | hard_bottleneck | 3 | 100.0% | 100.0% | 0.875 | 347.1 | - |
+| V15_hard | hard_flexible | 3 | 33.3% | 76.2% | 2.874 | 583.4 | - |
+| V15_hard | hard_full | 3 | 0.0% | 43.5% | - | 357.7 | - |
+| V15_hard | hard_online | 3 | 0.0% | 35.1% | - | 211.0 | - |
+| V15_hard | hard_rush | 3 | 33.3% | 67.9% | 0.799 | 249.2 | - |

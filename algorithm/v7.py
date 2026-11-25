@@ -1,5 +1,9 @@
 """T-iFLAX V7: listwise set ranker (V5's set scorer) trained on V6's POPF labels of test-sized kitchens.
 
+What it does: a listwise ranker of V4.2's candidate sets (V5's set scorer) trained on V6's POPF labels of test-sized
+instances.
+Earlier result (pre-final Overcooked-AI benchmark, seeds-only protocol): 39 / 60.
+
     python -m algorithm.v7 train|test [--split stress]
 """
 import argparse
@@ -13,7 +17,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 
-from pddl_generator import TemporalPlan
+from .pddlkit import TemporalPlan
 from . import PDDL, results_dir, split_dirs
 from .grounding import GroundTask, Task, agent_type, comp_t
 from .planning import ensure_hash_seed

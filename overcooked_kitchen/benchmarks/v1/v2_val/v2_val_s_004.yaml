@@ -1,0 +1,24 @@
+scenario_id: v2_val_s_004
+description: 'generated: tier s, 9x5, 2 orders, 2 distractor stations'
+grid:
+- XCXXPXXPX
+- D       X
+- W1      X
+- B       B
+- XRXOSXXXX
+counters: none
+plates:
+  clean: 2
+  dirty: 0
+dirty_pots: 0
+sim:
+  burn: 24
+orders:
+- dish: carrot_onion_stew
+  recipe:
+    carrot: 2
+    onion: 1
+- dish: carrot_soup
+  recipe:
+    carrot: 2
+seed: 4

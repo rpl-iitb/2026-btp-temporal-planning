@@ -1,9 +1,0 @@
-scenario_id: s01_cramped_c1_o1
-description: >
-  Smallest representative instance. cramped_room, one cook, one 3-onion soup,
-  default 20-step cook time, no deadline. Single cook => the PDDL model should
-  reproduce simulator timing exactly (no cook-cook interference).
-layout: {name: cramped_room}
-cooks: 1
-orders:
-  - recipe: {onion: 3}

@@ -1,0 +1,28 @@
+2026-11-20 19:39:14 memguard: driver 290180, kill a stage tree below 1500 MB available
+2026-11-20 22:28:44 memguard: driver 294371, kill a stage tree below 1500 MB available
+2026-11-21 13:23:17 memguard: driver 308279, kill a stage tree below 1500 MB available
+2026-11-21 14:28:06 memguard: 1496 MB available -> killed stage pid 293880 (7 processes, 2875 MB): .venv/bin/python -m overcooked_test.v3_eval --split v3_test --methods dispatcher open-loop V13 V14 replan-2 V12 --noise 1 2 3 --seeds 3 --procs 6 
+2026-11-21 14:28:15 memguard: 1198 MB available -> killed stage pid 308291 (9 processes, 44295 MB): .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_s1 --train_seed 1 --procs 8 --threads 8 
+2026-11-21 14:28:41 memguard: 1209 MB available -> killed stage pid 313318 (7 processes, 2655 MB): .venv/bin/python -m overcooked_test.teacher build --splits v2_train v2_val --jobs 2 
+2026-11-21 14:28:50 memguard: 1286 MB available -> killed stage pid 313367 (9 processes, 2824 MB): .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_nofeats_s1 --no_opt_feats --train_seed 1 --procs 8 --threads 8 
+2026-11-21 14:28:52 memguard: 1471 MB available -> killed stage pid 313723 (1 processes, 321 MB): .venv/bin/python -m algorithm.v11 train --bench overcooked_kitchen 
+2026-11-21 14:28:57 memguard: 701 MB available -> killed stage pid 313757 (1 processes, 672 MB): .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_nomaxplus_s1 --no_maxplus --train_seed 1 --procs 8 --threads 8 
+2026-11-21 14:28:59 memguard: 727 MB available -> killed stage pid 313855 (1 processes, 363 MB): .venv/bin/python -c import overcooked_test, sys, runpy; sys.argv=['b2','train','--train','v2_train','--seed','0']; runpy.run_module('baselines.b2', run_name='__
+2026-11-21 14:29:04 memguard: 652 MB available -> killed stage pid 313903 (1 processes, 647 MB): .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_il_s1 --rl_epochs 0 --train_seed 1 --procs 8 --threads 8 
+2026-11-21 14:29:06 memguard: 904 MB available -> killed stage pid 314257 (1 processes, 210 MB): .venv/bin/python -m algorithm.v1 train --train v2_train --val v2_val --seed 0 
+2026-11-21 14:29:11 memguard: 341 MB available -> killed stage pid 314161 (1 processes, 635 MB): .venv/bin/python -m algorithm.v13 --domain overcooked_test.kitchen_v13 train --name V13_s1 --train_seed 1 --procs 8 
+2026-11-21 14:29:14 memguard: 393 MB available -> killed stage pid 314291 (1 processes, 303 MB): .venv/bin/python -m algorithm.v2 train --method V2 --train v2_train --val v2_val --seed 0 
+2026-11-21 14:29:18 memguard: 375 MB available -> killed stage pid 314328 (1 processes, 654 MB): .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_s2 --train_seed 2 --procs 8 --threads 8 
+2026-11-21 14:29:21 memguard: 417 MB available -> killed stage pid 314396 (1 processes, 302 MB): .venv/bin/python -m algorithm.v2 train --method V2.1 --train v2_train --val v2_val --seed 0 
+2026-11-21 14:29:25 memguard: 440 MB available -> killed stage pid 314430 (1 processes, 660 MB): .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_nofeats_s2 --no_opt_feats --train_seed 2 --procs 8 --threads 8 
+2026-11-21 14:29:28 memguard: 394 MB available -> killed stage pid 314498 (1 processes, 366 MB): .venv/bin/python -c import overcooked_test, sys, runpy; sys.argv=['b3','train','--train','v2_train','--seed','0']; runpy.run_module('baselines.b3', run_name='__
+2026-11-21 14:29:32 memguard: 493 MB available -> killed stage pid 314539 (1 processes, 652 MB): .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_nomaxplus_s2 --no_maxplus --train_seed 2 --procs 8 --threads 8 
+2026-11-21 14:29:35 memguard: 379 MB available -> killed stage pid 314607 (3 processes, 466 MB): .venv/bin/python -m overcooked_test.evaluate --split v2_test --budgets 60 --jobs 2 --seed 0 --methods B1,B2,B3,V1,V2,V2.1,V3,V3U,V3.1,V4,V4.1,V4.2,V5,V8,V8S,V8.
+2026-11-21 14:29:39 memguard: 324 MB available -> killed stage pid 314649 (1 processes, 634 MB): .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_il_s2 --rl_epochs 0 --train_seed 2 --procs 8 --threads 8 
+2026-11-21 14:29:46 memguard: 410 MB available -> killed stage pid 314723 (1 processes, 654 MB): .venv/bin/python -m algorithm.v13 --domain overcooked_test.kitchen_v13 train --name V13_s2 --train_seed 2 --procs 8 
+2026-11-21 14:29:53 memguard: 380 MB available -> killed stage pid 314790 (1 processes, 583 MB): .venv/bin/python -m overcooked_test.v3_eval --split v3_test --tag _seeds --noise 1 2 3 --seeds 3 --procs 8 --methods V13 V14 V14_nofeats V14_nomaxplus V14_il V1
+2026-11-21 14:29:53 memguard: driver 314855, kill a stage tree below 1500 MB available
+2026-11-21 14:29:53 memguard: 895 MB available -> killed stage pid 314871 (1 processes, 20 MB): .venv/bin/python -m overcooked_test.kitchen_v9 compare --split v2_test 
+2026-11-21 18:49:29 memguard: driver 327531, kill a stage tree below 1500 MB available
+2026-11-21 18:49:52 memguard: driver 327724, kill a stage tree below 1500 MB available
+2026-11-22 10:26:30 memguard: driver 531698, kill a stage tree below 1500 MB available

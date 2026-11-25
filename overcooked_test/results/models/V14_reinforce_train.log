@@ -1,0 +1,45 @@
+dispatcher (expert): val success 0.900 served 0.921 makespan/cert 0.994
+dagger 0 (expert, beta 1.00): 93124 new decisions, rollout success 0.919 (56s)
+  bc epoch 0 loss 0.3682 acc 0.887 (93124 decisions)
+  bc epoch 1 loss 0.2225 acc 0.932 (93124 decisions)
+  bc epoch 2 loss 0.1758 acc 0.943 (93124 decisions)
+  bc epoch 3 loss 0.1508 acc 0.948 (93124 decisions)
+dagger 0: val success 0.925 served 0.954 makespan/cert 0.979
+dagger 1 (mix, beta 0.50): 89526 new decisions, rollout success 0.950 (118s)
+  bc epoch 0 loss 0.1425 acc 0.950 (182650 decisions)
+  bc epoch 1 loss 0.1284 acc 0.955 (182650 decisions)
+  bc epoch 2 loss 0.1174 acc 0.958 (182650 decisions)
+  bc epoch 3 loss 0.1129 acc 0.960 (182650 decisions)
+dagger 1: val success 0.950 served 0.975 makespan/cert 0.991
+dagger 2 (mix, beta 0.25): 89951 new decisions, rollout success 0.947 (163s)
+  bc epoch 0 loss 0.1073 acc 0.961 (272601 decisions)
+  bc epoch 1 loss 0.0981 acc 0.964 (272601 decisions)
+  bc epoch 2 loss 0.0942 acc 0.965 (272601 decisions)
+  bc epoch 3 loss 0.0880 acc 0.967 (272601 decisions)
+dagger 2: val success 0.975 served 0.979 makespan/cert 0.993
+rl: reinforce, shared duration noise per instance group: False, imitation weight 0.5 -> 0.5
+rl 0: train sampled success 0.891 served 0.935 makespan/cert 1.01 reward -1.129 (76636 decisions, 320s)
+rl 1: train sampled success 0.959 served 0.969 makespan/cert 1.021 reward -1.072 (81331 decisions, 352s)
+rl 2: train sampled success 0.928 served 0.952 makespan/cert 1.023 reward -1.104 (79707 decisions, 295s)
+rl 3: train sampled success 0.959 served 0.974 makespan/cert 1.009 reward -1.055 (82131 decisions, 320s)
+rl 4: train sampled success 0.947 served 0.974 makespan/cert 1.002 reward -1.054 (80659 decisions, 334s)
+rl 4: val success 0.975 served 0.975 makespan/cert 0.982
+rl 5: train sampled success 0.953 served 0.969 makespan/cert 1.012 reward -1.065 (79063 decisions, 330s)
+rl 6: train sampled success 0.959 served 0.978 makespan/cert 1.02 reward -1.062 (82853 decisions, 337s)
+rl 7: train sampled success 0.953 served 0.967 makespan/cert 1.016 reward -1.072 (80660 decisions, 321s)
+rl 8: train sampled success 0.972 served 0.980 makespan/cert 1.012 reward -1.045 (80012 decisions, 326s)
+rl 9: train sampled success 0.972 served 0.982 makespan/cert 1.024 reward -1.055 (84541 decisions, 328s)
+rl 9: val success 0.975 served 0.975 makespan/cert 0.992
+rl 10: train sampled success 0.975 served 0.987 makespan/cert 1.041 reward -1.065 (82852 decisions, 315s)
+rl 11: train sampled success 0.972 served 0.988 makespan/cert 1.039 reward -1.064 (86028 decisions, 321s)
+rl 12: train sampled success 0.959 served 0.976 makespan/cert 1.035 reward -1.078 (82916 decisions, 337s)
+rl 13: train sampled success 0.972 served 0.978 makespan/cert 1.025 reward -1.061 (85531 decisions, 330s)
+rl 14: train sampled success 0.963 served 0.981 makespan/cert 1.03 reward -1.067 (87851 decisions, 316s)
+rl 14: val success 0.975 served 0.975 makespan/cert 1.001
+rl 15: train sampled success 0.953 served 0.971 makespan/cert 1.024 reward -1.075 (80774 decisions, 301s)
+rl 16: train sampled success 0.972 served 0.981 makespan/cert 1.049 reward -1.081 (83473 decisions, 311s)
+rl 17: train sampled success 0.981 served 0.986 makespan/cert 1.064 reward -1.087 (84405 decisions, 311s)
+rl 18: train sampled success 0.978 served 0.986 makespan/cert 1.068 reward -1.092 (85971 decisions, 309s)
+rl 19: train sampled success 0.956 served 0.976 makespan/cert 1.075 reward -1.118 (86389 decisions, 366s)
+rl 19: val success 0.900 served 0.951 makespan/cert 0.983
+saved /home/user/Desktop/btp-project/overcooked_test/results/models/V14_reinforce

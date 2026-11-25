@@ -1,0 +1,28 @@
+scenario_id: v2_test_l_008
+description: 'generated: tier l, 15x8, 3 orders, 8 distractor stations'
+grid:
+- XXXPBPRSTXXXSTX
+- X             X
+- D   1         O
+- O             X
+- W             X
+- X             X
+- T             X
+- XXPXXSXXXBPXXXX
+counters: none
+plates:
+  clean: 2
+  dirty: 0
+dirty_pots: 1
+sim:
+  burn: 19
+orders:
+- dish: tomato_soup
+  recipe: &id001
+    tomato: 3
+- dish: tomato_soup
+  recipe: *id001
+- dish: onion_soup
+  recipe:
+    onion: 2
+seed: 8

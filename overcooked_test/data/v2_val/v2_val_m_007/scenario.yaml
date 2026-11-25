@@ -1,0 +1,23 @@
+scenario_id: v2_val_m_007
+description: 'generated: tier m, 11x6, 2 orders, 7 distractor stations'
+grid:
+- XRBWDXXOXTX
+- S         X
+- P         X
+- X  1      S
+- X         X
+- XOXXXXBBPPX
+counters: none
+plates:
+  clean: 2
+  dirty: 1
+dirty_pots: 1
+sim:
+  burn: 12
+orders:
+- dish: onion_soup
+  recipe: &id001
+    onion: 2
+- dish: onion_soup
+  recipe: *id001
+seed: 7

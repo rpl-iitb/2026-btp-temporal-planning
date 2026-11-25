@@ -1,0 +1,11 @@
+# The reference lab with a mixed fleet: two arm robots that pick and place by themselves and one tray robot whose
+# trays are moved by human handlers (`handover-*` actions in PDDL). Add `- {type: tb3_burger_tray, count: 1}` for a
+# fourth, smaller robot (in Gazebo four robots crowd this small lab's north docks; three run cleanly).
+# Robot types and their parameters: `factory-sim robots`; this fleet and its actions: `factory-sim robots lab_mixed_fleet`.
+extends: lab
+robots:
+  handler_pool: handler   # operator pool whose people load / unload tray robots (a station may set `handler: <pool>`)
+  handlers: 2             # size of that pool if `operators` does not define it
+  fleet:
+    - {type: tb3_manipulator, count: 2}
+    - {type: tb3_tray, count: 1}

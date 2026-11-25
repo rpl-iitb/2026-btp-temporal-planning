@@ -1,0 +1,35 @@
+scenario_id: v2_test_service_004
+description: 'generated: tier service, 13x6, 4 orders, 5 distractor stations, deadlines
+  = ceil(1.09 x certificate)'
+grid:
+- XXRBXPSXXXXPX
+- X           S
+- D           X
+- X           B
+- W   1       P
+- XCPSXOXXXXXXX
+counters: none
+plates:
+  clean: 2
+  dirty: 1
+dirty_pots: 0
+sim:
+  burn: 15
+orders:
+- dish: carrot_soup
+  recipe: &id001
+    carrot: 2
+  deadline: 72
+- dish: carrot_onion_stew
+  recipe:
+    carrot: 2
+    onion: 1
+  deadline: 163
+- dish: carrot_soup
+  recipe: *id001
+  deadline: 267
+- dish: onion_soup
+  recipe:
+    onion: 2
+  deadline: 359
+seed: 4

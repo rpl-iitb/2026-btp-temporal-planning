@@ -1,4 +1,10 @@
-"""T-iFLAX V3 / V3U / V3.1: per-agent minimal seeds planned in parallel before V1's expansion."""
+"""T-iFLAX V3 / V3U / V3.1: per-agent minimal seeds planned in parallel before V1's expansion.
+
+What it does: "minimal first": per agent, COMP_T(agent + its earliest-time relaxed plan) as a seed set; the best 4
+seeds by lower bound are planned in parallel (cap 0.4 T), V1's expansion as fallback. V3U: uniform scores (ablation:
+learning adds nothing); V3.1: + POPF on the full task in the background during improvement.
+Earlier result (pre-final Overcooked-AI benchmark, 60 stress kitchens, 30 s): V3 27, V3U 28, V3.1 27 / 60.
+"""
 import concurrent.futures
 import threading
 from dataclasses import dataclass

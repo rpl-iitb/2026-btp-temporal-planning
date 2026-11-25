@@ -1,0 +1,16 @@
+2026-11-20 22:27:30 factory driver pid 294256 stages: v13_train v14_train v12_train v13_eval v14_eval v12_eval plan_eval
+2026-11-20 22:27:30 start v13_train: .venv/bin/python -m algorithm.v13 --domain factory_test.factory_v13 train --name V13_factory --procs 8
+2026-11-20 23:03:08 done  v13_train (2138 s)
+2026-11-20 23:03:08 start v14_train: .venv/bin/python -m algorithm.v14 --domain factory_test.factory_v13 train --name V14_factory --procs 8 --threads 8
+2026-11-21 02:08:45 done  v14_train (11137 s)
+2026-11-21 02:08:45 start v12_train: .venv/bin/python -m algorithm.v12 --domain factory_test.factory_v13 train --name V12_factory --procs 8
+2026-11-21 02:32:41 done  v12_train (1436 s)
+2026-11-21 02:32:41 start v13_eval: .venv/bin/python -m algorithm.v13 --domain factory_test.factory_v13 eval --name V13_factory --split test --seeds 5 --noise 1 2 3 --procs 8
+2026-11-21 02:37:09 done  v13_eval (268 s)
+2026-11-21 02:37:09 start v14_eval: .venv/bin/python -m algorithm.v14 --domain factory_test.factory_v13 eval --name V14_factory --split test --seeds 5 --noise 1 2 3 --procs 8
+2026-11-21 02:43:34 done  v14_eval (385 s)
+2026-11-21 02:43:34 start v12_eval: .venv/bin/python -m algorithm.v12 --domain factory_test.factory_v13 eval --name V12_factory --split test --seeds 5 --noise 1 2 3 --procs 8
+2026-11-21 02:49:40 done  v12_eval (366 s)
+2026-11-21 02:49:40 start plan_eval: .venv/bin/python -m factory_test.evaluate --split test --budgets 60 --jobs 2 --seed 0 --methods B1,V4.2,V8S,V10
+2026-11-21 04:03:14 done  plan_eval (4414 s)
+2026-11-21 04:03:14 factory driver finished

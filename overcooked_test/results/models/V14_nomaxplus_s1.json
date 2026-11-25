@@ -1,0 +1,9 @@
+{
+ "hidden": 64,
+ "layers": 3,
+ "hops": 6,
+ "maxplus": false,
+ "opt_feats": true,
+ "tau": 0.05,
+ "nf": 40
+}

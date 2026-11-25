@@ -1,0 +1,50 @@
+{
+ "dispatcher noise x1.0": {
+  "all": {
+   "runs": 200,
+   "success": 1.0,
+   "served": 1.0,
+   "ms_cert": 1.0062557829457688
+  }
+ },
+ "dispatcher noise x2.0": {
+  "all": {
+   "runs": 200,
+   "success": 1.0,
+   "served": 1.0,
+   "ms_cert": 1.0301456623413343
+  }
+ },
+ "dispatcher noise x3.0": {
+  "all": {
+   "runs": 200,
+   "success": 1.0,
+   "served": 1.0,
+   "ms_cert": 1.0361326584159796
+  }
+ },
+ "V14_factory noise x1.0": {
+  "all": {
+   "runs": 200,
+   "success": 1.0,
+   "served": 1.0,
+   "ms_cert": 1.0086329618338978
+  }
+ },
+ "V14_factory noise x2.0": {
+  "all": {
+   "runs": 200,
+   "success": 1.0,
+   "served": 1.0,
+   "ms_cert": 1.0297058305936642
+  }
+ },
+ "V14_factory noise x3.0": {
+  "all": {
+   "runs": 200,
+   "success": 1.0,
+   "served": 1.0,
+   "ms_cert": 1.0365719429966764
+  }
+ }
+}

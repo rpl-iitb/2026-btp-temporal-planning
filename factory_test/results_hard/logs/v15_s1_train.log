@@ -1,0 +1,11 @@
+dispatcher (expert): val success 0.750 served 0.854 makespan/cert 1.003
+dagger 0 (expert, beta 1.00): 85978 new decisions, rollout success 0.735 (131s)
+  bc epoch 0 loss 0.0425 acc 0.987 (85978 decisions)
+  bc epoch 1 loss 0.0217 acc 0.991 (85978 decisions)
+dagger 0: val success 0.714 served 0.865 makespan/cert 1.067
+dagger 1 (mix, beta 0.50): 87093 new decisions, rollout success 0.735 (250s)
+  bc epoch 0 loss 0.0217 acc 0.991 (173071 decisions)
+  bc epoch 1 loss 0.0208 acc 0.992 (173071 decisions)
+dagger 1: val success 0.750 served 0.865 makespan/cert 1.012
+rl: ppo, shared duration noise per instance group: True, imitation weight 0.5 -> 0.1
+rl 0: train sampled success 0.818 served 0.877 makespan/cert 0.993 reward -1.208 (16384 decisions, ppo passes 4 kl 0.0028 clipped 0.008, 1139s)

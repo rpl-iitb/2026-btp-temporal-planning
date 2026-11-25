@@ -1,0 +1,16 @@
+{
+ "method": "B2",
+ "args": {
+  "seed": 0,
+  "train": "v2_train",
+  "flax_epochs": 301,
+  "epochs": 6,
+  "budget": 15.0,
+  "label_cap": 30.0,
+  "pos_weight": 10.0,
+  "max_tasks": 0
+ },
+ "train_tasks": 150,
+ "seconds": 7285.5,
+ "code": "baselines/vendor (FLAX sair-lab/flax 42a1030 + BTP iFLAX), adapter baselines/adapter.py"
+}

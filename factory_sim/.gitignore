@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.egg-info/
+benchmarks/
+results/
+pddl_out/
+*.gif
+!docs/*.gif
+docs/release/
+ros_runs/
+media/
+*.pgm
+.pytest_cache/
+*.log

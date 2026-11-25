@@ -1,0 +1,158 @@
+2026-11-20 19:39:14 driver pid 290180 stages: v13_train v14_train v3_eval_fast v12_train v3_eval_slow teacher_build teacher_train teacher_improve teacher2_train v9_train v11_train b2_train v5_labels v5_train v6_all v7_all v1_train v2_train v21_train b3_train v2_eval
+2026-11-20 19:39:14 start v13_train: .venv/bin/python -m algorithm.v13 --domain overcooked_test.kitchen_v13 train --procs 6
+2026-11-20 19:54:19 done  v13_train (905 s)
+2026-11-20 19:54:19 start v14_train: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --procs 6 --threads 6
+2026-11-20 20:56:41 done  v14_train (3742 s)
+2026-11-20 20:56:41 start v3_eval_fast: .venv/bin/python -m overcooked_test.v3_eval --split v3_test --methods dispatcher open-loop V13 V14 --noise 1 2 3 --seeds 3 --procs 6
+2026-11-20 21:18:50 done  v3_eval_fast (1329 s)
+2026-11-20 21:18:50 start v12_train: .venv/bin/python -m algorithm.v12 --domain overcooked_test.kitchen_v13 train --procs 5
+2026-11-20 21:42:07 done  v12_train (1397 s)
+2026-11-20 21:42:07 start v3_eval_slow: .venv/bin/python -m overcooked_test.v3_eval --split v3_test --methods dispatcher open-loop V13 V14 replan-2 V12 --noise 1 2 3 --seeds 3 --procs 6
+2026-11-20 22:28:44 driver pid 294371 stages: abl_v14_il_train abl_v14_reinforce_train abl_v14_nomaxplus_train abl_v14_nofeats_train abl_v13_il_train abl_eval
+2026-11-20 22:28:44 start abl_v14_il_train: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_il --rl_epochs 0 --procs 6 --threads 6
+2026-11-20 23:20:40 done  abl_v14_il_train (3116 s)
+2026-11-20 23:20:40 start abl_v14_reinforce_train: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_reinforce --rl reinforce --procs 6 --threads 6
+2026-11-21 02:07:42 done  abl_v14_reinforce_train (10022 s)
+2026-11-21 02:07:42 start abl_v14_nomaxplus_train: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_nomaxplus --no_maxplus --procs 6 --threads 6
+2026-11-21 03:48:45 done  abl_v14_nomaxplus_train (6063 s)
+2026-11-21 03:48:45 start abl_v14_nofeats_train: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_nofeats --no_opt_feats --procs 6 --threads 6
+2026-11-21 07:56:16 done  abl_v14_nofeats_train (14851 s)
+2026-11-21 07:56:16 start abl_v13_il_train: .venv/bin/python -m algorithm.v13 --domain overcooked_test.kitchen_v13 train --name V13_il --rl_epochs 0 --procs 6
+2026-11-21 08:01:32 done  abl_v13_il_train (316 s)
+2026-11-21 08:01:32 start abl_eval: .venv/bin/python -m overcooked_test.v3_eval --split v3_test --tag _ablations --noise 1 2 3 --seeds 3 --procs 6 --methods V13 V13_il V14 V14_il V14_reinforce V14_nomaxplus V14_nofeats
+2026-11-21 09:40:43 done  abl_eval (5951 s)
+2026-11-21 09:40:43 driver finished
+2026-11-21 13:18:48 seed driver pid 307479 seeds: 1 2 stages: train eval
+2026-11-21 13:18:48 seed driver finished
+2026-11-21 13:23:17 seed driver pid 308279 seeds: 1 2 stages: train eval
+2026-11-21 13:23:17 start seed_V14_s1: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_s1 --train_seed 1 --procs 8 --threads 8
+2026-11-21 14:28:06 FAIL  v3_eval_slow (exit 0, 60359 s), see overcooked_test/results/logs/v3_eval_slow.log
+2026-11-21 14:28:06 start teacher_build: .venv/bin/python -m overcooked_test.teacher build --splits v2_train v2_val --jobs 2
+2026-11-21 14:28:15 FAIL  seed_V14_s1 (exit 0, 3898 s), see overcooked_test/results/logs/seed_V14_s1.log
+2026-11-21 14:28:15 start seed_V14_nofeats_s1: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_nofeats_s1 --no_opt_feats --train_seed 1 --procs 8 --threads 8
+2026-11-21 14:28:41 FAIL  teacher_build (exit 0, 35 s), see overcooked_test/results/logs/teacher_build.log
+2026-11-21 14:28:41 start teacher_train: .venv/bin/python -m overcooked_test.teacher train
+2026-11-21 14:28:43 FAIL  teacher_train (exit 0, 2 s), see overcooked_test/results/logs/teacher_train.log
+2026-11-21 14:28:43 start teacher_improve: .venv/bin/python -m overcooked_test.teacher improve --splits v2_train v2_val --jobs 3
+2026-11-21 14:28:45 FAIL  teacher_improve (exit 0, 2 s), see overcooked_test/results/logs/teacher_improve.log
+2026-11-21 14:28:45 start teacher2_train: .venv/bin/python -m overcooked_test.teacher train --name TEACHER2
+2026-11-21 14:28:48 FAIL  teacher2_train (exit 0, 3 s), see overcooked_test/results/logs/teacher2_train.log
+2026-11-21 14:28:48 start v9_train: .venv/bin/python -m overcooked_test.kitchen_v9 train
+2026-11-21 14:28:50 FAIL  v9_train (exit 0, 2 s), see overcooked_test/results/logs/v9_train.log
+2026-11-21 14:28:50 start v11_train: .venv/bin/python -m algorithm.v11 train --bench overcooked_kitchen
+2026-11-21 14:28:50 FAIL  seed_V14_nofeats_s1 (exit 0, 35 s), see overcooked_test/results/logs/seed_V14_nofeats_s1.log
+2026-11-21 14:28:50 start seed_V14_nomaxplus_s1: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_nomaxplus_s1 --no_maxplus --train_seed 1 --procs 8 --threads 8
+2026-11-21 14:28:52 FAIL  v11_train (exit 0, 2 s), see overcooked_test/results/logs/v11_train.log
+2026-11-21 14:28:52 start b2_train: .venv/bin/python -c import overcooked_test, sys, runpy; sys.argv=['b2','train','--train','v2_train','--seed','0']; runpy.run_module('baselines.b2', run_name='__main__')
+2026-11-21 14:28:57 FAIL  seed_V14_nomaxplus_s1 (exit 0, 7 s), see overcooked_test/results/logs/seed_V14_nomaxplus_s1.log
+2026-11-21 14:28:57 start seed_V14_il_s1: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_il_s1 --rl_epochs 0 --train_seed 1 --procs 8 --threads 8
+2026-11-21 14:28:59 FAIL  b2_train (exit 0, 7 s), see overcooked_test/results/logs/b2_train.log
+2026-11-21 14:28:59 start v5_labels: bash -c .venv/bin/python -m algorithm.v5 labels --split train && .venv/bin/python -m algorithm.v5 labels --split val
+2026-11-21 14:29:01 done  v5_labels (2 s)
+2026-11-21 14:29:01 start v5_train: .venv/bin/python -m algorithm.v5 train
+2026-11-21 14:29:02 FAIL  v5_train (exit 0, 1 s), see overcooked_test/results/logs/v5_train.log
+2026-11-21 14:29:02 start v6_all: bash -c .venv/bin/python -m algorithm.v6 labels --split train_large --parallel 2 && .venv/bin/python -m algorithm.v6 labels --split val_large --parallel 2 && .venv/bin/python -m algorithm.v6 train && .venv/bin/python -m algorithm.v6 testA --split stress --parallel 2
+2026-11-21 14:29:04 FAIL  seed_V14_il_s1 (exit 0, 7 s), see overcooked_test/results/logs/seed_V14_il_s1.log
+2026-11-21 14:29:04 start seed_V13_s1: .venv/bin/python -m algorithm.v13 --domain overcooked_test.kitchen_v13 train --name V13_s1 --train_seed 1 --procs 8
+2026-11-21 14:29:05 FAIL  v6_all (exit 0, 3 s), see overcooked_test/results/logs/v6_all.log
+2026-11-21 14:29:05 start v7_all: bash -c .venv/bin/python -m algorithm.v7 train && .venv/bin/python -m algorithm.v7 test --split stress --parallel 2
+2026-11-21 14:29:06 FAIL  v7_all (exit 0, 1 s), see overcooked_test/results/logs/v7_all.log
+2026-11-21 14:29:06 start v1_train: .venv/bin/python -m algorithm.v1 train --train v2_train --val v2_val --seed 0
+2026-11-21 14:29:07 FAIL  v1_train (exit 0, 1 s), see overcooked_test/results/logs/v1_train.log
+2026-11-21 14:29:07 start v2_train: .venv/bin/python -m algorithm.v2 train --method V2 --train v2_train --val v2_val --seed 0
+2026-11-21 14:29:11 FAIL  seed_V13_s1 (exit 0, 7 s), see overcooked_test/results/logs/seed_V13_s1.log
+2026-11-21 14:29:11 start seed_V14_s2: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_s2 --train_seed 2 --procs 8 --threads 8
+2026-11-21 14:29:14 FAIL  v2_train (exit 0, 7 s), see overcooked_test/results/logs/v2_train.log
+2026-11-21 14:29:14 start v21_train: .venv/bin/python -m algorithm.v2 train --method V2.1 --train v2_train --val v2_val --seed 0
+2026-11-21 14:29:18 FAIL  seed_V14_s2 (exit 0, 7 s), see overcooked_test/results/logs/seed_V14_s2.log
+2026-11-21 14:29:18 start seed_V14_nofeats_s2: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_nofeats_s2 --no_opt_feats --train_seed 2 --procs 8 --threads 8
+2026-11-21 14:29:21 FAIL  v21_train (exit 0, 7 s), see overcooked_test/results/logs/v21_train.log
+2026-11-21 14:29:21 start b3_train: .venv/bin/python -c import overcooked_test, sys, runpy; sys.argv=['b3','train','--train','v2_train','--seed','0']; runpy.run_module('baselines.b3', run_name='__main__')
+2026-11-21 14:29:25 FAIL  seed_V14_nofeats_s2 (exit 0, 7 s), see overcooked_test/results/logs/seed_V14_nofeats_s2.log
+2026-11-21 14:29:25 start seed_V14_nomaxplus_s2: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_nomaxplus_s2 --no_maxplus --train_seed 2 --procs 8 --threads 8
+2026-11-21 14:29:28 FAIL  b3_train (exit 0, 7 s), see overcooked_test/results/logs/b3_train.log
+2026-11-21 14:29:28 start v2_eval: .venv/bin/python -m overcooked_test.evaluate --split v2_test --budgets 60 --jobs 2 --seed 0 --methods B1,B2,B3,V1,V2,V2.1,V3,V3U,V3.1,V4,V4.1,V4.2,V5,V8,V8S,V8.2,V9,V10,V11
+2026-11-21 14:29:32 FAIL  seed_V14_nomaxplus_s2 (exit 0, 7 s), see overcooked_test/results/logs/seed_V14_nomaxplus_s2.log
+2026-11-21 14:29:32 start seed_V14_il_s2: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_il_s2 --rl_epochs 0 --train_seed 2 --procs 8 --threads 8
+2026-11-21 14:29:35 FAIL  v2_eval (exit 0, 7 s), see overcooked_test/results/logs/v2_eval.log
+2026-11-21 14:29:35 driver finished
+2026-11-21 14:29:39 FAIL  seed_V14_il_s2 (exit 0, 7 s), see overcooked_test/results/logs/seed_V14_il_s2.log
+2026-11-21 14:29:39 start seed_V13_s2: .venv/bin/python -m algorithm.v13 --domain overcooked_test.kitchen_v13 train --name V13_s2 --train_seed 2 --procs 8
+2026-11-21 14:29:46 FAIL  seed_V13_s2 (exit 0, 7 s), see overcooked_test/results/logs/seed_V13_s2.log
+2026-11-21 14:29:46 start seeds_eval: .venv/bin/python -m overcooked_test.v3_eval --split v3_test --tag _seeds --noise 1 2 3 --seeds 3 --procs 8 --methods V13 V14 V14_nofeats V14_nomaxplus V14_il V14_s1 V14_nofeats_s1 V14_nomaxplus_s1 V14_il_s1 V13_s1 V14_s2 V14_nofeats_s2 V14_nomaxplus_s2 V14_il_s2 V13_s2
+2026-11-21 14:29:53 FAIL  seeds_eval (exit 0, 7 s), see overcooked_test/results/logs/seeds_eval.log
+2026-11-21 14:29:53 seed driver finished
+2026-11-21 14:29:53 driver pid 314855 stages: wait_v9_train abl_v9_compare
+2026-11-21 14:29:53 waiting for v9_train
+2026-11-21 14:29:53 start abl_v9_compare: .venv/bin/python -m overcooked_test.kitchen_v9 compare --split v2_test
+2026-11-21 14:29:53 FAIL  abl_v9_compare (exit 0, 0 s), see overcooked_test/results/logs/abl_v9_compare.log
+2026-11-21 14:29:53 driver finished
+2026-11-21 18:49:29 driver pid 327531 stages: v13_train v14_train v3_eval_fast v12_train v3_eval_slow teacher_build teacher_train teacher_improve teacher2_train v9_train v11_train b2_train v5_labels v5_train v6_all v7_all v1_train v2_train v21_train b3_train v2_eval
+2026-11-21 18:49:29 skip v13_train (done)
+2026-11-21 18:49:29 skip v14_train (done)
+2026-11-21 18:49:29 skip v3_eval_fast (done)
+2026-11-21 18:49:29 skip v12_train (done)
+2026-11-21 18:49:29 start v3_eval_slow: .venv/bin/python -m overcooked_test.v3_eval --split v3_test --methods dispatcher open-loop V13 V14 replan-2 V12 --noise 1 2 3 --seeds 3 --procs 6
+2026-11-21 18:49:52 seed driver pid 327724 seeds: 1 2 stages: train eval
+2026-11-21 18:49:52 start seed_V14_s1: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_s1 --train_seed 1 --procs 8 --threads 8
+2026-11-21 20:54:48 done  v3_eval_slow (7519 s)
+2026-11-21 20:54:48 start teacher_build: .venv/bin/python -m overcooked_test.teacher build --splits v2_train v2_val --jobs 2
+2026-11-21 21:32:16 done  seed_V14_s1 (9744 s)
+2026-11-21 21:32:16 start seed_V14_nofeats_s1: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_nofeats_s1 --no_opt_feats --train_seed 1 --procs 8 --threads 8
+2026-11-21 21:55:48 done  teacher_build (3660 s)
+2026-11-21 21:55:48 start teacher_train: .venv/bin/python -m overcooked_test.teacher train
+2026-11-21 23:22:53 done  seed_V14_nofeats_s1 (6637 s)
+2026-11-21 23:22:53 start seed_V14_nomaxplus_s1: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_nomaxplus_s1 --no_maxplus --train_seed 1 --procs 8 --threads 8
+2026-11-22 00:30:20 done  seed_V14_nomaxplus_s1 (4047 s)
+2026-11-22 00:30:20 start seed_V14_il_s1: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_il_s1 --rl_epochs 0 --train_seed 1 --procs 8 --threads 8
+2026-11-22 01:09:05 done  seed_V14_il_s1 (2325 s)
+2026-11-22 01:09:05 start seed_V13_s1: .venv/bin/python -m algorithm.v13 --domain overcooked_test.kitchen_v13 train --name V13_s1 --train_seed 1 --procs 8
+2026-11-22 01:20:10 done  teacher_train (12262 s)
+2026-11-22 01:20:10 start teacher_improve: .venv/bin/python -m overcooked_test.teacher improve --splits v2_train v2_val --jobs 3
+2026-11-22 01:22:08 done  teacher_improve (118 s)
+2026-11-22 01:22:08 start teacher2_train: .venv/bin/python -m overcooked_test.teacher train --name TEACHER2
+2026-11-22 01:29:51 done  seed_V13_s1 (1246 s)
+2026-11-22 01:29:51 start seed_V14_s2: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_s2 --train_seed 2 --procs 8 --threads 8
+2026-11-22 03:12:16 done  teacher2_train (6608 s)
+2026-11-22 03:12:16 start v9_train: .venv/bin/python -m overcooked_test.kitchen_v9 train
+2026-11-22 03:17:13 done  v9_train (297 s)
+2026-11-22 03:17:13 start v11_train: .venv/bin/python -m algorithm.v11 train --bench overcooked_kitchen
+2026-11-22 04:47:08 done  seed_V14_s2 (11837 s)
+2026-11-22 04:47:08 start seed_V14_nofeats_s2: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_nofeats_s2 --no_opt_feats --train_seed 2 --procs 8 --threads 8
+2026-11-22 04:54:05 done  v11_train (5812 s)
+2026-11-22 04:54:05 start b2_train: .venv/bin/python -c import overcooked_test, sys, runpy; sys.argv=['b2','train','--train','v2_train','--seed','0']; runpy.run_module('baselines.b2', run_name='__main__')
+2026-11-22 06:43:15 done  seed_V14_nofeats_s2 (6967 s)
+2026-11-22 06:43:15 start seed_V14_nomaxplus_s2: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_nomaxplus_s2 --no_maxplus --train_seed 2 --procs 8 --threads 8
+2026-11-22 06:55:33 done  b2_train (7288 s)
+2026-11-22 06:55:33 start v5_labels: bash -c .venv/bin/python -m algorithm.v5 labels --split train && .venv/bin/python -m algorithm.v5 labels --split val
+2026-11-22 07:19:56 done  v5_labels (1463 s)
+2026-11-22 07:19:56 start v5_train: .venv/bin/python -m algorithm.v5 train
+2026-11-22 07:42:56 done  seed_V14_nomaxplus_s2 (3581 s)
+2026-11-22 07:42:56 start seed_V14_il_s2: .venv/bin/python -m algorithm.v14 --domain overcooked_test.kitchen_v13 train --name V14_il_s2 --rl_epochs 0 --train_seed 2 --procs 8 --threads 8
+2026-11-22 08:32:31 done  seed_V14_il_s2 (2975 s)
+2026-11-22 08:32:31 start seed_V13_s2: .venv/bin/python -m algorithm.v13 --domain overcooked_test.kitchen_v13 train --name V13_s2 --train_seed 2 --procs 8
+2026-11-22 08:50:14 done  seed_V13_s2 (1063 s)
+2026-11-22 08:50:14 start seeds_eval: .venv/bin/python -m overcooked_test.v3_eval --split v3_test --tag _seeds --noise 1 2 3 --seeds 3 --procs 8 --methods V13 V14 V14_nofeats V14_nomaxplus V14_il V14_s1 V14_nofeats_s1 V14_nomaxplus_s1 V14_il_s1 V13_s1 V14_s2 V14_nofeats_s2 V14_nomaxplus_s2 V14_il_s2 V13_s2
+2026-11-22 09:09:53 done  v5_train (6597 s)
+2026-11-22 09:09:53 start v6_all: bash -c .venv/bin/python -m algorithm.v6 labels --split train_large --parallel 2 && .venv/bin/python -m algorithm.v6 labels --split val_large --parallel 2 && .venv/bin/python -m algorithm.v6 train && .venv/bin/python -m algorithm.v6 testA --split stress --parallel 2
+2026-11-22 10:12:11 done  v6_all (3738 s)
+2026-11-22 10:12:11 start v7_all: bash -c .venv/bin/python -m algorithm.v7 train && .venv/bin/python -m algorithm.v7 test --split stress --parallel 2
+2026-11-22 10:26:30 done  seeds_eval (5776 s)
+2026-11-22 10:26:30 seed driver finished
+2026-11-22 10:26:30 driver pid 531698 stages: wait_v9_train abl_v9_compare
+2026-11-22 10:26:30 waiting for v9_train
+2026-11-22 10:26:30 start abl_v9_compare: .venv/bin/python -m overcooked_test.kitchen_v9 compare --split v2_test
+2026-11-22 10:27:02 done  v7_all (891 s)
+2026-11-22 10:27:02 start v1_train: .venv/bin/python -m algorithm.v1 train --train v2_train --val v2_val --seed 0
+2026-11-22 10:27:04 done  abl_v9_compare (34 s)
+2026-11-22 10:27:04 driver finished
+2026-11-22 11:50:41 done  v1_train (5019 s)
+2026-11-22 11:50:41 start v2_train: .venv/bin/python -m algorithm.v2 train --method V2 --train v2_train --val v2_val --seed 0
+2026-11-22 13:17:56 done  v2_train (5235 s)
+2026-11-22 13:17:56 start v21_train: .venv/bin/python -m algorithm.v2 train --method V2.1 --train v2_train --val v2_val --seed 0
+2026-11-22 14:42:45 done  v21_train (5089 s)
+2026-11-22 14:42:45 start b3_train: .venv/bin/python -c import overcooked_test, sys, runpy; sys.argv=['b3','train','--train','v2_train','--seed','0']; runpy.run_module('baselines.b3', run_name='__main__')
+2026-11-22 17:34:48 done  b3_train (10323 s)
+2026-11-22 17:34:48 start v2_eval: .venv/bin/python -m overcooked_test.evaluate --split v2_test --budgets 60 --jobs 2 --seed 0 --methods B1,B2,B3,V1,V2,V2.1,V3,V3U,V3.1,V4,V4.1,V4.2,V5,V8,V8S,V8.2,V9,V10,V11
+2026-11-23 00:29:45 done  v2_eval (24897 s)
+2026-11-23 00:29:45 driver finished

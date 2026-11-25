@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "overcooked-kitchen"
+version = "0.1.0"
+description = "Multi-cook temporal kitchen benchmark"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.22", "pyyaml>=6", "gymnasium>=0.29", "pillow>=10.1"]
+
+[project.optional-dependencies]
+play = ["pygame>=2.5"]
+marl = ["pettingzoo>=1.24"]
+dev = ["pytest>=7"]
+all = ["pygame>=2.5", "pettingzoo>=1.24", "pytest>=7"]
+
+[project.scripts]
+overcooked-kitchen = "overcooked_kitchen.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["overcooked_kitchen*"]
+
+[tool.setuptools.package-data]
+overcooked_kitchen = ["assets/*", "examples/*.yaml", "domain.yaml"]
+
+[tool.pytest.ini_options]
+markers = ["slow: long POPF solves (k02 from t = 0, ~90 s each); deselect with -m \"not slow\""]

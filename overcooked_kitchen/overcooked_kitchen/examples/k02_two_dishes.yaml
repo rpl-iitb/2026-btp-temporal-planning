@@ -1,0 +1,18 @@
+scenario_id: k02_two_dishes
+description: >
+  One cook, two different dishes, two stoves. While the first pot simmers the
+  cook chops vegetables for the second dish instead of waiting at the stove.
+grid:
+  - "XOTCXPXPX"
+  - "B       S"
+  - "X   1   X"
+  - "B       R"
+  - "XXDXXXWXX"
+plates: {clean: 2}
+orders:
+  - dish: tomato_soup
+    recipe: {tomato: 2}
+    deadline: 120
+  - dish: carrot_onion_stew
+    recipe: {onion: 1, carrot: 2}
+    deadline: 160

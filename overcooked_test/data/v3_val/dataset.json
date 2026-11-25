@@ -1,0 +1,166 @@
+{
+ "split": "v3_val",
+ "suite": "../../overcooked_kitchen/benchmarks/v1",
+ "instances": [
+  {
+   "instance_id": "v3_val_m3_000",
+   "certificate_makespan": 253.095,
+   "delivery_makespan": 241.094,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 6
+  },
+  {
+   "instance_id": "v3_val_m3_001",
+   "certificate_makespan": 263.106,
+   "delivery_makespan": 251.105,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 6
+  },
+  {
+   "instance_id": "v3_val_m3_002",
+   "certificate_makespan": 337.098,
+   "delivery_makespan": 325.097,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 7
+  },
+  {
+   "instance_id": "v3_val_m3_003",
+   "certificate_makespan": 307.101,
+   "delivery_makespan": 295.097,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 6
+  },
+  {
+   "instance_id": "v3_val_m3_004",
+   "certificate_makespan": 293.089,
+   "delivery_makespan": 281.088,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 6
+  },
+  {
+   "instance_id": "v3_val_m3_005",
+   "certificate_makespan": 267.105,
+   "delivery_makespan": 255.103,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 7
+  },
+  {
+   "instance_id": "v3_val_m3_006",
+   "certificate_makespan": 292.105,
+   "delivery_makespan": 280.104,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 6
+  },
+  {
+   "instance_id": "v3_val_m3_007",
+   "certificate_makespan": 365.1,
+   "delivery_makespan": 353.099,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 7
+  },
+  {
+   "instance_id": "v3_val_m3_008",
+   "certificate_makespan": 330.115,
+   "delivery_makespan": 318.114,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 7
+  },
+  {
+   "instance_id": "v3_val_m3_009",
+   "certificate_makespan": 375.133,
+   "delivery_makespan": 363.132,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 7
+  },
+  {
+   "instance_id": "v3_val_m3_010",
+   "certificate_makespan": 270.098,
+   "delivery_makespan": 258.097,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 6
+  },
+  {
+   "instance_id": "v3_val_m3_011",
+   "certificate_makespan": 234.086,
+   "delivery_makespan": 222.085,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 5
+  },
+  {
+   "instance_id": "v3_val_m3_012",
+   "certificate_makespan": 245.086,
+   "delivery_makespan": 233.085,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 6
+  },
+  {
+   "instance_id": "v3_val_m3_013",
+   "certificate_makespan": 316.118,
+   "delivery_makespan": 304.117,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 7
+  },
+  {
+   "instance_id": "v3_val_m3_014",
+   "certificate_makespan": 308.106,
+   "delivery_makespan": 296.105,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 6
+  },
+  {
+   "instance_id": "v3_val_m3_015",
+   "certificate_makespan": 238.08,
+   "delivery_makespan": 226.079,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 5
+  },
+  {
+   "instance_id": "v3_val_m3_016",
+   "certificate_makespan": 252.08,
+   "delivery_makespan": 240.079,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 5
+  },
+  {
+   "instance_id": "v3_val_m3_017",
+   "certificate_makespan": 295.094,
+   "delivery_makespan": 283.093,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 6
+  },
+  {
+   "instance_id": "v3_val_m3_018",
+   "certificate_makespan": 275.118,
+   "delivery_makespan": 263.116,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 7
+  },
+  {
+   "instance_id": "v3_val_m3_019",
+   "certificate_makespan": 374.111,
+   "delivery_makespan": 362.11,
+   "tier": "m3",
+   "cooks": 3,
+   "orders": 7
+  }
+ ]
+}

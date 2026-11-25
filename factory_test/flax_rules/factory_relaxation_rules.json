@@ -1,0 +1,53 @@
+{
+ "rule0": {
+  "pre_compute": {},
+  "precond": {
+   "dock": [
+    0,
+    1
+   ]
+  },
+  "delete_objects": [],
+  "add_objects": [],
+  "delete_effects": {},
+  "add_effects": {
+   "dock-free": [
+    0
+   ]
+  }
+ },
+ "rule1": {
+  "pre_compute": {},
+  "precond": {
+   "in-slot": [
+    0,
+    1
+   ]
+  },
+  "delete_objects": [],
+  "add_objects": [],
+  "delete_effects": {},
+  "add_effects": {
+   "slot-free": [
+    0
+   ]
+  }
+ },
+ "rule2": {
+  "pre_compute": {},
+  "precond": {
+   "out-slot": [
+    0,
+    1
+   ]
+  },
+  "delete_objects": [],
+  "add_objects": [],
+  "delete_effects": {},
+  "add_effects": {
+   "slot-free": [
+    0
+   ]
+  }
+ }
+}

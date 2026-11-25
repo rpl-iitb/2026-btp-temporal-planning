@@ -1,5 +1,12 @@
 """T-iFLAX V1: iFLAX expansion + 4 recovery branches + improvement phase, two-head scorer, bilevel training.
-Also the engine of V2-V5 (they override the hooks of ObjectSelectionPlanner). See algorithm/README.md.
+
+What it does: iFLAX's skeleton made temporal. A GNN scores objects; score-guided expansion grows an object set S
+(T1 = 0.6 T, growing per-attempt caps) and POPF plans on the restricted task Pi|S (every plan VAL-checked on the full
+task). Parallel recovery when Pi|S fails: Repair / Restart / Rollback / Temporal (adds resources that lower the
+relaxed lower bound). Two-head GNN (object score + temporal score), trained bilevel. Leftover budget goes to an
+improvement phase (deadline tightening, OPTIC anytime, capacity candidates, re-timing).
+Earlier result (pre-final Overcooked-AI benchmark, 60 stress kitchens, 30 s): 9 / 60 solved.
+Also the engine of V2-V5 (they override the hooks of ObjectSelectionPlanner).
 
     python -m algorithm.v1 train --seed 0
 """
@@ -16,7 +23,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 
-from pddl_generator import TemporalPlan, validate_plan
+from .pddlkit import TemporalPlan, validate_plan
 from . import results_dir, split_dirs
 from .gnn import LabelConfig, Scorer, object_labels, temporal_labels
 from .grounding import INF, GroundTask, Task, comp_t

@@ -1,0 +1,6 @@
+2026-11-21 18:50:08 memguard: driver 327889, kill a stage tree below 1500 MB available
+2026-11-22 23:24:56 memguard: 1442 MB available -> killed stage pid 572319 (9 processes, 10867 MB): .venv/bin/python -m factory_test.closed_eval --split test --noise 1 2 3 --seeds 3 --procs 8 --methods dispatcher open-loop replan-2 V13_hard V14_hard V12_hard -
+2026-11-23 02:04:25 memguard: driver 682842, kill a stage tree below 1500 MB available
+2026-11-23 05:18:08 memguard: driver 692096, kill a stage tree below 1500 MB available
+2026-11-23 05:18:08 memguard: driver 692106, kill a stage tree below 1500 MB available
+2026-11-23 13:52:08 memguard: driver 713275, kill a stage tree below 1500 MB available

@@ -1,0 +1,148 @@
+{
+ "model": {
+  "n_node": 57,
+  "n_edge": 154,
+  "n_global": 4,
+  "heads": 4,
+  "hidden": 16,
+  "steps": 3,
+  "aggregate": "sum"
+ },
+ "vocab": {
+  "types": [
+   "board",
+   "cook",
+   "count",
+   "counter",
+   "crate",
+   "dropoff",
+   "ingredient",
+   "object",
+   "order",
+   "plate",
+   "pose",
+   "pot",
+   "rack",
+   "recipe",
+   "serving",
+   "sink",
+   "station",
+   "surface",
+   "tile"
+  ],
+  "unary": [
+   "clear",
+   "free",
+   "hand-empty",
+   "idle",
+   "is-zero",
+   "open",
+   "pending",
+   "plate-clean",
+   "plate-dirty",
+   "pot-dirty",
+   "pot-idle",
+   "served"
+  ],
+  "unary_fn": [
+   "burn-window",
+   "chop-steps",
+   "cook-steps",
+   "eat-steps",
+   "scrub-steps",
+   "wash-steps"
+  ],
+  "n_edge": 154,
+  "temporal": true
+ },
+ "temperature": [
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "combine": "v5",
+ "weights": [
+  1.0,
+  1.0
+ ],
+ "history": [
+  {
+   "epoch": 5,
+   "val_loss": 1.6546323498090107,
+   "val_top1": 0.0,
+   "bound_top1": 0.0
+  },
+  {
+   "epoch": 10,
+   "val_loss": 1.5209686954816182,
+   "val_top1": 0.0,
+   "bound_top1": 0.0
+  },
+  {
+   "epoch": 15,
+   "val_loss": 1.5209457278251648,
+   "val_top1": 0.0,
+   "bound_top1": 0.0
+  },
+  {
+   "epoch": 20,
+   "val_loss": 1.4766494035720825,
+   "val_top1": 0.0,
+   "bound_top1": 0.0
+  },
+  {
+   "epoch": 25,
+   "val_loss": 1.456007291873296,
+   "val_top1": 0.0,
+   "bound_top1": 0.0
+  },
+  {
+   "epoch": 30,
+   "val_loss": 1.4496667385101318,
+   "val_top1": 0.0,
+   "bound_top1": 0.0
+  },
+  {
+   "epoch": 35,
+   "val_loss": 1.4524118900299072,
+   "val_top1": 0.0,
+   "bound_top1": 0.0
+  },
+  {
+   "epoch": 40,
+   "val_loss": 1.4459792574246724,
+   "val_top1": 0.0,
+   "bound_top1": 0.0
+  },
+  {
+   "epoch": 45,
+   "val_loss": 1.4278619190057118,
+   "val_top1": 0.0,
+   "bound_top1": 0.0
+  },
+  {
+   "epoch": 50,
+   "val_loss": 1.444383402665456,
+   "val_top1": 0.0,
+   "bound_top1": 0.0
+  },
+  {
+   "epoch": 55,
+   "val_loss": 1.4382924735546112,
+   "val_top1": 0.0,
+   "bound_top1": 0.0
+  },
+  {
+   "epoch": 60,
+   "val_loss": 1.4225491185983021,
+   "val_top1": 0.0,
+   "bound_top1": 0.0
+  }
+ ],
+ "saved": "2026-11-22 10:26:40",
+ "method": "V7",
+ "kind": "listwise set ranker",
+ "best_val_loss": 1.4225491185983021,
+ "train_seconds": 788.1
+}

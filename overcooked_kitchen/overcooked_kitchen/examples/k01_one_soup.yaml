@@ -1,0 +1,15 @@
+scenario_id: k01_one_soup
+description: >
+  Smallest v2 instance: one cook, one tomato soup (3 tomatoes). Every tomato is
+  taken from the crate, chopped on the board, carried to the pot; then the
+  stove is lit, the soup is dished up on a clean plate and served.
+grid:
+  - "XOTCXPXPX"
+  - "B       S"
+  - "X   1   X"
+  - "B       R"
+  - "XXDXXXWXX"
+plates: {clean: 1}
+orders:
+  - dish: tomato_soup
+    recipe: {tomato: 3}

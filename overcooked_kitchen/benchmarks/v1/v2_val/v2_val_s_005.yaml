@@ -1,0 +1,23 @@
+scenario_id: v2_val_s_005
+description: 'generated: tier s, 9x5, 2 orders, 1 distractor stations'
+grid:
+- XWXXPXPXX
+- B1      X
+- T       X
+- X       X
+- XRDOSXXXX
+counters: none
+plates:
+  clean: 2
+  dirty: 0
+dirty_pots: 0
+sim:
+  burn: 18
+orders:
+- dish: onion_soup
+  recipe:
+    onion: 2
+- dish: tomato_soup
+  recipe:
+    tomato: 3
+seed: 5

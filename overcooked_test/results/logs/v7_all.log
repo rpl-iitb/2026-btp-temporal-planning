@@ -1,0 +1,77 @@
+kitchens with both outcomes: train 28 (110 sets), val 6 (23 sets)
+epoch   5  val loss 1.655  top-1 solved: GNN 0.00 vs bound 0.00 (val, 0 kitchens); train GNN 0.00 vs bound 0.00
+epoch  10  val loss 1.521  top-1 solved: GNN 0.00 vs bound 0.00 (val, 0 kitchens); train GNN 0.00 vs bound 0.00
+epoch  15  val loss 1.521  top-1 solved: GNN 0.00 vs bound 0.00 (val, 0 kitchens); train GNN 0.00 vs bound 0.00
+epoch  20  val loss 1.477  top-1 solved: GNN 0.00 vs bound 0.00 (val, 0 kitchens); train GNN 0.00 vs bound 0.00
+epoch  25  val loss 1.456  top-1 solved: GNN 0.00 vs bound 0.00 (val, 0 kitchens); train GNN 0.00 vs bound 0.00
+epoch  30  val loss 1.450  top-1 solved: GNN 0.00 vs bound 0.00 (val, 0 kitchens); train GNN 0.00 vs bound 0.00
+epoch  35  val loss 1.452  top-1 solved: GNN 0.00 vs bound 0.00 (val, 0 kitchens); train GNN 0.00 vs bound 0.00
+epoch  40  val loss 1.446  top-1 solved: GNN 0.00 vs bound 0.00 (val, 0 kitchens); train GNN 0.00 vs bound 0.00
+epoch  45  val loss 1.428  top-1 solved: GNN 0.00 vs bound 0.00 (val, 0 kitchens); train GNN 0.00 vs bound 0.00
+epoch  50  val loss 1.444  top-1 solved: GNN 0.00 vs bound 0.00 (val, 0 kitchens); train GNN 0.00 vs bound 0.00
+epoch  55  val loss 1.438  top-1 solved: GNN 0.00 vs bound 0.00 (val, 0 kitchens); train GNN 0.00 vs bound 0.00
+epoch  60  val loss 1.423  top-1 solved: GNN 0.00 vs bound 0.00 (val, 0 kitchens); train GNN 0.00 vs bound 0.00
+saved /home/user/Desktop/btp-project/overcooked_test/results/v7/v7_seed0
+v2_test_l_000 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_l_001 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_l_003 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_l_002 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_l_004 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_l_005 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_l_006 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_l_007 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_l_009 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_l_008 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_l_010 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_l_011 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_l_012 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_l_013 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_l_014 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_m_000 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_m_001 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_m_002 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_m_003 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_m_004 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_m_006 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_m_005 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_m_007 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_m_008 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_m_009 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_m_010 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_m_011 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_m_012 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_m_013 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_m_014 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_service_000 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_service_001 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_service_002 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_service_003 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_service_004 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_service_005 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_service_006 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_service_007 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_service_008 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_service_009 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_service_010 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_service_011 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_service_012 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_service_013 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_service_014 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_xl_000 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_xl_001 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_xl_003 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_xl_002 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_xl_004 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_xl_005 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_xl_006 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_xl_007 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_xl_008 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_xl_011 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_xl_012 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_xl_013 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_xl_014 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_xl_015 {'solved': False, 'tried': 0, 't': 0.0}
+v2_test_xl_016 {'solved': False, 'tried': 0, 't': 0.0}
+V7 GNN order: solved 0 / 60, first-try 0, mean time to plan 0.0 s | TRPG-bound order (same protocol, v6 test A): solved 0
+only V7: []
+only bound: []

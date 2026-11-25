@@ -18,9 +18,9 @@ if VENDOR not in sys.path:
 from pddlgym.structs import LiteralConjunction, Predicate, State, Type  # noqa: E402
 from planning.planner import Planner, PlanningFailure, PlanningTimeout  # noqa: E402
 
-from pddl_generator import write_domain  # noqa: E402
-from algorithm import split_dirs  # noqa: E402
-from algorithm.planning import Budget, Workspace, attempt  # noqa: E402
+from .core.pddlkit import write_domain  # noqa: E402
+from .core import split_dirs  # noqa: E402
+from .core.planning import Budget, Workspace, attempt  # noqa: E402
 
 
 # ---- PDDLGym view of a temporal task -------------------------------------------------------
@@ -78,7 +78,7 @@ def _name(v):
 
 def state_to_task(state):
     """Reduced (or rule-relaxed) temporal task described by a pddlgym State."""
-    from algorithm.grounding import Task
+    from .core.grounding import Task
     task, relaxed = state.goal.task, state.goal.relaxed
     objs = {_name(o) for o in state.objects} & set(task.objects)
     objs |= set(task.goal_objects)
@@ -307,12 +307,13 @@ def graph_literals(state):
 
 # ---- shared by B1-B3: rules, result rows, frozen scores, training data ---------------------------------
 HERE = os.path.dirname(os.path.abspath(__file__))
-RULES = {"complementary": os.path.join(HERE, "rules", "overcooked_complementary_rules.json"),
-         "relaxation": os.path.join(HERE, "rules", "overcooked_relaxation_rules.json")}
+# FLAX's hand-written rules are per domain: the test harness gives their files (e.g. overcooked_test/flax_rules/)
+RULES = {"complementary": os.environ.get("TIFLAX_FLAX_COMPLEMENTARY", ""),
+         "relaxation": os.environ.get("TIFLAX_FLAX_RELAXATION", "")}
 
 
 def run_result(name, task, ctx, plan, branch, notes):
-    from algorithm.v1 import RunResult
+    from .core.result import RunResult
     att = [a for a in ctx.attempts]
     valid = [a for a in att if a.outcome == "valid" and a.stage != "relaxed"]
     first = min(valid, key=lambda a: a.t_end) if valid else None
@@ -351,7 +352,7 @@ def frozen_scores(guidance, task, state):
 
 def load_split(name):
     """Tasks of a split, each with its source folder (for the certificate plan)."""
-    from algorithm.grounding import Task
+    from .core.grounding import Task
     out = []
     for d in split_dirs(name):
         t = Task.load(d)
@@ -362,7 +363,7 @@ def load_split(name):
 
 def model_prefix(method, seed):
     """results/b2/b2_seed0 (+ _train.pt, _meta.json, ...)."""
-    from algorithm import results_dir
+    from .core import results_dir
     return os.path.join(results_dir(method.lower()), "{}_seed{}".format(method.lower(), seed))
 
 

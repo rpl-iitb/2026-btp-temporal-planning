@@ -1,0 +1,18 @@
+# The reference lab with every disturbance on and a human workforce: a kitting operator, two assemblers (stations wait
+# for a free operator), a technician crew that repairs breakdowns, services machines and re-tools them, and operator
+# breaks; plus batteries + auto-charging, robot faults, preventive maintenance, reconfigurable CNCs (MC1 <-> MC3,
+# MC2 <-> MC4 roles), material shortages, conveyor jams, rejects and rush orders.
+extends: lab
+name: reference_lab_realistic
+operators: {kitter: 1, assembler: 2, technician: 1}
+technician: technician          # the crew that repairs breakdowns, services machines and changes machine configurations
+operator_breaks:
+  assembler: {every: 7200, duration: 900, n: 1}
+  kitter: {every: 7200, duration: 900, n: 1, first: 3600}
+orders: {count: 8, rush: {prob: 0.25, due_factor: 1.5, weight: 3}}
+stations:
+  kitting: {operator: kitter}
+  asm1: {operator: assembler}
+  asm2: {operator: assembler}
+  MC5: {downtime: [[5400, 900]]}          # a planned service window (start s, duration s)
+features: {stochastic: true, breakdowns: true, rejects: true, battery: true, robot_faults: true, maintenance: true, reconfiguration: true, breaks: true, materials: true, jams: true}

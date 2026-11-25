@@ -1,0 +1,76 @@
+train_large: 150 kitchens (80 with a valid plan), 576 sets, 240 solved, 584 s -> /home/user/Desktop/btp-project/overcooked_test/results/v6/labels_train_large.json
+val_large: 30 kitchens (14 with a valid plan), 112 sets, 39 solved, 130 s -> /home/user/Desktop/btp-project/overcooked_test/results/v6/labels_val_large.json
+train kitchens 80, val kitchens 14; val MAE of a constant t_min predictor 0.907 LB
+epoch  10  val loss 0.891  imp acc 0.947  t_min MAE 0.735  t_max MAE 0.783  censored above D 0.00
+epoch  20  val loss 0.852  imp acc 0.949  t_min MAE 0.628  t_max MAE 0.735  censored above D 0.00
+epoch  30  val loss 0.868  imp acc 0.947  t_min MAE 0.679  t_max MAE 0.762  censored above D 0.00
+epoch  40  val loss 0.803  imp acc 0.952  t_min MAE 0.648  t_max MAE 0.712  censored above D 0.00
+epoch  50  val loss 0.788  imp acc 0.947  t_min MAE 0.629  t_max MAE 0.735  censored above D 0.00
+epoch  60  val loss 0.794  imp acc 0.947  t_min MAE 0.632  t_max MAE 0.734  censored above D 0.00
+epoch  70  val loss 1.132  imp acc 0.928  t_min MAE 0.820  t_max MAE 0.917  censored above D 0.00
+epoch  80  val loss 1.409  imp acc 0.954  t_min MAE 0.966  t_max MAE 1.092  censored above D 0.00
+epoch  90  val loss 0.724  imp acc 0.946  t_min MAE 0.567  t_max MAE 0.670  censored above D 0.00
+epoch 100  val loss 0.739  imp acc 0.951  t_min MAE 0.581  t_max MAE 0.683  censored above D 0.00
+saved /home/user/Desktop/btp-project/overcooked_test/results/v6/v6_seed0 in 2950 s
+v2_test_l_001 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_l_000 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_l_003 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_l_002 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_l_004 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_l_005 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_l_006 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_l_007 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_l_008 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_l_009 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_l_010 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_l_011 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_l_012 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_l_013 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_l_014 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_m_000 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_m_001 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_m_002 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_m_003 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_m_004 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_m_005 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_m_006 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_m_007 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_m_008 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_m_009 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_m_010 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_m_011 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_m_012 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_m_013 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_m_014 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_service_000 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_service_002 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_service_001 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_service_003 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_service_004 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_service_005 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_service_006 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_service_008 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_service_007 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_service_009 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_service_010 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_service_011 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_service_012 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_service_013 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_service_014 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_xl_000 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_xl_001 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_xl_003 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_xl_002 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_xl_004 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_xl_005 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_xl_006 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_xl_007 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_xl_008 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_xl_011 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_xl_012 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_xl_013 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_xl_014 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_xl_015 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+v2_test_xl_016 {'cost': (False, None, 0.0), 'cost_rank': (False, None, 0.0)}
+cost      solved 0 / 60, first-try 0, mean time to plan 0.0 s, mean makespan 0.0
+cost_rank solved 0 / 60, first-try 0, mean time to plan 0.0 s, mean makespan 0.0

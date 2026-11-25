@@ -1,0 +1,19 @@
+{
+ "split": "test",
+ "suite": "factorysim-3.0-hard",
+ "instances": [
+  {
+   "instance_id": "hard_base_M_test_000",
+   "family": "hard_base",
+   "size": "M",
+   "best_known": 4845.627,
+   "lower_bound": 2053.409,
+   "due_reference": 5103.456,
+   "dispatcher_menv_makespan": 4845.627,
+   "dispatcher_on_time_nominal": true,
+   "robots": 3,
+   "orders": 8
+  }
+ ],
+ "skipped": []
+}

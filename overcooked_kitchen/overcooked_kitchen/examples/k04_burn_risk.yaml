@@ -1,0 +1,18 @@
+scenario_id: k04_burn_risk
+description: >
+  One cook, two stoves, two dishes, and soups burn only 6 steps after they are
+  ready. While a pot simmers the cook may prep the other dish, but must be back
+  with a clean plate in time: idling elsewhere or a long chop burns the soup.
+grid:
+  - "XOTCXPXPX"
+  - "B       S"
+  - "X   1   X"
+  - "B       R"
+  - "XXDXXXWXX"
+sim: {burn: 6}
+plates: {clean: 2}
+orders:
+  - dish: onion_soup
+    recipe: {onion: 2}
+  - dish: carrot_tomato_stew
+    recipe: {carrot: 1, tomato: 2}

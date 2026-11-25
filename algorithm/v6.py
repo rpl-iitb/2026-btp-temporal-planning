@@ -1,5 +1,9 @@
 """T-iFLAX V6: learned temporal triage (importance + makespan window per object) steering V4.2's seeds.
 
+What it does: per object, learned importance and a makespan window [t_min, t_max] become learned relaxed-plan costs,
+a triage queue and the seed order inside V4.2.
+Earlier result (pre-final Overcooked-AI benchmark, seeds-only protocol): 43 / 60 (relaxed-bound order 44).
+
     python -m algorithm.v6 labels|train|tune|testA|testB|testC [--split ...]
 """
 import argparse
@@ -13,7 +17,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 
-from pddl_generator import TemporalPlan
+from .pddlkit import TemporalPlan
 from . import PDDL, results_dir, split_dirs
 from .gnn import Scorer, temporal_lb, to_tensors
 from .grounding import GroundTask, Task, agent_type, comp_t

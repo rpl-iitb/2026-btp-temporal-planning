@@ -1,0 +1,27 @@
+scenario_id: v2_train_m_004
+description: 'generated: tier m, 10x6, 2 orders, 6 distractor stations'
+grid:
+- XXTXWCTXPX
+- B        B
+- R 1      X
+- O        X
+- S        X
+- XPDCPXXPBX
+counters: none
+plates:
+  clean: 2
+  dirty: 1
+dirty_pots: 1
+sim:
+  burn: 17
+orders:
+- dish: veggie_stew
+  recipe:
+    onion: 1
+    tomato: 1
+    carrot: 1
+- dish: tomato_onion_soup
+  recipe:
+    tomato: 2
+    onion: 1
+seed: 4

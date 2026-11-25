@@ -1,0 +1,19 @@
+# Compressed-time showcase of every disturbance for Gazebo demos (use with proc_scale:=0.1 charge_scale:=0.05 disturbances:=true):
+# low batteries (auto-charging), a long MC3 breakdown (MC1 is re-tooled to take over its role), preventive maintenance by
+# the technician, operator breaks, conveyor jams, rejects and rush orders.
+extends: lab_realistic
+name: lab_showcase
+orders: {count: 5, rush: {prob: 0.4, due_factor: 1.5, weight: 3}}
+robots:
+  battery: {initial: [0.27, 0.4]}
+  fault: {mtbf: 1500, mttr: {lognormal: [60, 0.3]}}
+operator_breaks:
+  assembler: {every: 500, duration: 90, n: 1, first: 250}
+  kitter: {every: 600, duration: 90, n: 1, first: 400}
+conveyor_jams: {prob: 0.3, clear: {lognormal: [60, 0.3]}}
+stations:
+  MC1: {maintenance: {every: 60, duration: {lognormal: [900, 0.2]}}, breakdown: {mtbf: 100000, mttr: {lognormal: [600, 0.5]}}}
+  MC2: {maintenance: {every: 60, duration: {lognormal: [900, 0.2]}}}
+  MC3: {breakdown: {mtbf: 300, mttr: {lognormal: [8000, 0.1]}}}
+  MC4: {breakdown: {mtbf: 100000, mttr: {lognormal: [600, 0.5]}}}
+  MC5: {downtime: []}

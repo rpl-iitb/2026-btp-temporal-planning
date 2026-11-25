@@ -1,0 +1,21 @@
+scenario_id: v2_train_s_042
+description: 'generated: tier s, 9x6, 1 orders, 2 distractor stations'
+grid:
+- XXCXBXXBX
+- X       X
+- P       X
+- D       X
+- X 1     X
+- XWXRSXXPX
+counters: none
+plates:
+  clean: 1
+  dirty: 0
+dirty_pots: 0
+sim:
+  burn: 29
+orders:
+- dish: carrot_soup
+  recipe:
+    carrot: 2
+seed: 42

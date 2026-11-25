@@ -1,0 +1,14 @@
+# algorithm/ + baselines/ (FLAX's GNN code needs pandas) + both simulators' extras; torch from the CPU index (run.sh setup)
+numpy==1.26.4
+pyyaml>=6
+psutil
+jsonschema
+networkx
+pandas<2.3
+matplotlib<3.10
+ortools>=9.8
+gymnasium>=0.29
+pettingzoo>=1.24
+pillow>=10.1
+imageio-ffmpeg>=0.5        # MP4 demo videos (tools/demos.sh)
+pytest>=7

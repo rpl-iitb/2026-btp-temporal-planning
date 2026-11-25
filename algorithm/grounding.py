@@ -12,8 +12,8 @@ from collections import defaultdict
 from dataclasses import dataclass
 from typing import Dict, FrozenSet, List, Optional, Tuple
 
-from pddl_generator import HLProblem, deadline_literals, load_domain_spec, write_domain, write_problem
-from pddl_generator.domain_spec import Atom
+from .pddlkit import HLProblem, deadline_literals, load_domain_spec, write_domain, write_problem
+from .pddlkit.domain_spec import Atom
 
 
 # ==================== Task =======================================================================
@@ -60,11 +60,11 @@ class Task:
     # ---- construction --------------------------------------------------------------------
     @classmethod
     def load(cls, instance_dir, spec=None, domain_yaml=None):
-        """instance_dir holds hl_problem.json (as written by pddl_generator.cli)."""
+        """instance_dir holds hl_problem.json (the HL problem a simulator exports)."""
         prob = HLProblem.load(os.path.join(instance_dir, "hl_problem.json"))
         if spec is None:
-            from pddl_generator import get_benchmark
-            spec = load_domain_spec(domain_yaml) if domain_yaml else get_benchmark(prob.benchmark).domain_spec()
+            from . import domain_yaml_for
+            spec = load_domain_spec(domain_yaml or domain_yaml_for(prob.benchmark, instance_dir))
         return cls(spec, prob)
 
     def restrict(self, keep) -> "Task":
@@ -122,7 +122,7 @@ INF = math.inf
 class GroundAction:
     name: str
     args: Tuple[str, ...]
-    duration: float
+    duration: float                  # flexible-duration actions: the minimum (relaxations stay optimistic)
     cond_start: FrozenSet[Fact]
     cond_over: FrozenSet[Fact]
     cond_end: FrozenSet[Fact]
@@ -131,6 +131,7 @@ class GroundAction:
     add_end: FrozenSet[Fact]
     del_end: FrozenSet[Fact]
     objects: FrozenSet[str]          # object (non-constant) arguments
+    duration_max: Optional[float] = None   # set: duration may be anything in [duration, duration_max]
 
     @property
     def key(self):
@@ -210,12 +211,15 @@ def ground_actions(task) -> List[GroundAction]:
             seen.add(args)
             if any(_subst(a, b) not in init for a in st_atoms):
                 continue
-            if isinstance(act.duration, Atom):
+            if hasattr(act.duration, "pred"):
                 d = task.fluents.get(_subst(act.duration, b))
                 if d is None:
                     continue
             else:
                 d = act.duration
+            dmax = None
+            if getattr(act, "duration_min", None) is not None:   # flexible: [duration_min, duration]
+                d, dmax = float(act.duration_min), float(d)
             fs = lambda atoms: frozenset(_subst(a, b) for a in atoms if a.pred not in static)  # noqa: E731
             pos = lambda atoms: frozenset(_subst(a, b) for a in atoms if not a.negated)  # noqa: E731
             neg = lambda atoms: frozenset(_subst(a, b) for a in atoms if a.negated)  # noqa: E731
@@ -224,7 +228,7 @@ def ground_actions(task) -> List[GroundAction]:
                 fs(act.conditions["at_start"]), fs(act.conditions["over_all"]), fs(act.conditions["at_end"]),
                 pos(act.effects["at_start"]), neg(act.effects["at_start"]),
                 pos(act.effects["at_end"]), neg(act.effects["at_end"]),
-                frozenset(a for a in args if a in task.objects)))
+                frozenset(a for a in args if a in task.objects), dmax))
     return out
 
 
@@ -269,7 +273,9 @@ class GroundTask:
         self.pre = []
         self.by_object = defaultdict(list)
         for i, a in enumerate(self.actions):
-            pre = a.cond_start | (a.cond_over - a.add_start) | (a.cond_end - a.add_start)
+            pre = a.cond_start | (a.cond_over - a.add_start)
+            if a.duration_max is None:   # a flexible action's end can be delayed until its at-end conditions hold
+                pre = pre | (a.cond_end - a.add_start)
             self.pre.append(pre)
             for f in pre:
                 self.consumers[f].append(i)
@@ -332,7 +338,7 @@ class GroundTask:
             s = 0.0
             for f in a.cond_start | (a.cond_over - a.add_start):
                 s = max(s, time[f])
-            for f in a.cond_end - a.add_start:
+            for f in (a.cond_end - a.add_start) if a.duration_max is None else ():
                 s = max(s, time[f] - a.duration)
             if windows:
                 for f in a.cond_start:
@@ -572,7 +578,76 @@ def _goal_support(gt, goals):
     return objs
 
 
-def comp_t(gt, S, max_rounds=20, info=None):
+# Consumable resources (kitchens: plates). A delete-free relaxation reuses a consumed object forever, so a set with one
+# plate looks sufficient for three orders. consumable_closure (applied at the end of COMP_T): a parameter p of a
+# goal-achieving action schema A is *consumed* if every non-static condition of A that mentions p is deleted by A and
+# none is re-added (deliver: holding-plate, plate-soup), and no static condition binds p to the goal object
+# (order-recipe ?o ?r binds the recipe: not a resource). Then S must hold min(#goals, #objects of that type) such
+# objects (earliest TRPG use first); if the task has fewer such objects than goals, they must be recycled, so for every
+# other schema that takes this type, the objects of its earliest ground action on a selected object are added. Domains
+# without a consumed parameter (Overcooked-AI benchmark 1) are unchanged.
+def consumed_types(task):
+    """[(goal schema, consumed parameter type)] (domain-level, see module docstring)."""
+    spec = task.spec
+    goal_preds = {g[0] for g in task.goals}
+    static = task.problem.static_predicates(spec)
+    out = []
+    for act in spec.actions.values():
+        adds = [a for pt in ("at_start", "at_end") for a in act.effects[pt] if not a.negated]
+        dels = [a for pt in ("at_start", "at_end") for a in act.effects[pt] if a.negated]
+        goal_atoms = [a for a in adds if a.pred in goal_preds]
+        if not goal_atoms:
+            continue
+        goal_args = {x for a in goal_atoms for x in a.args}
+        key = lambda a: (a.pred,) + tuple(a.args)  # noqa: E731
+        del_keys, add_keys = {key(a) for a in dels}, {key(a) for a in adds}
+        bound = {x for pt in ("at_start", "over_all", "at_end") for a in act.conditions[pt]
+                 if a.pred in static and goal_args & set(a.args) for x in a.args}
+        for p in act.params:
+            if p.name in goal_args or p.name in bound:
+                continue          # a goal object, or fixed by the goal object (order-recipe ?o ?r): not a resource
+            conds = [a for pt in ("at_start", "over_all", "at_end") for a in act.conditions[pt]
+                     if not a.negated and a.pred not in static and p.name in a.args]
+            if conds and all(key(a) in del_keys and key(a) not in add_keys for a in conds):
+                out.append((act.name, p.type))
+    return out
+
+
+def consumable_closure(gt, S):
+    """Objects to add to S for consumed resource types (module docstring). Returns a set (maybe empty)."""
+    task = gt.task
+    if not hasattr(gt, "_consumed"):
+        gt._consumed = consumed_types(task)
+    if not gt._consumed:
+        return set()
+    early = gt.earliest_use()
+    goals = {}
+    for g in task.goals:
+        goals[g[0]] = goals.get(g[0], 0) + 1
+    k = sum(goals.values())
+    new = set()
+    for schema, ty in gt._consumed:
+        objs = sorted(task.of_type(ty), key=lambda o: (early.get(o, INF), o))
+        need = min(k, len(objs))
+        have = [o for o in objs if o in S]
+        new |= set([o for o in objs if o not in S][:max(0, need - len(have))])
+        if len(objs) < k:                      # recycle: the earliest action of every other schema on these objects
+            sel = set(have) | new
+            spec = task.spec
+            for act in spec.actions.values():
+                if act.name == schema:
+                    continue
+                idx = [n for n, p in enumerate(act.params) if spec.is_subtype(p.type, ty)]
+                if not idx:
+                    continue
+                best = min((i for i, a in enumerate(gt.actions) if a.name == act.name and a.args[idx[0]] in sel),
+                           key=lambda i: (gt.full.act_start.get(i, INF), i), default=None)
+                if best is not None:
+                    new |= set(gt.actions[best].objects)
+    return new - set(S)
+
+
+def comp_t(gt, S, max_rounds=20, info=None, _consumables=True):
     """Action-grounded temporal closure. Returns a new set."""
     task = gt.task
     S = set(S) | set(task.goal_objects)
@@ -606,6 +681,12 @@ def comp_t(gt, S, max_rounds=20, info=None):
     if info is not None:
         info["comp_added_usable"] = len(added_usable)
         info["comp_added_goal"] = len(added_goal)
+    if _consumables:
+        extra = consumable_closure(gt, S)
+        if extra:
+            S = comp_t(gt, S | extra, max_rounds, None, _consumables=False)
+            if info is not None:
+                info["comp_added_consumable"] = len(extra)
     return S
 
 

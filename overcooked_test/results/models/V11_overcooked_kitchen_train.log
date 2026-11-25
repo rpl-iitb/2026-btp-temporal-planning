@@ -1,0 +1,26 @@
+V11 train overcooked_kitchen : 150 train, 30 val problems
+replayed 150/150 teacher plans, 13847 decisions
+  epoch 0 loss 0.861 (51s)
+  epoch 1 loss 0.478 (52s)
+  epoch 2 loss 0.352 (77s)
+  epoch 3 loss 0.309 (93s)
+  epoch 4 loss 0.285 (96s)
+  epoch 5 loss 0.264 (67s)
+  epoch 6 loss 0.252 (50s)
+  epoch 7 loss 0.245 (49s)
+imitation: val greedy solved 4/30  makespan/teacher 0.981  mean time 2.67s
+iter 0: improved 33, newly solved 0, targets 150 (1679s)
+  epoch 0 loss 0.228 (51s)
+  epoch 1 loss 0.224 (45s)
+  epoch 2 loss 0.216 (46s)
+iter 0: val greedy solved 2/30  makespan/teacher 1.002  mean time 1.33s
+iter 1: improved 8, newly solved 0, targets 150 (1661s)
+  epoch 0 loss 0.211 (87s)
+  epoch 1 loss 0.205 (64s)
+  epoch 2 loss 0.201 (47s)
+iter 1: val greedy solved 3/30  makespan/teacher 0.993  mean time 1.36s
+iter 2: improved 8, newly solved 0, targets 150 (1198s)
+  epoch 0 loss 0.198 (59s)
+  epoch 1 loss 0.197 (53s)
+  epoch 2 loss 0.194 (58s)
+iter 2: val greedy solved 4/30  makespan/teacher 1.335  mean time 1.54s

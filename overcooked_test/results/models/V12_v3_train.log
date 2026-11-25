@@ -1,0 +1,22 @@
+V12: 70 relations, 750453 parameters
+dagger 0 (expert, beta 1.00): 21089 new decisions, rollout success 0.929 (23s)
+  bc epoch 0 loss 1.2011 acc 0.689 (21089 decisions, 53s)
+  bc epoch 1 loss 0.8129 acc 0.771 (21089 decisions, 52s)
+dagger 0: val success 0.000 served 0.176 makespan/cert None
+dagger 1 (mix, beta 0.50): 25128 new decisions, rollout success 0.742 (44s)
+  bc epoch 0 loss 0.7882 acc 0.764 (46217 decisions, 117s)
+  bc epoch 1 loss 0.6472 acc 0.798 (46217 decisions, 115s)
+dagger 1: val success 0.000 served 0.210 makespan/cert None
+dagger 2 (mix, beta 0.25): 39517 new decisions, rollout success 0.467 (78s)
+  bc epoch 0 loss 0.7116 acc 0.772 (85734 decisions, 216s)
+  bc epoch 1 loss 0.6242 acc 0.796 (85734 decisions, 217s)
+dagger 2: val success 0.000 served 0.264 makespan/cert None
+rl 0: sampled success 0.016 served 0.407 makespan/cert 1.491 (7389 decisions, 43s)
+rl 1: sampled success 0.031 served 0.416 makespan/cert 2.331 (8471 decisions, 48s)
+rl 2: sampled success 0.000 served 0.413 makespan/cert None (6614 decisions, 41s)
+rl 2: val success 0.000 served 0.260 makespan/cert None
+rl 3: sampled success 0.000 served 0.427 makespan/cert None (6661 decisions, 41s)
+rl 4: sampled success 0.016 served 0.446 makespan/cert 2.004 (7366 decisions, 40s)
+rl 5: sampled success 0.047 served 0.447 makespan/cert 2.288 (6442 decisions, 38s)
+rl 5: val success 0.000 served 0.334 makespan/cert None
+saved /home/user/Desktop/btp-project/overcooked_test/results/models/V12_v3

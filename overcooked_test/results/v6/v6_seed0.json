@@ -1,0 +1,175 @@
+{
+ "model": {
+  "n_node": 57,
+  "n_edge": 154,
+  "n_global": 4,
+  "heads": 3,
+  "hidden": 16,
+  "steps": 3,
+  "aggregate": "sum"
+ },
+ "vocab": {
+  "types": [
+   "board",
+   "cook",
+   "count",
+   "counter",
+   "crate",
+   "dropoff",
+   "ingredient",
+   "object",
+   "order",
+   "plate",
+   "pose",
+   "pot",
+   "rack",
+   "recipe",
+   "serving",
+   "sink",
+   "station",
+   "surface",
+   "tile"
+  ],
+  "unary": [
+   "clear",
+   "free",
+   "hand-empty",
+   "idle",
+   "is-zero",
+   "open",
+   "pending",
+   "plate-clean",
+   "plate-dirty",
+   "pot-dirty",
+   "pot-idle",
+   "served"
+  ],
+  "unary_fn": [
+   "burn-window",
+   "chop-steps",
+   "cook-steps",
+   "eat-steps",
+   "scrub-steps",
+   "wash-steps"
+  ],
+  "n_edge": 154,
+  "temporal": true
+ },
+ "temperature": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "combine": "v6",
+ "weights": [
+  1.0,
+  1.0
+ ],
+ "history": [
+  {
+   "epoch": 10,
+   "val": {
+    "loss": 0.8912657493991512,
+    "imp_acc": 0.9472817133443163,
+    "tmin_mae": 0.7351528241337719,
+    "tmax_mae": 0.7825851418455625,
+    "censored_above_D": 0.0
+   }
+  },
+  {
+   "epoch": 20,
+   "val": {
+    "loss": 0.8517992539065224,
+    "imp_acc": 0.9489291598023064,
+    "tmin_mae": 0.6283650969580021,
+    "tmax_mae": 0.734673490172707,
+    "censored_above_D": 0.0
+   }
+  },
+  {
+   "epoch": 30,
+   "val": {
+    "loss": 0.8680239474134785,
+    "imp_acc": 0.9472817133443163,
+    "tmin_mae": 0.6789184347275765,
+    "tmax_mae": 0.7622684377679078,
+    "censored_above_D": 0.0
+   }
+  },
+  {
+   "epoch": 40,
+   "val": {
+    "loss": 0.8031262348272971,
+    "imp_acc": 0.9522240527182867,
+    "tmin_mae": 0.6480143344896729,
+    "tmax_mae": 0.7116453581691338,
+    "censored_above_D": 0.0
+   }
+  },
+  {
+   "epoch": 50,
+   "val": {
+    "loss": 0.7883760785417897,
+    "imp_acc": 0.9472817133443163,
+    "tmin_mae": 0.6288825767930202,
+    "tmax_mae": 0.7346899850027901,
+    "censored_above_D": 0.0
+   }
+  },
+  {
+   "epoch": 60,
+   "val": {
+    "loss": 0.7936824908746141,
+    "imp_acc": 0.9472817133443163,
+    "tmin_mae": 0.6322228403135379,
+    "tmax_mae": 0.7342175129921206,
+    "censored_above_D": 0.0
+   }
+  },
+  {
+   "epoch": 70,
+   "val": {
+    "loss": 1.1323429149176394,
+    "imp_acc": 0.9275123558484349,
+    "tmin_mae": 0.819680828103272,
+    "tmax_mae": 0.9171010810658679,
+    "censored_above_D": 0.0
+   }
+  },
+  {
+   "epoch": 80,
+   "val": {
+    "loss": 1.409150819693293,
+    "imp_acc": 0.9538714991762768,
+    "tmin_mae": 0.9658535603554018,
+    "tmax_mae": 1.0923403496017103,
+    "censored_above_D": 0.0
+   }
+  },
+  {
+   "epoch": 90,
+   "val": {
+    "loss": 0.7239998496536698,
+    "imp_acc": 0.9456342668863262,
+    "tmin_mae": 0.5667036233409759,
+    "tmax_mae": 0.6696977263771444,
+    "censored_above_D": 0.0
+   }
+  },
+  {
+   "epoch": 100,
+   "val": {
+    "loss": 0.7388063663882869,
+    "imp_acc": 0.9505766062602965,
+    "tmin_mae": 0.5807983210559264,
+    "tmax_mae": 0.6829463336874263,
+    "censored_above_D": 0.0
+   }
+  }
+ ],
+ "saved": "2026-11-22 10:11:17",
+ "method": "V6",
+ "train_seconds": 2949.8,
+ "best_val_loss": 0.7239998496536698,
+ "kappa": 0.0
+}

@@ -1,0 +1,426 @@
+# overcooked-kitchen: a restaurant kitchen as a PDDL 2.1 temporal domain (the action catalogue of the simulator).
+#
+# Time unit = one simulator grid step: an action over [s, s+d] uses steps s .. s+d-1 and its end effects are
+# visible in state s+d. Each interact action's `sim` entry names the simulator event it performs
+# (overcooked_kitchen/world.py); pddl.py exports simulator states as problems of this domain.
+name: overcooked-kitchen
+doc: >
+  Prep -> cook -> plate -> serve -> clean. Raw vegetables come from crates and
+  must be chopped on a cutting board (the cook stays at the board). Chopped
+  vegetables go into a pot on a stove; once started, the pot cooks by itself,
+  so the cook can chop for the next dish meanwhile, but a ready soup burns if
+  it is not dished up within the burn time. A ready soup is dished up
+  onto a clean plate and served; the pot is then dirty and must be scrubbed
+  before reuse. Plates are finite: a diner eats, the dirty plate comes back to
+  the drop-off, and it must be washed at the sink before it can be used again.
+
+requirements: [":typing", ":durative-actions", ":fluents", ":timed-initial-literals", ":duration-inequalities"]
+
+types:
+  cook: object
+  pose: object          # floor tile + facing; the place a cook interacts from
+  tile: object          # floor tile; unary occupancy resource
+  station: object
+  surface: station      # holds one item
+  counter: surface      # staging / hand-off
+  board: surface        # cutting board: chopping happens here
+  pot: station          # pot on a stove
+  crate: station        # vegetable crate (provides)
+  rack: station         # clean-plate rack (a stack)
+  dropoff: station      # dirty plates come back here (a stack)
+  sink: station         # holds one plate
+  serving: station      # serving window
+  ingredient: object
+  plate: object
+  recipe: object        # dish = composition (onions, tomatoes, carrots)
+  count: object
+  order: object
+
+constants:
+  onion: ingredient
+  tomato: ingredient
+  carrot: ingredient
+
+predicates:
+  # cooks
+  at: "?c - cook ?l - pose"
+  idle: "?c - cook"                        # unary resource: one action per cook at a time
+  hand-empty: "?c - cook"
+  holding-raw: "?c - cook ?i - ingredient"
+  holding-chopped: "?c - cook ?i - ingredient"
+  holding-plate: "?c - cook ?pl - plate"
+  # space
+  free: "?t - tile"
+  pose-tile: "?l - pose ?t - tile"         # static
+  faces: "?l - pose ?s - station"          # static
+  connected: "?a - pose ?b - pose"         # static: reachable, different tiles
+  same-tile: "?a - pose ?b - pose"         # static: same tile, different facing
+  # crates, surfaces
+  provides: "?s - crate ?i - ingredient"   # static
+  clear: "?s - station"                    # a surface or sink holds nothing
+  on-raw: "?s - surface ?i - ingredient"
+  on-chopped: "?s - surface ?i - ingredient"
+  # pots
+  pot-idle: "?p - pot"                     # clean and accepting ingredients
+  pot-has: "?p - pot ?no - count ?nt - count ?nc - count"
+  pot-dirty: "?p - pot"
+  lighting: "?c - cook ?p - pot ?r - recipe" # the cook is lighting the stove (one step)
+  on-stove: "?p - pot ?r - recipe"           # stove timer running: the soup has not burnt yet
+  cooking: "?p - pot ?r - recipe"
+  soup-ready: "?p - pot ?r - recipe"
+  next: "?a - count ?b - count"            # static: b = a + 1
+  fits: "?no - count ?nt - count ?nc - count"   # static: sum <= max_ingredients
+  is-zero: "?n - count"                    # static
+  recipe-of: "?r - recipe ?no - count ?nt - count ?nc - count"   # static
+  # plates
+  plate-at: "?pl - plate ?s - station"     # on a rack, drop-off, counter or in a sink
+  plate-clean: "?pl - plate"               # clean and empty
+  plate-dirty: "?pl - plate"
+  plate-soup: "?pl - plate ?r - recipe"
+  plate-out: "?pl - plate ?s - serving"    # with a diner
+  returns-to: "?s - serving ?d - dropoff"  # static
+  # orders
+  order-recipe: "?o - order ?r - recipe"   # static
+  pending: "?o - order"
+  open: "?o - order"
+  served: "?o - order"
+
+functions:
+  travel: "?a - pose ?b - pose"
+  chop-steps: "?i - ingredient"
+  cook-steps: "?r - recipe"                # recipe cook time - 1 (start interact counts as step 1)
+  burn-window: "?r - recipe"               # cook time + burn steps - 1
+  scrub-steps: "?p - pot"
+  wash-steps: "?w - sink"
+  eat-steps: "?s - serving"
+
+deadline_encoding:
+  goal_predicate: served
+  window_predicate: open
+  til_offset: 0.5
+
+actions:
+  # ---------------- moving ----------------
+  - name: move
+    doc: Walk to a pose on another tile. Reserves the target tile at start, releases the old one.
+    params: "?c - cook ?from - pose ?to - pose ?t1 - tile ?t2 - tile"
+    duration: "travel ?from ?to"
+    condition:
+      at_start: ["at ?c ?from", "idle ?c", "free ?t2"]
+      over_all: ["connected ?from ?to", "pose-tile ?from ?t1", "pose-tile ?to ?t2"]
+    effect:
+      at_start: ["not at ?c ?from", "not idle ?c", "not free ?t2", "free ?t1"]
+      at_end: ["at ?c ?to", "idle ?c"]
+    sim: {kind: navigate, actor: "?c", to: "?to"}
+
+  - name: turn
+    doc: Face another station from the same tile.
+    params: "?c - cook ?from - pose ?to - pose"
+    duration: "travel ?from ?to"
+    condition:
+      at_start: ["at ?c ?from", "idle ?c"]
+      over_all: ["same-tile ?from ?to"]
+    effect:
+      at_start: ["not at ?c ?from", "not idle ?c"]
+      at_end: ["at ?c ?to", "idle ?c"]
+    sim: {kind: navigate, actor: "?c", to: "?to"}
+
+  # ---------------- prep ----------------
+  - name: take-raw
+    doc: Take a raw vegetable from a crate.
+    params: "?c - cook ?l - pose ?s - crate ?i - ingredient"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "hand-empty ?c"]
+      over_all: ["at ?c ?l", "faces ?l ?s", "provides ?s ?i"]
+    effect:
+      at_start: ["not idle ?c", "not hand-empty ?c"]
+      at_end: ["holding-raw ?c ?i", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?s", event: take_raw}
+
+  - name: put-raw
+    doc: Put a raw vegetable on an empty cutting board or counter.
+    params: "?c - cook ?l - pose ?k - surface ?i - ingredient"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "holding-raw ?c ?i", "clear ?k"]
+      over_all: ["at ?c ?l", "faces ?l ?k"]
+    effect:
+      at_start: ["not idle ?c", "not holding-raw ?c ?i", "not clear ?k"]
+      at_end: ["on-raw ?k ?i", "hand-empty ?c", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?k", event: put_raw}
+
+  - name: take-raw-back
+    doc: Pick a raw vegetable up from a counter (on a board, an empty-hand interact chops instead).
+    params: "?c - cook ?l - pose ?k - counter ?i - ingredient"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "hand-empty ?c", "on-raw ?k ?i"]
+      over_all: ["at ?c ?l", "faces ?l ?k"]
+    effect:
+      at_start: ["not idle ?c", "not hand-empty ?c", "not on-raw ?k ?i"]
+      at_end: ["holding-raw ?c ?i", "clear ?k", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?k", event: take_raw}
+
+  - name: chop
+    doc: Chop the vegetable on a board. The cook must stay at the board for chop-steps strokes.
+    params: "?c - cook ?l - pose ?b - board ?i - ingredient"
+    duration: "chop-steps ?i"
+    condition:
+      at_start: ["idle ?c", "hand-empty ?c", "on-raw ?b ?i"]
+      over_all: ["at ?c ?l", "faces ?l ?b"]
+    effect:
+      at_start: ["not idle ?c", "not on-raw ?b ?i"]
+      at_end: ["on-chopped ?b ?i", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?b", event: chop}
+
+  - name: take-chopped
+    doc: Pick chopped vegetables up from a board or counter.
+    params: "?c - cook ?l - pose ?k - surface ?i - ingredient"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "hand-empty ?c", "on-chopped ?k ?i"]
+      over_all: ["at ?c ?l", "faces ?l ?k"]
+    effect:
+      at_start: ["not idle ?c", "not hand-empty ?c", "not on-chopped ?k ?i"]
+      at_end: ["holding-chopped ?c ?i", "clear ?k", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?k", event: take_chopped}
+
+  - name: put-chopped
+    doc: Park chopped vegetables on an empty board or counter.
+    params: "?c - cook ?l - pose ?k - surface ?i - ingredient"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "holding-chopped ?c ?i", "clear ?k"]
+      over_all: ["at ?c ?l", "faces ?l ?k"]
+    effect:
+      at_start: ["not idle ?c", "not holding-chopped ?c ?i", "not clear ?k"]
+      at_end: ["on-chopped ?k ?i", "hand-empty ?c", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?k", event: put_chopped}
+
+  # ---------------- cooking ----------------
+  - name: add-onion
+    doc: Put chopped onion into a clean, idle pot with room.
+    params: "?c - cook ?l - pose ?p - pot ?a - count ?b - count ?nt - count ?nc - count"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "holding-chopped ?c onion", "pot-idle ?p", "pot-has ?p ?a ?nt ?nc"]
+      over_all: ["at ?c ?l", "faces ?l ?p", "next ?a ?b", "fits ?b ?nt ?nc"]
+    effect:
+      at_start: ["not idle ?c", "not holding-chopped ?c onion", "not pot-has ?p ?a ?nt ?nc"]
+      at_end: ["pot-has ?p ?b ?nt ?nc", "hand-empty ?c", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?p", event: add}
+
+  - name: add-tomato
+    doc: Put chopped tomato into a clean, idle pot with room.
+    params: "?c - cook ?l - pose ?p - pot ?no - count ?a - count ?b - count ?nc - count"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "holding-chopped ?c tomato", "pot-idle ?p", "pot-has ?p ?no ?a ?nc"]
+      over_all: ["at ?c ?l", "faces ?l ?p", "next ?a ?b", "fits ?no ?b ?nc"]
+    effect:
+      at_start: ["not idle ?c", "not holding-chopped ?c tomato", "not pot-has ?p ?no ?a ?nc"]
+      at_end: ["pot-has ?p ?no ?b ?nc", "hand-empty ?c", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?p", event: add}
+
+  - name: add-carrot
+    doc: Put chopped carrot into a clean, idle pot with room.
+    params: "?c - cook ?l - pose ?p - pot ?no - count ?nt - count ?a - count ?b - count"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "holding-chopped ?c carrot", "pot-idle ?p", "pot-has ?p ?no ?nt ?a"]
+      over_all: ["at ?c ?l", "faces ?l ?p", "next ?a ?b", "fits ?no ?nt ?b"]
+    effect:
+      at_start: ["not idle ?c", "not holding-chopped ?c carrot", "not pot-has ?p ?no ?nt ?a"]
+      at_end: ["pot-has ?p ?no ?nt ?b", "hand-empty ?c", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?p", event: add}
+
+  - name: start-cooking
+    doc: >
+      Light the stove under a pot whose contents are exactly an ordered recipe (empty hand). This
+      action is the stove timer: it starts at the lighting interact and lasts at most burn-window =
+      cook time + burn steps - 1, so it ends before the simulator burns the soup (the planner ends it
+      right after dish-up; ending earlier is only pessimistic). dish-up needs on-stove, so a valid plan
+      never lets a soup burn, and the at-end condition forbids abandoning one. The cook is held by finish-lighting (1 step), not by this action.
+    params: "?c - cook ?l - pose ?p - pot ?r - recipe ?no - count ?nt - count ?nc - count"
+    duration: "burn-window ?r"
+    duration_min: 1
+    condition:
+      at_start: ["idle ?c", "hand-empty ?c", "pot-idle ?p", "pot-has ?p ?no ?nt ?nc", "at ?c ?l", "faces ?l ?p"]
+      over_all: ["recipe-of ?r ?no ?nt ?nc"]
+      at_end: ["pot-dirty ?p"]            # the timer only ends after dish-up: soups are never abandoned
+    effect:
+      at_start: ["not idle ?c", "not pot-idle ?p", "not pot-has ?p ?no ?nt ?nc", "on-stove ?p ?r",
+                 "lighting ?c ?p ?r"]
+      at_end: ["not on-stove ?p ?r", "not soup-ready ?p ?r"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?p", event: start, strokes: 1}
+
+  - name: finish-lighting
+    doc: The lighting interact takes one step; then the cook is free and the pot starts cooking.
+    params: "?c - cook ?l - pose ?p - pot ?r - recipe"
+    duration: 1
+    condition:
+      at_start: ["lighting ?c ?p ?r"]
+      over_all: ["at ?c ?l", "faces ?l ?p"]
+    effect:
+      at_start: ["not lighting ?c ?p ?r"]
+      at_end: ["cooking ?p ?r", "idle ?c"]
+    sim: {kind: hold, actor: "?c"}
+
+  - name: cook
+    doc: The pot cooks by itself; the cook is free to do other work meanwhile.
+    params: "?p - pot ?r - recipe"
+    duration: "cook-steps ?r"
+    condition:
+      at_start: ["cooking ?p ?r"]
+    effect:
+      at_start: ["not cooking ?p ?r"]
+      at_end: ["soup-ready ?p ?r"]
+    sim: {kind: autonomous, station: "?p"}
+
+  # ---------------- plating, serving ----------------
+  - name: take-clean-plate
+    doc: Take a clean plate from the rack.
+    params: "?c - cook ?l - pose ?d - rack ?pl - plate"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "hand-empty ?c", "plate-at ?pl ?d"]
+      over_all: ["at ?c ?l", "faces ?l ?d"]
+    effect:
+      at_start: ["not idle ?c", "not hand-empty ?c", "not plate-at ?pl ?d"]
+      at_end: ["holding-plate ?c ?pl", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?d", event: take_plate}
+
+  - name: dish-up
+    doc: Ladle a ready soup onto a held clean plate before it burns; the pot is left dirty.
+    params: "?c - cook ?l - pose ?p - pot ?r - recipe ?pl - plate"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "holding-plate ?c ?pl", "plate-clean ?pl", "soup-ready ?p ?r"]
+      over_all: ["at ?c ?l", "faces ?l ?p", "on-stove ?p ?r"]
+    effect:
+      at_start: ["not idle ?c", "not plate-clean ?pl", "not soup-ready ?p ?r"]
+      at_end: ["plate-soup ?pl ?r", "pot-dirty ?p", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?p", event: dish_up}
+
+  - name: deliver
+    doc: Hand a plated soup in at the serving window for an open, pending order of that dish.
+    params: "?c - cook ?l - pose ?s - serving ?o - order ?r - recipe ?pl - plate"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "holding-plate ?c ?pl", "plate-soup ?pl ?r", "pending ?o"]
+      over_all: ["at ?c ?l", "faces ?l ?s", "order-recipe ?o ?r", "open ?o"]
+    effect:
+      at_start: ["not idle ?c", "not holding-plate ?c ?pl", "not plate-soup ?pl ?r", "not pending ?o"]
+      at_end: ["served ?o", "plate-out ?pl ?s", "hand-empty ?c", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?s", event: deliver}
+
+  - name: diner-eats
+    doc: The diner eats; the dirty plate comes back to the drop-off by itself.
+    params: "?s - serving ?d - dropoff ?pl - plate"
+    duration: "eat-steps ?s"
+    condition:
+      at_start: ["plate-out ?pl ?s"]
+      over_all: ["returns-to ?s ?d"]
+    effect:
+      at_start: ["not plate-out ?pl ?s"]
+      at_end: ["plate-at ?pl ?d", "plate-dirty ?pl"]
+    sim: {kind: autonomous, station: "?s"}
+
+  # ---------------- cleaning ----------------
+  - name: scrub-pot
+    doc: Scrub a dirty pot in place (empty hand); it becomes clean, empty and idle.
+    params: "?c - cook ?l - pose ?p - pot ?z - count"
+    duration: "scrub-steps ?p"
+    condition:
+      at_start: ["idle ?c", "hand-empty ?c", "pot-dirty ?p"]
+      over_all: ["at ?c ?l", "faces ?l ?p", "is-zero ?z"]
+    effect:
+      at_start: ["not idle ?c", "not pot-dirty ?p"]
+      at_end: ["pot-idle ?p", "pot-has ?p ?z ?z ?z", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?p", event: scrub}
+
+  - name: take-dirty-plate
+    doc: Take a dirty plate from the drop-off.
+    params: "?c - cook ?l - pose ?d - dropoff ?pl - plate"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "hand-empty ?c", "plate-at ?pl ?d"]
+      over_all: ["at ?c ?l", "faces ?l ?d"]
+    effect:
+      at_start: ["not idle ?c", "not hand-empty ?c", "not plate-at ?pl ?d"]
+      at_end: ["holding-plate ?c ?pl", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?d", event: take_plate}
+
+  - name: put-in-sink
+    doc: Put a dirty plate into an empty sink.
+    params: "?c - cook ?l - pose ?w - sink ?pl - plate"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "holding-plate ?c ?pl", "plate-dirty ?pl", "clear ?w"]
+      over_all: ["at ?c ?l", "faces ?l ?w"]
+    effect:
+      at_start: ["not idle ?c", "not holding-plate ?c ?pl", "not clear ?w"]
+      at_end: ["plate-at ?pl ?w", "hand-empty ?c", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?w", event: put_in_sink}
+
+  - name: wash-plate
+    doc: Wash the plate in the sink (empty hand, cook stays for wash-steps).
+    params: "?c - cook ?l - pose ?w - sink ?pl - plate"
+    duration: "wash-steps ?w"
+    condition:
+      at_start: ["idle ?c", "hand-empty ?c", "plate-at ?pl ?w", "plate-dirty ?pl"]
+      over_all: ["at ?c ?l", "faces ?l ?w"]
+    effect:
+      at_start: ["not idle ?c", "not plate-dirty ?pl"]
+      at_end: ["plate-clean ?pl", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?w", event: wash}
+
+  - name: take-from-sink
+    doc: Take a washed plate out of the sink.
+    params: "?c - cook ?l - pose ?w - sink ?pl - plate"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "hand-empty ?c", "plate-at ?pl ?w", "plate-clean ?pl"]
+      over_all: ["at ?c ?l", "faces ?l ?w"]
+    effect:
+      at_start: ["not idle ?c", "not hand-empty ?c", "not plate-at ?pl ?w"]
+      at_end: ["holding-plate ?c ?pl", "clear ?w", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?w", event: take_plate}
+
+  - name: rack-plate
+    doc: Put a clean plate back on the rack.
+    params: "?c - cook ?l - pose ?d - rack ?pl - plate"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "holding-plate ?c ?pl", "plate-clean ?pl"]
+      over_all: ["at ?c ?l", "faces ?l ?d"]
+    effect:
+      at_start: ["not idle ?c", "not holding-plate ?c ?pl"]
+      at_end: ["plate-at ?pl ?d", "hand-empty ?c", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?d", event: rack_plate}
+
+  # ---------------- plates on counters (hand-offs, staging) ----------------
+  - name: put-plate
+    doc: Put a held plate (clean, with soup, or dirty) on an empty counter.
+    params: "?c - cook ?l - pose ?k - counter ?pl - plate"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "holding-plate ?c ?pl", "clear ?k"]
+      over_all: ["at ?c ?l", "faces ?l ?k"]
+    effect:
+      at_start: ["not idle ?c", "not holding-plate ?c ?pl", "not clear ?k"]
+      at_end: ["plate-at ?pl ?k", "hand-empty ?c", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?k", event: put_plate}
+
+  - name: take-plate
+    doc: Pick a plate up from a counter.
+    params: "?c - cook ?l - pose ?k - counter ?pl - plate"
+    duration: 1
+    condition:
+      at_start: ["idle ?c", "hand-empty ?c", "plate-at ?pl ?k"]
+      over_all: ["at ?c ?l", "faces ?l ?k"]
+    effect:
+      at_start: ["not idle ?c", "not hand-empty ?c", "not plate-at ?pl ?k"]
+      at_end: ["holding-plate ?c ?pl", "clear ?k", "idle ?c"]
+    sim: {kind: interact, actor: "?c", pose: "?l", station: "?k", event: take_plate}

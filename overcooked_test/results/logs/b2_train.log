@@ -1,0 +1,260 @@
+Training search guidance FlaxGuidance in domain v2_train...
+Collecting training data problem 0
+Collecting training data problem 1
+Collecting training data problem 2
+Collecting training data problem 3
+Collecting training data problem 4
+Collecting training data problem 5
+Collecting training data problem 6
+Collecting training data problem 7
+Collecting training data problem 8
+Collecting training data problem 9
+Collecting training data problem 10
+Collecting training data problem 11
+Collecting training data problem 12
+Collecting training data problem 13
+Collecting training data problem 14
+Collecting training data problem 15
+Collecting training data problem 16
+Collecting training data problem 17
+Collecting training data problem 18
+Collecting training data problem 19
+Collecting training data problem 20
+Collecting training data problem 21
+Collecting training data problem 22
+Collecting training data problem 23
+Collecting training data problem 24
+Collecting training data problem 25
+Collecting training data problem 26
+Collecting training data problem 27
+Collecting training data problem 28
+Collecting training data problem 29
+Collecting training data problem 30
+Collecting training data problem 31
+Collecting training data problem 32
+Collecting training data problem 33
+Collecting training data problem 34
+Collecting training data problem 35
+Collecting training data problem 36
+Collecting training data problem 37
+Collecting training data problem 38
+Collecting training data problem 39
+Collecting training data problem 40
+Collecting training data problem 41
+Collecting training data problem 42
+Collecting training data problem 43
+Collecting training data problem 44
+Collecting training data problem 45
+Collecting training data problem 46
+Collecting training data problem 47
+Collecting training data problem 48
+Collecting training data problem 49
+Collecting training data problem 50
+Collecting training data problem 51
+Collecting training data problem 52
+Collecting training data problem 53
+Collecting training data problem 54
+Collecting training data problem 55
+Collecting training data problem 56
+Collecting training data problem 57
+Collecting training data problem 58
+Collecting training data problem 59
+Collecting training data problem 60
+Collecting training data problem 61
+Collecting training data problem 62
+Collecting training data problem 63
+Collecting training data problem 64
+Collecting training data problem 65
+Collecting training data problem 66
+Collecting training data problem 67
+Collecting training data problem 68
+Collecting training data problem 69
+Collecting training data problem 70
+Collecting training data problem 71
+Collecting training data problem 72
+Collecting training data problem 73
+Collecting training data problem 74
+Collecting training data problem 75
+Collecting training data problem 76
+Collecting training data problem 77
+Collecting training data problem 78
+Collecting training data problem 79
+Collecting training data problem 80
+Collecting training data problem 81
+Collecting training data problem 82
+Collecting training data problem 83
+Collecting training data problem 84
+Collecting training data problem 85
+Collecting training data problem 86
+Collecting training data problem 87
+Collecting training data problem 88
+Collecting training data problem 89
+Collecting training data problem 90
+Collecting training data problem 91
+Collecting training data problem 92
+Collecting training data problem 93
+Collecting training data problem 94
+Collecting training data problem 95
+Collecting training data problem 96
+Collecting training data problem 97
+Collecting training data problem 98
+Collecting training data problem 99
+Collecting training data problem 100
+Collecting training data problem 101
+Collecting training data problem 102
+Collecting training data problem 103
+Collecting training data problem 104
+Collecting training data problem 105
+Collecting training data problem 106
+Collecting training data problem 107
+Collecting training data problem 108
+Collecting training data problem 109
+Collecting training data problem 110
+Collecting training data problem 111
+Collecting training data problem 112
+Collecting training data problem 113
+Collecting training data problem 114
+Collecting training data problem 115
+Collecting training data problem 116
+Collecting training data problem 117
+Collecting training data problem 118
+Collecting training data problem 119
+Collecting training data problem 120
+Collecting training data problem 121
+Collecting training data problem 122
+Collecting training data problem 123
+Collecting training data problem 124
+Collecting training data problem 125
+Collecting training data problem 126
+Collecting training data problem 127
+Collecting training data problem 128
+Collecting training data problem 129
+Collecting training data problem 130
+Collecting training data problem 131
+Collecting training data problem 132
+Collecting training data problem 133
+Collecting training data problem 134
+Collecting training data problem 135
+Collecting training data problem 136
+Collecting training data problem 137
+Collecting training data problem 138
+Collecting training data problem 139
+Collecting training data problem 140
+Collecting training data problem 141
+Collecting training data problem 142
+Collecting training data problem 143
+Collecting training data problem 144
+Collecting training data problem 145
+Collecting training data problem 146
+Collecting training data problem 147
+Collecting training data problem 148
+Collecting training data problem 149
+Epoch 0/300
+----------
+running_loss: {'train': 18.8589026927948, 'val': 1.7689697742462158}
+Saved model checkpoint /tmp/model0.pt
+Found new best model with validation loss 1.7689697742462158 at epoch 0
+Epoch 10/300
+----------
+running_loss: {'train': 11.38576626777649, 'val': 1.6424611806869507}
+Epoch 20/300
+----------
+running_loss: {'train': 11.088105082511902, 'val': 1.625344157218933}
+Epoch 30/300
+----------
+running_loss: {'train': 10.273488104343414, 'val': 1.5668696165084839}
+Epoch 40/300
+----------
+running_loss: {'train': 9.672807812690735, 'val': 1.4828945398330688}
+Epoch 50/300
+----------
+running_loss: {'train': 9.302545726299286, 'val': 1.4484089612960815}
+Saved model checkpoint /tmp/model50.pt
+Found new best model with validation loss 1.4484089612960815 at epoch 50
+Epoch 60/300
+----------
+running_loss: {'train': 8.95088243484497, 'val': 1.4397861957550049}
+Epoch 70/300
+----------
+running_loss: {'train': 8.549102127552032, 'val': 1.3746109008789062}
+Epoch 80/300
+----------
+running_loss: {'train': 8.423442125320435, 'val': 1.401003122329712}
+Epoch 90/300
+----------
+running_loss: {'train': 8.292248368263245, 'val': 1.3684803247451782}
+Epoch 100/300
+----------
+running_loss: {'train': 8.399676442146301, 'val': 1.366270899772644}
+Saved model checkpoint /tmp/model100.pt
+Found new best model with validation loss 1.366270899772644 at epoch 100
+Epoch 110/300
+----------
+running_loss: {'train': 8.307876646518707, 'val': 1.375349521636963}
+Epoch 120/300
+----------
+running_loss: {'train': 8.259576737880707, 'val': 1.356266975402832}
+Epoch 130/300
+----------
+running_loss: {'train': 8.226312577724457, 'val': 1.4743133783340454}
+Epoch 140/300
+----------
+running_loss: {'train': 8.014879941940308, 'val': 1.3480573892593384}
+Epoch 150/300
+----------
+running_loss: {'train': 8.491662502288818, 'val': 1.358925461769104}
+Saved model checkpoint /tmp/model150.pt
+Found new best model with validation loss 1.358925461769104 at epoch 150
+Epoch 160/300
+----------
+running_loss: {'train': 8.119405269622803, 'val': 1.383628010749817}
+Epoch 170/300
+----------
+running_loss: {'train': 7.955427408218384, 'val': 1.345146894454956}
+Epoch 180/300
+----------
+running_loss: {'train': 7.851603299379349, 'val': 1.3271396160125732}
+Epoch 190/300
+----------
+running_loss: {'train': 7.860591888427734, 'val': 1.3392634391784668}
+Epoch 200/300
+----------
+running_loss: {'train': 7.7229238748550415, 'val': 1.3231257200241089}
+Saved model checkpoint /tmp/model200.pt
+Found new best model with validation loss 1.3231257200241089 at epoch 200
+Epoch 210/300
+----------
+running_loss: {'train': 7.8123414516448975, 'val': 1.3247629404067993}
+Epoch 220/300
+----------
+running_loss: {'train': 7.67587411403656, 'val': 1.3095471858978271}
+Epoch 230/300
+----------
+running_loss: {'train': 7.764788776636124, 'val': 1.324690341949463}
+Epoch 240/300
+----------
+running_loss: {'train': 7.7080919444561005, 'val': 1.3042685985565186}
+Epoch 250/300
+----------
+running_loss: {'train': 7.688532114028931, 'val': 1.3461134433746338}
+Saved model checkpoint /tmp/model250.pt
+Epoch 260/300
+----------
+running_loss: {'train': 7.584126323461533, 'val': 1.3011622428894043}
+Epoch 270/300
+----------
+running_loss: {'train': 7.745448499917984, 'val': 1.3664844036102295}
+Epoch 280/300
+----------
+running_loss: {'train': 7.5495478212833405, 'val': 1.3257331848144531}
+Epoch 290/300
+----------
+running_loss: {'train': 7.617898374795914, 'val': 1.2939794063568115}
+Epoch 300/300
+----------
+running_loss: {'train': 7.683392494916916, 'val': 1.2901484966278076}
+Saved model checkpoint /tmp/model300.pt
+Found new best model with validation loss 1.2901484966278076 at epoch 300
+Training complete in 67m 53s
+Saved model to /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_v2_train.pt.
+done in 7286s

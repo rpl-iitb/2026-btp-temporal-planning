@@ -1,0 +1,25 @@
+scenario_id: v2_train_s_018
+description: 'generated: tier s, 8x5, 2 orders, 0 distractor stations'
+grid:
+- XDRTOXXX
+- C      X
+- S1     X
+- B      X
+- XPXWXXXX
+counters: none
+plates:
+  clean: 2
+  dirty: 0
+dirty_pots: 0
+sim:
+  burn: 19
+orders:
+- dish: tomato_onion_soup
+  recipe:
+    tomato: 2
+    onion: 1
+- dish: carrot_onion_stew
+  recipe:
+    carrot: 2
+    onion: 1
+seed: 18

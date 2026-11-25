@@ -1,0 +1,60 @@
+# overcooked-kitchen generate --config configs/dataset_multi.yaml --out runs/my_suite [--count N] [--splits v3_test]
+# v3 kitchens: 3-4 cooks, several stations of every kind, many orders, few plates; executed with stochastic durations.
+# Train / val: 3 cooks. Test: 3 cooks (same size), 4 cooks (larger), service (deadlines) and a larger 4-cook tier.
+seed: 31
+recipes:
+  - {dish: tomato_soup, recipe: {tomato: 3}}
+  - {dish: onion_soup, recipe: {onion: 2}}
+  - {dish: carrot_soup, recipe: {carrot: 2}}
+  - {dish: tomato_onion_soup, recipe: {tomato: 2, onion: 1}}
+  - {dish: veggie_stew, recipe: {onion: 1, tomato: 1, carrot: 1}}
+  - {dish: carrot_onion_stew, recipe: {carrot: 2, onion: 1}}
+
+tier_m3: &m3
+  name: m3
+  cooks: 3
+  kitchen: {width: [12, 14], height: [7, 8], crates: [1, 2], board: [3, 4], pot: [3, 4], rack: 1, dropoff: 1, sink: [1, 2], serve: [1, 2]}
+  orders: [5, 7]
+  plates_clean: [2, 3]
+  plates_dirty: [0, 1]
+  dirty_pots: [0, 1]
+  burn: [12, 20]
+
+splits:
+  - dataset: v3_train
+    count: 120
+    tiers: [*m3]
+  - dataset: v3_val
+    count: 20
+    seed: 32
+    tiers: [*m3]
+  - dataset: v3_test
+    count: 15
+    seed: 33
+    tiers:
+      - *m3
+      - name: l4                       # 4 cooks, larger rooms, more orders (never seen in training)
+        cooks: 4
+        kitchen: {width: [15, 18], height: [8, 9], walls: [0, 1], crates: [1, 2], board: [4, 5], pot: [4, 6], rack: [1, 2], dropoff: [1, 2], sink: 2, serve: 2}
+        orders: [8, 10]
+        plates_clean: [3, 4]
+        plates_dirty: [0, 2]
+        dirty_pots: [0, 2]
+        burn: [12, 20]
+      - name: s3                       # service: 3 cooks with order deadlines
+        cooks: 3
+        kitchen: {width: [12, 14], height: [7, 8], crates: [1, 2], board: [3, 4], pot: [3, 4], rack: 1, dropoff: 1, sink: [1, 2], serve: [1, 2]}
+        orders: [6, 8]
+        plates_clean: [2, 3]
+        plates_dirty: [0, 1]
+        dirty_pots: [0, 1]
+        burn: [12, 20]
+        deadline: {rho: [1.2, 1.4]}
+      - name: xl4                      # 4 cooks, the largest rooms, 10-12 orders
+        cooks: 4
+        kitchen: {width: [18, 21], height: [9, 10], walls: [1, 2], crates: 2, board: [5, 6], pot: [5, 6], rack: 2, dropoff: 2, sink: 2, serve: 2}
+        orders: [10, 12]
+        plates_clean: [3, 5]
+        plates_dirty: [1, 2]
+        dirty_pots: [1, 2]
+        burn: [12, 20]

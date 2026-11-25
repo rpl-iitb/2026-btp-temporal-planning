@@ -1,0 +1,10 @@
+[v1] 150 train / 30 val tasks, graphs built in 21.1s
+  epoch  0: solved 62/150  loss 0.9460  kept 0.72  (852s)  ms 120.7
+  epoch  1: solved 66/150  loss 0.2574  kept 0.73  (827s)  ms 125.8
+  epoch  2: solved 67/150  loss 0.2298  kept 0.74  (852s)  ms 126.5
+  epoch  3: solved 59/150  loss 0.1932  kept 0.73  (779s)  ms 121.1
+  epoch  4: solved 58/150  loss 0.3224  kept 0.76  (774s)  ms 122.0
+  epoch  5: solved 61/150  loss 0.1838  kept 0.74  (809s)  ms 123.1
+validation labels: 12/30
+temperatures: [0.046, 0.363]
+saved /home/user/Desktop/btp-project/overcooked_test/results/v1/v1_seed0 in 5018s

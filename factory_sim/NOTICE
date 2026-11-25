@@ -1,0 +1,10 @@
+FactorySim is MIT-licensed (see LICENSE). It uses, at runtime and without redistributing them, these third-party
+packages (installed by docker/Dockerfile from the ROS 2 Humble apt repositories):
+
+- TurtleBot3 robot models and meshes (ROBOTIS, Apache-2.0): turtlebot3_gazebo, turtlebot3_description.
+- OpenMANIPULATOR-X meshes (ROBOTIS, Apache-2.0): turtlebot3_manipulation_description. The arm's link offsets and
+  joint limits in factory_sim/ros/robot.py follow open_manipulator_x.urdf.xacro.
+- Nav2 / nav2_bringup (Apache-2.0 / BSD), Gazebo 11 and gazebo_ros_pkgs (Apache-2.0), ROS 2 Humble.
+
+Robot type parameters in factory_sim/robots.py (speeds, payloads, footprints) are planning values chosen below the
+published TurtleBot3 specifications; they are placeholders, not measurements.

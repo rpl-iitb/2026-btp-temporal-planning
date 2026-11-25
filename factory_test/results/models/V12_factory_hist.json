@@ -1,0 +1,37 @@
+[
+ {
+  "runs": 40,
+  "success": 0.0,
+  "served": 0.0,
+  "ms_cert": null,
+  "tag": "dagger 0"
+ },
+ {
+  "runs": 40,
+  "success": 1.0,
+  "served": 1.0,
+  "ms_cert": 1.0936459665099254,
+  "tag": "dagger 1"
+ },
+ {
+  "runs": 40,
+  "success": 1.0,
+  "served": 1.0,
+  "ms_cert": 1.0188529340902837,
+  "tag": "dagger 2"
+ },
+ {
+  "runs": 40,
+  "success": 1.0,
+  "served": 1.0,
+  "ms_cert": 1.01467423343105,
+  "tag": "rl 2"
+ },
+ {
+  "runs": 40,
+  "success": 1.0,
+  "served": 1.0,
+  "ms_cert": 1.0060957124926966,
+  "tag": "rl 5"
+ }
+]

@@ -1,0 +1,55 @@
+scenario_id: v3_test_l4_003
+description: 'v3 tier l4: 18x8, 4 cooks, 8 orders, 24 stations'
+grid:
+- XBPWXXXXCPDXXXXTBX
+- T           3    R
+- C                W
+- B    1           S
+- P                X
+- P                X
+- P4              2X
+- XXXXXOBDSXXXXBPRXX
+counters:
+- - 1
+  - 7
+- - 11
+  - 0
+- - 17
+  - 4
+- - 16
+  - 7
+- - 4
+  - 0
+- - 17
+  - 5
+plates:
+  clean: 3
+  dirty: 2
+dirty_pots: 2
+sim:
+  burn: 26
+orders:
+- dish: tomato_onion_soup
+  recipe: &id003
+    tomato: 2
+    onion: 1
+- dish: carrot_onion_stew
+  recipe:
+    carrot: 2
+    onion: 1
+- dish: tomato_soup
+  recipe:
+    tomato: 3
+- dish: onion_soup
+  recipe: &id002
+    onion: 2
+- dish: carrot_soup
+  recipe: &id001
+    carrot: 2
+- dish: carrot_soup
+  recipe: *id001
+- dish: onion_soup
+  recipe: *id002
+- dish: tomato_onion_soup
+  recipe: *id003
+seed: 3

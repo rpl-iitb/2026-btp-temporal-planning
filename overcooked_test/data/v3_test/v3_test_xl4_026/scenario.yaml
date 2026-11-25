@@ -1,0 +1,66 @@
+scenario_id: v3_test_xl4_026
+description: 'v3 tier xl4: 21x10, 4 cooks, 11 orders, 25 stations'
+grid:
+- XBDXXXXXBPSXXXXTPWXXX
+- T    3           1  X
+- B         X         X
+- P         X         X
+- P         X         X
+- D         X         X
+- R         X4        O
+- W         X         C
+- X2        X         P
+- XXXXOBRXXXXXBPSXXXXCX
+counters:
+- - 0
+  - 8
+- - 3
+  - 0
+- - 7
+  - 9
+- - 18
+  - 0
+- - 10
+  - 2
+- - 11
+  - 0
+plates:
+  clean: 3
+  dirty: 1
+dirty_pots: 2
+sim:
+  burn: 58
+orders:
+- dish: carrot_soup
+  recipe:
+    carrot: 2
+- dish: tomato_soup
+  recipe: &id003
+    tomato: 3
+- dish: veggie_stew
+  recipe:
+    onion: 1
+    tomato: 1
+    carrot: 1
+- dish: onion_soup
+  recipe: &id001
+    onion: 2
+- dish: onion_soup
+  recipe: *id001
+- dish: carrot_onion_stew
+  recipe:
+    carrot: 2
+    onion: 1
+- dish: tomato_onion_soup
+  recipe: &id002
+    tomato: 2
+    onion: 1
+- dish: tomato_onion_soup
+  recipe: *id002
+- dish: tomato_soup
+  recipe: *id003
+- dish: onion_soup
+  recipe: *id001
+- dish: tomato_onion_soup
+  recipe: *id002
+seed: 26

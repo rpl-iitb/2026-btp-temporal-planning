@@ -1,0 +1,2 @@
+train: 150 kitchens, 300 candidate sets, 122 solved by POPF (41 %), 1198 s -> /home/user/Desktop/btp-project/overcooked_test/results/v5/sets_train.json
+val: 30 kitchens, 60 candidate sets, 21 solved by POPF (35 %), 262 s -> /home/user/Desktop/btp-project/overcooked_test/results/v5/sets_val.json

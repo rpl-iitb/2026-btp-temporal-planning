@@ -1,0 +1,11 @@
+[v2.1] 150 train / 30 val tasks, graphs built in 44.8s
+  epoch  0: solved 55/150  loss 1.6290  kept 0.74  (849s)  ms 115.0
+  epoch  1: solved 59/150  loss 0.6265  kept 0.74  (862s)  ms 118.4
+  epoch  2: solved 58/150  loss 0.2746  kept 0.73  (868s)  ms 118.7
+  epoch  3: solved 48/150  loss 0.1609  kept 0.72  (748s)  ms 106.2
+  epoch  4: solved 54/150  loss 0.2399  kept 0.75  (822s)  ms 116.8
+  epoch  5: solved 50/150  loss 0.2505  kept 0.74  (776s)  ms 110.9
+validation labels: 12/30
+validation keep-label accuracy (reward >= 0.5): 0.986
+mean gate alpha by object type (1 = object score, 0 = temporal score): {'board': 0.32, 'cook': 0.227, 'count': 0.337, 'crate': 0.259, 'dropoff': 0.514, 'order': 0.23, 'plate': 0.274, 'pose': 0.344, 'pot': 0.355, 'rack': 0.228, 'recipe': 0.232, 'serving': 0.251, 'sink': 0.501, 'tile': 0.321}
+saved /home/user/Desktop/btp-project/overcooked_test/results/v2/v2.1_seed0 in 5086s

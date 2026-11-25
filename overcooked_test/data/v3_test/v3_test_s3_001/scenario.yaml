@@ -1,0 +1,54 @@
+scenario_id: v3_test_s3_001
+description: 'v3 tier s3: 14x7, 3 cooks, 6 orders, 16 stations, deadlines = ceil(1.21
+  x dispatcher delivery)'
+grid:
+- XBDWXXXXTPRXXX
+- T    3      2X
+- C            X
+- B            X
+- B            X
+- P 1          O
+- XSXXXXBPWXXXXX
+counters:
+- - 11
+  - 0
+- - 9
+  - 6
+- - 4
+  - 0
+- - 2
+  - 6
+- - 12
+  - 0
+plates:
+  clean: 2
+  dirty: 0
+dirty_pots: 1
+sim:
+  burn: 26
+orders:
+- dish: carrot_soup
+  recipe:
+    carrot: 2
+  deadline: 71
+- dish: tomato_onion_soup
+  recipe: &id001
+    tomato: 2
+    onion: 1
+  deadline: 221
+- dish: tomato_onion_soup
+  recipe: *id001
+  deadline: 306
+- dish: carrot_onion_stew
+  recipe:
+    carrot: 2
+    onion: 1
+  deadline: 250
+- dish: onion_soup
+  recipe: &id002
+    onion: 2
+  deadline: 341
+- dish: onion_soup
+  recipe: *id002
+  deadline: 101
+seed: 1

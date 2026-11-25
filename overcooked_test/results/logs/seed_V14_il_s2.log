@@ -1,0 +1,21 @@
+dispatcher (expert): val success 0.900 served 0.921 makespan/cert 0.994
+dagger 0 (expert, beta 1.00): 89366 new decisions, rollout success 0.917 (33s)
+  bc epoch 0 loss 0.3738 acc 0.882 (89366 decisions)
+  bc epoch 1 loss 0.2230 acc 0.933 (89366 decisions)
+  bc epoch 2 loss 0.1908 acc 0.939 (89366 decisions)
+  bc epoch 3 loss 0.1626 acc 0.946 (89366 decisions)
+dagger 0: val success 0.900 served 0.965 makespan/cert 0.988
+dagger 1 (mix, beta 0.50): 91740 new decisions, rollout success 0.969 (94s)
+  bc epoch 0 loss 0.1448 acc 0.950 (181106 decisions)
+  bc epoch 1 loss 0.1307 acc 0.955 (181106 decisions)
+  bc epoch 2 loss 0.1209 acc 0.957 (181106 decisions)
+  bc epoch 3 loss 0.1143 acc 0.959 (181106 decisions)
+dagger 1: val success 0.950 served 0.964 makespan/cert 0.999
+dagger 2 (mix, beta 0.25): 90275 new decisions, rollout success 0.942 (118s)
+  bc epoch 0 loss 0.1093 acc 0.960 (271381 decisions)
+  bc epoch 1 loss 0.1038 acc 0.962 (271381 decisions)
+  bc epoch 2 loss 0.0981 acc 0.963 (271381 decisions)
+  bc epoch 3 loss 0.0949 acc 0.964 (271381 decisions)
+dagger 2: val success 0.950 served 0.982 makespan/cert 0.995
+rl: ppo, shared duration noise per instance group: True, imitation weight 0.5 -> 0.1
+saved /home/user/Desktop/btp-project/overcooked_test/results/models/V14_il_s2

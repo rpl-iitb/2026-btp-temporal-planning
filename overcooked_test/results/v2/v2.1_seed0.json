@@ -1,0 +1,155 @@
+{
+ "model": {
+  "n_node": 57,
+  "n_edge": 154,
+  "n_global": 4,
+  "heads": 3,
+  "hidden": 16,
+  "steps": 3,
+  "aggregate": "sum"
+ },
+ "vocab": {
+  "types": [
+   "board",
+   "cook",
+   "count",
+   "counter",
+   "crate",
+   "dropoff",
+   "ingredient",
+   "object",
+   "order",
+   "plate",
+   "pose",
+   "pot",
+   "rack",
+   "recipe",
+   "serving",
+   "sink",
+   "station",
+   "surface",
+   "tile"
+  ],
+  "unary": [
+   "clear",
+   "free",
+   "hand-empty",
+   "idle",
+   "is-zero",
+   "open",
+   "pending",
+   "plate-clean",
+   "plate-dirty",
+   "pot-dirty",
+   "pot-idle",
+   "served"
+  ],
+  "unary_fn": [
+   "burn-window",
+   "chop-steps",
+   "cook-steps",
+   "eat-steps",
+   "scrub-steps",
+   "wash-steps"
+  ],
+  "n_edge": 154,
+  "temporal": true
+ },
+ "temperature": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "combine": "gated",
+ "weights": [
+  1.0,
+  1.0
+ ],
+ "history": [
+  {
+   "epoch": 0,
+   "solved": 55,
+   "total": 150,
+   "loss": 1.629004926031286,
+   "osr": 0.7398405516204406,
+   "seconds": 849.1,
+   "mean_parallelism": 1.361719895790143,
+   "mean_makespan": 114.97443636363637
+  },
+  {
+   "epoch": 1,
+   "solved": 59,
+   "total": 150,
+   "loss": 0.6264657037237943,
+   "osr": 0.7427627535038573,
+   "seconds": 861.6,
+   "mean_parallelism": 1.3604862664395503,
+   "mean_makespan": 118.3697627118644
+  },
+  {
+   "epoch": 2,
+   "solved": 58,
+   "total": 150,
+   "loss": 0.2746498598877726,
+   "osr": 0.7259280531088191,
+   "seconds": 868.3,
+   "mean_parallelism": 1.3535300964611736,
+   "mean_makespan": 118.66812068965518
+  },
+  {
+   "epoch": 3,
+   "solved": 48,
+   "total": 150,
+   "loss": 0.16093124534624317,
+   "osr": 0.7182880121616684,
+   "seconds": 747.8,
+   "mean_parallelism": 1.3554153289640711,
+   "mean_makespan": 106.21002083333333
+  },
+  {
+   "epoch": 4,
+   "solved": 54,
+   "total": 150,
+   "loss": 0.23989631297687689,
+   "osr": 0.7475973620008626,
+   "seconds": 822.5,
+   "mean_parallelism": 1.3566143822272818,
+   "mean_makespan": 116.78809259259258
+  },
+  {
+   "epoch": 5,
+   "solved": 50,
+   "total": 150,
+   "loss": 0.25045212253928184,
+   "osr": 0.7438182112813186,
+   "seconds": 775.9,
+   "mean_parallelism": 1.3514315552166485,
+   "mean_makespan": 110.88478
+  }
+ ],
+ "saved": "2026-11-22 14:42:44",
+ "method": "v2.1",
+ "args": {
+  "train": "v2_train",
+  "val": "v2_val",
+  "epochs": 6,
+  "budget": 15.0,
+  "parallel": 3,
+  "lr": 0.001,
+  "hidden": 16,
+  "steps": 3,
+  "lam_t": 1.0,
+  "pos_weight": 1.0,
+  "cf_k": 4,
+  "cf_cap": 8.0,
+  "seed": 0,
+  "max_tasks": 0,
+  "out": null,
+  "method": "V2.1",
+  "lam_k": 1.0,
+  "lam_a": 0.1
+ },
+ "train_split": "v2_train",
+ "val_split": "v2_val",
+ "train_seconds": 5086.2
+}

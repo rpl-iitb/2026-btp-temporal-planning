@@ -1,5 +1,9 @@
 """T-iFLAX V2 / V2.1: V1 with a gated reward alpha*p_obj + (1-alpha)*p_temp (third GNN output).
 
+What it does: V1 with a third GNN output alpha: reward = alpha * p_obj + (1 - alpha) * p_temp, trained on "should keep"
+labels. V2.1: same network, first plan by object score only, the gate used in the improvement phase.
+Earlier result (pre-final Overcooked-AI benchmark, 60 stress kitchens, 30 s): 5 / 60 (both).
+
     python -m algorithm.v2 train --method V2|V2.1 --seed 0
 """
 from dataclasses import dataclass

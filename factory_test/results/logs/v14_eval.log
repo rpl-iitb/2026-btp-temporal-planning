@@ -1,0 +1,6 @@
+dispatcher noise x1.0 {"all": {"runs": 200, "success": 1.0, "served": 1.0, "ms_cert": 1.006}}
+dispatcher noise x2.0 {"all": {"runs": 200, "success": 1.0, "served": 1.0, "ms_cert": 1.03}}
+dispatcher noise x3.0 {"all": {"runs": 200, "success": 1.0, "served": 1.0, "ms_cert": 1.036}}
+V14_factory noise x1.0 {"all": {"runs": 200, "success": 1.0, "served": 1.0, "ms_cert": 1.009}}
+V14_factory noise x2.0 {"all": {"runs": 200, "success": 1.0, "served": 1.0, "ms_cert": 1.03}}
+V14_factory noise x3.0 {"all": {"runs": 200, "success": 1.0, "served": 1.0, "ms_cert": 1.037}}

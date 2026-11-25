@@ -1,0 +1,168 @@
+
+noise x1.0 (by size)
+| Method | Size | Runs | Success | Orders served | Makespan / cert | s / run | Replans |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V15_hard | all | 63 | 65.1% | 82.5% | 1.008 | 40.4 | - |
+| V15_hard | L | 21 | 76.2% | 86.7% | 1.001 | 8.6 | - |
+| V15_hard | XL | 21 | 61.9% | 81.5% | 0.996 | 41.7 | - |
+| V15_hard | XXL | 21 | 57.1% | 79.4% | 1.031 | 70.9 | - |
+| dispatcher | all | 63 | 69.8% | 83.7% | 1.003 | 28.3 | - |
+| dispatcher | L | 21 | 71.4% | 82.3% | 1.025 | 1.7 | - |
+| dispatcher | XL | 21 | 71.4% | 87.3% | 0.984 | 29.4 | - |
+| dispatcher | XXL | 21 | 66.7% | 81.3% | 1.000 | 53.8 | - |
+| V13_hard | all | 63 | 68.3% | 83.9% | 1.012 | 29.3 | - |
+| V13_hard | L | 21 | 85.7% | 90.8% | 0.984 | 2.6 | - |
+| V13_hard | XL | 21 | 71.4% | 89.5% | 1.022 | 29.8 | - |
+| V13_hard | XXL | 21 | 47.6% | 71.3% | 1.049 | 55.6 | - |
+| V14_hard | all | 63 | 65.1% | 83.1% | 1.047 | 41.7 | - |
+| V14_hard | L | 21 | 76.2% | 87.8% | 1.013 | 9.7 | - |
+| V14_hard | XL | 21 | 61.9% | 84.5% | 1.013 | 39.8 | - |
+| V14_hard | XXL | 21 | 57.1% | 77.1% | 1.130 | 75.7 | - |
+
+noise x2.0 (by size)
+| Method | Size | Runs | Success | Orders served | Makespan / cert | s / run | Replans |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V15_hard | all | 63 | 66.7% | 81.8% | 1.043 | 40.3 | - |
+| V15_hard | L | 21 | 81.0% | 86.7% | 1.027 | 8.3 | - |
+| V15_hard | XL | 21 | 61.9% | 81.3% | 1.032 | 36.0 | - |
+| V15_hard | XXL | 21 | 57.1% | 77.2% | 1.078 | 76.4 | - |
+| dispatcher | all | 63 | 66.7% | 80.8% | 1.035 | 25.7 | - |
+| dispatcher | L | 21 | 81.0% | 85.0% | 1.042 | 1.9 | - |
+| dispatcher | XL | 21 | 61.9% | 79.6% | 1.030 | 19.9 | - |
+| dispatcher | XXL | 21 | 57.1% | 77.8% | 1.031 | 55.1 | - |
+| V13_hard | all | 63 | 68.3% | 83.0% | 1.061 | 28.1 | - |
+| V13_hard | L | 21 | 81.0% | 87.4% | 1.050 | 2.2 | - |
+| V13_hard | XL | 21 | 66.7% | 84.1% | 1.037 | 21.0 | - |
+| V13_hard | XXL | 21 | 57.1% | 77.4% | 1.104 | 60.9 | - |
+| V14_hard | all | 63 | 66.7% | 82.1% | 1.046 | 43.7 | - |
+| V14_hard | L | 21 | 81.0% | 88.8% | 1.033 | 9.2 | - |
+| V14_hard | XL | 21 | 61.9% | 82.7% | 1.025 | 39.5 | - |
+| V14_hard | XXL | 21 | 57.1% | 74.7% | 1.088 | 82.3 | - |
+
+noise x3.0 (by size)
+| Method | Size | Runs | Success | Orders served | Makespan / cert | s / run | Replans |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V15_hard | all | 63 | 58.7% | 78.6% | 1.087 | 49.2 | - |
+| V15_hard | L | 21 | 61.9% | 77.9% | 1.088 | 10.0 | - |
+| V15_hard | XL | 21 | 61.9% | 79.6% | 1.067 | 41.2 | - |
+| V15_hard | XXL | 21 | 52.4% | 78.3% | 1.110 | 96.4 | - |
+| dispatcher | all | 63 | 61.9% | 78.1% | 1.044 | 34.4 | - |
+| dispatcher | L | 21 | 61.9% | 76.2% | 1.085 | 2.0 | - |
+| dispatcher | XL | 21 | 57.1% | 77.0% | 1.027 | 24.3 | - |
+| dispatcher | XXL | 21 | 66.7% | 81.2% | 1.019 | 76.9 | - |
+| V13_hard | all | 63 | 66.7% | 81.5% | 1.068 | 36.1 | - |
+| V13_hard | L | 21 | 76.2% | 84.7% | 1.075 | 2.5 | - |
+| V13_hard | XL | 21 | 66.7% | 84.1% | 1.058 | 26.9 | - |
+| V13_hard | XXL | 21 | 57.1% | 75.8% | 1.070 | 79.0 | - |
+| V14_hard | all | 63 | 63.5% | 77.9% | 1.082 | 54.7 | - |
+| V14_hard | L | 21 | 66.7% | 75.9% | 1.068 | 9.2 | - |
+| V14_hard | XL | 21 | 66.7% | 81.7% | 1.066 | 39.4 | - |
+| V14_hard | XXL | 21 | 57.1% | 76.2% | 1.116 | 115.4 | - |
+
+noise x1.0 (by family)
+| Method | Family | Runs | Success | Orders served | Makespan / cert | s / run | Replans |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V15_hard | all | 63 | 65.1% | 82.5% | 1.008 | 40.4 | - |
+| V15_hard | hard_base | 9 | 100.0% | 100.0% | 0.999 | 40.9 | - |
+| V15_hard | hard_blocking | 9 | 100.0% | 100.0% | 0.993 | 29.9 | - |
+| V15_hard | hard_bottleneck | 9 | 100.0% | 100.0% | 1.031 | 40.0 | - |
+| V15_hard | hard_flexible | 9 | 100.0% | 100.0% | 1.021 | 61.3 | - |
+| V15_hard | hard_full | 9 | 11.1% | 43.1% | 0.956 | 41.8 | - |
+| V15_hard | hard_online | 9 | 33.3% | 66.4% | 0.993 | 32.2 | - |
+| V15_hard | hard_rush | 9 | 11.1% | 68.3% | 0.997 | 36.6 | - |
+| dispatcher | all | 63 | 69.8% | 83.7% | 1.003 | 28.3 | - |
+| dispatcher | hard_base | 9 | 100.0% | 100.0% | 1.004 | 31.3 | - |
+| dispatcher | hard_blocking | 9 | 100.0% | 100.0% | 1.011 | 18.8 | - |
+| dispatcher | hard_bottleneck | 9 | 100.0% | 100.0% | 1.000 | 27.2 | - |
+| dispatcher | hard_flexible | 9 | 100.0% | 100.0% | 1.035 | 42.5 | - |
+| dispatcher | hard_full | 9 | 22.2% | 54.3% | 0.910 | 31.1 | - |
+| dispatcher | hard_online | 9 | 44.4% | 65.2% | 0.985 | 23.4 | - |
+| dispatcher | hard_rush | 9 | 22.2% | 66.0% | 0.970 | 23.9 | - |
+| V13_hard | all | 63 | 68.3% | 83.9% | 1.012 | 29.3 | - |
+| V13_hard | hard_base | 9 | 88.9% | 96.6% | 1.013 | 29.8 | - |
+| V13_hard | hard_blocking | 9 | 100.0% | 100.0% | 1.022 | 19.4 | - |
+| V13_hard | hard_bottleneck | 9 | 100.0% | 100.0% | 1.021 | 26.2 | - |
+| V13_hard | hard_flexible | 9 | 88.9% | 99.4% | 1.045 | 46.4 | - |
+| V13_hard | hard_full | 9 | 33.3% | 54.2% | 0.956 | 36.9 | - |
+| V13_hard | hard_online | 9 | 44.4% | 71.1% | 0.973 | 26.1 | - |
+| V13_hard | hard_rush | 9 | 22.2% | 65.7% | 0.959 | 20.3 | - |
+| V14_hard | all | 63 | 65.1% | 83.1% | 1.047 | 41.7 | - |
+| V14_hard | hard_base | 9 | 100.0% | 100.0% | 1.060 | 41.5 | - |
+| V14_hard | hard_blocking | 9 | 100.0% | 100.0% | 1.026 | 36.1 | - |
+| V14_hard | hard_bottleneck | 9 | 100.0% | 100.0% | 1.089 | 48.5 | - |
+| V14_hard | hard_flexible | 9 | 100.0% | 100.0% | 1.057 | 52.3 | - |
+| V14_hard | hard_full | 9 | 22.2% | 56.6% | 0.954 | 43.6 | - |
+| V14_hard | hard_online | 9 | 22.2% | 62.4% | 0.978 | 34.0 | - |
+| V14_hard | hard_rush | 9 | 11.1% | 62.9% | 0.989 | 36.2 | - |
+
+noise x2.0 (by family)
+| Method | Family | Runs | Success | Orders served | Makespan / cert | s / run | Replans |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V15_hard | all | 63 | 66.7% | 81.8% | 1.043 | 40.3 | - |
+| V15_hard | hard_base | 9 | 100.0% | 100.0% | 1.047 | 48.0 | - |
+| V15_hard | hard_blocking | 9 | 100.0% | 100.0% | 1.071 | 31.1 | - |
+| V15_hard | hard_bottleneck | 9 | 100.0% | 100.0% | 1.058 | 40.7 | - |
+| V15_hard | hard_flexible | 9 | 100.0% | 100.0% | 1.041 | 56.3 | - |
+| V15_hard | hard_full | 9 | 22.2% | 49.1% | 0.991 | 39.5 | - |
+| V15_hard | hard_online | 9 | 33.3% | 61.7% | 0.978 | 33.6 | - |
+| V15_hard | hard_rush | 9 | 11.1% | 61.7% | 0.948 | 32.6 | - |
+| dispatcher | all | 63 | 66.7% | 80.8% | 1.035 | 25.7 | - |
+| dispatcher | hard_base | 9 | 100.0% | 100.0% | 1.049 | 24.6 | - |
+| dispatcher | hard_blocking | 9 | 100.0% | 100.0% | 1.036 | 19.2 | - |
+| dispatcher | hard_bottleneck | 9 | 100.0% | 100.0% | 1.052 | 25.9 | - |
+| dispatcher | hard_flexible | 9 | 100.0% | 100.0% | 1.034 | 38.4 | - |
+| dispatcher | hard_full | 9 | 22.2% | 44.7% | 0.992 | 30.0 | - |
+| dispatcher | hard_online | 9 | 33.3% | 57.4% | 0.990 | 19.1 | - |
+| dispatcher | hard_rush | 9 | 11.1% | 63.5% | 0.980 | 22.2 | - |
+| V13_hard | all | 63 | 68.3% | 83.0% | 1.061 | 28.1 | - |
+| V13_hard | hard_base | 9 | 100.0% | 100.0% | 1.036 | 28.4 | - |
+| V13_hard | hard_blocking | 9 | 100.0% | 100.0% | 1.033 | 20.2 | - |
+| V13_hard | hard_bottleneck | 9 | 100.0% | 100.0% | 1.101 | 25.6 | - |
+| V13_hard | hard_flexible | 9 | 100.0% | 100.0% | 1.120 | 44.7 | - |
+| V13_hard | hard_full | 9 | 11.1% | 42.4% | 0.947 | 33.3 | - |
+| V13_hard | hard_online | 9 | 55.6% | 73.9% | 1.010 | 22.8 | - |
+| V13_hard | hard_rush | 9 | 11.1% | 64.5% | 1.001 | 21.5 | - |
+| V14_hard | all | 63 | 66.7% | 82.1% | 1.046 | 43.7 | - |
+| V14_hard | hard_base | 9 | 100.0% | 100.0% | 1.084 | 47.5 | - |
+| V14_hard | hard_blocking | 9 | 100.0% | 100.0% | 1.033 | 32.2 | - |
+| V14_hard | hard_bottleneck | 9 | 100.0% | 100.0% | 1.053 | 52.6 | - |
+| V14_hard | hard_flexible | 9 | 100.0% | 100.0% | 1.060 | 53.2 | - |
+| V14_hard | hard_full | 9 | 22.2% | 52.7% | 0.969 | 46.7 | - |
+| V14_hard | hard_online | 9 | 33.3% | 62.8% | 0.989 | 35.7 | - |
+| V14_hard | hard_rush | 9 | 11.1% | 59.1% | 0.969 | 37.8 | - |
+
+noise x3.0 (by family)
+| Method | Family | Runs | Success | Orders served | Makespan / cert | s / run | Replans |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V15_hard | all | 63 | 58.7% | 78.6% | 1.087 | 49.2 | - |
+| V15_hard | hard_base | 9 | 100.0% | 100.0% | 1.092 | 41.4 | - |
+| V15_hard | hard_blocking | 9 | 100.0% | 100.0% | 1.055 | 41.7 | - |
+| V15_hard | hard_bottleneck | 9 | 100.0% | 100.0% | 1.106 | 43.4 | - |
+| V15_hard | hard_flexible | 9 | 88.9% | 98.8% | 1.093 | 85.4 | - |
+| V15_hard | hard_full | 9 | 0.0% | 42.1% | - | 51.6 | - |
+| V15_hard | hard_online | 9 | 11.1% | 49.2% | 1.064 | 38.7 | - |
+| V15_hard | hard_rush | 9 | 11.1% | 60.1% | 1.138 | 42.2 | - |
+| dispatcher | all | 63 | 61.9% | 78.1% | 1.044 | 34.4 | - |
+| dispatcher | hard_base | 9 | 100.0% | 100.0% | 1.053 | 35.0 | - |
+| dispatcher | hard_blocking | 9 | 100.0% | 100.0% | 1.065 | 21.7 | - |
+| dispatcher | hard_bottleneck | 9 | 100.0% | 100.0% | 1.022 | 33.5 | - |
+| dispatcher | hard_flexible | 9 | 100.0% | 100.0% | 1.039 | 45.0 | - |
+| dispatcher | hard_full | 9 | 11.1% | 46.5% | 1.006 | 52.6 | - |
+| dispatcher | hard_online | 9 | 11.1% | 41.4% | 1.078 | 24.6 | - |
+| dispatcher | hard_rush | 9 | 11.1% | 59.0% | 1.008 | 28.1 | - |
+| V13_hard | all | 63 | 66.7% | 81.5% | 1.068 | 36.1 | - |
+| V13_hard | hard_base | 9 | 100.0% | 100.0% | 1.072 | 39.1 | - |
+| V13_hard | hard_blocking | 9 | 100.0% | 100.0% | 1.072 | 26.2 | - |
+| V13_hard | hard_bottleneck | 9 | 100.0% | 100.0% | 1.099 | 44.5 | - |
+| V13_hard | hard_flexible | 9 | 100.0% | 100.0% | 1.056 | 45.1 | - |
+| V13_hard | hard_full | 9 | 33.3% | 60.4% | 0.992 | 36.9 | - |
+| V13_hard | hard_online | 9 | 33.3% | 56.4% | 1.060 | 32.8 | - |
+| V13_hard | hard_rush | 9 | 0.0% | 53.9% | - | 28.5 | - |
+| V14_hard | all | 63 | 63.5% | 77.9% | 1.082 | 54.7 | - |
+| V14_hard | hard_base | 9 | 100.0% | 100.0% | 1.108 | 59.7 | - |
+| V14_hard | hard_blocking | 9 | 100.0% | 100.0% | 1.066 | 45.3 | - |
+| V14_hard | hard_bottleneck | 9 | 100.0% | 100.0% | 1.085 | 51.7 | - |
+| V14_hard | hard_flexible | 9 | 100.0% | 100.0% | 1.099 | 74.8 | - |
+| V14_hard | hard_full | 9 | 22.2% | 45.1% | 1.013 | 59.5 | - |
+| V14_hard | hard_online | 9 | 22.2% | 50.5% | 1.009 | 42.8 | - |
+| V14_hard | hard_rush | 9 | 0.0% | 49.8% | - | 48.9 | - |

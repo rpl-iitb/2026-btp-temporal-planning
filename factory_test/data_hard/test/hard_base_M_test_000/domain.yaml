@@ -1,0 +1,325 @@
+name: factorysim-lanes
+requirements:
+- :typing
+- :durative-actions
+- :fluents
+- :timed-initial-literals
+types:
+  robot: object
+  node: object
+  station: object
+  job: object
+  step: object
+  slot: object
+  operator: object
+constants: {}
+predicates:
+  robot-at: ?r - robot ?n - node
+  robot-free: ?r - robot
+  empty: ?r - robot
+  carrying: ?r - robot ?j - job
+  dock: ?s - station ?n - node
+  dock-free: ?s - station
+  is-sink: ?s - station
+  is-buffer: ?s - station
+  in-slot: ?q - slot ?s - station
+  out-slot: ?q - slot ?s - station
+  slot-free: ?q - slot
+  queued: ?j - job ?s - station ?q - slot
+  holding: ?s - station ?j - job
+  in-out: ?j - job ?s - station ?q - slot
+  stored: ?j - job ?s - station ?q - slot
+  machine-free: ?s - station
+  op-for: ?o - operator ?s - station
+  op-free: ?o - operator
+  step: ?j - job ?k - step
+  option: ?j - job ?k - step ?s - station
+  next: ?k - step ?k2 - step
+  final: ?j - job ?k - step
+  first: ?j - job ?k - step
+  robot-next: ?j - job ?k - step ?s - station
+  conveyor: ?a - station ?b - station
+  link: ?a - node ?b - node
+  junction: ?n - node
+  pocket: ?n - node
+  node-free: ?n - node
+  unreleased: ?j - job
+  arrived: ?j - job
+  open: ?j - job
+  delivered: ?j - job
+functions:
+  travel: ?a - node ?b - node
+  ptime: ?j - job ?k - step ?s - station
+  ctime: ?a - station ?b - station
+  load-time: ''
+  unload-time: ''
+  release-time: ''
+actions:
+- name: move
+  params: ?r - robot ?a - node ?b - node
+  duration: travel ?a ?b
+  condition:
+    at_start:
+    - robot-at ?r ?a
+    - robot-free ?r
+    - link ?a ?b
+    - pocket ?b
+  effect:
+    at_start:
+    - not robot-at ?r ?a
+    - not robot-free ?r
+    at_end:
+    - robot-at ?r ?b
+    - robot-free ?r
+    - node-free ?a
+- name: move-j
+  params: ?r - robot ?a - node ?b - node
+  duration: travel ?a ?b
+  condition:
+    at_start:
+    - robot-at ?r ?a
+    - robot-free ?r
+    - link ?a ?b
+    - junction ?b
+    - node-free ?b
+  effect:
+    at_start:
+    - not robot-at ?r ?a
+    - not robot-free ?r
+    - not node-free ?b
+    at_end:
+    - robot-at ?r ?b
+    - robot-free ?r
+    - node-free ?a
+- name: release
+  params: ?j - job ?k - step ?s - station ?q - slot
+  duration: release-time
+  condition:
+    at_start:
+    - unreleased ?j
+    - arrived ?j
+    - first ?j ?k
+    - option ?j ?k ?s
+    - in-slot ?q ?s
+    - slot-free ?q
+  effect:
+    at_start:
+    - not unreleased ?j
+    - not slot-free ?q
+    at_end:
+    - queued ?j ?s ?q
+    - step ?j ?k
+- name: process
+  params: ?j - job ?s - station ?q - slot ?k - step ?k2 - step ?o - operator
+  duration: ptime ?j ?k ?s
+  condition:
+    at_start:
+    - in-slot ?q ?s
+    - queued ?j ?s ?q
+    - machine-free ?s
+    - op-free ?o
+    - op-for ?o ?s
+    - step ?j ?k
+    - option ?j ?k ?s
+    - next ?k ?k2
+  effect:
+    at_start:
+    - not queued ?j ?s ?q
+    - slot-free ?q
+    - not machine-free ?s
+    - not op-free ?o
+    - not step ?j ?k
+    at_end:
+    - holding ?s ?j
+    - op-free ?o
+    - step ?j ?k2
+- name: to-out
+  params: ?j - job ?s - station ?q - slot ?k - step
+  duration: 0.01
+  condition:
+    at_start:
+    - holding ?s ?j
+    - out-slot ?q ?s
+    - slot-free ?q
+    - step ?j ?k
+    - robot-next ?j ?k ?s
+  effect:
+    at_start:
+    - not holding ?s ?j
+    - not slot-free ?q
+    at_end:
+    - in-out ?j ?s ?q
+    - machine-free ?s
+- name: convey
+  params: ?j - job ?a - station ?b - station ?k - step ?q - slot
+  duration: ctime ?a ?b
+  condition:
+    at_start:
+    - holding ?a ?j
+    - conveyor ?a ?b
+    - step ?j ?k
+    - option ?j ?k ?b
+    - in-slot ?q ?b
+    - slot-free ?q
+  effect:
+    at_start:
+    - not holding ?a ?j
+    - machine-free ?a
+    - not slot-free ?q
+    at_end:
+    - queued ?j ?b ?q
+- name: load-machine
+  params: ?r - robot ?j - job ?s - station ?n - node ?k - step
+  duration: load-time
+  condition:
+    at_start:
+    - robot-at ?r ?n
+    - robot-free ?r
+    - empty ?r
+    - dock ?s ?n
+    - dock-free ?s
+    - holding ?s ?j
+    - step ?j ?k
+    - robot-next ?j ?k ?s
+    over_all:
+    - robot-at ?r ?n
+  effect:
+    at_start:
+    - not robot-free ?r
+    - not empty ?r
+    - not dock-free ?s
+    - not holding ?s ?j
+    - machine-free ?s
+    at_end:
+    - carrying ?r ?j
+    - robot-free ?r
+    - dock-free ?s
+- name: load-out
+  params: ?r - robot ?j - job ?s - station ?n - node ?q - slot
+  duration: load-time
+  condition:
+    at_start:
+    - robot-at ?r ?n
+    - robot-free ?r
+    - empty ?r
+    - dock ?s ?n
+    - dock-free ?s
+    - out-slot ?q ?s
+    - in-out ?j ?s ?q
+    over_all:
+    - robot-at ?r ?n
+  effect:
+    at_start:
+    - not robot-free ?r
+    - not empty ?r
+    - not dock-free ?s
+    - not in-out ?j ?s ?q
+    - slot-free ?q
+    at_end:
+    - carrying ?r ?j
+    - robot-free ?r
+    - dock-free ?s
+- name: load-buffer
+  params: ?r - robot ?j - job ?s - station ?n - node ?q - slot
+  duration: load-time
+  condition:
+    at_start:
+    - robot-at ?r ?n
+    - robot-free ?r
+    - empty ?r
+    - dock ?s ?n
+    - dock-free ?s
+    - in-slot ?q ?s
+    - stored ?j ?s ?q
+    over_all:
+    - robot-at ?r ?n
+  effect:
+    at_start:
+    - not robot-free ?r
+    - not empty ?r
+    - not dock-free ?s
+    - not stored ?j ?s ?q
+    - slot-free ?q
+    at_end:
+    - carrying ?r ?j
+    - robot-free ?r
+    - dock-free ?s
+- name: unload
+  params: ?r - robot ?j - job ?s - station ?n - node ?k - step ?q - slot
+  duration: unload-time
+  condition:
+    at_start:
+    - robot-at ?r ?n
+    - robot-free ?r
+    - carrying ?r ?j
+    - dock ?s ?n
+    - dock-free ?s
+    - step ?j ?k
+    - option ?j ?k ?s
+    - in-slot ?q ?s
+    - slot-free ?q
+    over_all:
+    - robot-at ?r ?n
+  effect:
+    at_start:
+    - not robot-free ?r
+    - not carrying ?r ?j
+    - not dock-free ?s
+    - not slot-free ?q
+    at_end:
+    - queued ?j ?s ?q
+    - empty ?r
+    - robot-free ?r
+    - dock-free ?s
+- name: unload-buffer
+  params: ?r - robot ?j - job ?s - station ?n - node ?q - slot
+  duration: unload-time
+  condition:
+    at_start:
+    - robot-at ?r ?n
+    - robot-free ?r
+    - carrying ?r ?j
+    - dock ?s ?n
+    - dock-free ?s
+    - is-buffer ?s
+    - in-slot ?q ?s
+    - slot-free ?q
+    over_all:
+    - robot-at ?r ?n
+  effect:
+    at_start:
+    - not robot-free ?r
+    - not carrying ?r ?j
+    - not dock-free ?s
+    - not slot-free ?q
+    at_end:
+    - stored ?j ?s ?q
+    - empty ?r
+    - robot-free ?r
+    - dock-free ?s
+- name: unload-sink
+  params: ?r - robot ?j - job ?s - station ?n - node ?k - step
+  duration: unload-time
+  condition:
+    at_start:
+    - robot-at ?r ?n
+    - robot-free ?r
+    - carrying ?r ?j
+    - dock ?s ?n
+    - dock-free ?s
+    - is-sink ?s
+    - step ?j ?k
+    - final ?j ?k
+    over_all:
+    - robot-at ?r ?n
+    - open ?j
+  effect:
+    at_start:
+    - not robot-free ?r
+    - not carrying ?r ?j
+    - not dock-free ?s
+    at_end:
+    - delivered ?j
+    - empty ?r
+    - robot-free ?r
+    - dock-free ?s

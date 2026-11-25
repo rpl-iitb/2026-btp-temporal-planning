@@ -1,11 +1,12 @@
 """PDDL 2.1 durative-action semantics and plan simulator (agrees with VAL), schedule analysis
 (precedence, CPM slack, critical path, resources) and earliest-start re-timing of valid plans.
 """
+import dataclasses
 from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Set, Tuple
 
-from pddl_generator.planners import TemporalPlan, TimedAction
+from .pddlkit.plan import TemporalPlan, TimedAction
 
 from .grounding import EPS, GroundAction
 
@@ -154,9 +155,17 @@ class Simulator:
         task, eps = self.task, self.eps
         viol: List[Violation] = []
         hs: List[_Happening] = []
+        steps = list(steps)
         for k, (s, a) in enumerate(steps):
             d = a.duration
-            if durations is not None and abs(durations[k] - d) > eps:
+            if a.duration_max is not None and durations is not None:
+                # flexible duration: the plan chooses it; this step then runs with the stated duration
+                if not d - eps <= durations[k] <= a.duration_max + eps:
+                    viol.append(Violation(s, k, "duration", "{} stated {} outside [{}, {}]".format(a, durations[k], d, a.duration_max)))
+                d = durations[k]
+                a = dataclasses.replace(a, duration=d)
+                steps[k] = (s, a)
+            elif durations is not None and abs(durations[k] - d) > eps:
                 viol.append(Violation(s, k, "duration", "{} stated {} but domain gives {}".format(a, durations[k], d)))
             hs.append(_Happening(s, "start", k, a))
             hs.append(_Happening(s + d, "end", k, a))
@@ -431,6 +440,8 @@ def retime(task, gt, plan, eps=EPS):
     steps, durs, unknown = bind_plan(gt, plan)
     if unknown or not steps:
         return None
+    # flexible-duration actions run with the duration the plan states (it stays fixed while moving them)
+    steps = [(s, dataclasses.replace(a, duration=d) if a.duration_max is not None else a) for (s, a), d in zip(steps, durs)]
     sim = Simulator(task).run(steps, durs)
     if not sim.valid:
         return None

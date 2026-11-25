@@ -1,0 +1,25 @@
+episodes: train 150 val 30
+bc epoch 1  loss 0.2786  val reward -1.1395 (fails 5)
+bc epoch 2  loss 0.0461  val reward -1.1395 (fails 5)
+bc epoch 3  loss 0.0305  val reward -1.1418 (fails 5)
+rl epoch  1  train reward -1.1068 (fail 0.117)  val greedy -1.1395 (fails 5)  6s
+rl epoch  2  train reward -1.1043 (fail 0.118)  val greedy -1.1395 (fails 5)  7s
+rl epoch  3  train reward -1.1024 (fail 0.116)  val greedy -1.1395 (fails 5)  6s
+rl epoch  4  train reward -1.1003 (fail 0.113)  val greedy -1.1395 (fails 5)  7s
+rl epoch  5  train reward -1.0982 (fail 0.108)  val greedy -1.1395 (fails 5)  7s
+rl epoch  6  train reward -1.0969 (fail 0.104)  val greedy -1.1395 (fails 5)  7s
+rl epoch  7  train reward -1.0877 (fail 0.092)  val greedy -1.1395 (fails 5)  7s
+rl epoch  8  train reward -1.0799 (fail 0.080)  val greedy -1.0825 (fails 2)  7s
+rl epoch  9  train reward -1.0547 (fail 0.048)  val greedy -1.0339 (fails 0)  7s
+rl epoch 10  train reward -1.0328 (fail 0.026)  val greedy -1.0244 (fails 0)  8s
+rl epoch 11  train reward -1.0206 (fail 0.010)  val greedy -1.0118 (fails 0)  6s
+rl epoch 12  train reward -1.0112 (fail 0.007)  val greedy -1.0067 (fails 0)  8s
+rl epoch 13  train reward -1.0085 (fail 0.007)  val greedy -1.0052 (fails 0)  8s
+rl epoch 14  train reward -1.0075 (fail 0.007)  val greedy -1.0003 (fails 0)  8s
+rl epoch 15  train reward -1.0050 (fail 0.005)  val greedy -0.9968 (fails 0)  8s
+rl epoch 16  train reward -1.0026 (fail 0.005)  val greedy -0.9975 (fails 0)  7s
+rl epoch 17  train reward -1.0019 (fail 0.003)  val greedy -0.9975 (fails 0)  9s
+rl epoch 18  train reward -1.0010 (fail 0.001)  val greedy -0.9979 (fails 0)  10s
+rl epoch 19  train reward -1.0013 (fail 0.002)  val greedy -0.9979 (fails 0)  8s
+rl epoch 20  train reward -0.9999 (fail 0.000)  val greedy -0.9979 (fails 0)  9s
+saved /home/user/Desktop/btp-project/overcooked_test/results/models/TIFLAX9_overcooked_kitchen_seed0 (best val greedy reward -0.9968)

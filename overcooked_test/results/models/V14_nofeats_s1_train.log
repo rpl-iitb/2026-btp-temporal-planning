@@ -1,0 +1,45 @@
+dispatcher (expert): val success 0.900 served 0.921 makespan/cert 0.994
+dagger 0 (expert, beta 1.00): 88580 new decisions, rollout success 0.897 (27s)
+  bc epoch 0 loss 0.3873 acc 0.878 (88580 decisions)
+  bc epoch 1 loss 0.2303 acc 0.926 (88580 decisions)
+  bc epoch 2 loss 0.2051 acc 0.930 (88580 decisions)
+  bc epoch 3 loss 0.1780 acc 0.938 (88580 decisions)
+dagger 0: val success 0.975 served 0.993 makespan/cert 1.0
+dagger 1 (mix, beta 0.50): 87821 new decisions, rollout success 0.922 (73s)
+  bc epoch 0 loss 0.1678 acc 0.941 (176401 decisions)
+  bc epoch 1 loss 0.1478 acc 0.947 (176401 decisions)
+  bc epoch 2 loss 0.1330 acc 0.952 (176401 decisions)
+  bc epoch 3 loss 0.1273 acc 0.954 (176401 decisions)
+dagger 1: val success 0.825 served 0.934 makespan/cert 0.99
+dagger 2 (mix, beta 0.25): 88184 new decisions, rollout success 0.911 (88s)
+  bc epoch 0 loss 0.1214 acc 0.955 (264585 decisions)
+  bc epoch 1 loss 0.1154 acc 0.957 (264585 decisions)
+  bc epoch 2 loss 0.1099 acc 0.959 (264585 decisions)
+  bc epoch 3 loss 0.1057 acc 0.960 (264585 decisions)
+dagger 2: val success 0.750 served 0.903 makespan/cert 0.996
+rl: ppo, shared duration noise per instance group: True, imitation weight 0.5 -> 0.1
+rl 0: train sampled success 0.866 served 0.929 makespan/cert 1.028 reward -1.163 (16384 decisions, ppo passes 4 kl 0.0084 clipped 0.054, 231s)
+rl 1: train sampled success 0.919 served 0.954 makespan/cert 1.011 reward -1.096 (16384 decisions, ppo passes 4 kl 0.0056 clipped 0.042, 238s)
+rl 2: train sampled success 0.922 served 0.945 makespan/cert 1.015 reward -1.108 (16384 decisions, ppo passes 4 kl 0.0021 clipped 0.032, 238s)
+rl 3: train sampled success 0.938 served 0.953 makespan/cert 1.005 reward -1.083 (16384 decisions, ppo passes 4 kl 0.0028 clipped 0.032, 233s)
+rl 4: train sampled success 0.922 served 0.954 makespan/cert 1.009 reward -1.094 (16384 decisions, ppo passes 4 kl 0.0025 clipped 0.026, 229s)
+rl 4: val success 0.900 served 0.907 makespan/cert 0.976
+rl 5: train sampled success 0.944 served 0.969 makespan/cert 1.01 reward -1.069 (16384 decisions, ppo passes 4 kl 0.0026 clipped 0.028, 223s)
+rl 6: train sampled success 0.928 served 0.953 makespan/cert 0.987 reward -1.071 (16384 decisions, ppo passes 4 kl 0.0030 clipped 0.032, 231s)
+rl 7: train sampled success 0.963 served 0.982 makespan/cert 0.977 reward -1.014 (16384 decisions, ppo passes 4 kl 0.0057 clipped 0.029, 243s)
+rl 8: train sampled success 0.925 served 0.955 makespan/cert 1.031 reward -1.111 (16384 decisions, ppo passes 4 kl 0.0037 clipped 0.034, 229s)
+rl 9: train sampled success 0.934 served 0.953 makespan/cert 1.027 reward -1.105 (16384 decisions, ppo passes 4 kl 0.0043 clipped 0.032, 243s)
+rl 9: val success 0.975 served 0.979 makespan/cert 0.993
+rl 10: train sampled success 0.959 served 0.975 makespan/cert 1.014 reward -1.059 (16384 decisions, ppo passes 4 kl 0.0043 clipped 0.036, 237s)
+rl 11: train sampled success 0.963 served 0.978 makespan/cert 1.021 reward -1.062 (16384 decisions, ppo passes 4 kl 0.0062 clipped 0.037, 238s)
+rl 12: train sampled success 0.959 served 0.978 makespan/cert 1.02 reward -1.061 (16384 decisions, ppo passes 4 kl 0.0045 clipped 0.036, 241s)
+rl 13: train sampled success 0.925 served 0.951 makespan/cert 1.031 reward -1.115 (16384 decisions, ppo passes 4 kl 0.0038 clipped 0.038, 229s)
+rl 14: train sampled success 0.956 served 0.974 makespan/cert 0.985 reward -1.033 (16384 decisions, ppo passes 4 kl 0.0061 clipped 0.039, 234s)
+rl 14: val success 0.875 served 0.926 makespan/cert 0.99
+rl 15: train sampled success 0.928 served 0.957 makespan/cert 1.023 reward -1.100 (16384 decisions, ppo passes 4 kl 0.0055 clipped 0.038, 236s)
+rl 16: train sampled success 0.934 served 0.955 makespan/cert 1.002 reward -1.081 (16384 decisions, ppo passes 4 kl 0.0040 clipped 0.029, 245s)
+rl 17: train sampled success 0.953 served 0.969 makespan/cert 1.022 reward -1.076 (16384 decisions, ppo passes 4 kl 0.0090 clipped 0.037, 247s)
+rl 18: train sampled success 0.972 served 0.979 makespan/cert 1.003 reward -1.037 (16384 decisions, ppo passes 4 kl 0.0053 clipped 0.032, 238s)
+rl 19: train sampled success 0.959 served 0.973 makespan/cert 1.03 reward -1.076 (16384 decisions, ppo passes 4 kl 0.0038 clipped 0.033, 226s)
+rl 19: val success 0.975 served 0.996 makespan/cert 0.972
+saved /home/user/Desktop/btp-project/overcooked_test/results/models/V14_nofeats_s1

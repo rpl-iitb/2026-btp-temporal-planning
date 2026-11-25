@@ -1,5 +1,12 @@
 """B2: FLAX -- the original FlaxPlanner + GNNSearchGuidance (vendor/), POPF on the reduced temporal task.
 
+What it does: FLAX (sair-lab/flax @ 42a1030, run unchanged through adapter.py): a GNN scores objects, a growing
+score threshold picks a reduced problem, relaxation rules and complementary rules repair it, and POPF plans on
+the reduced *temporal* problem; the plan is VAL-checked on the full task. Trained offline (301 epochs) on teacher
+plans (shorter of POPF on the full task and the instance certificate).
+Needs: FLAX's two rule files for the domain (TIFLAX_FLAX_COMPLEMENTARY, TIFLAX_FLAX_RELAXATION; e.g.
+overcooked_test/flax_rules/). Earlier result (pre-final Overcooked-AI benchmark, 60 stress kitchens, 30 s): 1 / 60 solved.
+
     python -m baselines.b2 train --seed 0      # offline training -> results/b2/b2_seed0_*
 """
 import os
@@ -69,8 +76,8 @@ class TeacherPlanner:
 
     def __call__(self, domain, state, timeout=None):
         from planning import PlanningFailure
-        from pddl_generator import TemporalPlan, validate_plan
-        from algorithm.planning import attempt
+        from .core.pddlkit import TemporalPlan, validate_plan
+        from .core.planning import attempt
         task = state.goal.task
         ctx = RunContext()
         try:
@@ -110,7 +117,7 @@ def build(key, spec, seed=0, **over):
 
 if __name__ == "__main__":
     import sys
-    from algorithm.planning import ensure_hash_seed
+    from .core.planning import ensure_hash_seed
     ensure_hash_seed()
     if sys.argv[1:2] != ["train"]:
         raise SystemExit("usage: python -m baselines.b2 train [--seed 0 --flax_epochs 301 --label_cap 30]")

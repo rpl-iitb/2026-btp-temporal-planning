@@ -1,0 +1,61 @@
+{
+ "split": "test",
+ "instances": [
+  {
+   "instance_id": "base_S_test_000",
+   "family": "base",
+   "size": "S",
+   "best_known": 3269.324,
+   "lower_bound": 2045.028
+  },
+  {
+   "instance_id": "base_M_test_000",
+   "family": "base",
+   "size": "M",
+   "best_known": 4598.771,
+   "lower_bound": 2053.409
+  },
+  {
+   "instance_id": "bottleneck_S_test_000",
+   "family": "bottleneck",
+   "size": "S",
+   "best_known": 3670.324,
+   "lower_bound": 2045.028
+  },
+  {
+   "instance_id": "bottleneck_M_test_000",
+   "family": "bottleneck",
+   "size": "M",
+   "best_known": 5197.053,
+   "lower_bound": 2400.0
+  },
+  {
+   "instance_id": "tight_S_test_000",
+   "family": "tight",
+   "size": "S",
+   "best_known": 3295.867,
+   "lower_bound": 2045.028
+  },
+  {
+   "instance_id": "tight_M_test_000",
+   "family": "tight",
+   "size": "M",
+   "best_known": 4493.757,
+   "lower_bound": 2053.409
+  },
+  {
+   "instance_id": "noisy_S_test_000",
+   "family": "noisy",
+   "size": "S",
+   "best_known": 3282.534,
+   "lower_bound": 2045.028
+  },
+  {
+   "instance_id": "noisy_M_test_000",
+   "family": "noisy",
+   "size": "M",
+   "best_known": 4550.801,
+   "lower_bound": 2053.409
+  }
+ ]
+}

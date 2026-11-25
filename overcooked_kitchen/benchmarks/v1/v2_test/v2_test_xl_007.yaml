@@ -1,0 +1,32 @@
+scenario_id: v2_test_xl_007
+description: 'generated: tier xl, 16x8, 4 orders, 18 distractor stations'
+grid:
+- XPXCRXXXXOSXBXTX
+- O              S
+- X       C      S
+- D       B      X
+- P       X      P
+- X 1     X      P
+- B       P      P
+- XXXXXWSOXPXWOWTX
+counters: none
+plates:
+  clean: 3
+  dirty: 0
+dirty_pots: 2
+sim:
+  burn: 12
+orders:
+- dish: carrot_soup
+  recipe:
+    carrot: 2
+- dish: carrot_onion_stew
+  recipe: &id001
+    carrot: 2
+    onion: 1
+- dish: carrot_onion_stew
+  recipe: *id001
+- dish: onion_soup
+  recipe:
+    onion: 2
+seed: 7

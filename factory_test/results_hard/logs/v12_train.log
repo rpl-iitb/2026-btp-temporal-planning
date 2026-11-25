@@ -1,0 +1,22 @@
+V12: 55 relations, 478873 parameters
+dagger 0 (expert, beta 1.00): 103309 new decisions, rollout success 0.810 (56s)
+  bc epoch 0 loss 0.4763 acc 0.800 (103309 decisions, 1693s)
+  bc epoch 1 loss 0.2740 acc 0.891 (103309 decisions, 1600s)
+dagger 0: val success 0.000 served 0.002 makespan/cert None
+dagger 1 (mix, beta 0.50): 94441 new decisions, rollout success 0.183 (223s)
+  bc epoch 0 loss 0.2822 acc 0.897 (197750 decisions, 1383s)
+  bc epoch 1 loss 0.2116 acc 0.925 (197750 decisions, 1270s)
+dagger 1: val success 0.143 served 0.170 makespan/cert 1.134
+dagger 2 (mix, beta 0.25): 88904 new decisions, rollout success 0.365 (177s)
+  bc epoch 0 loss 0.1930 acc 0.931 (286654 decisions, 1852s)
+  bc epoch 1 loss 0.1690 acc 0.938 (286654 decisions, 1840s)
+dagger 2: val success 0.286 served 0.365 makespan/cert 1.022
+rl 0: sampled success 0.328 served 0.483 makespan/cert 1.066 (15203 decisions, 148s)
+rl 1: sampled success 0.297 served 0.406 makespan/cert 1.127 (14715 decisions, 153s)
+rl 2: sampled success 0.391 served 0.558 makespan/cert 1.09 (16873 decisions, 148s)
+rl 2: val success 0.310 served 0.355 makespan/cert 1.02
+rl 3: sampled success 0.344 served 0.541 makespan/cert 1.115 (22921 decisions, 238s)
+rl 4: sampled success 0.297 served 0.480 makespan/cert 1.05 (17604 decisions, 152s)
+rl 5: sampled success 0.297 served 0.464 makespan/cert 1.05 (12756 decisions, 125s)
+rl 5: val success 0.286 served 0.363 makespan/cert 1.02
+saved /home/user/Desktop/btp-project/factory_test/results_hard/models/V12_hard

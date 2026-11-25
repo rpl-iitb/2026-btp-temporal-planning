@@ -1,0 +1,27 @@
+scenario_id: v2_train_l_009
+description: 'generated: tier l, 15x7, 3 orders, 13 distractor stations'
+grid:
+- XXSXXDXSXBTOXXX
+- X             X
+- W      X      O
+- B   1  X      C
+- X      X      B
+- T      P      P
+- XXRCPPXXWXBXPSX
+counters: none
+plates:
+  clean: 1
+  dirty: 2
+dirty_pots: 0
+sim:
+  burn: 16
+orders:
+- dish: carrot_soup
+  recipe:
+    carrot: 2
+- dish: tomato_soup
+  recipe: &id001
+    tomato: 3
+- dish: tomato_soup
+  recipe: *id001
+seed: 9

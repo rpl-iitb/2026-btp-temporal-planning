@@ -1,5 +1,11 @@
 """B3: iFLAX -- IFlaxPlanner (Algorithm 1, parallel 3R) + IFlaxGNNGuidance (vendor/), trained bilevel.
 
+What it does: the BTP iFLAX implementation, unchanged: score-threshold expansion with parallel Repair / Restart /
+Rollback branches (first valid branch wins) and a GNN trained bilevel (each epoch plans the training tasks with
+the current scores, the branch with the fewest evaluated states gives the labels). POPF on the reduced temporal
+problem, VAL on the full task.
+Needs: FLAX's rule files (as B2). Earlier result (pre-final Overcooked-AI benchmark, 60 stress kitchens, 30 s): 3 / 60 solved.
+
     python -m baselines.b3 train --seed 0      # bilevel training -> results/b3/b3_seed0_*
 """
 from .adapter import (RULES, FrozenScores, RunContext, TemporalPOPF, domain_for, frozen_scores,
@@ -55,7 +61,7 @@ def build(key, spec, seed=0, **over):
 
 if __name__ == "__main__":
     import sys
-    from algorithm.planning import ensure_hash_seed
+    from .core.planning import ensure_hash_seed
     ensure_hash_seed()
     if sys.argv[1:2] != ["train"]:
         raise SystemExit("usage: python -m baselines.b3 train [--seed 0 --epochs 6 --budget 15]")

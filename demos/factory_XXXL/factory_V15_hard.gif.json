@@ -1,0 +1,31 @@
+{
+ "simulator": "factorysim",
+ "method": "V15_hard",
+ "instance": "hard_blocking_XXXL_test_002",
+ "family": "hard_blocking",
+ "size": "XXXL",
+ "robots": 12,
+ "orders": 56,
+ "stations": 57,
+ "noise": 1.0,
+ "seed": 9000,
+ "closed_loop": {
+  "success": true,
+  "reason": "ok",
+  "served": 56,
+  "goals": 56,
+  "makespan": 24864.172
+ },
+ "makespan_over_best_known": 1.086,
+ "replay": {
+  "success": false,
+  "makespan": null,
+  "failure": "stalled"
+ },
+ "best_known": 22890.755,
+ "due_reference": 22890.755,
+ "gif": "demos/factory_XXXL/factory_V15_hard.gif",
+ "gif_bytes": 964141,
+ "video": "demos/factory_XXXL/factory_V15_hard.mp4",
+ "video_speed": 13.5
+}

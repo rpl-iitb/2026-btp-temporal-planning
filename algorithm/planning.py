@@ -15,7 +15,8 @@ from contextlib import contextmanager
 from dataclasses import dataclass, field
 from typing import Optional
 
-from pddl_generator.planners import TemporalPlan, _last_plan, binary, validate_plan
+from .pddlkit.plan import TemporalPlan
+from .pddlkit.planners import _last_plan, binary, validate_plan
 
 
 # ==================== Budget and planner calls ===================================================

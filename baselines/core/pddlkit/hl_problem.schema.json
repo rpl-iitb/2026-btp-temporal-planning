@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "High-level temporal planning problem (T-iFLAX)",
+  "type": "object",
+  "required": ["schema_version", "instance_id", "benchmark", "domain", "objects", "init", "goals", "metric", "provenance"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "instance_id": {"type": "string", "pattern": "^[a-z][a-z0-9_\\-]*$"},
+    "benchmark": {"type": "string"},
+    "domain": {"type": "string"},
+    "objects": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["name", "type"], "additionalProperties": false,
+        "properties": {
+          "name": {"type": "string", "pattern": "^[a-z][a-z0-9_\\-]*$"},
+          "type": {"type": "string"},
+          "attrs": {"type": "object"}
+        }
+      }
+    },
+    "init": {
+      "type": "object", "required": ["facts", "fluents"], "additionalProperties": false,
+      "properties": {
+        "facts": {"type": "array", "items": {"$ref": "#/$defs/fact"}},
+        "fluents": {
+          "type": "array",
+          "items": {
+            "type": "object", "required": ["function", "args", "value"], "additionalProperties": false,
+            "properties": {
+              "function": {"type": "string"},
+              "args": {"type": "array", "items": {"type": "string"}},
+              "value": {"type": "number"}
+            }
+          }
+        }
+      }
+    },
+    "timed_literals": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["time", "fact"], "additionalProperties": false,
+        "properties": {
+          "time": {"type": "number", "exclusiveMinimum": 0},
+          "fact": {"$ref": "#/$defs/fact"},
+          "value": {"type": "boolean"}
+        }
+      }
+    },
+    "goals": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "required": ["fact"], "additionalProperties": false,
+        "properties": {
+          "fact": {"$ref": "#/$defs/fact"},
+          "deadline": {"type": ["number", "null"], "exclusiveMinimum": 0}
+        }
+      }
+    },
+    "metric": {"enum": ["makespan"]},
+    "annotations": {"type": "object"},
+    "provenance": {"type": "object"}
+  },
+  "$defs": {
+    "fact": {"type": "array", "minItems": 1, "items": {"type": "string"}}
+  }
+}

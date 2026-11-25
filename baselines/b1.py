@@ -1,5 +1,11 @@
-"""B1: POPF on the full temporal task (no object selection)."""
-from algorithm.planning import attempt
+"""B1: POPF on the full temporal task (no object selection).
+
+What it does: writes the whole problem as PDDL 2.1 and runs POPF on it with the full time budget; the plan is
+VAL-checked on the full task. The plain temporal-planner reference every object-selection method must beat.
+Needs: an instance (domain spec + HL problem) and POPF / VAL (TIFLAX_TOOLS). No training, no domain code.
+Earlier result (pre-final Overcooked-AI benchmark, 60 stress kitchens, 30 s): 2 / 60 solved.
+"""
+from .core.planning import attempt
 
 from .adapter import RunContext, plan_to_literals, run_result
 

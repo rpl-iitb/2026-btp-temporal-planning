@@ -1,0 +1,174 @@
+{
+ "model": {
+  "n_node": 57,
+  "n_edge": 154,
+  "n_global": 4,
+  "heads": 4,
+  "hidden": 16,
+  "steps": 3,
+  "aggregate": "sum"
+ },
+ "vocab": {
+  "types": [
+   "board",
+   "cook",
+   "count",
+   "counter",
+   "crate",
+   "dropoff",
+   "ingredient",
+   "object",
+   "order",
+   "plate",
+   "pose",
+   "pot",
+   "rack",
+   "recipe",
+   "serving",
+   "sink",
+   "station",
+   "surface",
+   "tile"
+  ],
+  "unary": [
+   "clear",
+   "free",
+   "hand-empty",
+   "idle",
+   "is-zero",
+   "open",
+   "pending",
+   "plate-clean",
+   "plate-dirty",
+   "pot-dirty",
+   "pot-idle",
+   "served"
+  ],
+  "unary_fn": [
+   "burn-window",
+   "chop-steps",
+   "cook-steps",
+   "eat-steps",
+   "scrub-steps",
+   "wash-steps"
+  ],
+  "n_edge": 154,
+  "temporal": true
+ },
+ "temperature": [
+  1.0,
+  1.0,
+  1.0,
+  1.0
+ ],
+ "combine": "v5",
+ "weights": [
+  1.0,
+  1.0
+ ],
+ "history": [
+  {
+   "epoch": 5,
+   "val": {
+    "loss": 0.43081062932809194,
+    "solve_acc": 0.9333333333333333,
+    "time_mae": 1.2755952703012168
+   }
+  },
+  {
+   "epoch": 10,
+   "val": {
+    "loss": 0.3273259085913499,
+    "solve_acc": 0.9333333333333333,
+    "time_mae": 1.2853232366835246
+   }
+  },
+  {
+   "epoch": 15,
+   "val": {
+    "loss": 0.3301499515771866,
+    "solve_acc": 0.9666666666666667,
+    "time_mae": 1.267268145525897
+   }
+  },
+  {
+   "epoch": 20,
+   "val": {
+    "loss": 0.3456051483750343,
+    "solve_acc": 0.9666666666666667,
+    "time_mae": 1.2155475478241409
+   }
+  },
+  {
+   "epoch": 25,
+   "val": {
+    "loss": 0.30628804030517737,
+    "solve_acc": 0.9666666666666667,
+    "time_mae": 1.1560751167088508
+   }
+  },
+  {
+   "epoch": 30,
+   "val": {
+    "loss": 0.3285707133511702,
+    "solve_acc": 0.9166666666666666,
+    "time_mae": 1.228230361201337
+   }
+  },
+  {
+   "epoch": 35,
+   "val": {
+    "loss": 0.29938952475786207,
+    "solve_acc": 0.9666666666666667,
+    "time_mae": 1.1171778695786825
+   }
+  },
+  {
+   "epoch": 40,
+   "val": {
+    "loss": 0.3011804338544607,
+    "solve_acc": 0.9666666666666667,
+    "time_mae": 1.0546051123675901
+   }
+  },
+  {
+   "epoch": 45,
+   "val": {
+    "loss": 0.3020534509172042,
+    "solve_acc": 0.9,
+    "time_mae": 0.99505638577128
+   }
+  },
+  {
+   "epoch": 50,
+   "val": {
+    "loss": 0.2895925366630157,
+    "solve_acc": 0.95,
+    "time_mae": 0.9875754987560033
+   }
+  },
+  {
+   "epoch": 55,
+   "val": {
+    "loss": 0.2928928270936012,
+    "solve_acc": 0.9166666666666666,
+    "time_mae": 1.0181275396915257
+   }
+  },
+  {
+   "epoch": 60,
+   "val": {
+    "loss": 0.2861269089082877,
+    "solve_acc": 0.95,
+    "time_mae": 0.9351313325326032
+   }
+  }
+ ],
+ "saved": "2026-11-22 09:09:53",
+ "method": "V5",
+ "kind": "set scorer",
+ "train_seconds": 6558.1,
+ "n_train_sets": 300,
+ "n_val_sets": 60,
+ "best_val_loss": 0.2861269089082877
+}

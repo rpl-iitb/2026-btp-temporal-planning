@@ -1,0 +1,1218 @@
+v2_test_60s_seed0: 1140 runs to do (0 done)
+  ! B2 v2_test_l_000 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_l_000 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_l_000                60s            solved=False first=-       ms=None      kept=None/73 calls=1 branch=None
+  V1    v2_test_l_000                60s            solved=False first=-       ms=None      kept=None/73 calls=11 branch=None
+  V2    v2_test_l_000                60s            solved=False first=-       ms=None      kept=None/73 calls=10 branch=None
+  V2.1  v2_test_l_000                60s            solved=False first=-       ms=None      kept=None/73 calls=11 branch=None
+  V3    v2_test_l_000                60s            solved=False first=-       ms=None      kept=None/73 calls=11 branch=None
+  V3U   v2_test_l_000                60s            solved=False first=-       ms=None      kept=None/73 calls=6 branch=None
+  V3.1  v2_test_l_000                60s            solved=False first=-       ms=None      kept=None/73 calls=11 branch=None
+  V4    v2_test_l_000                60s            solved=False first=-       ms=None      kept=None/73 calls=6 branch=None
+  V4.1  v2_test_l_000                60s            solved=False first=-       ms=None      kept=None/73 calls=6 branch=None
+  V4.2  v2_test_l_000                60s            solved=False first=-       ms=None      kept=None/73 calls=6 branch=None
+  V8    v2_test_l_000                60s            solved=True  first=0.36    ms=380.139   kept=45/73 calls=0 branch=scheduler
+  V8S   v2_test_l_000                60s            solved=True  first=0.07    ms=369.136   kept=42/73 calls=0 branch=scheduler
+  V8.2  v2_test_l_000                60s            solved=True  first=0.37    ms=380.139   kept=45/73 calls=0 branch=scheduler
+  V9    v2_test_l_000                60s            solved=True  first=0.37    ms=367.14    kept=45/73 calls=0 branch=rl
+  V5    v2_test_l_000                60s            solved=False first=-       ms=None      kept=None/73 calls=3 branch=None
+  V10   v2_test_l_000                60s            solved=False first=-       ms=None      kept=None/73 calls=0 branch=None
+  V11   v2_test_l_000                60s            solved=False first=-       ms=None      kept=None/73 calls=0 branch=None
+  ! B2 v2_test_l_001 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_l_001 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_l_001                60s            solved=False first=-       ms=None      kept=None/74 calls=1 branch=None
+  V1    v2_test_l_001                60s            solved=True  first=1.88    ms=166.066   kept=34/74 calls=25 branch=expansion
+  V2    v2_test_l_001                60s            solved=True  first=2.47    ms=166.066   kept=34/74 calls=25 branch=expansion
+  V2.1  v2_test_l_001                60s            solved=True  first=2.05    ms=166.066   kept=34/74 calls=25 branch=expansion
+  V3    v2_test_l_001                60s            solved=True  first=2.06    ms=166.066   kept=34/74 calls=25 branch=expansion
+  V3U   v2_test_l_001                60s            solved=True  first=1.86    ms=166.066   kept=34/74 calls=25 branch=expansion
+  V3.1  v2_test_l_001                60s            solved=True  first=2.43    ms=166.066   kept=34/74 calls=26 branch=expansion
+  V4    v2_test_l_001                60s            solved=True  first=1.88    ms=166.066   kept=34/74 calls=25 branch=expansion
+  V4.1  v2_test_l_001                60s            solved=True  first=1.85    ms=166.066   kept=34/74 calls=25 branch=expansion
+  V4.2  v2_test_l_001                60s            solved=True  first=1.94    ms=166.066   kept=34/74 calls=25 branch=expansion
+  V8    v2_test_l_001                60s            solved=True  first=0.30    ms=172.066   kept=35/74 calls=0 branch=scheduler
+  V8S   v2_test_l_001                60s            solved=True  first=0.07    ms=172.066   kept=35/74 calls=0 branch=scheduler
+  V8.2  v2_test_l_001                60s            solved=True  first=0.39    ms=172.066   kept=35/74 calls=0 branch=scheduler
+  V5    v2_test_l_001                60s            solved=True  first=2.20    ms=167.066   kept=31/74 calls=6 branch=expansion
+  V9    v2_test_l_001                60s            solved=True  first=0.39    ms=173.067   kept=35/74 calls=0 branch=rl
+  V10   v2_test_l_001                60s            solved=False first=-       ms=None      kept=None/74 calls=0 branch=None
+  B1    v2_test_l_002                60s            solved=False first=-       ms=None      kept=None/90 calls=1 branch=None
+  V11   v2_test_l_001                60s            solved=False first=-       ms=None      kept=None/74 calls=0 branch=None
+  ! B2 v2_test_l_002 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_l_002 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_l_002                60s            solved=False first=-       ms=None      kept=None/90 calls=12 branch=None
+  V2    v2_test_l_002                60s            solved=False first=-       ms=None      kept=None/90 calls=10 branch=None
+  V2.1  v2_test_l_002                60s            solved=False first=-       ms=None      kept=None/90 calls=11 branch=None
+  V3    v2_test_l_002                60s            solved=False first=-       ms=None      kept=None/90 calls=12 branch=None
+  V3U   v2_test_l_002                60s            solved=False first=-       ms=None      kept=None/90 calls=6 branch=None
+  V3.1  v2_test_l_002                60s            solved=False first=-       ms=None      kept=None/90 calls=12 branch=None
+  V4    v2_test_l_002                60s            solved=False first=-       ms=None      kept=None/90 calls=6 branch=None
+  V4.1  v2_test_l_002                60s            solved=False first=-       ms=None      kept=None/90 calls=6 branch=None
+  V4.2  v2_test_l_002                60s            solved=False first=-       ms=None      kept=None/90 calls=6 branch=None
+  V8    v2_test_l_002                60s            solved=True  first=0.79    ms=384.141   kept=47/90 calls=0 branch=scheduler
+  V8S   v2_test_l_002                60s            solved=True  first=0.07    ms=390.143   kept=50/90 calls=0 branch=scheduler
+  V8.2  v2_test_l_002                60s            solved=True  first=2.66    ms=390.143   kept=50/90 calls=0 branch=scheduler
+  V5    v2_test_l_002                60s            solved=False first=-       ms=None      kept=None/90 calls=3 branch=None
+  V9    v2_test_l_002                60s            solved=True  first=1.07    ms=415.143   kept=44/90 calls=0 branch=rl
+  V10   v2_test_l_002                60s            solved=False first=-       ms=None      kept=None/90 calls=0 branch=None
+  B1    v2_test_l_003                60s            solved=False first=-       ms=None      kept=None/75 calls=1 branch=None
+  V11   v2_test_l_002                60s            solved=False first=-       ms=None      kept=None/90 calls=0 branch=None
+  ! B2 v2_test_l_003 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_l_003 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_l_003                60s            solved=False first=-       ms=None      kept=None/75 calls=12 branch=None
+  V2    v2_test_l_003                60s            solved=False first=-       ms=None      kept=None/75 calls=10 branch=None
+  V2.1  v2_test_l_003                60s            solved=False first=-       ms=None      kept=None/75 calls=11 branch=None
+  V3    v2_test_l_003                60s            solved=False first=-       ms=None      kept=None/75 calls=12 branch=None
+  V3U   v2_test_l_003                60s            solved=False first=-       ms=None      kept=None/75 calls=6 branch=None
+  V3.1  v2_test_l_003                60s            solved=False first=-       ms=None      kept=None/75 calls=12 branch=None
+  V4    v2_test_l_003                60s            solved=False first=-       ms=None      kept=None/75 calls=6 branch=None
+  V4.1  v2_test_l_003                60s            solved=False first=-       ms=None      kept=None/75 calls=6 branch=None
+  V4.2  v2_test_l_003                60s            solved=False first=-       ms=None      kept=None/75 calls=6 branch=None
+  V8    v2_test_l_003                60s            solved=True  first=0.45    ms=381.141   kept=45/75 calls=0 branch=scheduler
+  V8S   v2_test_l_003                60s            solved=True  first=0.07    ms=370.137   kept=51/75 calls=0 branch=scheduler
+  V8.2  v2_test_l_003                60s            solved=True  first=0.46    ms=389.144   kept=48/75 calls=0 branch=scheduler
+  V9    v2_test_l_003                60s            solved=True  first=0.44    ms=399.147   kept=45/75 calls=0 branch=rl
+  V5    v2_test_l_003                60s            solved=False first=-       ms=None      kept=None/75 calls=3 branch=None
+  V10   v2_test_l_003                60s            solved=False first=-       ms=None      kept=None/75 calls=0 branch=None
+  V11   v2_test_l_003                60s            solved=False first=-       ms=None      kept=None/75 calls=0 branch=None
+  ! B2 v2_test_l_004 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_l_004 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_l_004                60s            solved=False first=-       ms=None      kept=None/80 calls=1 branch=None
+  V1    v2_test_l_004                60s            solved=False first=-       ms=None      kept=None/80 calls=12 branch=None
+  V2    v2_test_l_004                60s            solved=False first=-       ms=None      kept=None/80 calls=10 branch=None
+  V2.1  v2_test_l_004                60s            solved=False first=-       ms=None      kept=None/80 calls=11 branch=None
+  V3    v2_test_l_004                60s            solved=False first=-       ms=None      kept=None/80 calls=12 branch=None
+  V3U   v2_test_l_004                60s            solved=False first=-       ms=None      kept=None/80 calls=6 branch=None
+  V3.1  v2_test_l_004                60s            solved=False first=-       ms=None      kept=None/80 calls=12 branch=None
+  V4    v2_test_l_004                60s            solved=False first=-       ms=None      kept=None/80 calls=6 branch=None
+  V4.1  v2_test_l_004                60s            solved=False first=-       ms=None      kept=None/80 calls=6 branch=None
+  V4.2  v2_test_l_004                60s            solved=False first=-       ms=None      kept=None/80 calls=6 branch=None
+  V8    v2_test_l_004                60s            solved=True  first=0.62    ms=407.143   kept=43/80 calls=0 branch=scheduler
+  V8S   v2_test_l_004                60s            solved=True  first=0.07    ms=407.143   kept=43/80 calls=0 branch=scheduler
+  V8.2  v2_test_l_004                60s            solved=True  first=0.49    ms=417.14    kept=43/80 calls=0 branch=scheduler
+  V9    v2_test_l_004                60s            solved=True  first=0.75    ms=393.144   kept=43/80 calls=0 branch=rl
+  V5    v2_test_l_004                60s            solved=False first=-       ms=None      kept=None/80 calls=3 branch=None
+  V10   v2_test_l_004                60s            solved=False first=-       ms=None      kept=None/80 calls=0 branch=None
+  V11   v2_test_l_004                60s            solved=False first=-       ms=None      kept=None/80 calls=0 branch=None
+  ! B2 v2_test_l_005 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_l_005 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_l_005                60s            solved=False first=-       ms=None      kept=None/75 calls=1 branch=None
+  V1    v2_test_l_005                60s            solved=True  first=1.84    ms=156.063   kept=38/75 calls=25 branch=expansion
+  V2    v2_test_l_005                60s            solved=True  first=2.37    ms=156.063   kept=38/75 calls=25 branch=expansion
+  V2.1  v2_test_l_005                60s            solved=True  first=1.98    ms=156.063   kept=38/75 calls=25 branch=expansion
+  V3    v2_test_l_005                60s            solved=True  first=2.36    ms=156.063   kept=38/75 calls=25 branch=expansion
+  V3U   v2_test_l_005                60s            solved=True  first=1.86    ms=156.063   kept=38/75 calls=25 branch=expansion
+  V3.1  v2_test_l_005                60s            solved=True  first=2.38    ms=156.063   kept=38/75 calls=26 branch=expansion
+  V4    v2_test_l_005                60s            solved=True  first=1.96    ms=156.063   kept=38/75 calls=25 branch=expansion
+  V4.1  v2_test_l_005                60s            solved=True  first=1.95    ms=156.063   kept=38/75 calls=25 branch=expansion
+  V4.2  v2_test_l_005                60s            solved=True  first=1.48    ms=156.063   kept=38/75 calls=25 branch=expansion
+  V8    v2_test_l_005                60s            solved=True  first=0.32    ms=172.065   kept=41/75 calls=0 branch=scheduler
+  V8S   v2_test_l_005                60s            solved=True  first=0.07    ms=173.066   kept=40/75 calls=0 branch=scheduler
+  V8.2  v2_test_l_005                60s            solved=True  first=0.41    ms=172.065   kept=41/75 calls=0 branch=scheduler
+  V5    v2_test_l_005                60s            solved=True  first=2.20    ms=156.063   kept=38/75 calls=6 branch=expansion
+  V10   v2_test_l_005                60s            solved=True  first=39.25   ms=320.077   kept=None/75 calls=0 branch=search
+  V9    v2_test_l_005                60s            solved=True  first=2.15    ms=157.063   kept=43/75 calls=0 branch=rl
+  V11   v2_test_l_005                60s            solved=False first=-       ms=None      kept=None/75 calls=0 branch=None
+  B1    v2_test_l_006                60s            solved=False first=-       ms=None      kept=None/71 calls=1 branch=None
+  ! B2 v2_test_l_006 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_l_006 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_l_006                60s            solved=False first=-       ms=None      kept=None/71 calls=12 branch=None
+  V2    v2_test_l_006                60s            solved=False first=-       ms=None      kept=None/71 calls=10 branch=None
+  V2.1  v2_test_l_006                60s            solved=False first=-       ms=None      kept=None/71 calls=11 branch=None
+  V3    v2_test_l_006                60s            solved=False first=-       ms=None      kept=None/71 calls=12 branch=None
+  V3U   v2_test_l_006                60s            solved=True  first=28.21   ms=232.067   kept=44/71 calls=30 branch=rollback
+  V3.1  v2_test_l_006                60s            solved=False first=-       ms=None      kept=None/71 calls=12 branch=None
+  V4    v2_test_l_006                60s            solved=True  first=31.74   ms=232.067   kept=44/71 calls=30 branch=rollback
+  V4.1  v2_test_l_006                60s            solved=True  first=32.65   ms=232.067   kept=44/71 calls=30 branch=rollback
+  V4.2  v2_test_l_006                60s            solved=True  first=31.42   ms=232.067   kept=44/71 calls=30 branch=rollback
+  V8    v2_test_l_006                60s            solved=True  first=0.60    ms=211.07    kept=44/71 calls=0 branch=scheduler
+  V8S   v2_test_l_006                60s            solved=True  first=0.07    ms=211.07    kept=44/71 calls=0 branch=scheduler
+  V8.2  v2_test_l_006                60s            solved=True  first=0.60    ms=211.07    kept=44/71 calls=0 branch=scheduler
+  V9    v2_test_l_006                60s            solved=True  first=0.60    ms=213.074   kept=38/71 calls=0 branch=rl
+  V5    v2_test_l_006                60s            solved=False first=-       ms=None      kept=None/71 calls=3 branch=None
+  V10   v2_test_l_006                60s            solved=True  first=41.31   ms=337.076   kept=None/71 calls=0 branch=search
+  V11   v2_test_l_006                60s            solved=False first=-       ms=None      kept=None/71 calls=0 branch=None
+  ! B2 v2_test_l_007 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_l_007                60s            solved=False first=-       ms=None      kept=None/70 calls=1 branch=None
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_l_007 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_l_007                60s            solved=False first=-       ms=None      kept=None/70 calls=11 branch=None
+  V2    v2_test_l_007                60s            solved=False first=-       ms=None      kept=None/70 calls=10 branch=None
+  V2.1  v2_test_l_007                60s            solved=False first=-       ms=None      kept=None/70 calls=11 branch=None
+  V3    v2_test_l_007                60s            solved=False first=-       ms=None      kept=None/70 calls=11 branch=None
+  V3U   v2_test_l_007                60s            solved=False first=-       ms=None      kept=None/70 calls=6 branch=None
+  V3.1  v2_test_l_007                60s            solved=False first=-       ms=None      kept=None/70 calls=11 branch=None
+  V4    v2_test_l_007                60s            solved=False first=-       ms=None      kept=None/70 calls=6 branch=None
+  V4.1  v2_test_l_007                60s            solved=False first=-       ms=None      kept=None/70 calls=6 branch=None
+  V4.2  v2_test_l_007                60s            solved=False first=-       ms=None      kept=None/70 calls=6 branch=None
+  V5    v2_test_l_007                60s            solved=False first=-       ms=None      kept=None/70 calls=3 branch=None
+  V8    v2_test_l_007                60s            solved=True  first=0.55    ms=457.14    kept=45/70 calls=0 branch=scheduler
+  V8S   v2_test_l_007                60s            solved=True  first=0.07    ms=457.14    kept=45/70 calls=0 branch=scheduler
+  V8.2  v2_test_l_007                60s            solved=True  first=0.63    ms=457.14    kept=45/70 calls=0 branch=scheduler
+  V9    v2_test_l_007                60s            solved=True  first=0.30    ms=453.139   kept=45/70 calls=0 branch=rl
+  V10   v2_test_l_007                60s            solved=False first=-       ms=None      kept=None/70 calls=0 branch=None
+  V11   v2_test_l_007                60s            solved=False first=-       ms=None      kept=None/70 calls=0 branch=None
+  B1    v2_test_l_008                60s            solved=False first=-       ms=None      kept=None/66 calls=1 branch=None
+  ! B2 v2_test_l_008 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_l_008 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_l_008                60s            solved=False first=-       ms=None      kept=None/66 calls=11 branch=None
+  V2    v2_test_l_008                60s            solved=False first=-       ms=None      kept=None/66 calls=10 branch=None
+  V2.1  v2_test_l_008                60s            solved=False first=-       ms=None      kept=None/66 calls=11 branch=None
+  V3    v2_test_l_008                60s            solved=False first=-       ms=None      kept=None/66 calls=11 branch=None
+  V3U   v2_test_l_008                60s            solved=False first=-       ms=None      kept=None/66 calls=6 branch=None
+  V3.1  v2_test_l_008                60s            solved=False first=-       ms=None      kept=None/66 calls=11 branch=None
+  V4    v2_test_l_008                60s            solved=False first=-       ms=None      kept=None/66 calls=6 branch=None
+  V4.1  v2_test_l_008                60s            solved=False first=-       ms=None      kept=None/66 calls=6 branch=None
+  V4.2  v2_test_l_008                60s            solved=False first=-       ms=None      kept=None/66 calls=6 branch=None
+  V8    v2_test_l_008                60s            solved=True  first=0.25    ms=249.102   kept=41/66 calls=0 branch=scheduler
+  V8S   v2_test_l_008                60s            solved=True  first=0.07    ms=249.102   kept=41/66 calls=0 branch=scheduler
+  V8.2  v2_test_l_008                60s            solved=True  first=0.25    ms=249.102   kept=41/66 calls=0 branch=scheduler
+  V9    v2_test_l_008                60s            solved=True  first=0.25    ms=245.099   kept=41/66 calls=0 branch=rl
+  V5    v2_test_l_008                60s            solved=False first=-       ms=None      kept=None/66 calls=3 branch=None
+  V10   v2_test_l_008                60s            solved=False first=-       ms=None      kept=None/66 calls=0 branch=None
+  V11   v2_test_l_008                60s            solved=False first=-       ms=None      kept=None/66 calls=0 branch=None
+  ! B2 v2_test_l_009 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_l_009 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_l_009                60s            solved=False first=-       ms=None      kept=None/65 calls=1 branch=None
+  V1    v2_test_l_009                60s            solved=False first=-       ms=None      kept=None/65 calls=12 branch=None
+  V2    v2_test_l_009                60s            solved=False first=-       ms=None      kept=None/65 calls=10 branch=None
+  V2.1  v2_test_l_009                60s            solved=False first=-       ms=None      kept=None/65 calls=11 branch=None
+  V3    v2_test_l_009                60s            solved=False first=-       ms=None      kept=None/65 calls=12 branch=None
+  V3U   v2_test_l_009                60s            solved=False first=-       ms=None      kept=None/65 calls=6 branch=None
+  V3.1  v2_test_l_009                60s            solved=False first=-       ms=None      kept=None/65 calls=12 branch=None
+  V4    v2_test_l_009                60s            solved=False first=-       ms=None      kept=None/65 calls=6 branch=None
+  V4.1  v2_test_l_009                60s            solved=False first=-       ms=None      kept=None/65 calls=6 branch=None
+  V4.2  v2_test_l_009                60s            solved=False first=-       ms=None      kept=None/65 calls=6 branch=None
+  V8    v2_test_l_009                60s            solved=True  first=0.50    ms=246.098   kept=40/65 calls=0 branch=scheduler
+  V8S   v2_test_l_009                60s            solved=True  first=0.07    ms=246.098   kept=40/65 calls=0 branch=scheduler
+  V8.2  v2_test_l_009                60s            solved=True  first=0.50    ms=246.098   kept=40/65 calls=0 branch=scheduler
+  V9    v2_test_l_009                60s            solved=True  first=0.50    ms=243.101   kept=40/65 calls=0 branch=rl
+  V5    v2_test_l_009                60s            solved=False first=-       ms=None      kept=None/65 calls=3 branch=None
+  V10   v2_test_l_009                60s            solved=False first=-       ms=None      kept=None/65 calls=0 branch=None
+  V11   v2_test_l_009                60s            solved=False first=-       ms=None      kept=None/65 calls=0 branch=None
+  ! B2 v2_test_l_010 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_l_010 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_l_010                60s            solved=False first=-       ms=None      kept=None/76 calls=1 branch=None
+  V1    v2_test_l_010                60s            solved=False first=-       ms=None      kept=None/76 calls=12 branch=None
+  V2    v2_test_l_010                60s            solved=False first=-       ms=None      kept=None/76 calls=11 branch=None
+  V2.1  v2_test_l_010                60s            solved=False first=-       ms=None      kept=None/76 calls=11 branch=None
+  V3    v2_test_l_010                60s            solved=False first=-       ms=None      kept=None/76 calls=12 branch=None
+  V3U   v2_test_l_010                60s            solved=False first=-       ms=None      kept=None/76 calls=6 branch=None
+  V3.1  v2_test_l_010                60s            solved=False first=-       ms=None      kept=None/76 calls=12 branch=None
+  V4    v2_test_l_010                60s            solved=False first=-       ms=None      kept=None/76 calls=6 branch=None
+  V4.1  v2_test_l_010                60s            solved=False first=-       ms=None      kept=None/76 calls=6 branch=None
+  V4.2  v2_test_l_010                60s            solved=False first=-       ms=None      kept=None/76 calls=6 branch=None
+  V8    v2_test_l_010                60s            solved=True  first=0.43    ms=181.073   kept=37/76 calls=0 branch=scheduler
+  V8S   v2_test_l_010                60s            solved=True  first=0.07    ms=187.073   kept=39/76 calls=0 branch=scheduler
+  V8.2  v2_test_l_010                60s            solved=True  first=0.43    ms=181.073   kept=37/76 calls=0 branch=scheduler
+  V9    v2_test_l_010                60s            solved=True  first=0.43    ms=179.071   kept=39/76 calls=0 branch=rl
+  V5    v2_test_l_010                60s            solved=False first=-       ms=None      kept=None/76 calls=3 branch=None
+  V10   v2_test_l_010                60s            solved=True  first=52.35   ms=459.092   kept=None/76 calls=0 branch=search
+  V11   v2_test_l_010                60s            solved=False first=-       ms=None      kept=None/76 calls=0 branch=None
+  ! B2 v2_test_l_011 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_l_011 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_l_011                60s            solved=False first=-       ms=None      kept=None/78 calls=1 branch=None
+  V1    v2_test_l_011                60s            solved=False first=-       ms=None      kept=None/78 calls=12 branch=None
+  V2    v2_test_l_011                60s            solved=False first=-       ms=None      kept=None/78 calls=10 branch=None
+  V2.1  v2_test_l_011                60s            solved=False first=-       ms=None      kept=None/78 calls=11 branch=None
+  V3    v2_test_l_011                60s            solved=False first=-       ms=None      kept=None/78 calls=12 branch=None
+  V3U   v2_test_l_011                60s            solved=False first=-       ms=None      kept=None/78 calls=6 branch=None
+  V3.1  v2_test_l_011                60s            solved=False first=-       ms=None      kept=None/78 calls=12 branch=None
+  V4    v2_test_l_011                60s            solved=False first=-       ms=None      kept=None/78 calls=6 branch=None
+  V4.1  v2_test_l_011                60s            solved=False first=-       ms=None      kept=None/78 calls=6 branch=None
+  V4.2  v2_test_l_011                60s            solved=False first=-       ms=None      kept=None/78 calls=6 branch=None
+  V8    v2_test_l_011                60s            solved=True  first=0.51    ms=201.072   kept=41/78 calls=0 branch=scheduler
+  V8S   v2_test_l_011                60s            solved=True  first=0.07    ms=201.072   kept=41/78 calls=0 branch=scheduler
+  V8.2  v2_test_l_011                60s            solved=True  first=0.71    ms=201.072   kept=41/78 calls=0 branch=scheduler
+  V9    v2_test_l_011                60s            solved=True  first=0.77    ms=219.077   kept=44/78 calls=0 branch=rl
+  V5    v2_test_l_011                60s            solved=False first=-       ms=None      kept=None/78 calls=3 branch=None
+  V10   v2_test_l_011                60s            solved=False first=-       ms=None      kept=None/78 calls=0 branch=None
+  V11   v2_test_l_011                60s            solved=True  first=45.86   ms=4850.708  kept=None/78 calls=0 branch=search
+  ! B2 v2_test_l_012 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_l_012 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_l_012                60s            solved=False first=-       ms=None      kept=None/62 calls=1 branch=None
+  V1    v2_test_l_012                60s            solved=False first=-       ms=None      kept=None/62 calls=12 branch=None
+  V2    v2_test_l_012                60s            solved=False first=-       ms=None      kept=None/62 calls=11 branch=None
+  V2.1  v2_test_l_012                60s            solved=False first=-       ms=None      kept=None/62 calls=11 branch=None
+  V3    v2_test_l_012                60s            solved=False first=-       ms=None      kept=None/62 calls=12 branch=None
+  V3U   v2_test_l_012                60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V3.1  v2_test_l_012                60s            solved=False first=-       ms=None      kept=None/62 calls=12 branch=None
+  V4    v2_test_l_012                60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V4.1  v2_test_l_012                60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V4.2  v2_test_l_012                60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V8    v2_test_l_012                60s            solved=True  first=0.23    ms=158.058   kept=31/62 calls=0 branch=scheduler
+  V8S   v2_test_l_012                60s            solved=True  first=0.07    ms=158.058   kept=31/62 calls=0 branch=scheduler
+  V8.2  v2_test_l_012                60s            solved=True  first=0.23    ms=158.058   kept=31/62 calls=0 branch=scheduler
+  V9    v2_test_l_012                60s            solved=True  first=0.23    ms=158.058   kept=31/62 calls=0 branch=rl
+  V5    v2_test_l_012                60s            solved=False first=-       ms=None      kept=None/62 calls=3 branch=None
+  V10   v2_test_l_012                60s            solved=True  first=25.48   ms=268.071   kept=None/62 calls=0 branch=search
+  V11   v2_test_l_012                60s            solved=False first=-       ms=None      kept=None/62 calls=0 branch=None
+  ! B2 v2_test_l_013 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_l_013                60s            solved=False first=-       ms=None      kept=None/72 calls=1 branch=None
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_l_013 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_l_013                60s            solved=True  first=18.59   ms=215.071   kept=68/72 calls=10 branch=expansion
+  V2    v2_test_l_013                60s            solved=False first=-       ms=None      kept=None/72 calls=10 branch=None
+  V2.1  v2_test_l_013                60s            solved=False first=-       ms=None      kept=None/72 calls=11 branch=None
+  V3    v2_test_l_013                60s            solved=True  first=17.31   ms=215.071   kept=68/72 calls=10 branch=expansion
+  V3U   v2_test_l_013                60s            solved=True  first=28.98   ms=262.059   kept=47/72 calls=30 branch=rollback
+  V3.1  v2_test_l_013                60s            solved=True  first=17.27   ms=215.071   kept=68/72 calls=11 branch=expansion
+  V4    v2_test_l_013                60s            solved=True  first=31.55   ms=262.059   kept=47/72 calls=30 branch=rollback
+  V4.1  v2_test_l_013                60s            solved=True  first=33.75   ms=262.059   kept=47/72 calls=30 branch=rollback
+  V4.2  v2_test_l_013                60s            solved=True  first=30.36   ms=262.059   kept=47/72 calls=30 branch=rollback
+  V8    v2_test_l_013                60s            solved=True  first=0.37    ms=204.064   kept=39/72 calls=0 branch=scheduler
+  V8S   v2_test_l_013                60s            solved=True  first=0.07    ms=204.064   kept=39/72 calls=0 branch=scheduler
+  V8.2  v2_test_l_013                60s            solved=True  first=0.37    ms=204.064   kept=39/72 calls=0 branch=scheduler
+  V9    v2_test_l_013                60s            solved=True  first=0.37    ms=207.068   kept=36/72 calls=0 branch=rl
+  V5    v2_test_l_013                60s            solved=False first=-       ms=None      kept=None/72 calls=3 branch=None
+  V10   v2_test_l_013                60s            solved=True  first=57.18   ms=264.072   kept=None/72 calls=0 branch=search
+  V11   v2_test_l_013                60s            solved=False first=-       ms=None      kept=None/72 calls=0 branch=None
+  ! B2 v2_test_l_014 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_l_014 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_l_014                60s            solved=False first=-       ms=None      kept=None/66 calls=1 branch=None
+  V1    v2_test_l_014                60s            solved=False first=-       ms=None      kept=None/66 calls=12 branch=None
+  V2    v2_test_l_014                60s            solved=False first=-       ms=None      kept=None/66 calls=10 branch=None
+  V2.1  v2_test_l_014                60s            solved=False first=-       ms=None      kept=None/66 calls=11 branch=None
+  V3    v2_test_l_014                60s            solved=False first=-       ms=None      kept=None/66 calls=12 branch=None
+  V3U   v2_test_l_014                60s            solved=False first=-       ms=None      kept=None/66 calls=6 branch=None
+  V3.1  v2_test_l_014                60s            solved=False first=-       ms=None      kept=None/66 calls=12 branch=None
+  V4    v2_test_l_014                60s            solved=False first=-       ms=None      kept=None/66 calls=6 branch=None
+  V4.1  v2_test_l_014                60s            solved=False first=-       ms=None      kept=None/66 calls=6 branch=None
+  V4.2  v2_test_l_014                60s            solved=False first=-       ms=None      kept=None/66 calls=6 branch=None
+  V8    v2_test_l_014                60s            solved=True  first=0.54    ms=162.065   kept=31/66 calls=0 branch=scheduler
+  V8S   v2_test_l_014                60s            solved=True  first=0.07    ms=162.065   kept=31/66 calls=0 branch=scheduler
+  V8.2  v2_test_l_014                60s            solved=True  first=0.54    ms=162.065   kept=31/66 calls=0 branch=scheduler
+  V9    v2_test_l_014                60s            solved=True  first=0.53    ms=162.065   kept=31/66 calls=0 branch=rl
+  V5    v2_test_l_014                60s            solved=False first=-       ms=None      kept=None/66 calls=3 branch=None
+  V10   v2_test_l_014                60s            solved=False first=-       ms=None      kept=None/66 calls=0 branch=None
+  V11   v2_test_l_014                60s            solved=False first=-       ms=None      kept=None/66 calls=0 branch=None
+  ! B2 v2_test_m_000 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_m_000 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_m_000                60s            solved=False first=-       ms=None      kept=None/54 calls=1 branch=None
+  V1    v2_test_m_000                60s            solved=False first=-       ms=None      kept=None/54 calls=12 branch=None
+  V2    v2_test_m_000                60s            solved=True  first=3.16    ms=154.064   kept=31/54 calls=25 branch=expansion
+  V2.1  v2_test_m_000                60s            solved=False first=-       ms=None      kept=None/54 calls=11 branch=None
+  V3    v2_test_m_000                60s            solved=False first=-       ms=None      kept=None/54 calls=12 branch=None
+  V3U   v2_test_m_000                60s            solved=True  first=33.67   ms=165.068   kept=34/54 calls=30 branch=rollback
+  V3.1  v2_test_m_000                60s            solved=False first=-       ms=None      kept=None/54 calls=12 branch=None
+  V4    v2_test_m_000                60s            solved=True  first=33.43   ms=165.068   kept=34/54 calls=30 branch=rollback
+  V4.1  v2_test_m_000                60s            solved=True  first=32.60   ms=165.068   kept=34/54 calls=30 branch=rollback
+  V4.2  v2_test_m_000                60s            solved=True  first=33.50   ms=165.068   kept=34/54 calls=30 branch=rollback
+  V8    v2_test_m_000                60s            solved=True  first=0.19    ms=139.061   kept=34/54 calls=0 branch=scheduler
+  V8S   v2_test_m_000                60s            solved=True  first=0.07    ms=141.061   kept=34/54 calls=0 branch=scheduler
+  V8.2  v2_test_m_000                60s            solved=True  first=0.19    ms=141.061   kept=34/54 calls=0 branch=scheduler
+  V9    v2_test_m_000                60s            solved=True  first=0.19    ms=140.062   kept=34/54 calls=0 branch=rl
+  V5    v2_test_m_000                60s            solved=False first=-       ms=None      kept=None/54 calls=3 branch=None
+  V10   v2_test_m_000                60s            solved=False first=-       ms=None      kept=None/54 calls=0 branch=None
+  V11   v2_test_m_000                60s            solved=False first=-       ms=None      kept=None/54 calls=0 branch=None
+  ! B2 v2_test_m_001 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_m_001                60s            solved=False first=-       ms=None      kept=None/59 calls=1 branch=None
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_m_001 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_m_001                60s            solved=False first=-       ms=None      kept=None/59 calls=12 branch=None
+  V2    v2_test_m_001                60s            solved=False first=-       ms=None      kept=None/59 calls=10 branch=None
+  V2.1  v2_test_m_001                60s            solved=False first=-       ms=None      kept=None/59 calls=11 branch=None
+  V3    v2_test_m_001                60s            solved=False first=-       ms=None      kept=None/59 calls=12 branch=None
+  V3U   v2_test_m_001                60s            solved=False first=-       ms=None      kept=None/59 calls=6 branch=None
+  V3.1  v2_test_m_001                60s            solved=False first=-       ms=None      kept=None/59 calls=12 branch=None
+  V4    v2_test_m_001                60s            solved=False first=-       ms=None      kept=None/59 calls=6 branch=None
+  V4.1  v2_test_m_001                60s            solved=False first=-       ms=None      kept=None/59 calls=6 branch=None
+  V4.2  v2_test_m_001                60s            solved=False first=-       ms=None      kept=None/59 calls=6 branch=None
+  V5    v2_test_m_001                60s            solved=False first=-       ms=None      kept=None/59 calls=3 branch=None
+  V8    v2_test_m_001                60s            solved=True  first=0.19    ms=181.071   kept=40/59 calls=0 branch=scheduler
+  V8S   v2_test_m_001                60s            solved=True  first=0.05    ms=176.073   kept=38/59 calls=0 branch=scheduler
+  V8.2  v2_test_m_001                60s            solved=True  first=0.26    ms=176.073   kept=38/59 calls=0 branch=scheduler
+  V10   v2_test_m_001                60s            solved=True  first=10.94   ms=269.085   kept=None/59 calls=0 branch=search
+  V9    v2_test_m_001                60s            solved=True  first=0.28    ms=158.065   kept=38/59 calls=0 branch=rl
+  V11   v2_test_m_001                60s            solved=False first=-       ms=None      kept=None/59 calls=0 branch=None
+  B1    v2_test_m_002                60s            solved=False first=-       ms=None      kept=None/61 calls=1 branch=None
+  ! B2 v2_test_m_002 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_m_002 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_m_002                60s            solved=False first=-       ms=None      kept=None/61 calls=11 branch=None
+  V2    v2_test_m_002                60s            solved=False first=-       ms=None      kept=None/61 calls=10 branch=None
+  V2.1  v2_test_m_002                60s            solved=False first=-       ms=None      kept=None/61 calls=11 branch=None
+  V3    v2_test_m_002                60s            solved=False first=-       ms=None      kept=None/61 calls=11 branch=None
+  V3U   v2_test_m_002                60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V3.1  v2_test_m_002                60s            solved=False first=-       ms=None      kept=None/61 calls=11 branch=None
+  V4    v2_test_m_002                60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V4.1  v2_test_m_002                60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V4.2  v2_test_m_002                60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V8    v2_test_m_002                60s            solved=True  first=0.22    ms=238.089   kept=41/61 calls=0 branch=scheduler
+  V8S   v2_test_m_002                60s            solved=True  first=0.07    ms=238.089   kept=41/61 calls=0 branch=scheduler
+  V8.2  v2_test_m_002                60s            solved=True  first=0.22    ms=238.089   kept=41/61 calls=0 branch=scheduler
+  V9    v2_test_m_002                60s            solved=True  first=0.22    ms=238.089   kept=41/61 calls=0 branch=rl
+  V5    v2_test_m_002                60s            solved=False first=-       ms=None      kept=None/61 calls=3 branch=None
+  V10   v2_test_m_002                60s            solved=False first=-       ms=None      kept=None/61 calls=0 branch=None
+  B1    v2_test_m_003                60s            solved=True  first=12.70   ms=139.055   kept=53/53 calls=1 branch=full
+  ! B2 v2_test_m_003 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+  V11   v2_test_m_002                60s            solved=False first=-       ms=None      kept=None/61 calls=0 branch=None
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_m_003 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_m_003                60s            solved=True  first=3.57    ms=128.05200000000002 kept=34/53 calls=25 branch=expansion
+  V2    v2_test_m_003                60s            solved=True  first=3.18    ms=128.05200000000002 kept=34/53 calls=25 branch=expansion
+  V2.1  v2_test_m_003                60s            solved=True  first=2.87    ms=128.05200000000002 kept=34/53 calls=25 branch=expansion
+  V3    v2_test_m_003                60s            solved=True  first=3.23    ms=128.05200000000002 kept=34/53 calls=25 branch=expansion
+  V3U   v2_test_m_003                60s            solved=True  first=2.61    ms=128.05200000000002 kept=34/53 calls=25 branch=expansion
+  V3.1  v2_test_m_003                60s            solved=True  first=6.64    ms=128.05200000000002 kept=45/53 calls=21 branch=expansion
+  V4    v2_test_m_003                60s            solved=True  first=2.62    ms=128.05200000000002 kept=34/53 calls=25 branch=expansion
+  V4.1  v2_test_m_003                60s            solved=True  first=11.10   ms=128.05200000000002 kept=39/53 calls=30 branch=rollback
+  V4.2  v2_test_m_003                60s            solved=True  first=2.76    ms=128.05200000000002 kept=34/53 calls=25 branch=expansion
+  V8    v2_test_m_003                60s            solved=True  first=0.18    ms=161.059   kept=29/53 calls=0 branch=scheduler
+  V8S   v2_test_m_003                60s            solved=True  first=0.07    ms=161.059   kept=29/53 calls=0 branch=scheduler
+  V8.2  v2_test_m_003                60s            solved=True  first=0.42    ms=161.059   kept=29/53 calls=0 branch=scheduler
+  V9    v2_test_m_003                60s            solved=True  first=0.42    ms=136.05700000000002 kept=31/53 calls=0 branch=rl
+  V5    v2_test_m_003                60s            solved=True  first=3.17    ms=128.05200000000002 kept=34/53 calls=5 branch=expansion
+  V10   v2_test_m_003                60s            solved=False first=-       ms=None      kept=None/53 calls=0 branch=None
+  V11   v2_test_m_003                60s            solved=True  first=54.37   ms=151.055   kept=None/53 calls=0 branch=search
+  ! B2 v2_test_m_004 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_m_004 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_m_004                60s            solved=False first=-       ms=None      kept=None/50 calls=1 branch=None
+  V1    v2_test_m_004                60s            solved=False first=-       ms=None      kept=None/50 calls=11 branch=None
+  V2    v2_test_m_004                60s            solved=False first=-       ms=None      kept=None/50 calls=8 branch=None
+  V2.1  v2_test_m_004                60s            solved=False first=-       ms=None      kept=None/50 calls=11 branch=None
+  V3    v2_test_m_004                60s            solved=False first=-       ms=None      kept=None/50 calls=11 branch=None
+  V3U   v2_test_m_004                60s            solved=False first=-       ms=None      kept=None/50 calls=6 branch=None
+  V3.1  v2_test_m_004                60s            solved=False first=-       ms=None      kept=None/50 calls=11 branch=None
+  V4    v2_test_m_004                60s            solved=False first=-       ms=None      kept=None/50 calls=6 branch=None
+  V4.1  v2_test_m_004                60s            solved=False first=-       ms=None      kept=None/50 calls=6 branch=None
+  V4.2  v2_test_m_004                60s            solved=False first=-       ms=None      kept=None/50 calls=6 branch=None
+  V8    v2_test_m_004                60s            solved=True  first=0.14    ms=219.099   kept=40/50 calls=0 branch=scheduler
+  V8S   v2_test_m_004                60s            solved=True  first=0.07    ms=219.099   kept=40/50 calls=0 branch=scheduler
+  V8.2  v2_test_m_004                60s            solved=True  first=0.14    ms=219.099   kept=40/50 calls=0 branch=scheduler
+  V9    v2_test_m_004                60s            solved=True  first=0.14    ms=221.1     kept=40/50 calls=0 branch=rl
+  V5    v2_test_m_004                60s            solved=False first=-       ms=None      kept=None/50 calls=3 branch=None
+  V10   v2_test_m_004                60s            solved=False first=-       ms=None      kept=None/50 calls=0 branch=None
+  V11   v2_test_m_004                60s            solved=False first=-       ms=None      kept=None/50 calls=0 branch=None
+  ! B2 v2_test_m_005 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_m_005 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_m_005                60s            solved=False first=-       ms=None      kept=None/61 calls=1 branch=None
+  V1    v2_test_m_005                60s            solved=False first=-       ms=None      kept=None/61 calls=11 branch=None
+  V2    v2_test_m_005                60s            solved=False first=-       ms=None      kept=None/61 calls=8 branch=None
+  V2.1  v2_test_m_005                60s            solved=False first=-       ms=None      kept=None/61 calls=10 branch=None
+  V3    v2_test_m_005                60s            solved=False first=-       ms=None      kept=None/61 calls=11 branch=None
+  V3U   v2_test_m_005                60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V3.1  v2_test_m_005                60s            solved=False first=-       ms=None      kept=None/61 calls=11 branch=None
+  V4    v2_test_m_005                60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V4.1  v2_test_m_005                60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V4.2  v2_test_m_005                60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V8    v2_test_m_005                60s            solved=True  first=0.33    ms=260.094   kept=42/61 calls=0 branch=scheduler
+  V8S   v2_test_m_005                60s            solved=True  first=0.07    ms=256.098   kept=39/61 calls=0 branch=scheduler
+  V8.2  v2_test_m_005                60s            solved=True  first=0.48    ms=260.094   kept=42/61 calls=0 branch=scheduler
+  V9    v2_test_m_005                60s            solved=True  first=0.48    ms=244.095   kept=42/61 calls=0 branch=rl
+  V5    v2_test_m_005                60s            solved=False first=-       ms=None      kept=None/61 calls=3 branch=None
+  V10   v2_test_m_005                60s            solved=False first=-       ms=None      kept=None/61 calls=0 branch=None
+  V11   v2_test_m_005                60s            solved=False first=-       ms=None      kept=None/61 calls=0 branch=None
+  ! B2 v2_test_m_006 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  B1    v2_test_m_006                60s            solved=False first=-       ms=None      kept=None/55 calls=1 branch=None
+  ! B3 v2_test_m_006 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_m_006                60s            solved=False first=-       ms=None      kept=None/55 calls=11 branch=None
+  V2    v2_test_m_006                60s            solved=False first=-       ms=None      kept=None/55 calls=10 branch=None
+  V2.1  v2_test_m_006                60s            solved=False first=-       ms=None      kept=None/55 calls=10 branch=None
+  V3    v2_test_m_006                60s            solved=False first=-       ms=None      kept=None/55 calls=11 branch=None
+  V3U   v2_test_m_006                60s            solved=False first=-       ms=None      kept=None/55 calls=6 branch=None
+  V3.1  v2_test_m_006                60s            solved=False first=-       ms=None      kept=None/55 calls=11 branch=None
+  V4    v2_test_m_006                60s            solved=False first=-       ms=None      kept=None/55 calls=6 branch=None
+  V4.1  v2_test_m_006                60s            solved=False first=-       ms=None      kept=None/55 calls=6 branch=None
+  V4.2  v2_test_m_006                60s            solved=False first=-       ms=None      kept=None/55 calls=6 branch=None
+  V5    v2_test_m_006                60s            solved=False first=-       ms=None      kept=None/55 calls=3 branch=None
+  V8    v2_test_m_006                60s            solved=True  first=0.28    ms=238.1     kept=42/55 calls=0 branch=scheduler
+  V8S   v2_test_m_006                60s            solved=True  first=0.13    ms=229.098   kept=39/55 calls=0 branch=scheduler
+  V8.2  v2_test_m_006                60s            solved=True  first=0.25    ms=229.098   kept=39/55 calls=0 branch=scheduler
+  V9    v2_test_m_006                60s            solved=True  first=0.20    ms=226.097   kept=42/55 calls=0 branch=rl
+  V10   v2_test_m_006                60s            solved=False first=-       ms=None      kept=None/55 calls=0 branch=None
+  B1    v2_test_m_007                60s            solved=True  first=47.36   ms=209.063   kept=52/52 calls=1 branch=full
+  ! B2 v2_test_m_007 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_m_007 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V11   v2_test_m_006                60s            solved=False first=-       ms=None      kept=None/55 calls=0 branch=None
+  V1    v2_test_m_007                60s            solved=False first=-       ms=None      kept=None/52 calls=12 branch=None
+  V2    v2_test_m_007                60s            solved=False first=-       ms=None      kept=None/52 calls=10 branch=None
+  V2.1  v2_test_m_007                60s            solved=False first=-       ms=None      kept=None/52 calls=11 branch=None
+  V3    v2_test_m_007                60s            solved=False first=-       ms=None      kept=None/52 calls=12 branch=None
+  V3U   v2_test_m_007                60s            solved=True  first=20.87   ms=198.057   kept=41/52 calls=20 branch=rollback
+  V3.1  v2_test_m_007                60s            solved=False first=-       ms=None      kept=None/52 calls=12 branch=None
+  V4    v2_test_m_007                60s            solved=True  first=20.71   ms=198.057   kept=41/52 calls=20 branch=rollback
+  V4.1  v2_test_m_007                60s            solved=True  first=20.56   ms=198.057   kept=41/52 calls=20 branch=rollback
+  V4.2  v2_test_m_007                60s            solved=True  first=20.22   ms=198.057   kept=41/52 calls=20 branch=rollback
+  V8    v2_test_m_007                60s            solved=True  first=0.18    ms=164.066   kept=38/52 calls=0 branch=scheduler
+  V8S   v2_test_m_007                60s            solved=True  first=0.07    ms=164.066   kept=38/52 calls=0 branch=scheduler
+  V8.2  v2_test_m_007                60s            solved=True  first=0.42    ms=164.066   kept=38/52 calls=0 branch=scheduler
+  V9    v2_test_m_007                60s            solved=True  first=0.42    ms=151.065   kept=38/52 calls=0 branch=rl
+  V5    v2_test_m_007                60s            solved=True  first=46.29   ms=209.063   kept=52/52 calls=5 branch=repair
+  V10   v2_test_m_007                60s            solved=True  first=13.27   ms=244.071   kept=None/52 calls=0 branch=search
+  V11   v2_test_m_007                60s            solved=True  first=43.66   ms=364.141   kept=None/52 calls=0 branch=search
+  B1    v2_test_m_008                60s            solved=False first=-       ms=None      kept=None/54 calls=1 branch=None
+  ! B2 v2_test_m_008 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_m_008 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_m_008                60s            solved=False first=-       ms=None      kept=None/54 calls=11 branch=None
+  V2    v2_test_m_008                60s            solved=False first=-       ms=None      kept=None/54 calls=10 branch=None
+  V2.1  v2_test_m_008                60s            solved=False first=-       ms=None      kept=None/54 calls=10 branch=None
+  V3    v2_test_m_008                60s            solved=False first=-       ms=None      kept=None/54 calls=11 branch=None
+  V3U   v2_test_m_008                60s            solved=True  first=51.27   ms=231.066   kept=41/54 calls=14 branch=rollback
+  V3.1  v2_test_m_008                60s            solved=False first=-       ms=None      kept=None/54 calls=11 branch=None
+  V4    v2_test_m_008                60s            solved=True  first=51.66   ms=231.066   kept=41/54 calls=14 branch=rollback
+  V4.1  v2_test_m_008                60s            solved=True  first=47.84   ms=231.066   kept=41/54 calls=22 branch=rollback
+  V4.2  v2_test_m_008                60s            solved=True  first=43.66   ms=231.066   kept=41/54 calls=22 branch=rollback
+  V8    v2_test_m_008                60s            solved=True  first=0.18    ms=176.062   kept=33/54 calls=0 branch=scheduler
+  V8S   v2_test_m_008                60s            solved=True  first=0.07    ms=176.062   kept=33/54 calls=0 branch=scheduler
+  V8.2  v2_test_m_008                60s            solved=True  first=0.18    ms=176.062   kept=33/54 calls=0 branch=scheduler
+  V9    v2_test_m_008                60s            solved=True  first=0.18    ms=176.062   kept=33/54 calls=0 branch=rl
+  V5    v2_test_m_008                60s            solved=False first=-       ms=None      kept=None/54 calls=3 branch=None
+  V10   v2_test_m_008                60s            solved=True  first=25.72   ms=227.076   kept=None/54 calls=0 branch=search
+  B1    v2_test_m_009                60s            solved=False first=-       ms=None      kept=None/57 calls=1 branch=None
+  V11   v2_test_m_008                60s            solved=False first=-       ms=None      kept=None/54 calls=0 branch=None
+  ! B2 v2_test_m_009 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_m_009 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_m_009                60s            solved=False first=-       ms=None      kept=None/57 calls=10 branch=None
+  V2    v2_test_m_009                60s            solved=False first=-       ms=None      kept=None/57 calls=8 branch=None
+  V2.1  v2_test_m_009                60s            solved=False first=-       ms=None      kept=None/57 calls=11 branch=None
+  V3    v2_test_m_009                60s            solved=False first=-       ms=None      kept=None/57 calls=10 branch=None
+  V3U   v2_test_m_009                60s            solved=False first=-       ms=None      kept=None/57 calls=6 branch=None
+  V3.1  v2_test_m_009                60s            solved=False first=-       ms=None      kept=None/57 calls=10 branch=None
+  V4    v2_test_m_009                60s            solved=False first=-       ms=None      kept=None/57 calls=6 branch=None
+  V4.1  v2_test_m_009                60s            solved=False first=-       ms=None      kept=None/57 calls=6 branch=None
+  V4.2  v2_test_m_009                60s            solved=False first=-       ms=None      kept=None/57 calls=6 branch=None
+  V8    v2_test_m_009                60s            solved=True  first=0.20    ms=270.104   kept=40/57 calls=0 branch=scheduler
+  V8S   v2_test_m_009                60s            solved=True  first=0.07    ms=270.104   kept=40/57 calls=0 branch=scheduler
+  V8.2  v2_test_m_009                60s            solved=True  first=0.20    ms=272.104   kept=40/57 calls=0 branch=scheduler
+  V9    v2_test_m_009                60s            solved=True  first=0.20    ms=242.106   kept=40/57 calls=0 branch=rl
+  V5    v2_test_m_009                60s            solved=False first=-       ms=None      kept=None/57 calls=3 branch=None
+  V10   v2_test_m_009                60s            solved=False first=-       ms=None      kept=None/57 calls=0 branch=None
+  V11   v2_test_m_009                60s            solved=False first=-       ms=None      kept=None/57 calls=0 branch=None
+  ! B2 v2_test_m_010 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_m_010 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_m_010                60s            solved=False first=-       ms=None      kept=None/56 calls=1 branch=None
+  V1    v2_test_m_010                60s            solved=False first=-       ms=None      kept=None/56 calls=12 branch=None
+  V2    v2_test_m_010                60s            solved=False first=-       ms=None      kept=None/56 calls=10 branch=None
+  V2.1  v2_test_m_010                60s            solved=False first=-       ms=None      kept=None/56 calls=10 branch=None
+  V3    v2_test_m_010                60s            solved=False first=-       ms=None      kept=None/56 calls=12 branch=None
+  V3U   v2_test_m_010                60s            solved=False first=-       ms=None      kept=None/56 calls=6 branch=None
+  V3.1  v2_test_m_010                60s            solved=False first=-       ms=None      kept=None/56 calls=12 branch=None
+  V4    v2_test_m_010                60s            solved=False first=-       ms=None      kept=None/56 calls=6 branch=None
+  V4.1  v2_test_m_010                60s            solved=False first=-       ms=None      kept=None/56 calls=6 branch=None
+  V4.2  v2_test_m_010                60s            solved=False first=-       ms=None      kept=None/56 calls=6 branch=None
+  V8    v2_test_m_010                60s            solved=True  first=0.42    ms=248.099   kept=48/56 calls=0 branch=scheduler
+  V8S   v2_test_m_010                60s            solved=True  first=0.07    ms=246.095   kept=39/56 calls=0 branch=scheduler
+  V8.2  v2_test_m_010                60s            solved=True  first=0.36    ms=248.099   kept=48/56 calls=0 branch=scheduler
+  V9    v2_test_m_010                60s            solved=True  first=0.45    ms=238.1     kept=45/56 calls=0 branch=rl
+  V5    v2_test_m_010                60s            solved=False first=-       ms=None      kept=None/56 calls=3 branch=None
+  V10   v2_test_m_010                60s            solved=False first=-       ms=None      kept=None/56 calls=0 branch=None
+  V11   v2_test_m_010                60s            solved=False first=-       ms=None      kept=None/56 calls=0 branch=None
+  ! B2 v2_test_m_011 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_m_011 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_m_011                60s            solved=False first=-       ms=None      kept=None/54 calls=1 branch=None
+  V1    v2_test_m_011                60s            solved=False first=-       ms=None      kept=None/54 calls=11 branch=None
+  V2    v2_test_m_011                60s            solved=False first=-       ms=None      kept=None/54 calls=10 branch=None
+  V2.1  v2_test_m_011                60s            solved=False first=-       ms=None      kept=None/54 calls=11 branch=None
+  V3    v2_test_m_011                60s            solved=False first=-       ms=None      kept=None/54 calls=11 branch=None
+  V3U   v2_test_m_011                60s            solved=False first=-       ms=None      kept=None/54 calls=6 branch=None
+  V3.1  v2_test_m_011                60s            solved=False first=-       ms=None      kept=None/54 calls=11 branch=None
+  V4    v2_test_m_011                60s            solved=False first=-       ms=None      kept=None/54 calls=6 branch=None
+  V4.1  v2_test_m_011                60s            solved=False first=-       ms=None      kept=None/54 calls=6 branch=None
+  V4.2  v2_test_m_011                60s            solved=False first=-       ms=None      kept=None/54 calls=6 branch=None
+  V8    v2_test_m_011                60s            solved=True  first=0.15    ms=222.097   kept=38/54 calls=0 branch=scheduler
+  V8S   v2_test_m_011                60s            solved=True  first=0.06    ms=246.095   kept=41/54 calls=0 branch=scheduler
+  V8.2  v2_test_m_011                60s            solved=True  first=0.19    ms=253.099   kept=41/54 calls=0 branch=scheduler
+  V9    v2_test_m_011                60s            solved=True  first=0.19    ms=216.096   kept=38/54 calls=0 branch=rl
+  V5    v2_test_m_011                60s            solved=False first=-       ms=None      kept=None/54 calls=3 branch=None
+  V10   v2_test_m_011                60s            solved=False first=-       ms=None      kept=None/54 calls=0 branch=None
+  V11   v2_test_m_011                60s            solved=False first=-       ms=None      kept=None/54 calls=0 branch=None
+  ! B2 v2_test_m_012 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_m_012 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_m_012                60s            solved=False first=-       ms=None      kept=None/59 calls=1 branch=None
+  V1    v2_test_m_012                60s            solved=False first=-       ms=None      kept=None/59 calls=8 branch=None
+  V2    v2_test_m_012                60s            solved=False first=-       ms=None      kept=None/59 calls=10 branch=None
+  V2.1  v2_test_m_012                60s            solved=False first=-       ms=None      kept=None/59 calls=8 branch=None
+  V3    v2_test_m_012                60s            solved=False first=-       ms=None      kept=None/59 calls=8 branch=None
+  V3U   v2_test_m_012                60s            solved=False first=-       ms=None      kept=None/59 calls=6 branch=None
+  V3.1  v2_test_m_012                60s            solved=False first=-       ms=None      kept=None/59 calls=8 branch=None
+  V4    v2_test_m_012                60s            solved=False first=-       ms=None      kept=None/59 calls=6 branch=None
+  V4.1  v2_test_m_012                60s            solved=False first=-       ms=None      kept=None/59 calls=6 branch=None
+  V4.2  v2_test_m_012                60s            solved=False first=-       ms=None      kept=None/59 calls=6 branch=None
+  V8    v2_test_m_012                60s            solved=True  first=0.42    ms=291.103   kept=40/59 calls=0 branch=scheduler
+  V8S   v2_test_m_012                60s            solved=True  first=0.07    ms=291.103   kept=40/59 calls=0 branch=scheduler
+  V8.2  v2_test_m_012                60s            solved=True  first=0.41    ms=291.103   kept=40/59 calls=0 branch=scheduler
+  V9    v2_test_m_012                60s            solved=True  first=0.45    ms=291.103   kept=40/59 calls=0 branch=rl
+  V5    v2_test_m_012                60s            solved=False first=-       ms=None      kept=None/59 calls=3 branch=None
+  V10   v2_test_m_012                60s            solved=False first=-       ms=None      kept=None/59 calls=0 branch=None
+  V11   v2_test_m_012                60s            solved=False first=-       ms=None      kept=None/59 calls=0 branch=None
+  ! B2 v2_test_m_013 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  B1    v2_test_m_013                60s            solved=False first=-       ms=None      kept=None/60 calls=1 branch=None
+  ! B3 v2_test_m_013 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_m_013                60s            solved=False first=-       ms=None      kept=None/60 calls=11 branch=None
+  V2    v2_test_m_013                60s            solved=False first=-       ms=None      kept=None/60 calls=8 branch=None
+  V2.1  v2_test_m_013                60s            solved=False first=-       ms=None      kept=None/60 calls=10 branch=None
+  V3    v2_test_m_013                60s            solved=False first=-       ms=None      kept=None/60 calls=11 branch=None
+  V3U   v2_test_m_013                60s            solved=False first=-       ms=None      kept=None/60 calls=6 branch=None
+  V3.1  v2_test_m_013                60s            solved=False first=-       ms=None      kept=None/60 calls=11 branch=None
+  V4    v2_test_m_013                60s            solved=False first=-       ms=None      kept=None/60 calls=6 branch=None
+  V4.1  v2_test_m_013                60s            solved=False first=-       ms=None      kept=None/60 calls=6 branch=None
+  V4.2  v2_test_m_013                60s            solved=False first=-       ms=None      kept=None/60 calls=6 branch=None
+  V5    v2_test_m_013                60s            solved=False first=-       ms=None      kept=None/60 calls=3 branch=None
+  V8    v2_test_m_013                60s            solved=True  first=0.23    ms=257.111   kept=41/60 calls=0 branch=scheduler
+  V8S   v2_test_m_013                60s            solved=True  first=0.23    ms=257.111   kept=41/60 calls=0 branch=scheduler
+  V8.2  v2_test_m_013                60s            solved=True  first=0.67    ms=266.10699999999997 kept=41/60 calls=0 branch=scheduler
+  V9    v2_test_m_013                60s            solved=True  first=0.27    ms=256.11400000000003 kept=41/60 calls=0 branch=rl
+  V10   v2_test_m_013                60s            solved=False first=-       ms=None      kept=None/60 calls=0 branch=None
+  B1    v2_test_m_014                60s            solved=True  first=2.82    ms=197.078   kept=54/54 calls=1 branch=full
+  ! B2 v2_test_m_014 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_m_014 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V11   v2_test_m_013                60s            solved=True  first=23.99   ms=330.148   kept=None/60 calls=0 branch=search
+  V1    v2_test_m_014                60s            solved=True  first=39.27   ms=197.078   kept=54/54 calls=12 branch=temporal
+  V2    v2_test_m_014                60s            solved=True  first=17.15   ms=197.078   kept=54/54 calls=6 branch=expansion
+  V2.1  v2_test_m_014                60s            solved=True  first=17.43   ms=197.078   kept=53/54 calls=6 branch=expansion
+  V3U   v2_test_m_014                60s            solved=True  first=5.23    ms=197.078   kept=54/54 calls=4 branch=expansion
+  V3    v2_test_m_014                60s            solved=True  first=38.36   ms=197.078   kept=54/54 calls=11 branch=temporal
+  V4    v2_test_m_014                60s            solved=True  first=5.22    ms=197.078   kept=54/54 calls=4 branch=expansion
+  V3.1  v2_test_m_014                60s            solved=True  first=39.32   ms=197.078   kept=54/54 calls=12 branch=temporal
+  V4.1  v2_test_m_014                60s            solved=True  first=5.90    ms=197.078   kept=54/54 calls=4 branch=expansion
+  V4.2  v2_test_m_014                60s            solved=True  first=5.75    ms=197.078   kept=54/54 calls=4 branch=expansion
+  V8    v2_test_m_014                60s            solved=True  first=0.19    ms=172.075   kept=38/54 calls=0 branch=scheduler
+  V8S   v2_test_m_014                60s            solved=True  first=0.07    ms=181.073   kept=42/54 calls=0 branch=scheduler
+  V8.2  v2_test_m_014                60s            solved=True  first=0.43    ms=172.075   kept=38/54 calls=0 branch=scheduler
+  V9    v2_test_m_014                60s            solved=True  first=0.32    ms=172.075   kept=38/54 calls=0 branch=rl
+  V5    v2_test_m_014                60s            solved=True  first=5.52    ms=197.078   kept=54/54 calls=4 branch=expansion
+  V10   v2_test_m_014                60s            solved=True  first=43.10   ms=256.081   kept=None/54 calls=0 branch=search
+  V11   v2_test_m_014                60s            solved=True  first=37.64   ms=396.159   kept=None/54 calls=0 branch=search
+  B1    v2_test_service_000          60s            solved=False first=-       ms=None      kept=None/62 calls=1 branch=None
+  ! B2 v2_test_service_000 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_service_000 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_service_000          60s            solved=False first=-       ms=None      kept=None/62 calls=11 branch=None
+  V2    v2_test_service_000          60s            solved=False first=-       ms=None      kept=None/62 calls=8 branch=None
+  V2.1  v2_test_service_000          60s            solved=False first=-       ms=None      kept=None/62 calls=11 branch=None
+  V3    v2_test_service_000          60s            solved=False first=-       ms=None      kept=None/62 calls=11 branch=None
+  V3U   v2_test_service_000          60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V3.1  v2_test_service_000          60s            solved=False first=-       ms=None      kept=None/62 calls=11 branch=None
+  V4    v2_test_service_000          60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V4.1  v2_test_service_000          60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V4.2  v2_test_service_000          60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V8    v2_test_service_000          60s            solved=True  first=0.21    ms=688.226   kept=43/62 calls=0 branch=scheduler
+  V8S   v2_test_service_000          60s            solved=False first=-       ms=None      kept=None/62 calls=0 branch=None
+  V8.2  v2_test_service_000          60s            solved=True  first=0.27    ms=688.226   kept=43/62 calls=0 branch=scheduler
+  V9    v2_test_service_000          60s            solved=True  first=0.30    ms=594.219   kept=46/62 calls=0 branch=rl
+  V5    v2_test_service_000          60s            solved=False first=-       ms=None      kept=None/62 calls=3 branch=None
+  V10   v2_test_service_000          60s            solved=False first=-       ms=None      kept=None/62 calls=0 branch=None
+  V11   v2_test_service_000          60s            solved=False first=-       ms=None      kept=None/62 calls=0 branch=None
+  ! B2 v2_test_service_001 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_service_001 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_service_001          60s            solved=False first=-       ms=None      kept=None/67 calls=1 branch=None
+  V1    v2_test_service_001          60s            solved=False first=-       ms=None      kept=None/67 calls=11 branch=None
+  V2    v2_test_service_001          60s            solved=False first=-       ms=None      kept=None/67 calls=8 branch=None
+  V2.1  v2_test_service_001          60s            solved=False first=-       ms=None      kept=None/67 calls=11 branch=None
+  V3    v2_test_service_001          60s            solved=False first=-       ms=None      kept=None/67 calls=11 branch=None
+  V3U   v2_test_service_001          60s            solved=False first=-       ms=None      kept=None/67 calls=6 branch=None
+  V3.1  v2_test_service_001          60s            solved=False first=-       ms=None      kept=None/67 calls=11 branch=None
+  V4    v2_test_service_001          60s            solved=False first=-       ms=None      kept=None/67 calls=6 branch=None
+  V4.1  v2_test_service_001          60s            solved=False first=-       ms=None      kept=None/67 calls=6 branch=None
+  V4.2  v2_test_service_001          60s            solved=False first=-       ms=None      kept=None/67 calls=6 branch=None
+  V8    v2_test_service_001          60s            solved=True  first=0.49    ms=517.226   kept=45/67 calls=0 branch=scheduler
+  V8S   v2_test_service_001          60s            solved=True  first=0.06    ms=535.224   kept=48/67 calls=0 branch=scheduler
+  V8.2  v2_test_service_001          60s            solved=True  first=0.48    ms=517.226   kept=45/67 calls=0 branch=scheduler
+  V9    v2_test_service_001          60s            solved=True  first=0.59    ms=520.229   kept=45/67 calls=0 branch=rl
+  V5    v2_test_service_001          60s            solved=False first=-       ms=None      kept=None/67 calls=3 branch=None
+  V10   v2_test_service_001          60s            solved=False first=-       ms=None      kept=None/67 calls=0 branch=None
+  V11   v2_test_service_001          60s            solved=False first=-       ms=None      kept=None/67 calls=0 branch=None
+  ! B2 v2_test_service_002 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_service_002 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_service_002          60s            solved=False first=-       ms=None      kept=None/64 calls=1 branch=None
+  V1    v2_test_service_002          60s            solved=False first=-       ms=None      kept=None/64 calls=11 branch=None
+  V2    v2_test_service_002          60s            solved=False first=-       ms=None      kept=None/64 calls=8 branch=None
+  V2.1  v2_test_service_002          60s            solved=False first=-       ms=None      kept=None/64 calls=10 branch=None
+  V3    v2_test_service_002          60s            solved=False first=-       ms=None      kept=None/64 calls=11 branch=None
+  V3U   v2_test_service_002          60s            solved=False first=-       ms=None      kept=None/64 calls=6 branch=None
+  V3.1  v2_test_service_002          60s            solved=False first=-       ms=None      kept=None/64 calls=11 branch=None
+  V4    v2_test_service_002          60s            solved=False first=-       ms=None      kept=None/64 calls=6 branch=None
+  V4.1  v2_test_service_002          60s            solved=False first=-       ms=None      kept=None/64 calls=6 branch=None
+  V4.2  v2_test_service_002          60s            solved=False first=-       ms=None      kept=None/64 calls=6 branch=None
+  V8    v2_test_service_002          60s            solved=True  first=0.29    ms=475.185   kept=44/64 calls=0 branch=scheduler
+  V8S   v2_test_service_002          60s            solved=True  first=0.14    ms=475.185   kept=44/64 calls=0 branch=scheduler
+  V8.2  v2_test_service_002          60s            solved=False first=-       ms=None      kept=None/64 calls=0 branch=None
+  V9    v2_test_service_002          60s            solved=True  first=0.36    ms=455.194   kept=42/64 calls=0 branch=rl
+  V5    v2_test_service_002          60s            solved=False first=-       ms=None      kept=None/64 calls=3 branch=None
+  V10   v2_test_service_002          60s            solved=False first=-       ms=None      kept=None/64 calls=0 branch=None
+  V11   v2_test_service_002          60s            solved=False first=-       ms=None      kept=None/64 calls=0 branch=None
+  ! B2 v2_test_service_003 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_service_003 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_service_003          60s            solved=False first=-       ms=None      kept=None/61 calls=1 branch=None
+  V1    v2_test_service_003          60s            solved=False first=-       ms=None      kept=None/61 calls=11 branch=None
+  V2    v2_test_service_003          60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V2.1  v2_test_service_003          60s            solved=False first=-       ms=None      kept=None/61 calls=10 branch=None
+  V3    v2_test_service_003          60s            solved=False first=-       ms=None      kept=None/61 calls=11 branch=None
+  V3U   v2_test_service_003          60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V3.1  v2_test_service_003          60s            solved=False first=-       ms=None      kept=None/61 calls=11 branch=None
+  V4    v2_test_service_003          60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V4.1  v2_test_service_003          60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V4.2  v2_test_service_003          60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V8    v2_test_service_003          60s            solved=True  first=0.53    ms=438.186   kept=42/61 calls=0 branch=scheduler
+  V8S   v2_test_service_003          60s            solved=True  first=0.07    ms=463.186   kept=45/61 calls=0 branch=scheduler
+  V8.2  v2_test_service_003          60s            solved=True  first=0.47    ms=463.186   kept=45/61 calls=0 branch=scheduler
+  V9    v2_test_service_003          60s            solved=True  first=0.48    ms=386.181   kept=42/61 calls=0 branch=rl
+  V5    v2_test_service_003          60s            solved=False first=-       ms=None      kept=None/61 calls=3 branch=None
+  V10   v2_test_service_003          60s            solved=False first=-       ms=None      kept=None/61 calls=0 branch=None
+  V11   v2_test_service_003          60s            solved=False first=-       ms=None      kept=None/61 calls=0 branch=None
+  ! B2 v2_test_service_004 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_service_004 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_service_004          60s            solved=False first=-       ms=None      kept=None/58 calls=1 branch=None
+  V1    v2_test_service_004          60s            solved=False first=-       ms=None      kept=None/58 calls=10 branch=None
+  V2    v2_test_service_004          60s            solved=False first=-       ms=None      kept=None/58 calls=10 branch=None
+  V2.1  v2_test_service_004          60s            solved=False first=-       ms=None      kept=None/58 calls=11 branch=None
+  V3    v2_test_service_004          60s            solved=False first=-       ms=None      kept=None/58 calls=10 branch=None
+  V3U   v2_test_service_004          60s            solved=False first=-       ms=None      kept=None/58 calls=6 branch=None
+  V3.1  v2_test_service_004          60s            solved=False first=-       ms=None      kept=None/58 calls=10 branch=None
+  V4    v2_test_service_004          60s            solved=False first=-       ms=None      kept=None/58 calls=6 branch=None
+  V4.1  v2_test_service_004          60s            solved=False first=-       ms=None      kept=None/58 calls=6 branch=None
+  V4.2  v2_test_service_004          60s            solved=False first=-       ms=None      kept=None/58 calls=6 branch=None
+  V8    v2_test_service_004          60s            solved=True  first=0.23    ms=299.123   kept=39/58 calls=0 branch=scheduler
+  V8S   v2_test_service_004          60s            solved=True  first=0.11    ms=299.123   kept=39/58 calls=0 branch=scheduler
+  V8.2  v2_test_service_004          60s            solved=True  first=0.24    ms=318.122   kept=42/58 calls=0 branch=scheduler
+  V9    v2_test_service_004          60s            solved=True  first=0.20    ms=299.123   kept=39/58 calls=0 branch=rl
+  V5    v2_test_service_004          60s            solved=False first=-       ms=None      kept=None/58 calls=3 branch=None
+  V10   v2_test_service_004          60s            solved=False first=-       ms=None      kept=None/58 calls=0 branch=None
+  V11   v2_test_service_004          60s            solved=False first=-       ms=None      kept=None/58 calls=0 branch=None
+  ! B2 v2_test_service_005 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_service_005 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_service_005          60s            solved=False first=-       ms=None      kept=None/60 calls=1 branch=None
+  V1    v2_test_service_005          60s            solved=False first=-       ms=None      kept=None/60 calls=11 branch=None
+  V2    v2_test_service_005          60s            solved=False first=-       ms=None      kept=None/60 calls=6 branch=None
+  V2.1  v2_test_service_005          60s            solved=False first=-       ms=None      kept=None/60 calls=11 branch=None
+  V3    v2_test_service_005          60s            solved=False first=-       ms=None      kept=None/60 calls=11 branch=None
+  V3U   v2_test_service_005          60s            solved=False first=-       ms=None      kept=None/60 calls=6 branch=None
+  V3.1  v2_test_service_005          60s            solved=False first=-       ms=None      kept=None/60 calls=11 branch=None
+  V4    v2_test_service_005          60s            solved=False first=-       ms=None      kept=None/60 calls=6 branch=None
+  V4.1  v2_test_service_005          60s            solved=False first=-       ms=None      kept=None/60 calls=6 branch=None
+  V4.2  v2_test_service_005          60s            solved=False first=-       ms=None      kept=None/60 calls=6 branch=None
+  V8    v2_test_service_005          60s            solved=True  first=0.23    ms=332.138   kept=39/60 calls=0 branch=scheduler
+  V8S   v2_test_service_005          60s            solved=True  first=0.07    ms=332.138   kept=39/60 calls=0 branch=scheduler
+  V8.2  v2_test_service_005          60s            solved=True  first=0.46    ms=332.138   kept=39/60 calls=0 branch=scheduler
+  V5    v2_test_service_005          60s            solved=False first=-       ms=None      kept=None/60 calls=3 branch=None
+  V9    v2_test_service_005          60s            solved=True  first=0.43    ms=331.138   kept=42/60 calls=0 branch=rl
+  V10   v2_test_service_005          60s            solved=False first=-       ms=None      kept=None/60 calls=0 branch=None
+  V11   v2_test_service_005          60s            solved=False first=-       ms=None      kept=None/60 calls=0 branch=None
+  ! B2 v2_test_service_006 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_service_006 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_service_006          60s            solved=False first=-       ms=None      kept=None/62 calls=1 branch=None
+  V1    v2_test_service_006          60s            solved=False first=-       ms=None      kept=None/62 calls=12 branch=None
+  V2    v2_test_service_006          60s            solved=False first=-       ms=None      kept=None/62 calls=8 branch=None
+  V2.1  v2_test_service_006          60s            solved=False first=-       ms=None      kept=None/62 calls=10 branch=None
+  V3    v2_test_service_006          60s            solved=False first=-       ms=None      kept=None/62 calls=12 branch=None
+  V3U   v2_test_service_006          60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V3.1  v2_test_service_006          60s            solved=False first=-       ms=None      kept=None/62 calls=12 branch=None
+  V4    v2_test_service_006          60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V4.1  v2_test_service_006          60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V4.2  v2_test_service_006          60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V8    v2_test_service_006          60s            solved=True  first=0.46    ms=541.229   kept=43/62 calls=0 branch=scheduler
+  V8S   v2_test_service_006          60s            solved=True  first=0.07    ms=657.22    kept=54/62 calls=0 branch=scheduler
+  V8.2  v2_test_service_006          60s            solved=True  first=0.49    ms=638.227   kept=49/62 calls=0 branch=scheduler
+  V9    v2_test_service_006          60s            solved=True  first=0.52    ms=471.225   kept=43/62 calls=0 branch=rl
+  V5    v2_test_service_006          60s            solved=False first=-       ms=None      kept=None/62 calls=3 branch=None
+  V10   v2_test_service_006          60s            solved=False first=-       ms=None      kept=None/62 calls=0 branch=None
+  V11   v2_test_service_006          60s            solved=False first=-       ms=None      kept=None/62 calls=0 branch=None
+  ! B2 v2_test_service_007 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  B1    v2_test_service_007          60s            solved=False first=-       ms=None      kept=None/64 calls=1 branch=None
+  ! B3 v2_test_service_007 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V2    v2_test_service_007          60s            solved=False first=-       ms=None      kept=None/64 calls=10 branch=None
+  V1    v2_test_service_007          60s            solved=False first=-       ms=None      kept=None/64 calls=11 branch=None
+  V2.1  v2_test_service_007          60s            solved=False first=-       ms=None      kept=None/64 calls=10 branch=None
+  V3    v2_test_service_007          60s            solved=False first=-       ms=None      kept=None/64 calls=11 branch=None
+  V3U   v2_test_service_007          60s            solved=False first=-       ms=None      kept=None/64 calls=6 branch=None
+  V3.1  v2_test_service_007          60s            solved=False first=-       ms=None      kept=None/64 calls=11 branch=None
+  V4    v2_test_service_007          60s            solved=False first=-       ms=None      kept=None/64 calls=6 branch=None
+  V4.1  v2_test_service_007          60s            solved=False first=-       ms=None      kept=None/64 calls=6 branch=None
+  V4.2  v2_test_service_007          60s            solved=False first=-       ms=None      kept=None/64 calls=6 branch=None
+  V5    v2_test_service_007          60s            solved=False first=-       ms=None      kept=None/64 calls=3 branch=None
+  V8    v2_test_service_007          60s            solved=True  first=0.49    ms=502.214   kept=46/64 calls=0 branch=scheduler
+  V8S   v2_test_service_007          60s            solved=True  first=0.20    ms=458.21    kept=44/64 calls=0 branch=scheduler
+  V8.2  v2_test_service_007          60s            solved=True  first=0.53    ms=458.21    kept=44/64 calls=0 branch=scheduler
+  V9    v2_test_service_007          60s            solved=True  first=2.71    ms=466.212   kept=46/64 calls=0 branch=rl
+  V10   v2_test_service_007          60s            solved=False first=-       ms=None      kept=None/64 calls=0 branch=None
+  B1    v2_test_service_008          60s            solved=False first=-       ms=None      kept=None/56 calls=1 branch=None
+  V11   v2_test_service_007          60s            solved=False first=-       ms=None      kept=None/64 calls=0 branch=None
+  ! B2 v2_test_service_008 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_service_008 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_service_008          60s            solved=False first=-       ms=None      kept=None/56 calls=11 branch=None
+  V2    v2_test_service_008          60s            solved=False first=-       ms=None      kept=None/56 calls=6 branch=None
+  V2.1  v2_test_service_008          60s            solved=False first=-       ms=None      kept=None/56 calls=10 branch=None
+  V3    v2_test_service_008          60s            solved=False first=-       ms=None      kept=None/56 calls=11 branch=None
+  V3U   v2_test_service_008          60s            solved=False first=-       ms=None      kept=None/56 calls=6 branch=None
+  V3.1  v2_test_service_008          60s            solved=False first=-       ms=None      kept=None/56 calls=11 branch=None
+  V4    v2_test_service_008          60s            solved=False first=-       ms=None      kept=None/56 calls=6 branch=None
+  V4.1  v2_test_service_008          60s            solved=False first=-       ms=None      kept=None/56 calls=6 branch=None
+  V4.2  v2_test_service_008          60s            solved=False first=-       ms=None      kept=None/56 calls=6 branch=None
+  V8    v2_test_service_008          60s            solved=True  first=0.19    ms=357.127   kept=40/56 calls=0 branch=scheduler
+  V8S   v2_test_service_008          60s            solved=True  first=0.07    ms=357.127   kept=40/56 calls=0 branch=scheduler
+  V8.2  v2_test_service_008          60s            solved=True  first=0.19    ms=357.133   kept=43/56 calls=0 branch=scheduler
+  V9    v2_test_service_008          60s            solved=True  first=0.20    ms=333.128   kept=43/56 calls=0 branch=rl
+  V5    v2_test_service_008          60s            solved=False first=-       ms=None      kept=None/56 calls=3 branch=None
+  V10   v2_test_service_008          60s            solved=False first=-       ms=None      kept=None/56 calls=0 branch=None
+  V11   v2_test_service_008          60s            solved=False first=-       ms=None      kept=None/56 calls=0 branch=None
+  ! B2 v2_test_service_009 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_service_009 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_service_009          60s            solved=False first=-       ms=None      kept=None/61 calls=1 branch=None
+  V1    v2_test_service_009          60s            solved=False first=-       ms=None      kept=None/61 calls=11 branch=None
+  V2    v2_test_service_009          60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V2.1  v2_test_service_009          60s            solved=False first=-       ms=None      kept=None/61 calls=10 branch=None
+  V3    v2_test_service_009          60s            solved=False first=-       ms=None      kept=None/61 calls=11 branch=None
+  V3U   v2_test_service_009          60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V3.1  v2_test_service_009          60s            solved=False first=-       ms=None      kept=None/61 calls=11 branch=None
+  V4    v2_test_service_009          60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V4.1  v2_test_service_009          60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V4.2  v2_test_service_009          60s            solved=False first=-       ms=None      kept=None/61 calls=6 branch=None
+  V8    v2_test_service_009          60s            solved=True  first=1.05    ms=614.219   kept=45/61 calls=0 branch=scheduler
+  V8S   v2_test_service_009          60s            solved=True  first=0.07    ms=620.222   kept=48/61 calls=0 branch=scheduler
+  V8.2  v2_test_service_009          60s            solved=True  first=0.88    ms=629.228   kept=48/61 calls=0 branch=scheduler
+  V9    v2_test_service_009          60s            solved=True  first=0.79    ms=607.221   kept=45/61 calls=0 branch=rl
+  V5    v2_test_service_009          60s            solved=False first=-       ms=None      kept=None/61 calls=3 branch=None
+  V10   v2_test_service_009          60s            solved=False first=-       ms=None      kept=None/61 calls=0 branch=None
+  V11   v2_test_service_009          60s            solved=False first=-       ms=None      kept=None/61 calls=0 branch=None
+  ! B2 v2_test_service_010 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_service_010 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_service_010          60s            solved=False first=-       ms=None      kept=None/62 calls=1 branch=None
+  V1    v2_test_service_010          60s            solved=False first=-       ms=None      kept=None/62 calls=11 branch=None
+  V2    v2_test_service_010          60s            solved=False first=-       ms=None      kept=None/62 calls=8 branch=None
+  V2.1  v2_test_service_010          60s            solved=False first=-       ms=None      kept=None/62 calls=10 branch=None
+  V3    v2_test_service_010          60s            solved=False first=-       ms=None      kept=None/62 calls=11 branch=None
+  V3U   v2_test_service_010          60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V3.1  v2_test_service_010          60s            solved=False first=-       ms=None      kept=None/62 calls=11 branch=None
+  V4    v2_test_service_010          60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V4.1  v2_test_service_010          60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V4.2  v2_test_service_010          60s            solved=False first=-       ms=None      kept=None/62 calls=6 branch=None
+  V8    v2_test_service_010          60s            solved=True  first=0.22    ms=391.155   kept=42/62 calls=0 branch=scheduler
+  V8S   v2_test_service_010          60s            solved=True  first=0.09    ms=395.154   kept=45/62 calls=0 branch=scheduler
+  V8.2  v2_test_service_010          60s            solved=True  first=0.22    ms=391.155   kept=42/62 calls=0 branch=scheduler
+  V9    v2_test_service_010          60s            solved=True  first=0.31    ms=402.155   kept=42/62 calls=0 branch=rl
+  V5    v2_test_service_010          60s            solved=False first=-       ms=None      kept=None/62 calls=3 branch=None
+  V10   v2_test_service_010          60s            solved=False first=-       ms=None      kept=None/62 calls=0 branch=None
+  V11   v2_test_service_010          60s            solved=False first=-       ms=None      kept=None/62 calls=0 branch=None
+  ! B2 v2_test_service_011 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_service_011 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_service_011          60s            solved=False first=-       ms=None      kept=None/63 calls=1 branch=None
+  V1    v2_test_service_011          60s            solved=False first=-       ms=None      kept=None/63 calls=11 branch=None
+  V2    v2_test_service_011          60s            solved=False first=-       ms=None      kept=None/63 calls=8 branch=None
+  V2.1  v2_test_service_011          60s            solved=False first=-       ms=None      kept=None/63 calls=11 branch=None
+  V3    v2_test_service_011          60s            solved=False first=-       ms=None      kept=None/63 calls=11 branch=None
+  V3U   v2_test_service_011          60s            solved=False first=-       ms=None      kept=None/63 calls=6 branch=None
+  V3.1  v2_test_service_011          60s            solved=False first=-       ms=None      kept=None/63 calls=11 branch=None
+  V4    v2_test_service_011          60s            solved=False first=-       ms=None      kept=None/63 calls=6 branch=None
+  V4.1  v2_test_service_011          60s            solved=False first=-       ms=None      kept=None/63 calls=6 branch=None
+  V4.2  v2_test_service_011          60s            solved=False first=-       ms=None      kept=None/63 calls=6 branch=None
+  V8    v2_test_service_011          60s            solved=True  first=0.82    ms=431.172   kept=44/63 calls=0 branch=scheduler
+  V8S   v2_test_service_011          60s            solved=False first=-       ms=None      kept=None/63 calls=0 branch=None
+  V8.2  v2_test_service_011          60s            solved=True  first=0.56    ms=431.172   kept=44/63 calls=0 branch=scheduler
+  V9    v2_test_service_011          60s            solved=True  first=0.62    ms=434.175   kept=44/63 calls=0 branch=rl
+  V5    v2_test_service_011          60s            solved=False first=-       ms=None      kept=None/63 calls=3 branch=None
+  V10   v2_test_service_011          60s            solved=False first=-       ms=None      kept=None/63 calls=0 branch=None
+  V11   v2_test_service_011          60s            solved=False first=-       ms=None      kept=None/63 calls=0 branch=None
+  ! B2 v2_test_service_012 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_service_012 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_service_012          60s            solved=False first=-       ms=None      kept=None/63 calls=1 branch=None
+  V1    v2_test_service_012          60s            solved=False first=-       ms=None      kept=None/63 calls=12 branch=None
+  V2    v2_test_service_012          60s            solved=False first=-       ms=None      kept=None/63 calls=10 branch=None
+  V2.1  v2_test_service_012          60s            solved=False first=-       ms=None      kept=None/63 calls=11 branch=None
+  V3    v2_test_service_012          60s            solved=False first=-       ms=None      kept=None/63 calls=12 branch=None
+  V3U   v2_test_service_012          60s            solved=False first=-       ms=None      kept=None/63 calls=6 branch=None
+  V3.1  v2_test_service_012          60s            solved=False first=-       ms=None      kept=None/63 calls=12 branch=None
+  V4    v2_test_service_012          60s            solved=False first=-       ms=None      kept=None/63 calls=6 branch=None
+  V4.1  v2_test_service_012          60s            solved=False first=-       ms=None      kept=None/63 calls=6 branch=None
+  V4.2  v2_test_service_012          60s            solved=False first=-       ms=None      kept=None/63 calls=6 branch=None
+  V8    v2_test_service_012          60s            solved=True  first=0.26    ms=339.139   kept=41/63 calls=0 branch=scheduler
+  V8S   v2_test_service_012          60s            solved=True  first=0.07    ms=360.143   kept=44/63 calls=0 branch=scheduler
+  V8.2  v2_test_service_012          60s            solved=True  first=0.22    ms=360.143   kept=44/63 calls=0 branch=scheduler
+  V9    v2_test_service_012          60s            solved=True  first=0.28    ms=340.14    kept=41/63 calls=0 branch=rl
+  V5    v2_test_service_012          60s            solved=False first=-       ms=None      kept=None/63 calls=3 branch=None
+  V10   v2_test_service_012          60s            solved=False first=-       ms=None      kept=None/63 calls=0 branch=None
+  V11   v2_test_service_012          60s            solved=False first=-       ms=None      kept=None/63 calls=0 branch=None
+  ! B2 v2_test_service_013 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_service_013 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_service_013          60s            solved=False first=-       ms=None      kept=None/56 calls=1 branch=None
+  V1    v2_test_service_013          60s            solved=False first=-       ms=None      kept=None/56 calls=10 branch=None
+  V2    v2_test_service_013          60s            solved=False first=-       ms=None      kept=None/56 calls=6 branch=None
+  V2.1  v2_test_service_013          60s            solved=False first=-       ms=None      kept=None/56 calls=10 branch=None
+  V3    v2_test_service_013          60s            solved=False first=-       ms=None      kept=None/56 calls=10 branch=None
+  V3U   v2_test_service_013          60s            solved=False first=-       ms=None      kept=None/56 calls=6 branch=None
+  V3.1  v2_test_service_013          60s            solved=False first=-       ms=None      kept=None/56 calls=10 branch=None
+  V4    v2_test_service_013          60s            solved=False first=-       ms=None      kept=None/56 calls=6 branch=None
+  V4.1  v2_test_service_013          60s            solved=False first=-       ms=None      kept=None/56 calls=6 branch=None
+  V4.2  v2_test_service_013          60s            solved=False first=-       ms=None      kept=None/56 calls=6 branch=None
+  V8    v2_test_service_013          60s            solved=True  first=0.64    ms=511.208   kept=46/56 calls=0 branch=scheduler
+  V8S   v2_test_service_013          60s            solved=True  first=0.08    ms=541.212   kept=46/56 calls=0 branch=scheduler
+  V8.2  v2_test_service_013          60s            solved=True  first=0.74    ms=511.208   kept=46/56 calls=0 branch=scheduler
+  V9    v2_test_service_013          60s            solved=True  first=0.61    ms=499.205   kept=46/56 calls=0 branch=rl
+  V5    v2_test_service_013          60s            solved=False first=-       ms=None      kept=None/56 calls=3 branch=None
+  V10   v2_test_service_013          60s            solved=False first=-       ms=None      kept=None/56 calls=0 branch=None
+  V11   v2_test_service_013          60s            solved=False first=-       ms=None      kept=None/56 calls=0 branch=None
+  ! B2 v2_test_service_014 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_service_014 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_service_014          60s            solved=False first=-       ms=None      kept=None/60 calls=1 branch=None
+  V1    v2_test_service_014          60s            solved=False first=-       ms=None      kept=None/60 calls=12 branch=None
+  V2    v2_test_service_014          60s            solved=False first=-       ms=None      kept=None/60 calls=8 branch=None
+  V2.1  v2_test_service_014          60s            solved=False first=-       ms=None      kept=None/60 calls=10 branch=None
+  V3    v2_test_service_014          60s            solved=False first=-       ms=None      kept=None/60 calls=12 branch=None
+  V3U   v2_test_service_014          60s            solved=False first=-       ms=None      kept=None/60 calls=6 branch=None
+  V3.1  v2_test_service_014          60s            solved=False first=-       ms=None      kept=None/60 calls=12 branch=None
+  V4    v2_test_service_014          60s            solved=False first=-       ms=None      kept=None/60 calls=6 branch=None
+  V4.1  v2_test_service_014          60s            solved=False first=-       ms=None      kept=None/60 calls=6 branch=None
+  V4.2  v2_test_service_014          60s            solved=False first=-       ms=None      kept=None/60 calls=6 branch=None
+  V8    v2_test_service_014          60s            solved=True  first=0.18    ms=437.144   kept=43/60 calls=0 branch=scheduler
+  V8S   v2_test_service_014          60s            solved=True  first=0.07    ms=437.144   kept=43/60 calls=0 branch=scheduler
+  V8.2  v2_test_service_014          60s            solved=True  first=0.19    ms=437.144   kept=43/60 calls=0 branch=scheduler
+  V9    v2_test_service_014          60s            solved=True  first=2.88    ms=391.143   kept=43/60 calls=0 branch=rl
+  V5    v2_test_service_014          60s            solved=False first=-       ms=None      kept=None/60 calls=3 branch=None
+  V10   v2_test_service_014          60s            solved=False first=-       ms=None      kept=None/60 calls=0 branch=None
+  V11   v2_test_service_014          60s            solved=False first=-       ms=None      kept=None/60 calls=0 branch=None
+  ! B2 v2_test_xl_000 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_xl_000 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_xl_000               60s            solved=False first=-       ms=None      kept=None/96 calls=1 branch=None
+  V1    v2_test_xl_000               60s            solved=False first=-       ms=None      kept=None/96 calls=12 branch=None
+  V2    v2_test_xl_000               60s            solved=False first=-       ms=None      kept=None/96 calls=10 branch=None
+  V2.1  v2_test_xl_000               60s            solved=False first=-       ms=None      kept=None/96 calls=11 branch=None
+  V3    v2_test_xl_000               60s            solved=False first=-       ms=None      kept=None/96 calls=12 branch=None
+  V3U   v2_test_xl_000               60s            solved=False first=-       ms=None      kept=None/96 calls=6 branch=None
+  V3.1  v2_test_xl_000               60s            solved=False first=-       ms=None      kept=None/96 calls=12 branch=None
+  V4    v2_test_xl_000               60s            solved=False first=-       ms=None      kept=None/96 calls=6 branch=None
+  V4.1  v2_test_xl_000               60s            solved=False first=-       ms=None      kept=None/96 calls=6 branch=None
+  V4.2  v2_test_xl_000               60s            solved=False first=-       ms=None      kept=None/96 calls=6 branch=None
+  V5    v2_test_xl_000               60s            solved=False first=-       ms=None      kept=None/96 calls=3 branch=None
+  V8    v2_test_xl_000               60s            solved=True  first=1.93    ms=313.114   kept=44/96 calls=0 branch=scheduler
+  V8S   v2_test_xl_000               60s            solved=True  first=0.12    ms=313.112   kept=47/96 calls=0 branch=scheduler
+  V8.2  v2_test_xl_000               60s            solved=True  first=2.93    ms=313.114   kept=44/96 calls=0 branch=scheduler
+  V9    v2_test_xl_000               60s            solved=True  first=2.02    ms=313.118   kept=44/96 calls=0 branch=rl
+  V10   v2_test_xl_000               60s            solved=False first=-       ms=None      kept=None/96 calls=0 branch=None
+  V11   v2_test_xl_000               60s            solved=False first=-       ms=None      kept=None/96 calls=0 branch=None
+  B1    v2_test_xl_001               60s            solved=False first=-       ms=None      kept=None/108 calls=1 branch=None
+  ! B2 v2_test_xl_001 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_xl_001 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_xl_001               60s            solved=False first=-       ms=None      kept=None/108 calls=12 branch=None
+  V2    v2_test_xl_001               60s            solved=False first=-       ms=None      kept=None/108 calls=8 branch=None
+  V2.1  v2_test_xl_001               60s            solved=False first=-       ms=None      kept=None/108 calls=11 branch=None
+  V3    v2_test_xl_001               60s            solved=False first=-       ms=None      kept=None/108 calls=12 branch=None
+  V3U   v2_test_xl_001               60s            solved=False first=-       ms=None      kept=None/108 calls=6 branch=None
+  V3.1  v2_test_xl_001               60s            solved=False first=-       ms=None      kept=None/108 calls=12 branch=None
+  V4    v2_test_xl_001               60s            solved=False first=-       ms=None      kept=None/108 calls=6 branch=None
+  V4.1  v2_test_xl_001               60s            solved=False first=-       ms=None      kept=None/108 calls=6 branch=None
+  V4.2  v2_test_xl_001               60s            solved=False first=-       ms=None      kept=None/108 calls=6 branch=None
+  V8    v2_test_xl_001               60s            solved=True  first=2.68    ms=596.186   kept=48/108 calls=0 branch=scheduler
+  V8S   v2_test_xl_001               60s            solved=True  first=1.18    ms=603.19    kept=45/108 calls=0 branch=scheduler
+  V8.2  v2_test_xl_001               60s            solved=True  first=2.62    ms=589.186   kept=48/108 calls=0 branch=scheduler
+  V9    v2_test_xl_001               60s            solved=True  first=1.10    ms=602.185   kept=48/108 calls=0 branch=rl
+  V5    v2_test_xl_001               60s            solved=False first=-       ms=None      kept=None/108 calls=3 branch=None
+  V10   v2_test_xl_001               60s            solved=False first=-       ms=None      kept=None/108 calls=0 branch=None
+  V11   v2_test_xl_001               60s            solved=False first=-       ms=None      kept=None/108 calls=0 branch=None
+  ! B2 v2_test_xl_002 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_xl_002 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_xl_002               60s            solved=False first=-       ms=None      kept=None/125 calls=1 branch=None
+  V1    v2_test_xl_002               60s            solved=False first=-       ms=None      kept=None/125 calls=12 branch=None
+  V2    v2_test_xl_002               60s            solved=False first=-       ms=None      kept=None/125 calls=10 branch=None
+  V2.1  v2_test_xl_002               60s            solved=False first=-       ms=None      kept=None/125 calls=11 branch=None
+  V3    v2_test_xl_002               60s            solved=False first=-       ms=None      kept=None/125 calls=12 branch=None
+  V3U   v2_test_xl_002               60s            solved=False first=-       ms=None      kept=None/125 calls=6 branch=None
+  V3.1  v2_test_xl_002               60s            solved=False first=-       ms=None      kept=None/125 calls=12 branch=None
+  V4    v2_test_xl_002               60s            solved=False first=-       ms=None      kept=None/125 calls=6 branch=None
+  V4.1  v2_test_xl_002               60s            solved=False first=-       ms=None      kept=None/125 calls=6 branch=None
+  V4.2  v2_test_xl_002               60s            solved=False first=-       ms=None      kept=None/125 calls=6 branch=None
+  V8    v2_test_xl_002               60s            solved=True  first=2.60    ms=373.151   kept=44/125 calls=0 branch=scheduler
+  V8S   v2_test_xl_002               60s            solved=True  first=0.07    ms=416.15    kept=47/125 calls=0 branch=scheduler
+  V8.2  v2_test_xl_002               60s            solved=True  first=2.69    ms=373.151   kept=44/125 calls=0 branch=scheduler
+  V9    v2_test_xl_002               60s            solved=True  first=2.54    ms=373.154   kept=44/125 calls=0 branch=rl
+  V5    v2_test_xl_002               60s            solved=False first=-       ms=None      kept=None/125 calls=3 branch=None
+  V10   v2_test_xl_002               60s            solved=False first=-       ms=None      kept=None/125 calls=0 branch=None
+  V11   v2_test_xl_002               60s            solved=False first=-       ms=None      kept=None/125 calls=0 branch=None
+  ! B2 v2_test_xl_003 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_xl_003 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_xl_003               60s            solved=False first=-       ms=None      kept=None/107 calls=1 branch=None
+  V1    v2_test_xl_003               60s            solved=False first=-       ms=None      kept=None/107 calls=12 branch=None
+  V2    v2_test_xl_003               60s            solved=False first=-       ms=None      kept=None/107 calls=10 branch=None
+  V2.1  v2_test_xl_003               60s            solved=False first=-       ms=None      kept=None/107 calls=11 branch=None
+  V3    v2_test_xl_003               60s            solved=False first=-       ms=None      kept=None/107 calls=12 branch=None
+  V3U   v2_test_xl_003               60s            solved=False first=-       ms=None      kept=None/107 calls=6 branch=None
+  V3.1  v2_test_xl_003               60s            solved=False first=-       ms=None      kept=None/107 calls=12 branch=None
+  V4    v2_test_xl_003               60s            solved=False first=-       ms=None      kept=None/107 calls=6 branch=None
+  V4.1  v2_test_xl_003               60s            solved=False first=-       ms=None      kept=None/107 calls=6 branch=None
+  V4.2  v2_test_xl_003               60s            solved=False first=-       ms=None      kept=None/107 calls=6 branch=None
+  V8    v2_test_xl_003               60s            solved=True  first=2.18    ms=405.148   kept=43/107 calls=0 branch=scheduler
+  V8S   v2_test_xl_003               60s            solved=True  first=12.48   ms=420.144   kept=53/107 calls=0 branch=scheduler
+  V5    v2_test_xl_003               60s            solved=False first=-       ms=None      kept=None/107 calls=3 branch=None
+  V8.2  v2_test_xl_003               60s            solved=True  first=4.59    ms=420.144   kept=53/107 calls=0 branch=scheduler
+  V9    v2_test_xl_003               60s            solved=True  first=3.81    ms=444.153   kept=43/107 calls=0 branch=rl
+  V10   v2_test_xl_003               60s            solved=False first=-       ms=None      kept=None/107 calls=0 branch=None
+  B1    v2_test_xl_004               60s            solved=False first=-       ms=None      kept=None/93 calls=1 branch=None
+  V11   v2_test_xl_003               60s            solved=False first=-       ms=None      kept=None/107 calls=0 branch=None
+  ! B2 v2_test_xl_004 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_xl_004 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_xl_004               60s            solved=False first=-       ms=None      kept=None/93 calls=12 branch=None
+  V2    v2_test_xl_004               60s            solved=False first=-       ms=None      kept=None/93 calls=10 branch=None
+  V2.1  v2_test_xl_004               60s            solved=False first=-       ms=None      kept=None/93 calls=11 branch=None
+  V3    v2_test_xl_004               60s            solved=False first=-       ms=None      kept=None/93 calls=12 branch=None
+  V3U   v2_test_xl_004               60s            solved=False first=-       ms=None      kept=None/93 calls=6 branch=None
+  V3.1  v2_test_xl_004               60s            solved=False first=-       ms=None      kept=None/93 calls=12 branch=None
+  V4    v2_test_xl_004               60s            solved=False first=-       ms=None      kept=None/93 calls=6 branch=None
+  V4.1  v2_test_xl_004               60s            solved=False first=-       ms=None      kept=None/93 calls=6 branch=None
+  V4.2  v2_test_xl_004               60s            solved=False first=-       ms=None      kept=None/93 calls=6 branch=None
+  V8    v2_test_xl_004               60s            solved=True  first=0.69    ms=256.11    kept=36/93 calls=0 branch=scheduler
+  V8S   v2_test_xl_004               60s            solved=True  first=0.07    ms=256.11    kept=36/93 calls=0 branch=scheduler
+  V8.2  v2_test_xl_004               60s            solved=True  first=0.79    ms=256.11    kept=36/93 calls=0 branch=scheduler
+  V9    v2_test_xl_004               60s            solved=True  first=0.69    ms=260.11199999999997 kept=36/93 calls=0 branch=rl
+  V5    v2_test_xl_004               60s            solved=False first=-       ms=None      kept=None/93 calls=3 branch=None
+  V10   v2_test_xl_004               60s            solved=False first=-       ms=None      kept=None/93 calls=0 branch=None
+  V11   v2_test_xl_004               60s            solved=False first=-       ms=None      kept=None/93 calls=0 branch=None
+  ! B2 v2_test_xl_005 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_xl_005 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_xl_005               60s            solved=False first=-       ms=None      kept=None/101 calls=1 branch=None
+  V1    v2_test_xl_005               60s            solved=False first=-       ms=None      kept=None/101 calls=12 branch=None
+  V2    v2_test_xl_005               60s            solved=False first=-       ms=None      kept=None/101 calls=10 branch=None
+  V2.1  v2_test_xl_005               60s            solved=False first=-       ms=None      kept=None/101 calls=11 branch=None
+  V3    v2_test_xl_005               60s            solved=False first=-       ms=None      kept=None/101 calls=12 branch=None
+  V3U   v2_test_xl_005               60s            solved=False first=-       ms=None      kept=None/101 calls=6 branch=None
+  V3.1  v2_test_xl_005               60s            solved=False first=-       ms=None      kept=None/101 calls=12 branch=None
+  V4    v2_test_xl_005               60s            solved=False first=-       ms=None      kept=None/101 calls=6 branch=None
+  V4.1  v2_test_xl_005               60s            solved=False first=-       ms=None      kept=None/101 calls=6 branch=None
+  V4.2  v2_test_xl_005               60s            solved=False first=-       ms=None      kept=None/101 calls=6 branch=None
+  V8    v2_test_xl_005               60s            solved=True  first=1.75    ms=298.09    kept=39/101 calls=0 branch=scheduler
+  V8S   v2_test_xl_005               60s            solved=True  first=0.07    ms=276.088   kept=39/101 calls=0 branch=scheduler
+  V8.2  v2_test_xl_005               60s            solved=True  first=2.40    ms=276.088   kept=39/101 calls=0 branch=scheduler
+  V9    v2_test_xl_005               60s            solved=True  first=1.74    ms=299.092   kept=36/101 calls=0 branch=rl
+  V5    v2_test_xl_005               60s            solved=False first=-       ms=None      kept=None/101 calls=3 branch=None
+  V10   v2_test_xl_005               60s            solved=False first=-       ms=None      kept=None/101 calls=0 branch=None
+  V11   v2_test_xl_005               60s            solved=False first=-       ms=None      kept=None/101 calls=0 branch=None
+  ! B2 v2_test_xl_006 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_xl_006 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_xl_006               60s            solved=False first=-       ms=None      kept=None/103 calls=1 branch=None
+  V1    v2_test_xl_006               60s            solved=False first=-       ms=None      kept=None/103 calls=12 branch=None
+  V2    v2_test_xl_006               60s            solved=False first=-       ms=None      kept=None/103 calls=10 branch=None
+  V2.1  v2_test_xl_006               60s            solved=False first=-       ms=None      kept=None/103 calls=11 branch=None
+  V3    v2_test_xl_006               60s            solved=False first=-       ms=None      kept=None/103 calls=12 branch=None
+  V3U   v2_test_xl_006               60s            solved=False first=-       ms=None      kept=None/103 calls=6 branch=None
+  V3.1  v2_test_xl_006               60s            solved=False first=-       ms=None      kept=None/103 calls=12 branch=None
+  V4    v2_test_xl_006               60s            solved=False first=-       ms=None      kept=None/103 calls=6 branch=None
+  V4.1  v2_test_xl_006               60s            solved=False first=-       ms=None      kept=None/103 calls=6 branch=None
+  V4.2  v2_test_xl_006               60s            solved=False first=-       ms=None      kept=None/103 calls=6 branch=None
+  V8    v2_test_xl_006               60s            solved=True  first=0.87    ms=271.1     kept=35/103 calls=0 branch=scheduler
+  V8S   v2_test_xl_006               60s            solved=True  first=0.07    ms=271.1     kept=35/103 calls=0 branch=scheduler
+  V5    v2_test_xl_006               60s            solved=False first=-       ms=None      kept=None/103 calls=3 branch=None
+  V8.2  v2_test_xl_006               60s            solved=True  first=2.21    ms=271.1     kept=35/103 calls=0 branch=scheduler
+  V9    v2_test_xl_006               60s            solved=True  first=2.13    ms=271.1     kept=35/103 calls=0 branch=rl
+  V10   v2_test_xl_006               60s            solved=False first=-       ms=None      kept=None/103 calls=0 branch=None
+  B1    v2_test_xl_007               60s            solved=False first=-       ms=None      kept=None/102 calls=1 branch=None
+  V11   v2_test_xl_006               60s            solved=False first=-       ms=None      kept=None/103 calls=0 branch=None
+  ! B2 v2_test_xl_007 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_xl_007 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_xl_007               60s            solved=False first=-       ms=None      kept=None/102 calls=12 branch=None
+  V2    v2_test_xl_007               60s            solved=False first=-       ms=None      kept=None/102 calls=11 branch=None
+  V2.1  v2_test_xl_007               60s            solved=False first=-       ms=None      kept=None/102 calls=11 branch=None
+  V3    v2_test_xl_007               60s            solved=False first=-       ms=None      kept=None/102 calls=12 branch=None
+  V3U   v2_test_xl_007               60s            solved=False first=-       ms=None      kept=None/102 calls=6 branch=None
+  V3.1  v2_test_xl_007               60s            solved=False first=-       ms=None      kept=None/102 calls=12 branch=None
+  V4    v2_test_xl_007               60s            solved=False first=-       ms=None      kept=None/102 calls=6 branch=None
+  V4.1  v2_test_xl_007               60s            solved=False first=-       ms=None      kept=None/102 calls=6 branch=None
+  V4.2  v2_test_xl_007               60s            solved=False first=-       ms=None      kept=None/102 calls=6 branch=None
+  V8    v2_test_xl_007               60s            solved=True  first=1.50    ms=391.125   kept=42/102 calls=0 branch=scheduler
+  V8S   v2_test_xl_007               60s            solved=True  first=0.68    ms=380.128   kept=48/102 calls=0 branch=scheduler
+  V5    v2_test_xl_007               60s            solved=False first=-       ms=None      kept=None/102 calls=3 branch=None
+  V8.2  v2_test_xl_007               60s            solved=True  first=16.23   ms=391.125   kept=42/102 calls=0 branch=scheduler
+  V9    v2_test_xl_007               60s            solved=True  first=3.72    ms=390.123   kept=42/102 calls=0 branch=rl
+  V10   v2_test_xl_007               60s            solved=False first=-       ms=None      kept=None/102 calls=0 branch=None
+  B1    v2_test_xl_008               60s            solved=False first=-       ms=None      kept=None/105 calls=1 branch=None
+  V11   v2_test_xl_007               60s            solved=False first=-       ms=None      kept=None/102 calls=0 branch=None
+  ! B2 v2_test_xl_008 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_xl_008 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_xl_008               60s            solved=False first=-       ms=None      kept=None/105 calls=12 branch=None
+  V2    v2_test_xl_008               60s            solved=False first=-       ms=None      kept=None/105 calls=10 branch=None
+  V2.1  v2_test_xl_008               60s            solved=False first=-       ms=None      kept=None/105 calls=11 branch=None
+  V3    v2_test_xl_008               60s            solved=False first=-       ms=None      kept=None/105 calls=12 branch=None
+  V3U   v2_test_xl_008               60s            solved=False first=-       ms=None      kept=None/105 calls=6 branch=None
+  V3.1  v2_test_xl_008               60s            solved=False first=-       ms=None      kept=None/105 calls=12 branch=None
+  V4    v2_test_xl_008               60s            solved=False first=-       ms=None      kept=None/105 calls=6 branch=None
+  V4.1  v2_test_xl_008               60s            solved=False first=-       ms=None      kept=None/105 calls=6 branch=None
+  V4.2  v2_test_xl_008               60s            solved=False first=-       ms=None      kept=None/105 calls=6 branch=None
+  V8    v2_test_xl_008               60s            solved=True  first=1.00    ms=389.126   kept=43/105 calls=0 branch=scheduler
+  V8S   v2_test_xl_008               60s            solved=True  first=0.07    ms=389.126   kept=43/105 calls=0 branch=scheduler
+  V8.2  v2_test_xl_008               60s            solved=True  first=0.93    ms=389.126   kept=43/105 calls=0 branch=scheduler
+  V9    v2_test_xl_008               60s            solved=True  first=0.93    ms=394.131   kept=43/105 calls=0 branch=rl
+  V5    v2_test_xl_008               60s            solved=False first=-       ms=None      kept=None/105 calls=3 branch=None
+  V10   v2_test_xl_008               60s            solved=False first=-       ms=None      kept=None/105 calls=0 branch=None
+  V11   v2_test_xl_008               60s            solved=False first=-       ms=None      kept=None/105 calls=0 branch=None
+  ! B2 v2_test_xl_011 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_xl_011 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_xl_011               60s            solved=False first=-       ms=None      kept=None/109 calls=1 branch=None
+  V1    v2_test_xl_011               60s            solved=False first=-       ms=None      kept=None/109 calls=12 branch=None
+  V2    v2_test_xl_011               60s            solved=False first=-       ms=None      kept=None/109 calls=10 branch=None
+  V2.1  v2_test_xl_011               60s            solved=False first=-       ms=None      kept=None/109 calls=11 branch=None
+  V3    v2_test_xl_011               60s            solved=False first=-       ms=None      kept=None/109 calls=12 branch=None
+  V3U   v2_test_xl_011               60s            solved=False first=-       ms=None      kept=None/109 calls=6 branch=None
+  V3.1  v2_test_xl_011               60s            solved=False first=-       ms=None      kept=None/109 calls=12 branch=None
+  V4    v2_test_xl_011               60s            solved=False first=-       ms=None      kept=None/109 calls=6 branch=None
+  V4.1  v2_test_xl_011               60s            solved=False first=-       ms=None      kept=None/109 calls=6 branch=None
+  V4.2  v2_test_xl_011               60s            solved=False first=-       ms=None      kept=None/109 calls=6 branch=None
+  V8    v2_test_xl_011               60s            solved=True  first=1.31    ms=394.127   kept=44/109 calls=0 branch=scheduler
+  V8S   v2_test_xl_011               60s            solved=True  first=0.63    ms=394.127   kept=44/109 calls=0 branch=scheduler
+  V8.2  v2_test_xl_011               60s            solved=True  first=1.56    ms=394.127   kept=44/109 calls=0 branch=scheduler
+  V9    v2_test_xl_011               60s            solved=True  first=0.97    ms=394.127   kept=44/109 calls=0 branch=rl
+  V5    v2_test_xl_011               60s            solved=False first=-       ms=None      kept=None/109 calls=3 branch=None
+  V10   v2_test_xl_011               60s            solved=False first=-       ms=None      kept=None/109 calls=0 branch=None
+  V11   v2_test_xl_011               60s            solved=False first=-       ms=None      kept=None/109 calls=0 branch=None
+  ! B2 v2_test_xl_012 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_xl_012 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  B1    v2_test_xl_012               60s            solved=False first=-       ms=None      kept=None/109 calls=1 branch=None
+  V1    v2_test_xl_012               60s            solved=False first=-       ms=None      kept=None/109 calls=12 branch=None
+  V2    v2_test_xl_012               60s            solved=False first=-       ms=None      kept=None/109 calls=10 branch=None
+  V2.1  v2_test_xl_012               60s            solved=False first=-       ms=None      kept=None/109 calls=11 branch=None
+  V3    v2_test_xl_012               60s            solved=False first=-       ms=None      kept=None/109 calls=12 branch=None
+  V3U   v2_test_xl_012               60s            solved=False first=-       ms=None      kept=None/109 calls=6 branch=None
+  V3.1  v2_test_xl_012               60s            solved=False first=-       ms=None      kept=None/109 calls=12 branch=None
+  V4    v2_test_xl_012               60s            solved=False first=-       ms=None      kept=None/109 calls=6 branch=None
+  V4.1  v2_test_xl_012               60s            solved=False first=-       ms=None      kept=None/109 calls=6 branch=None
+  V4.2  v2_test_xl_012               60s            solved=False first=-       ms=None      kept=None/109 calls=6 branch=None
+  V8    v2_test_xl_012               60s            solved=True  first=2.93    ms=436.169   kept=44/109 calls=0 branch=scheduler
+  V8S   v2_test_xl_012               60s            solved=True  first=1.77    ms=436.169   kept=44/109 calls=0 branch=scheduler
+  V8.2  v2_test_xl_012               60s            solved=True  first=2.99    ms=494.177   kept=50/109 calls=0 branch=scheduler
+  V5    v2_test_xl_012               60s            solved=False first=-       ms=None      kept=None/109 calls=3 branch=None
+  V9    v2_test_xl_012               60s            solved=True  first=1.50    ms=436.169   kept=44/109 calls=0 branch=rl
+  V10   v2_test_xl_012               60s            solved=False first=-       ms=None      kept=None/109 calls=0 branch=None
+  V11   v2_test_xl_012               60s            solved=False first=-       ms=None      kept=None/109 calls=0 branch=None
+  B1    v2_test_xl_013               60s            solved=False first=-       ms=None      kept=None/107 calls=1 branch=None
+  ! B2 v2_test_xl_013 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_xl_013 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_xl_013               60s            solved=False first=-       ms=None      kept=None/107 calls=12 branch=None
+  V2    v2_test_xl_013               60s            solved=False first=-       ms=None      kept=None/107 calls=10 branch=None
+  V2.1  v2_test_xl_013               60s            solved=False first=-       ms=None      kept=None/107 calls=10 branch=None
+  V3    v2_test_xl_013               60s            solved=False first=-       ms=None      kept=None/107 calls=12 branch=None
+  V3U   v2_test_xl_013               60s            solved=False first=-       ms=None      kept=None/107 calls=6 branch=None
+  V3.1  v2_test_xl_013               60s            solved=False first=-       ms=None      kept=None/107 calls=12 branch=None
+  V4    v2_test_xl_013               60s            solved=False first=-       ms=None      kept=None/107 calls=6 branch=None
+  V4.1  v2_test_xl_013               60s            solved=False first=-       ms=None      kept=None/107 calls=6 branch=None
+  V4.2  v2_test_xl_013               60s            solved=False first=-       ms=None      kept=None/107 calls=6 branch=None
+  V5    v2_test_xl_013               60s            solved=False first=-       ms=None      kept=None/107 calls=3 branch=None
+  V8    v2_test_xl_013               60s            solved=True  first=1.13    ms=543.15    kept=53/107 calls=0 branch=scheduler
+  V8S   v2_test_xl_013               60s            solved=True  first=2.48    ms=529.15    kept=54/107 calls=0 branch=scheduler
+  V8.2  v2_test_xl_013               60s            solved=True  first=1.78    ms=543.15    kept=53/107 calls=0 branch=scheduler
+  V9    v2_test_xl_013               60s            solved=True  first=6.59    ms=551.148   kept=46/107 calls=0 branch=rl
+  V10   v2_test_xl_013               60s            solved=False first=-       ms=None      kept=None/107 calls=0 branch=None
+  B1    v2_test_xl_014               60s            solved=False first=-       ms=None      kept=None/106 calls=1 branch=None
+  V11   v2_test_xl_013               60s            solved=False first=-       ms=None      kept=None/107 calls=0 branch=None
+  ! B2 v2_test_xl_014 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_xl_014 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_xl_014               60s            solved=False first=-       ms=None      kept=None/106 calls=12 branch=None
+  V2    v2_test_xl_014               60s            solved=False first=-       ms=None      kept=None/106 calls=10 branch=None
+  V2.1  v2_test_xl_014               60s            solved=False first=-       ms=None      kept=None/106 calls=11 branch=None
+  V3    v2_test_xl_014               60s            solved=False first=-       ms=None      kept=None/106 calls=12 branch=None
+  V3U   v2_test_xl_014               60s            solved=False first=-       ms=None      kept=None/106 calls=6 branch=None
+  V3.1  v2_test_xl_014               60s            solved=False first=-       ms=None      kept=None/106 calls=12 branch=None
+  V4    v2_test_xl_014               60s            solved=False first=-       ms=None      kept=None/106 calls=6 branch=None
+  V4.1  v2_test_xl_014               60s            solved=False first=-       ms=None      kept=None/106 calls=6 branch=None
+  V4.2  v2_test_xl_014               60s            solved=False first=-       ms=None      kept=None/106 calls=6 branch=None
+  V8    v2_test_xl_014               60s            solved=True  first=1.19    ms=550.198   kept=49/106 calls=0 branch=scheduler
+  V8S   v2_test_xl_014               60s            solved=True  first=0.07    ms=550.198   kept=49/106 calls=0 branch=scheduler
+  V8.2  v2_test_xl_014               60s            solved=True  first=1.07    ms=550.198   kept=49/106 calls=0 branch=scheduler
+  V5    v2_test_xl_014               60s            solved=False first=-       ms=None      kept=None/106 calls=3 branch=None
+  V9    v2_test_xl_014               60s            solved=True  first=1.21    ms=540.198   kept=46/106 calls=0 branch=rl
+  V10   v2_test_xl_014               60s            solved=False first=-       ms=None      kept=None/106 calls=0 branch=None
+  B1    v2_test_xl_015               60s            solved=False first=-       ms=None      kept=None/113 calls=1 branch=None
+  V11   v2_test_xl_014               60s            solved=False first=-       ms=None      kept=None/106 calls=0 branch=None
+  ! B2 v2_test_xl_015 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_xl_015 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_xl_015               60s            solved=False first=-       ms=None      kept=None/113 calls=12 branch=None
+  V2    v2_test_xl_015               60s            solved=False first=-       ms=None      kept=None/113 calls=10 branch=None
+  V2.1  v2_test_xl_015               60s            solved=False first=-       ms=None      kept=None/113 calls=11 branch=None
+  V3    v2_test_xl_015               60s            solved=False first=-       ms=None      kept=None/113 calls=12 branch=None
+  V3U   v2_test_xl_015               60s            solved=False first=-       ms=None      kept=None/113 calls=6 branch=None
+  V3.1  v2_test_xl_015               60s            solved=False first=-       ms=None      kept=None/113 calls=12 branch=None
+  V4    v2_test_xl_015               60s            solved=False first=-       ms=None      kept=None/113 calls=6 branch=None
+  V4.1  v2_test_xl_015               60s            solved=False first=-       ms=None      kept=None/113 calls=6 branch=None
+  V4.2  v2_test_xl_015               60s            solved=False first=-       ms=None      kept=None/113 calls=6 branch=None
+  V8    v2_test_xl_015               60s            solved=True  first=3.09    ms=401.134   kept=53/113 calls=0 branch=scheduler
+  V8S   v2_test_xl_015               60s            solved=True  first=1.43    ms=401.134   kept=53/113 calls=0 branch=scheduler
+  V5    v2_test_xl_015               60s            solved=False first=-       ms=None      kept=None/113 calls=3 branch=None
+  V8.2  v2_test_xl_015               60s            solved=True  first=4.48    ms=338.132   kept=50/113 calls=0 branch=scheduler
+  V9    v2_test_xl_015               60s            solved=True  first=2.88    ms=345.133   kept=50/113 calls=0 branch=rl
+  V10   v2_test_xl_015               60s            solved=False first=-       ms=None      kept=None/113 calls=0 branch=None
+  B1    v2_test_xl_016               60s            solved=False first=-       ms=None      kept=None/116 calls=1 branch=None
+  V11   v2_test_xl_015               60s            solved=False first=-       ms=None      kept=None/113 calls=0 branch=None
+  ! B2 v2_test_xl_016 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b2/b2_seed0_train.pt, but none exists. Run with --train first.')
+Loading search guidance IFlaxGNNGuidance (bilevel/imperative) in domain train...
+  ! B3 v2_test_xl_016 60s: AssertionError('--test requires a saved checkpoint at /home/user/Desktop/btp-project/overcooked_test/results/b3/b3_seed0_train.pt, but none exists. Run with --train first.')
+  V1    v2_test_xl_016               60s            solved=False first=-       ms=None      kept=None/116 calls=12 branch=None
+  V2    v2_test_xl_016               60s            solved=False first=-       ms=None      kept=None/116 calls=11 branch=None
+  V2.1  v2_test_xl_016               60s            solved=False first=-       ms=None      kept=None/116 calls=11 branch=None
+  V3    v2_test_xl_016               60s            solved=False first=-       ms=None      kept=None/116 calls=12 branch=None
+  V3U   v2_test_xl_016               60s            solved=False first=-       ms=None      kept=None/116 calls=6 branch=None
+  V3.1  v2_test_xl_016               60s            solved=False first=-       ms=None      kept=None/116 calls=12 branch=None
+  V4    v2_test_xl_016               60s            solved=False first=-       ms=None      kept=None/116 calls=6 branch=None
+  V4.1  v2_test_xl_016               60s            solved=False first=-       ms=None      kept=None/116 calls=6 branch=None
+  V4.2  v2_test_xl_016               60s            solved=False first=-       ms=None      kept=None/116 calls=6 branch=None
+  V8    v2_test_xl_016               60s            solved=True  first=3.43    ms=520.1669999999999 kept=49/116 calls=0 branch=scheduler
+  V8S   v2_test_xl_016               60s            solved=True  first=0.87    ms=483.165   kept=46/116 calls=0 branch=scheduler
+  V8.2  v2_test_xl_016               60s            solved=True  first=2.78    ms=483.165   kept=46/116 calls=0 branch=scheduler
+  V5    v2_test_xl_016               60s            solved=False first=-       ms=None      kept=None/116 calls=3 branch=None
+  V9    v2_test_xl_016               60s            solved=True  first=5.75    ms=512.1659999999999 kept=49/116 calls=0 branch=rl
+  V10   v2_test_xl_016               60s            solved=False first=-       ms=None      kept=None/116 calls=0 branch=None
+  V11   v2_test_xl_016               60s            solved=False first=-       ms=None      kept=None/116 calls=0 branch=None
+{'method': 'B1_full', 'budget': '60s', 'instances': 60, 'solved': 3, 'coverage': 0.05, 'first_s': 20.959, 'wpt_s': 58.048, 'total_s': 58.408, 'makespan': 181.732, 'first_makespan': 181.732, 'gap': 0.205, 'kept': 1.0, 'calls': 1.0, 'timeouts': 0.95, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'full': 3}}
+{'method': 'TiFLAX_V1', 'budget': '60s', 'instances': 60, 'solved': 5, 'coverage': 0.083, 'first_s': 13.03, 'wpt_s': 56.086, 'total_s': 59.44, 'makespan': 172.466, 'first_makespan': 187.069, 'gap': 0.04, 'kept': 0.71, 'calls': 12.117, 'timeouts': 11.783, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'expansion': 4, 'temporal': 1}}
+{'method': 'TiFLAX_V2', 'budget': '60s', 'instances': 60, 'solved': 5, 'coverage': 0.083, 'first_s': 5.664, 'wpt_s': 55.472, 'total_s': 59.51, 'makespan': 160.265, 'first_makespan': 176.668, 'gap': 0.051, 'kept': 0.636, 'calls': 10.267, 'timeouts': 9.933, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'expansion': 5}}
+{'method': 'TiFLAX_V2.1', 'budget': '60s', 'instances': 60, 'solved': 4, 'coverage': 0.067, 'first_s': 6.083, 'wpt_s': 56.406, 'total_s': 59.506, 'makespan': 161.815, 'first_makespan': 180.068, 'gap': 0.036, 'kept': 0.647, 'calls': 11.317, 'timeouts': 11.017, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'expansion': 4}}
+{'method': 'TiFLAX_V3', 'budget': '60s', 'instances': 60, 'solved': 5, 'coverage': 0.083, 'first_s': 12.663, 'wpt_s': 56.055, 'total_s': 59.416, 'makespan': 172.466, 'first_makespan': 187.069, 'gap': 0.04, 'kept': 0.71, 'calls': 12.1, 'timeouts': 11.767, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'expansion': 4, 'temporal': 1}}
+{'method': 'TiFLAX_V3.1', 'budget': '60s', 'instances': 60, 'solved': 5, 'coverage': 0.083, 'first_s': 13.609, 'wpt_s': 56.134, 'total_s': 59.713, 'makespan': 172.466, 'first_makespan': 187.069, 'gap': 0.04, 'kept': 0.752, 'calls': 12.1, 'timeouts': 11.783, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'expansion': 4, 'temporal': 1}}
+{'method': 'TiFLAX_V3_uniform', 'budget': '60s', 'instances': 60, 'solved': 9, 'coverage': 0.15, 'first_s': 19.396, 'wpt_s': 53.909, 'total_s': 59.231, 'makespan': 192.842, 'first_makespan': 200.954, 'gap': 0.149, 'kept': 0.673, 'calls': 8.483, 'timeouts': 8.033, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'expansion': 4, 'rollback': 5}}
+{'method': 'TiFLAX_V4', 'budget': '60s', 'instances': 60, 'solved': 9, 'coverage': 0.15, 'first_s': 20.086, 'wpt_s': 54.013, 'total_s': 59.232, 'makespan': 192.842, 'first_makespan': 200.954, 'gap': 0.149, 'kept': 0.673, 'calls': 8.483, 'timeouts': 8.033, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'expansion': 4, 'rollback': 5}}
+{'method': 'TiFLAX_V4.1', 'budget': '60s', 'instances': 60, 'solved': 9, 'coverage': 0.15, 'first_s': 20.911, 'wpt_s': 54.137, 'total_s': 59.276, 'makespan': 192.842, 'first_makespan': 200.954, 'gap': 0.149, 'kept': 0.684, 'calls': 8.7, 'timeouts': 8.283, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'expansion': 3, 'rollback': 6}}
+{'method': 'TiFLAX_V4.2', 'budget': '60s', 'instances': 60, 'solved': 9, 'coverage': 0.15, 'first_s': 19.011, 'wpt_s': 53.852, 'total_s': 59.242, 'makespan': 192.842, 'first_makespan': 200.954, 'gap': 0.149, 'kept': 0.673, 'calls': 8.617, 'timeouts': 8.183, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'expansion': 4, 'rollback': 5}}
+{'method': 'TiFLAX_V5', 'budget': '60s', 'instances': 60, 'solved': 5, 'coverage': 0.083, 'first_s': 11.877, 'wpt_s': 55.99, 'total_s': 59.711, 'makespan': 171.464, 'first_makespan': 185.867, 'gap': 0.107, 'kept': 0.713, 'calls': 3.183, 'timeouts': 2.967, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'expansion': 4, 'repair': 1}}
+{'method': 'TiFLAX_V8', 'budget': '60s', 'instances': 60, 'solved': 60, 'coverage': 1.0, 'first_s': 0.749, 'wpt_s': 0.749, 'total_s': 1.302, 'makespan': 336.942, 'first_makespan': 351.209, 'gap': 0.039, 'kept': 0.592, 'calls': 0.0, 'timeouts': 0.0, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'scheduler': 60}}
+{'method': 'TiFLAX_V8.2', 'budget': '60s', 'instances': 60, 'solved': 59, 'coverage': 0.983, 'first_s': 1.184, 'wpt_s': 2.164, 'total_s': 1.56, 'makespan': 336.819, 'first_makespan': 349.497, 'gap': 0.044, 'kept': 0.598, 'calls': 0.0, 'timeouts': 0.0, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'scheduler': 59}}
+{'method': 'TiFLAX_V8_symbolic', 'budget': '60s', 'instances': 60, 'solved': 58, 'coverage': 0.967, 'first_s': 0.439, 'wpt_s': 2.424, 'total_s': 0.787, 'makespan': 332.071, 'first_makespan': 345.468, 'gap': 0.045, 'kept': 0.596, 'calls': 0.0, 'timeouts': 0.0, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'scheduler': 58}}
+{'method': 'TiFLAX_V9', 'budget': '60s', 'instances': 60, 'solved': 60, 'coverage': 1.0, 'first_s': 1.04, 'wpt_s': 1.04, 'total_s': 18.499, 'makespan': 329.126, 'first_makespan': 342.727, 'gap': 0.014, 'kept': 0.589, 'calls': 0.0, 'timeouts': 0.0, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'rl': 60}}
+{'method': 'V10', 'budget': '60s', 'instances': 60, 'solved': 9, 'coverage': 0.15, 'first_s': 34.287, 'wpt_s': 56.143, 'total_s': 56.186, 'makespan': 293.856, 'first_makespan': 293.856, 'gap': 0.7, 'kept': None, 'calls': 0.0, 'timeouts': 0.0, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'search': 9}}
+{'method': 'V11', 'budget': '60s', 'instances': 60, 'solved': 5, 'coverage': 0.083, 'first_s': 41.105, 'wpt_s': 58.425, 'total_s': 60.551, 'makespan': 1218.442, 'first_makespan': 1218.442, 'gap': 5.261, 'kept': None, 'calls': 0.0, 'timeouts': 0.0, 'proofs': 0.0, 'invalid_on_full': 0, 'branches': {'search': 5}}

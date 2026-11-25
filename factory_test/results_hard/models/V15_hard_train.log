@@ -1,0 +1,20 @@
+dispatcher (expert): val success 0.750 served 0.854 makespan/cert 1.003
+dagger 0 (expert, beta 1.00): 87462 new decisions, rollout success 0.786 (108s)
+  bc epoch 0 loss 0.0423 acc 0.988 (87462 decisions)
+  bc epoch 1 loss 0.0203 acc 0.991 (87462 decisions)
+dagger 0: val success 0.750 served 0.874 makespan/cert 1.014
+dagger 1 (mix, beta 0.50): 85672 new decisions, rollout success 0.724 (176s)
+  bc epoch 0 loss 0.0211 acc 0.991 (173134 decisions)
+  bc epoch 1 loss 0.0183 acc 0.992 (173134 decisions)
+dagger 1: val success 0.750 served 0.881 makespan/cert 1.025
+rl: ppo, shared duration noise per instance group: True, imitation weight 0.5 -> 0.1
+rl 0: train sampled success 0.812 served 0.883 makespan/cert 1.007 reward -1.216 (16384 decisions, ppo passes 4 kl 0.0006 clipped 0.005, 1404s)
+rl 1: train sampled success 0.760 served 0.891 makespan/cert 1.008 reward -1.235 (16384 decisions, ppo passes 4 kl 0.0017 clipped 0.006, 848s)
+rl 1: val success 0.786 served 0.885 makespan/cert 1.009
+rl 2: train sampled success 0.750 served 0.829 makespan/cert 1.031 reward -1.319 (16384 decisions, ppo passes 4 kl 0.0013 clipped 0.004, 718s)
+rl 3: train sampled success 0.641 served 0.834 makespan/cert 0.999 reward -1.345 (16384 decisions, ppo passes 4 kl 0.0004 clipped 0.003, 483s)
+rl 3: val success 0.714 served 0.869 makespan/cert 1.014
+rl 4: train sampled success 0.865 served 0.911 makespan/cert 0.987 reward -1.146 (16384 decisions, ppo passes 4 kl 0.0017 clipped 0.007, 628s)
+rl 5: train sampled success 0.760 served 0.879 makespan/cert 1.019 reward -1.255 (16384 decisions, ppo passes 4 kl 0.0014 clipped 0.006, 525s)
+rl 5: val success 0.786 served 0.889 makespan/cert 0.997
+saved /home/user/Desktop/btp-project/factory_test/results_hard/models/V15_hard
